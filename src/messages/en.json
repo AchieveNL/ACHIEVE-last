@@ -1,0 +1,49 @@
+{
+  "navigation": {
+    "home": {
+      "value": "Home",
+      "slug": "/"
+    },
+    "about": {
+      "value": "About Us",
+      "slug": "/about"
+    },
+    "services": {
+      "value": "Services",
+      "slug": "/services",
+      "links": {
+        "brandBook": "Brand Book",
+        "webDevelopment": "Web Development",
+        "emailMarketing": "Email Marketing",
+        "videoMarketing": "Video Marketing",
+        "searchEngineAdvertising": "Search Engine Advertising",
+        "socialMediaAdvertising": "Social Media Advertising"
+      }
+    },
+    "projects": {
+      "value": "Projects",
+      "slug": "/projects"
+    },
+    "pricing": {
+      "value": "Pricing",
+      "slug": "/pricing",
+      "links": {
+        "brandBook": "Brand Book",
+        "customWebsite": "Custom Website",
+        "emailMarketing": "Email Marketing",
+        "videoMarketing": "Video Marketing",
+        "searchEngineAdvertising": "Search Engine Advertising",
+        "socialMediaAdvertising": "Social Media Advertising",
+        "socialMediaManagement": "Social Media Management"
+      }
+    },
+    "careers": {
+      "value": "Careers",
+      "slug": "/careers"
+    },
+    "contact": {
+      "value": "Contact",
+      "slug": "/contact"
+    }
+  }
+}

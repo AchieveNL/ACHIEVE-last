@@ -1,15 +1,18 @@
 // app/layout.tsx
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 import BodyWrapper from "@/components/BodyWrapper";
+import NavBar from "@/components/header/NavBar";
+import { LanguageProvider } from "@/components/contexts/LanguageContext";
 
-const inter = Inter({
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
-  variable: "--font-inter",
+  variable: "--font-poppins",
 });
 
 export const metadata = {
@@ -29,19 +32,22 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html className={poppins.variable}>
       <body className="font-sans antialiased">
         <LocalBusinessSchema />
         <BodyWrapper>
-          <header>{/* Global navigation */}</header>
-          <main>{children}</main>
-          <footer>{/* Global footer */}</footer>
+          <LanguageProvider>
+            <NavBar />
+            <main>{children}</main>
+            <footer>{/* Global footer */}</footer>
+          </LanguageProvider>
         </BodyWrapper>
         <Analytics />
         <SpeedInsights />

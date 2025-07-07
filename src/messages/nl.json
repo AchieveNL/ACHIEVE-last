@@ -1,0 +1,49 @@
+{
+  "navigation": {
+    "home": {
+      "value": "Home",
+      "slug": "/"
+    },
+    "about": {
+      "value": "Over ons",
+      "slug": "/over-ons"
+    },
+    "services": {
+      "value": "Diensten",
+      "slug": "/diensten",
+      "links": {
+        "brandBook": "Brand Book",
+        "webDevelopment": "Web Development",
+        "emailMarketing": "Email Marketing",
+        "videoMarketing": "Video Marketing",
+        "searchEngineAdvertising": "Search Engine Advertising",
+        "socialMediaAdvertising": "Social Media Advertising"
+      }
+    },
+    "projects": {
+      "value": "Projecten",
+      "slug": "/projecten"
+    },
+    "pricing": {
+      "value": "Tarieven",
+      "slug": "/tarieven",
+      "links": {
+        "brandBook": "Brand Book",
+        "customWebsite": "Custom website",
+        "emailMarketing": "Email Marketing",
+        "videoMarketing": "Video Marketing",
+        "searchEngineAdvertising": "Search Engine Advertising",
+        "socialMediaAdvertising": "Social Media Advertising",
+        "socialMediaManagement": "Social Media Management"
+      }
+    },
+    "careers": {
+      "value": "Werken bij",
+      "slug": "/werken-bij"
+    },
+    "contact": {
+      "value": "Contact",
+      "slug": "/contact"
+    }
+  }
+}

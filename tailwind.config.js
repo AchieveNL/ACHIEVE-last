@@ -4,6 +4,7 @@ const {
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "media",
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
@@ -78,7 +79,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        sans: ["var(--font-poppins)", "system-ui", "sans-serif"],
       },
       animation: {
         aurora: "aurora 60s linear infinite",
