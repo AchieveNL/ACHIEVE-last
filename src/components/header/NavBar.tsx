@@ -13,7 +13,7 @@ export default function NavBar() {
   const navigationData = useNavigationData();
 
   return (
-    <nav className="w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 fixed">
+    <nav className="z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 fixed">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo Section - Left */}

@@ -1,4 +1,9 @@
 {
+  "hero": {
+    "title": "Groeien op basis van data en de kracht van creativiteit",
+    "description": "Wij creëren, experimenteren en optimaliseren online campagnes om bedrijven en/of merken te helpen groeien, resulterend in meer bezoekers, kwalitatieve leads en een ijzersterke omzet.",
+    "cta": "Onze diensten"
+  },
   "navigation": {
     "home": {
       "value": "Home",

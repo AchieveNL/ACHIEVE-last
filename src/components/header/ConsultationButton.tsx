@@ -1,3 +1,5 @@
+import AchieveGlitchText from "../ui/AchieveGlitchText";
+
 export default function ConsultationButton() {
   return (
     <button className="group CustomButton ease-out flex justify-center items-center gap-x-1 origin-center bg-achieve-purple text-white border-[1px] border-achieve-purple hover:bg-none duration-300 hover:bg-white hover:text-achieve-purple px-4 py-2 rounded-md">

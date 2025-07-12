@@ -1,4 +1,9 @@
 {
+  "hero": {
+    "title": "Growing based on data and the power of creativity",
+    "description": "We create, experiment and optimize online campaigns to help companies and/or brands grow, resulting in more visitors, quality leads and rock-solid turnover.",
+    "cta": "Our services"
+  },
   "navigation": {
     "home": {
       "value": "Home",
