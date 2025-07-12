@@ -42,13 +42,13 @@ export default async function RootLayout({
     <html className={poppins.variable}>
       <body className="font-sans antialiased">
         <LocalBusinessSchema />
-        <BodyWrapper>
-          <LanguageProvider>
-            <NavBar />
-            <main>{children}</main>
-            <footer>{/* Global footer */}</footer>
-          </LanguageProvider>
-        </BodyWrapper>
+        {/* <BodyWrapper> */}
+        <LanguageProvider>
+          <NavBar />
+          <main>{children}</main>
+          <footer>{/* Global footer */}</footer>
+        </LanguageProvider>
+        {/* </BodyWrapper> */}
         <Analytics />
         <SpeedInsights />
       </body>
