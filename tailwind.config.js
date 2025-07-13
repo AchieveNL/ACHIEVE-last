@@ -91,6 +91,8 @@ module.exports = {
           "glitch var(--before-duration) infinite linear alternate-reverse",
         "gradient-x": "gradient-x 3s ease infinite",
         float: "float 6s ease-in-out infinite",
+        scroll:
+          "scroll var(--animation-duration, 20s) var(--animation-direction, forwards) linear infinite",
       },
       keyframes: {
         aurora: {
@@ -145,6 +147,11 @@ module.exports = {
           "90%": { "clip-path": "inset(15% 0 55% 0)" },
           "95%": { "clip-path": "inset(25% 0 35% 0)" },
           "100%": { "clip-path": "inset(30% 0 40% 0)" },
+        },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
         },
       },
       backgroundSize: {

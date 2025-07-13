@@ -1,0 +1,9 @@
+Download Summary
+================
+Total images: 38
+Successfully downloaded: 37
+Failed: 1
+Success rate: 97.4%
+
+Errors:
+- Image 15 (afed088d-43fc-41a1-b74c-b7c754b0aba1deca.png): Request error: 404 Client Error: Not Found for url: https://storage.googleapis.com/achieve-bucket/afed088d-43fc-41a1-b74c-b7c754b0aba1deca.png

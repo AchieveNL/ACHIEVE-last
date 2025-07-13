@@ -4,6 +4,9 @@
     "description": "Wij creëren, experimenteren en optimaliseren online campagnes om bedrijven en/of merken te helpen groeien, resulterend in meer bezoekers, kwalitatieve leads en een ijzersterke omzet.",
     "cta": "Onze diensten"
   },
+  "companies": {
+    "title": "Deze bedrijven gingen je voor"
+  },
   "navigation": {
     "home": {
       "value": "Home",
