@@ -47,18 +47,23 @@ const sampleCarouselDataBottom: CarouselItem[] = [
 
 // CarouselSlider component
 function CarouselSlider({ carouselData, to }: CarouselSliderProps) {
+  const [isPaused, setIsPaused] = React.useState(false);
+
   // Duplicate the data to create seamless loop
   const duplicatedData = [...carouselData, ...carouselData];
+
   const carouselStyle = {
-    animation: `carousel 20s linear infinite ${to === "right" ? "reverse" : ""}`,
+    animation: `carousel 10s linear infinite ${to === "right" ? "reverse" : ""}`,
+    animationPlayState: isPaused ? "paused" : "running",
   };
 
   return (
-    <div className="overflow-hidden">
-      <div
-        className="flex whitespace-nowrap carousel-container"
-        style={carouselStyle}
-      >
+    <div
+      className="overflow-hidden"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
+      <div className="flex whitespace-nowrap" style={carouselStyle}>
         {duplicatedData.map((data, index) => (
           <div key={`${data._id}-${index}`} className="flex-shrink-0">
             <a href={data.link}>
@@ -80,7 +85,7 @@ export default function TextCarousel({
 }: TextCarouselProps) {
   return (
     <>
-      <style jsx>{`
+      <style>{`
         @keyframes carousel {
           0% {
             transform: translateX(0);
@@ -89,17 +94,8 @@ export default function TextCarousel({
             transform: translateX(-50%);
           }
         }
-
-        .carousel-container {
-          animation-play-state: running;
-        }
-
-        .carousel-container:hover {
-          animation-play-state: paused !important;
-        }
       `}</style>
-
-      <section className="bg-achieve-gray-50 mx-auto px-4 py-8">
+      <section className="bg-gray-50 mx-auto px-4 py-8">
         <div className="">
           <div>
             <CarouselSlider carouselData={carouselDataTop} to="left" />
