@@ -1,8 +1,58 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
+// Type definitions
+interface Testimonial {
+  _id: string;
+  fullName: string;
+  profession: {
+    en: string;
+    fr: string;
+  };
+  message: {
+    en: string;
+    fr: string;
+  };
+}
+
+interface ArrowProps {
+  onClick?: () => void;
+}
+
+interface StarProps {
+  color?: string;
+  size?: number;
+  fontWeight?: number;
+}
+
+interface AngleProps {
+  fontSize?: number;
+  color?: string;
+}
+
+interface SliderSettings {
+  dots?: boolean;
+  infinite?: boolean;
+  speed?: number;
+  slidesToShow?: number;
+  slidesToScroll?: number;
+  arrows?: boolean;
+  nextArrow?: React.ReactElement;
+  prevArrow?: React.ReactElement;
+}
+
+interface CustomSliderProps {
+  children: React.ReactNode[];
+  settings?: SliderSettings;
+}
+
+interface TestimonialSliderProps {
+  testimonials?: Testimonial[];
+  locale?: "en" | "fr";
+}
+
 // Mock data for demonstration
-const mockTestimonials = [
+const mockTestimonials: Testimonial[] = [
   {
     _id: "1",
     fullName: "Sarah Johnson",
@@ -33,7 +83,7 @@ const mockTestimonials = [
 ];
 
 // Star component (replacing FaStar)
-function FaStar({ color = "#ffe435", size = 20, fontWeight = 900 }) {
+function FaStar({ color = "#ffe435", size = 20, fontWeight = 900 }: StarProps) {
   return (
     <svg
       width={size}
@@ -49,7 +99,7 @@ function FaStar({ color = "#ffe435", size = 20, fontWeight = 900 }) {
 }
 
 // Arrow components (replacing FaAngleRight/FaAngleLeft)
-function FaAngleRight({ fontSize = 24, color = "white" }) {
+function FaAngleRight({ fontSize = 24, color = "white" }: AngleProps) {
   return (
     <svg
       width={fontSize}
@@ -66,7 +116,7 @@ function FaAngleRight({ fontSize = 24, color = "white" }) {
   );
 }
 
-function FaAngleLeft({ fontSize = 24, color = "white" }) {
+function FaAngleLeft({ fontSize = 24, color = "white" }: AngleProps) {
   return (
     <svg
       width={fontSize}
@@ -83,51 +133,39 @@ function FaAngleLeft({ fontSize = 24, color = "white" }) {
   );
 }
 
-function NextArrow(props) {
-  const { onClick } = props;
+function NextArrow({ onClick }: ArrowProps) {
   return (
     <div
       className="absolute right-[-50px] top-[50%] translate-y-[-50%] cursor-pointer z-30"
       onClick={onClick}
     >
       <div className="bg-textBlue h-[45px] w-[45px] rounded-full flex justify-center items-center duration-300 hover:bg-mainPurple">
-        <FaAngleRight
-          className="i"
-          fontSize={24}
-          fontWeight="bold"
-          color="white"
-        />
+        <FaAngleRight fontSize={24} color="white" />
       </div>
     </div>
   );
 }
 
-function PrevArrow(props) {
-  const { onClick } = props;
+function PrevArrow({ onClick }: ArrowProps) {
   return (
     <div
       className="absolute left-[-50px] top-[50%] translate-y-[-50%] cursor-pointer z-30"
       onClick={onClick}
     >
       <div className="bg-textBlue h-[45px] w-[45px] rounded-full flex justify-center items-center duration-300 hover:bg-mainPurple">
-        <FaAngleLeft
-          className="i"
-          fontSize={24}
-          fontWeight="bold"
-          color="white"
-        />
+        <FaAngleLeft fontSize={24} color="white" />
       </div>
     </div>
   );
 }
 
 // Custom slider implementation to replace react-slick
-function CustomSlider({ children, settings = {} }) {
+function CustomSlider({ children, settings = {} }: CustomSliderProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
   // Provide default settings
-  const defaultSettings = {
+  const defaultSettings: SliderSettings = {
     dots: false,
     infinite: true,
     speed: 500,
@@ -162,17 +200,25 @@ function CustomSlider({ children, settings = {} }) {
       }, 5000);
       return () => clearInterval(interval);
     }
-  }, [mergedSettings.infinite, children.length]);
+  }, [mergedSettings.infinite, children.length, nextSlide]);
 
   return (
     <div className="relative">
       {/* Navigation arrows */}
-      {mergedSettings.arrows && (
-        <>
-          {React.cloneElement(mergedSettings.nextArrow, { onClick: nextSlide })}
-          {React.cloneElement(mergedSettings.prevArrow, { onClick: prevSlide })}
-        </>
-      )}
+      {mergedSettings.arrows &&
+        mergedSettings.nextArrow &&
+        mergedSettings.prevArrow && (
+          <>
+            {React.cloneElement(
+              mergedSettings.nextArrow as React.ReactElement<any>,
+              { onClick: nextSlide },
+            )}
+            {React.cloneElement(
+              mergedSettings.prevArrow as React.ReactElement<any>,
+              { onClick: prevSlide },
+            )}
+          </>
+        )}
 
       {/* Slider container */}
       <div className="overflow-hidden">
@@ -218,13 +264,13 @@ function CustomSlider({ children, settings = {} }) {
 export default function TestimonialSlider({
   testimonials = mockTestimonials,
   locale = "en",
-}) {
+}: TestimonialSliderProps) {
   const [sWidth, setSWidth] = useState(
     typeof window !== "undefined" ? window.innerWidth : 1024,
   );
 
   useEffect(() => {
-    const cb = (ev) => {
+    const cb = () => {
       setSWidth(window.innerWidth);
     };
     window.addEventListener("resize", cb);
@@ -233,7 +279,7 @@ export default function TestimonialSlider({
     };
   }, []);
 
-  const settings = {
+  const settings: SliderSettings = {
     dots: false,
     infinite: true,
     speed: 500,
@@ -248,15 +294,13 @@ export default function TestimonialSlider({
 
   return (
     <CustomSlider settings={settings}>
-      {testimonials.map((testimonial, index) => (
-        <div className={`w-full my-12 h-full relative`} key={testimonial._id}>
-          <article
-            className={`p-[30px] max-w-4xl mx-auto text-center rounded-[10px] bg-white hover:shadow-serviceCardShadow duration-500 flex flex-col gap-y-3`}
-          >
-            <div className={`p-4 lg:text-[15px] md:text-[13px] text-[11px]`}>
-              <div className={`flex justify-end`}>
+      {testimonials.map((testimonial) => (
+        <div className="w-full my-12 h-full relative" key={testimonial._id}>
+          <article className="p-[30px] max-w-4xl mx-auto text-center rounded-[10px] bg-white hover:shadow-serviceCardShadow duration-500 flex flex-col gap-y-3">
+            <div className="p-4 lg:text-[15px] md:text-[13px] text-[11px]">
+              <div className="flex justify-end">
                 <svg
-                  className={`w-[50px] h-[50px] 600:size-[35px]`}
+                  className="w-[50px] h-[50px] 600:size-[35px]"
                   version="1.0"
                   xmlns="http://www.w3.org/2000/svg"
                   width="512.000000pt"
@@ -270,7 +314,7 @@ export default function TestimonialSlider({
                     stroke="none"
                   >
                     <path
-                      className={`fill-mainPurple`}
+                      className="fill-mainPurple"
                       d="M383 4835 c-182 -49 -320 -189 -368 -372 -22 -85 -22 -1341 0 -1426
                                                     48 -183 189 -324 372 -372 45 -12 130 -15 411 -15 l353 0 -5 -42 c-3 -24 -8
                                                     -81 -12 -128 -20 -275 -108 -539 -237 -705 -128 -166 -321 -271 -567 -305 -90
@@ -287,7 +331,7 @@ export default function TestimonialSlider({
                                                     -185 228 -332 266 -82 22 -1530 21 -1610 0z"
                     />
                     <path
-                      className={`fill-mainPurple`}
+                      className="fill-mainPurple"
                       d="M3123 4835 c-182 -49 -320 -189 -368 -372 -22 -85 -22 -1341 0 -1426
                                                     48 -183 189 -324 372 -372 45 -12 130 -15 411 -15 l353 0 -5 -42 c-3 -24 -8
                                                     -81 -12 -128 -20 -275 -108 -539 -237 -705 -128 -166 -321 -271 -567 -305 -90
@@ -303,29 +347,25 @@ export default function TestimonialSlider({
                                                     98 96 181 195 215 45 16 109 17 673 18 l622 0 0 -386z"
                     />
                     <path
-                      className={`fill-mainPurple`}
+                      className="fill-mainPurple"
                       d="M4484 3642 c-52 -41 -55 -109 -8 -153 54 -50 146 -18 160 57 11 58
                                                     -35 114 -96 114 -19 0 -45 -8 -56 -18z"
                     />
                     <path
-                      className={`fill-mainPurple`}
+                      className="fill-mainPurple"
                       d="M2224 3682 c-52 -41 -55 -109 -8 -153 54 -50 146 -18 160 57 11 58
                                                 -35 114 -96 114 -19 0 -45 -8 -56 -18z"
                     />
                   </g>
                 </svg>
               </div>
-              <strong
-                className={`block text-[22px] font-bold mb-[5px] leading-[26px] text-textBlue`}
-              >
+              <strong className="block text-[22px] font-bold mb-[5px] leading-[26px] text-textBlue">
                 {testimonial.fullName}
               </strong>
-              <span className={`block text-mainPurple`}>
+              <span className="block text-mainPurple">
                 {testimonial.profession[locale]}
               </span>
-              <div
-                className={`mb-[20px] flex items-center gap-[5px] justify-center`}
-              >
+              <div className="mb-[20px] flex items-center gap-[5px] justify-center">
                 {stars.map((st, index) => {
                   return (
                     <FaStar
@@ -337,7 +377,7 @@ export default function TestimonialSlider({
                   );
                 })}
               </div>
-              <p className={`text-textGray mx-auto max-w-[85ch] `}>
+              <p className="text-textGray mx-auto max-w-[85ch]">
                 {testimonial.message[locale]}
               </p>
             </div>
