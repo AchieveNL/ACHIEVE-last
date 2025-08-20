@@ -1,8 +1,25 @@
+import { cn } from "@/lib/utils";
 import AchieveGlitchText from "../ui/AchieveGlitchText";
+import { ButtonHTMLAttributes, forwardRef } from "react";
 
-export default function ConsultationButton() {
+interface ConsultationButtonProps
+  extends ButtonHTMLAttributes<HTMLButtonElement> {
+  className?: string;
+}
+
+const ConsultationButton = forwardRef<
+  HTMLButtonElement,
+  ConsultationButtonProps
+>(({ className, ...props }, ref) => {
   return (
-    <button className="group CustomButton ease-out flex justify-center items-center gap-x-1 origin-center bg-achieve-purple text-white border-[1px] border-achieve-purple hover:bg-none duration-300 hover:bg-white hover:text-achieve-purple px-4 py-2 rounded-md">
+    <button
+      ref={ref}
+      className={cn(
+        "group CustomButton ease-out flex justify-center items-center gap-x-1 origin-center bg-achieve-purple text-white border-[1px] border-achieve-purple hover:bg-none duration-300 hover:bg-white hover:text-achieve-purple px-4 py-2 rounded-md",
+        className,
+      )}
+      {...props}
+    >
       <svg
         className="Fire origin-center overflow-hidden align-middle group-hover:color-achieve-purple group-hover:fill-achieve-purple"
         color="white"
@@ -18,4 +35,8 @@ export default function ConsultationButton() {
       <p className="font-semibold">Consultation</p>
     </button>
   );
-}
+});
+
+ConsultationButton.displayName = "ConsultationButton";
+
+export default ConsultationButton;
