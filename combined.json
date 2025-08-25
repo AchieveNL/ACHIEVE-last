@@ -1,0 +1,1921 @@
+{
+  "aboutUs": {
+    "_id": 1,
+    "title": {
+      "en": "Hello! We are Achieve.",
+      "nl": "Hallo! Wij zijn Achieve."
+    },
+    "introduction": {
+      "nl": "Achieve is een digital agency bestaande uit een kleine groep specialisten met ieder hun specifieke ambities, kwaliteiten en vaardigheden. Het team blijft constant op de hoogte van de nieuwste ontwikkelingen in het digitale landschap. Dat is voor ons geen opgave, omdat we van onze passie ons werk hebben gemaakt. Dit is wat we leuk vinden en daarom zijn we er ook goed in.\n<br /><br />\nEen online aanwezigheid was ooit een ‘nice to have’, maar is tegenwoordig een kritische succesfactor voor elk bedrijf. Of het nu gaat om het bereiken van prospects, het communiceren met klanten, of het rechtstreeks verkopen van diensten of producten, het internet heeft de manier waarop we zaken doen veranderd. In de voortdurend veranderende digitale wereld met technologie die continu doorontwikkelt, is het belangrijk dat bedrijven hun digitale aanwezigheid mee laten veranderen. Zo blijf je relevant en bij de tijd.\n<br /><br />\nHeb je zelf geen specialistische kennis in huis? Is het aannemen van specialisten te duur? Druk met je eigen zaak? Geen tijd voor marketing activiteiten? Dat is precies waar Achieve kan helpen. Wij ondersteunen jouw bedrijf bij de groei naar het volgende niveau. Dat doen we niet alleen, maar samen met jou en je team. Geef je digital marketing uit handen maar blijf op de hoogte middels maandelijkse rapportages en advies van specialisten. Door middel van creativiteit, technologie en data verbinden we de juiste mensen aan jouw merk.",
+      "en": "Achieve is a digital agency consisting of a small group of specialists, each with their specific ambitions, objectives and skills. The team remains constantly informed on the latest developments in the digital landscape. That is not a task for us, because we have turned our passion into our job. This is what we love and that is why we are good at it.\n<br /><br />\nAn online presence was once a 'nice to have', but is now a critical success factor for every company. Whether it's reaching prospects, communicating with customers, or selling products directly, the Internet has changed the way we do business. In the ever-changing digital world with technology that is constantly evolving, it is important that companies evolve their digital presence. This way you stay relevant and up to date.\n<br /><br />\nDo you have no specialist knowledge in-house? Is hiring specialists too expensive? Busy with your own business? No time for marketing activities? That's exactly where Achieve can help. We support your company in growing to the next level. We do not do this alone, but together with you and your team. Outsource your digital marketing, but stay informed through monthly reports and advice from specialists. We connect the right people to your brand through creativity, technology and data."
+    },
+    "communicatie": {
+      "communicatieText": {
+        "en": "Clear communication between both parties enables us to work together optimally, grow and move forward. We promise to always communicate in a timely and clear manner.",
+        "nl": "Duidelijke communicatie tussen beide partijen stelt ons in staat om optimaal samen te werken, te groeien en vooruit te gaan. Wij beloven altijd tijdig en duidelijk te communiceren."
+      },
+      "communicatieIcon": "https://res.cloudinary.com/achievenl/image/upload/v1707411261/achieve/ukkfppvlj3qmsc31styj.svg",
+      "title": {
+        "en": "Communication",
+        "nl": "Communicatie"
+      }
+    },
+    "transparantie": {
+      "transparantieText": {
+        "nl": "Goed of slecht nieuws, wij beloven ten allen tijden eerlijk te communiceren en onderbouwing te geven bij gemaakte keuzes en resultaten.",
+        "en": "Good or bad news, we promise to communicate honestly at all times and to give reasons for the choices and results made."
+      },
+      "transparantieIcon": "https://res.cloudinary.com/achievenl/image/upload/v1707411285/achieve/zbeelngx6e9rcxlyuhgs.svg",
+      "title": {
+        "en": "Transparency",
+        "nl": "Transparantie"
+      }
+    },
+    "professionaliteit": {
+      "professionaliteitText": {
+        "nl": "Wij beloven dat al onze adviezen en keuzes altijd met zuivere intenties, afgewogen worden door ervaren professionals met oog op externe invloeden.",
+        "en": "We promise that all our advice and choices are always weighed with pure intentions, by experienced professionals with a view to external influences."
+      },
+      "professionaliteitIcon": "https://res.cloudinary.com/achievenl/image/upload/v1707411296/achieve/ero5jz56wwn9ueoxkr5f.svg",
+      "title": {
+        "en": "Professionalism",
+        "nl": "Professionaliteit"
+      }
+    },
+    "passie": {
+      "passieText": {
+        "nl": "Wanneer je doet waar je van houdt, komt het beste in je naar boven. Vertel jij ons over jouw passie, dan beloven wij ze te versterken met die van ons.",
+        "en": "When you do what you love, the best in you comes to the fore. Tell us about your passion, then we promise to strengthen it with ours."
+      },
+      "passieIcon": "https://res.cloudinary.com/achievenl/image/upload/v1707411305/achieve/hclxlgpvtfw1qaiktqn5.svg",
+      "title": {
+        "en": "Passion",
+        "nl": "Passie"
+      }
+    },
+    "teamDescription": {
+      "nl": "Maak kennis met ons geweldige team! Dat bestaat uit getalenteerde specialisten. Allemaal knappe koppen met veel online marketingkennis.",
+      "en": "Meet our great team! It consists of talented specialists. All clever minds with a lot of online marketing knowledge."
+    },
+    "teamTitle": {
+      "nl": "Ontmoet het team",
+      "en": "Meet the team"
+    }
+  },
+  "adminCreds": {
+    "_id": {
+      "$oid": "66153f59cd10017ad485c20b"
+    },
+    "username": "info@achieve.nl",
+    "password": "test"
+  },
+  "carouselDataBottom": {
+    "_id": 12,
+    "title": {
+      "en": "Dashboard",
+      "nl": "Dashboard"
+    },
+    "link": "/diensten"
+  },
+  "carouselDataTop": {
+    "_id": 12,
+    "title": {
+      "en": "Marketing",
+      "nl": "Marketing"
+    },
+    "id": 12,
+    "link": "/diensten"
+  },
+  "cases": {
+    "_id": 13,
+    "enabled": false,
+    "aboutCase": {
+      "en": "<p>We have developed a website for Mevsen that helps newcomers integrate into the Netherlands. Mevsen offers language courses at A1, A2 and B1 levels, literacy programs and lessons about Dutch society. In addition, Mevsen supports students with volunteer work and career planning, so that they not only learn the language, but also actively participate in society and make a valuable contribution.</p>",
+      "nl": "<p>We hebben een website ontwikkeld voor Mevsen die helpt nieuwkomers in Nederland te integreren. Mevsen biedt taalcursussen op A1-, A2- en B1-niveau, alfabetiseringsprogramma's en lessen over de Nederlandse maatschappij. Daarnaast ondersteunt Mevsen cursisten bij vrijwilligerswerk en carrièreplanning, zodat ze niet alleen de taal leren, maar ook actief deelnemen aan de samenleving en een waardevolle bijdrage leveren.</p>"
+    },
+    "title": {
+      "en": "Mevsen",
+      "nl": "Mevsen"
+    },
+    "slug": "mevsen",
+    "GeleverdeDiensten": ["Branding", "Web-app", "Logo"],
+    "image": "https://res.cloudinary.com/achievenl/image/upload/v1720603925/achieve/cxgwjx0ba8lqjji4xuzc.webp",
+    "caseLogo": {
+      "url": "https://res.cloudinary.com/achievenl/image/upload/v1720604316/achieve/y08jtvxwakclzutov5wb.webp"
+    },
+    "WhoClient": {
+      "en": "Mevsen",
+      "nl": "Mevsen"
+    },
+    "testimonial": {
+      "en": {
+        "testititle": "Melike Cagan",
+        "text": "They do a great job. Thanks to them I now have a very stylish, modern and creative website. 😇"
+      },
+      "nl": {
+        "testititle": "Melike Cagan",
+        "text": "Ze doen geweldig werk. Dankzij hen heb ik nu een zeer stijvolle, moderne en creatieve website. 😇"
+      }
+    },
+    "faq": {
+      "en": {
+        "aklantvraag": "The client gave us the freedom to be creative and emphasized the desire for a modern website. She trusted our expertise.",
+        "bstrategie": "This allowed us to create a design that is not only visually appealing, but also uses contemporary colours. Our focus was on a sleek, intuitive user experience to effectively support newcomers to the Netherlands. By working closely with Mevsen, we have thoroughly understood their specific needs and translated them into an effective online solution. This solution supports Mevsen in fulfilling their mission to actively integrate newcomers into Dutch society, by providing them with the right resources and information for successful participation.",
+        "doelstelling": "To provide a central place where newcomers can find all the information they need about Mevsen, including the owner's story, mission and vision, course offerings, schedules, rates, and an easy way to contact us. This has greatly improved the accessibility of information and facilitates direct communication with Mevsen for questions, support and more."
+      },
+      "nl": {
+        "aklantvraag": "De klant gaf ons de vrijheid om vooral creatief te zijn en benadrukte de wens voor een moderne website. Ze vertrouwde op onze expertise.",
+        "bstrategie": "Hierdoor konden we een ontwerp creëren dat niet alleen visueel aantrekkelijk is, maar ook gebruik maakt van eigentijdse kleuren. Onze focus lag op een strakke, intuïtieve gebruikerservaring om nieuwkomers in Nederland effectief te ondersteunen. Door nauw samen te werken met Mevsen hebben we hun specifieke behoeften grondig begrepen en vertaald naar een effectieve online oplossing. Deze oplossing ondersteunt Mevsen bij het vervullen van hun missie om nieuwkomers actief te integreren in de Nederlandse samenleving, door hen de juiste middelen en informatie te bieden voor succesvolle participatie.",
+        "doelstelling": "Om een centrale plek waar nieuwkomers alle benodigde informatie kunnen vinden over Mevsen, inclusief het verhaal van de eigenaresse, de missie en visie, het cursusaanbod, roosters, tarieven, en een gemakkelijke manier om contact op te nemen. Dit heeft de toegankelijkheid van informatie sterk verbeterd en vergemakkelijkt directe communicatie met Mevsen voor vragen, ondersteuning en meer."
+      }
+    },
+    "id": 13,
+    "caseWebsite": "www.mevsen.nl",
+    "youtube": []
+  },
+  "ceoInfo": {
+    "_id": 3,
+    "title": {
+      "en": "Entrepreneur / Freelancer",
+      "nl": "Ondernemer / ZZP’er"
+    },
+    "description": {
+      "en": "Hey free spirit! We understand entrepreneurs like no one else. After all, we are a business ourselves, and our mission is to help other entrepreneurs grow digitally. And you, as it should be, want nothing more than for your business to grow! Sounds like a win-win. You know being visible on Google is important, but either you know nothing about online marketing, you don't want to deal with it, or you simply don't have the time for it. In any case, you want to tap into that new audience, and we are more than happy to take that off your hands so that you can focus on what you are good at! You want to be sure it's in good hands, so let us explain why we are different from others.",
+      "nl": "Ha vrije vogel! Wij begrijpen ondernemers als geen ander. We zijn zelf immers een onderneming en onze missie is om andere ondernemers te helpen digitaal te groeien. En jij wil als het goed is niets anders dan dat je onderneming groeit! Klinkt als een win-win. Je weet zichtbaar zijn op Google belangrijk is, maar je hebt of geen kaas van gegeten van online marketing of je wil er geen kaas van eten of je hebt er simpelweg geen tijd voor. Hoe dan ook, je wil die nieuwe doelgroep aanboren en wij willen je dat met alle liefde uit handen nemen, zodat jij kan focussen op hetgeen waar jij goed in bent! Je wil zeker weten dat het dan in goede handen ligt, dus laat ons even uitleggen waarom wij anders zijn dan anderen."
+    },
+    "id": 3,
+    "image": "https://res.cloudinary.com/achievenl/image/upload/v1720204355/achieve/b1y9stfjiz5urzv2phpb.webp"
+  },
+  "companies": {
+    "_id": 68,
+    "company": "Tecmix",
+    "image": "https://res.cloudinary.com/achievenl/image/upload/v1745333252/achieve/pjakk0zho1ukd1klsojn.webp"
+  },
+  "contacts": {
+    "_id": {
+      "$oid": "6489c538c7eb5dfabcc24827"
+    },
+    "title": {
+      "en": "Contact",
+      "nl": "Contact"
+    },
+    "paragraph": {
+      "en": "Questions and / or remarks? We are happy to help you.",
+      "nl": "Vragen en/of opmerkingen? We helpen je graag verder."
+    },
+    "form": {
+      "name": "Name",
+      "firstname": "Company name",
+      "email": "E-mail address",
+      "tel": "Phone number",
+      "message": "Remark",
+      "btntext": "Send"
+    }
+  },
+  "customerTestimonials": {
+    "_id": 31,
+    "fullName": "Davio Dakhouka",
+    "profession": {
+      "en": "Crypto community owner",
+      "nl": "Crypto community eigenaar"
+    },
+    "message": {
+      "en": "Extremely satisfied with the collaboration with Achieve Agency on the development of my web application. From the very first contact to final delivery, the communication was clear and professional.\nThe team actively thinks along, comes up with valuable suggestions, and knows how to translate ideas into a visually appealing end product.",
+      "nl": "Uiterste tevreden over de samenwerking met Achieve Agency voor de ontwikkelingen van mijn webapplicatie. Vanaf het eerste contactmoment tot de oplevering was de communicatie helder en professioneel.\nHet team denkt actief mee , komt met waardevolle suggesties en weet wensen te verlaten naar een visueel aantrekkelijk eindproduct.\n"
+    },
+    "date": "2025-05-04"
+  },
+  "faqCategories": {
+    "_id": 13,
+    "title": {
+      "en": "UGC Marketing",
+      "nl": "UGC Marketing"
+    },
+    "id": 13
+  },
+  "faqs": {
+    "_id": 56,
+    "question": {
+      "en": "What is UGC marketing and what are its benefits?",
+      "nl": "Wat is het marketing UGC en wat zijn de voordelen?"
+    },
+    "answer": {
+      "en": "UGC marketing uses user-generated content to promote a brand. It offers greater authenticity and stronger consumer engagement.\n",
+      "nl": "Het marketingmiddel UGC gebruikt door gebruikers gemaakte content (User Generated Content) om een merk te promoten. Het biedt meer authenticiteit en een sterker engagement van consumenten.\n"
+    },
+    "category_id": 13
+  },
+  "graphiql": {
+    "_id": 1,
+    "operationName": "IntrospectionQuery",
+    "variables": {},
+    "query": "query IntrospectionQuery { __schema { queryType { name } mutationType { name } types { ...FullType }  }} fragment FullType on __Type { kind name description fields(includeDeprecated: false) { name description args { ...InputValue } type { ...TypeRef } } inputFields { ...InputValue } interfaces { ...TypeRef } enumValues(includeDeprecated: false) { name description } possibleTypes { ...TypeRef }} fragment InputValue on __InputValue { name description type { ...TypeRef } defaultValue} fragment TypeRef on __Type { kind name ofType { kind name ofType { kind name ofType { kind name ofType { kind name ofType { kind name ofType { kind name ofType { kind name } } } } } } }}"
+  },
+  "graphql": {
+    "_id": 1,
+    "operationName": "IntrospectionQuery",
+    "variables": {},
+    "query": "query IntrospectionQuery { __schema { queryType { name } mutationType { name } types { ...FullType }  }} fragment FullType on __Type { kind name description fields(includeDeprecated: false) { name description args { ...InputValue } type { ...TypeRef } } inputFields { ...InputValue } interfaces { ...TypeRef } enumValues(includeDeprecated: false) { name description } possibleTypes { ...TypeRef }} fragment InputValue on __InputValue { name description type { ...TypeRef } defaultValue} fragment TypeRef on __Type { kind name ofType { kind name ofType { kind name ofType { kind name ofType { kind name ofType { kind name ofType { kind name ofType { kind name } } } } } } }}"
+  },
+  "helloBD": {
+    "_id": 58,
+    "collection": "faqs",
+    "sort": false
+  },
+  "heroSection": {
+    "_id": 1,
+    "items": {
+      "nl": [
+        {
+          "items.nl": null,
+          "items": {
+            "nl": "Voor een goede professionele eerste indruk"
+          }
+        },
+        {
+          "items.nl": null,
+          "items": {
+            "nl": "Zorgt voor vertrouwen en geloofwaardigheid"
+          }
+        },
+        {
+          "items.nl": null,
+          "items": {
+            "nl": "De klant kiest sneller voor jouw dienst, product of bedrijf"
+          }
+        },
+        {
+          "items.nl": null,
+          "items": {
+            "nl": "Het roept associaties op bij mensen"
+          }
+        },
+        {
+          "items.nl": null,
+          "items": {
+            "nl": "Zorgt voor eenheid en herkenning"
+          }
+        },
+        {
+          "items.nl": null,
+          "items": {
+            "nl": "De klant onthoudt je beter"
+          }
+        },
+        {
+          "items.nl": null,
+          "items": {
+            "nl": "Bespaart tijd, kosten en zorgt voor meer omzet"
+          }
+        },
+        {
+          "items.nl": null,
+          "items": {
+            "nl": "Alle richtlijnen in één overzicht"
+          }
+        }
+      ],
+      "en": [
+        {
+          "items.en": null,
+          "items": {
+            "en": "For a good professional first impression"
+          }
+        },
+        {
+          "items.en": null,
+          "items": {
+            "en": "Provides trust and credibility"
+          }
+        },
+        {
+          "items.en": null,
+          "items": {
+            "en": "The customer chooses your service, product, or company faster"
+          }
+        },
+        {
+          "items.en": null,
+          "items": {
+            "en": "It evokes associations in people"
+          }
+        },
+        {
+          "items.en": null,
+          "items": {
+            "en": "Ensures unity and recognition"
+          }
+        },
+        {
+          "items.en": null,
+          "items": {
+            "en": "The customer remembers you better"
+          }
+        },
+        {
+          "items.en": null,
+          "items": {
+            "en": "Saves time, costs, and ensures more revenue"
+          }
+        },
+        {
+          "items.en": null,
+          "items": {
+            "en": "All guidelines in one overview"
+          }
+        }
+      ]
+    },
+    "title": {
+      "en": "Indispensable for every organization; The Brand Book",
+      "nl": "Onmisbaar voor elke organisatie; Het Brand Book"
+    },
+    "subtitle": {
+      "en": "All the reasons why your company cannot do without it",
+      "nl": "Alle redenen waarom jouw bedrijf niet zonder kan\n\n"
+    },
+    "category_id": 8,
+    "id": 1,
+    "image": "https://res.cloudinary.com/achievenl/image/upload/v1720274651/achieve/gu68hlmbk5kgc2k5fgat.webp"
+  },
+  "hostingData": {
+    "_id": 2,
+    "type": "Turbo Hosting",
+    "desc": {
+      "en": "Turbo hosting (up to 20 times faster)",
+      "nl": "Turbo hosting (up to 20 times faster)"
+    },
+    "packages": [
+      [
+        {
+          "name": "Basic",
+          "service": {
+            "en": "99.9% uptime commitment",
+            "nl": "99.9% uptime garantie"
+          }
+        },
+        {
+          "name": "Basic",
+          "service": {
+            "en": "Easy cPanel Control Panel",
+            "nl": "Eenvoudig cPanel-configuratiescherm"
+          }
+        },
+        {
+          "name": "Basic",
+          "service": {
+            "en": "9-5 Phone and email support",
+            "nl": "9-5 Telefoon and email support"
+          }
+        },
+        {
+          "name": "Basic",
+          "service": {
+            "en": "1 Domain name",
+            "nl": "1 Domeinnaam"
+          }
+        },
+        {
+          "name": "Basic",
+          "service": {
+            "en": "1 Website",
+            "nl": "1 Website"
+          }
+        },
+        {
+          "name": "Basic",
+          "service": {
+            "en": "10 GB SSD Storage",
+            "nl": "10 GB SSD Opslag"
+          }
+        },
+        {
+          "name": "Basic",
+          "service": {
+            "en": "1 Email account",
+            "nl": "1 Email account"
+          }
+        },
+        {
+          "name": "Basic",
+          "service": {
+            "en": "Free SSL certificate (HTTPS)\t",
+            "nl": "Gratis SSL certificate (HTTPS)\t"
+          }
+        },
+        {
+          "name": "Basic",
+          "service": {
+            "en": "Free website migratie",
+            "nl": "Gratis website migratie"
+          }
+        },
+        {
+          "name": "Basic",
+          "service": {
+            "en": "Server location: Amsterdam",
+            "nl": "Server locatie: Amsterdam"
+          }
+        }
+      ],
+      [
+        {
+          "name": "Standard",
+          "service": {
+            "en": "99.9% uptime commitment",
+            "nl": "99.9% update garantie"
+          }
+        },
+        {
+          "name": "Standard",
+          "service": {
+            "en": "Easy cPanel Control Panel",
+            "nl": "Eenvoudig cPanel-configuratiescherm"
+          }
+        },
+        {
+          "name": "Standard",
+          "service": {
+            "en": "9-5 Phone and email support",
+            "nl": "9-5 Telefoon and email support"
+          }
+        },
+        {
+          "name": "Standard",
+          "service": {
+            "en": "1 Domain name",
+            "nl": "1 Domeinnaam"
+          }
+        },
+        {
+          "name": "Standard",
+          "service": {
+            "en": "1 Website",
+            "nl": "1 Website"
+          }
+        },
+        {
+          "name": "Standard",
+          "service": {
+            "en": "20 GB SSD Storage",
+            "nl": "20 GB SSD Opslag"
+          }
+        },
+        {
+          "name": "Standard",
+          "service": {
+            "en": "3 Email accounts",
+            "nl": "3 Email accounts"
+          }
+        },
+        {
+          "name": "Standard",
+          "service": {
+            "en": "Free SSL certificate (HTTPS)\t",
+            "nl": "Gratis SSL certificate (HTTPS)\t"
+          }
+        },
+        {
+          "name": "Standard",
+          "service": {
+            "en": "Free website migratie",
+            "nl": "Gratis website migratie"
+          }
+        },
+        {
+          "name": "Standard",
+          "service": {
+            "en": "Server location: Amsterdam",
+            "nl": "Server locatie: Amsterdam"
+          }
+        }
+      ],
+      [
+        {
+          "name": "Premium",
+          "service": {
+            "en": "99.9% uptime commitment",
+            "nl": "99.9% update garantie"
+          }
+        },
+        {
+          "name": "Premium",
+          "service": {
+            "en": "Easy cPanel Control Panel",
+            "nl": "Eenvoudig cPanel-configuratiescherm"
+          }
+        },
+        {
+          "name": "Premium",
+          "service": {
+            "en": "9-5 Phone and email support",
+            "nl": "9-5 Telefoon and email support"
+          }
+        },
+        {
+          "name": "Premium",
+          "service": {
+            "en": "1 Domain name",
+            "nl": "1 Domeinnaam"
+          }
+        },
+        {
+          "name": "Premium",
+          "service": {
+            "en": "1 Website",
+            "nl": "1 Website"
+          }
+        },
+        {
+          "name": "Premium",
+          "service": {
+            "en": "50 GB SSD Storage",
+            "nl": "50 GB SSD Opslag"
+          }
+        },
+        {
+          "name": "Premium",
+          "service": {
+            "en": "10 Email accounts",
+            "nl": "10 Email accounts"
+          }
+        },
+        {
+          "name": "Premium",
+          "service": {
+            "en": "Free SSL certificate (HTTPS)\t",
+            "nl": "Gratis SSL certificate (HTTPS)\t"
+          }
+        },
+        {
+          "name": "Premium",
+          "service": {
+            "en": "Free website migratie",
+            "nl": "Gratis website migratie"
+          }
+        },
+        {
+          "name": "Premium",
+          "service": {
+            "en": "Server location: Amsterdam",
+            "nl": "Server locatie: Amsterdam"
+          }
+        }
+      ],
+      [
+        {
+          "name": "Deluxe",
+          "service": {
+            "en": "99.9% uptime commitment",
+            "nl": "99.9% update garantie"
+          }
+        },
+        {
+          "name": "Deluxe",
+          "service": {
+            "en": "Easy cPanel control panel",
+            "nl": "Eenvoudig cPanel-configuratiescherm"
+          }
+        },
+        {
+          "name": "Deluxe",
+          "service": {
+            "en": "9-5 Phone and email support",
+            "nl": "9-5 Telefoon and email support"
+          }
+        },
+        {
+          "name": "Deluxe",
+          "service": {
+            "en": "1 Domain name",
+            "nl": "1 Domeinnaam"
+          }
+        },
+        {
+          "name": "Deluxe",
+          "service": {
+            "en": "1 Website",
+            "nl": "1 Website"
+          }
+        },
+        {
+          "name": "Deluxe",
+          "service": {
+            "en": "100 GB SSD Storage",
+            "nl": "100 GB SSD Opslag"
+          }
+        },
+        {
+          "name": "Deluxe",
+          "service": {
+            "en": "Ongelimiteerde email accounts",
+            "nl": "Ongelimiteerde email accounts"
+          }
+        },
+        {
+          "name": "Deluxe",
+          "service": {
+            "en": "Free SSL certificate (HTTPS)\t",
+            "nl": "Gratis SSL certificate (HTTPS)\t"
+          }
+        },
+        {
+          "name": "Deluxe",
+          "service": {
+            "en": "Free website migratie",
+            "nl": "Gratis website migratie"
+          }
+        },
+        {
+          "name": "Deluxe",
+          "service": {
+            "en": "Server location: Amsterdam",
+            "nl": "Server locatie: Amsterdam"
+          }
+        }
+      ]
+    ],
+    "order": 2,
+    "pricing": {
+      "Monthly": [
+        {
+          "en": "15,99 per month",
+          "nl": "15,99 per month"
+        },
+        {
+          "en": "17,99 per month",
+          "nl": "17,99 per month"
+        },
+        {
+          "en": "20,99 per month",
+          "nl": "20,99 per month"
+        },
+        {
+          "en": "27,09 per month",
+          "nl": "27,99 per month"
+        }
+      ],
+      "Yearly": [
+        {
+          "en": "11,99 for 12 months",
+          "nl": "11,99 for 12 months"
+        },
+        {
+          "en": "14,99 for 12 months",
+          "nl": "14,99 for 12 months"
+        },
+        {
+          "en": "15,99 for 12 months",
+          "nl": "15,99 for 12 months"
+        },
+        {
+          "en": "21,99 for 12 months",
+          "nl": "21,99 for 12 months"
+        }
+      ],
+      "ThreeYears": [
+        {
+          "en": "7,99 for months",
+          "nl": "7,99 for months"
+        },
+        {
+          "en": "10,99 for 36 months",
+          "nl": "10,99 for 36 months"
+        },
+        {
+          "en": "11,99 for 36 months",
+          "nl": "11,99 for 36 months"
+        },
+        {
+          "en": "17,99 for 36 months",
+          "nl": "17,99 for 36 months"
+        }
+      ]
+    },
+    "id": 2,
+    "timeframes": {
+      "yearly": {
+        "en": "Yearly",
+        "nl": "Yearly(nl)"
+      },
+      "monthly": {
+        "en": "Monthly",
+        "nl": "Monthly(nl)"
+      },
+      "threeyearly": {},
+      "threeyears": {
+        "en": "Three years",
+        "nl": "Three years(nl)"
+      }
+    }
+  },
+  "hostingData2": {
+    "_id": 2,
+    "type": "Turbo Hosting",
+    "desc": "Turbo hosting (up to 20 times faster)",
+    "packages": [
+      {
+        "name": "Turbo Basic",
+        "services": [
+          {
+            "service": "Pricing: 15,99 per month / 11,99 for 12 months / 7,99 for 36 months"
+          },
+          {
+            "service": "99.9% update uptime commitment"
+          },
+          {
+            "service": "Easy Cpanel Control Panel"
+          },
+          {
+            "service": "9-5 Phone and email support"
+          },
+          {
+            "service": "1 Domain Names"
+          },
+          {
+            "service": "1 website"
+          },
+          {
+            "service": "10 GB NVMe SSD Storage"
+          },
+          {
+            "service": "100 GB Transfer"
+          },
+          {
+            "service": "1 Email accounts"
+          },
+          {
+            "service": "Free SSL certificate (HTTPS)"
+          },
+          {
+            "service": "Free website migration"
+          },
+          {
+            "service": "Server Location: Amsterdam"
+          },
+          {
+            "service": "Order now"
+          }
+        ]
+      },
+      {
+        "name": "Turbo Standard",
+        "services": [
+          {
+            "service": "Pricing: 17,99 per month / 14,99 for 12 months / 10,99 for 36 months"
+          },
+          {
+            "service": "99.9% update uptime commitment"
+          },
+          {
+            "service": "Easy Cpanel Control Panel"
+          },
+          {
+            "service": "9-5 Phone and email support"
+          },
+          {
+            "service": "1 Domain Names"
+          },
+          {
+            "service": "1 website"
+          },
+          {
+            "service": "20 GB NVMe SSD Storage"
+          },
+          {
+            "service": "200 GB Transfer"
+          },
+          {
+            "service": "3 Email accounts"
+          },
+          {
+            "service": "Free SSL certificate (HTTPS)"
+          },
+          {
+            "service": "Free website migration"
+          },
+          {
+            "service": "Server Location: Amsterdam"
+          },
+          {
+            "service": "Order now"
+          }
+        ]
+      },
+      {
+        "name": "Turbo Premium",
+        "services": [
+          {
+            "service": "Pricing: 20,99 per month / 15,99 for 12 months / 11,99 for 36 months"
+          },
+          {
+            "service": "99.9% update uptime commitment"
+          },
+          {
+            "service": "Easy Cpanel Control Panel"
+          },
+          {
+            "service": "9-5 Phone and email support"
+          },
+          {
+            "service": "1 Domain Names"
+          },
+          {
+            "service": "1 website"
+          },
+          {
+            "service": "50 GB NVMe SSD Storage"
+          },
+          {
+            "service": "600 GB Transfer"
+          },
+          {
+            "service": "10 Email accounts"
+          },
+          {
+            "service": "Free SSL certificate (HTTPS)"
+          },
+          {
+            "service": "Free website migration"
+          },
+          {
+            "service": "Server Location: Amsterdam"
+          },
+          {
+            "service": "Order now"
+          }
+        ]
+      },
+      {
+        "name": "Turbo Deluxe",
+        "services": [
+          {
+            "service": "Pricing: 15,99 per month / 11,99 for 12 months / 7,99 for 36 months"
+          },
+          {
+            "service": "99.9% update uptime commitment"
+          },
+          {
+            "service": "Easy Cpanel Control Panel"
+          },
+          {
+            "service": "9-5 Phone and email support"
+          },
+          {
+            "service": "1 Domain Names"
+          },
+          {
+            "service": "1 website"
+          },
+          {
+            "service": "100 NVMe GB SSD Storage"
+          },
+          {
+            "service": "UNL GB Transfer"
+          },
+          {
+            "service": "UNL Email accounts"
+          },
+          {
+            "service": "Free SSL certificate (HTTPS)"
+          },
+          {
+            "service": "Free website migration"
+          },
+          {
+            "service": "Server Location: Amsterdam"
+          },
+          {
+            "service": "Order now"
+          }
+        ]
+      }
+    ],
+    "order": 2,
+    "pricing": {
+      "Monthly": [
+        "15,99 per month",
+        "17,99 per month",
+        "20,99 per month",
+        "27,09 per month"
+      ],
+      "Yearly": [
+        "11,99 for 12 months",
+        "14,99 for 12 months",
+        "15,99 for 12 months",
+        "21,99 for 12 months"
+      ],
+      "ThreeYears": [
+        "7,99 for 36 months",
+        "10,99 for 36 months",
+        "11,99 for 36 months",
+        "17,99 for 36 months"
+      ]
+    }
+  },
+  "manuals": {
+    "_id": 15,
+    "pageName": "TikTok business account aanmaken",
+    "slug": "Tiktok-business-account-aanmaken",
+    "heading": "TikTok business account aanmaken",
+    "section": [
+      {
+        "title": "Stap 1: Maak een business account aan",
+        "body": "<p><span style=\"color: rgb(0, 0, 0)\">Ga naar </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://business.tiktok.com/\"><u><span style=\"color: rgb(17, 85, 204)\">https://business.tiktok.com/</span></u></a><span style=\"color: rgb(0, 0, 0)\"> en klik op “Get started”</span></p><p><span style=\"color: rgb(0, 0, 0)\">Doorloop vervolgens de stappen. Heb je al een account, dan kan je hier inloggen. Heb je dit nog niet, klik dan op “Sign up now”</span></p><p><br></p>",
+        "mainImage": null
+      },
+      {
+        "title": "Stap 2: Voeg Achieve toe als partner",
+        "body": "",
+        "mainImage": "https://res.cloudinary.com/achievenl/image/upload/v1706110745/achieve/lj4eixnosafhbkco5spr.png"
+      },
+      {
+        "title": null,
+        "body": "",
+        "mainImage": "https://res.cloudinary.com/achievenl/image/upload/v1706110746/achieve/qt7ltctgpwzcjcbnpdzm.png"
+      },
+      {
+        "title": null,
+        "body": "<p>Goed bezig, je bent er bijna!</p>",
+        "mainImage": null
+      }
+    ]
+  },
+  "moves": {
+    "_id": 7,
+    "title": {
+      "en": "Nice story, nice and short! Now show us some examples!",
+      "nl": "Mooi verhaal, lekker kort! Laat ons nu maar wat voorbeelden zien!"
+    },
+    "subtitle": {
+      "en": "A lot of entrepreneurs went before you.",
+      "nl": "Een hoop ondernemers gingen je voor"
+    },
+    "imagel": [
+      "https://res.cloudinary.com/achievenl/image/upload/v1721401264/achieve/o62cybblhkfxrxc9mjwr.webp",
+      "https://res.cloudinary.com/achievenl/image/upload/v1721401267/achieve/s7fvkdgy6zxoholk6ucr.webp",
+      "https://res.cloudinary.com/achievenl/image/upload/v1721401269/achieve/xpodqvt2fzozptv5wnlw.webp",
+      "https://res.cloudinary.com/achievenl/image/upload/v1721401270/achieve/tzwppny7jfagby3zb4cz.webp"
+    ],
+    "imager": [
+      "https://res.cloudinary.com/achievenl/image/upload/v1721401271/achieve/zurozz2yjrhmf3f2smng.webp",
+      "https://res.cloudinary.com/achievenl/image/upload/v1721401277/achieve/n14kqhp63tg8gnqdnqdh.webp",
+      "https://res.cloudinary.com/achievenl/image/upload/v1721401279/achieve/rydry1t1mkm6pvlo5kkv.webp",
+      "https://res.cloudinary.com/achievenl/image/upload/v1721401281/achieve/rewbvngyhtb1sugumc1b.webp"
+    ],
+    "category_id": 12
+  },
+  "newcases": {
+    "_id": 31,
+    "enabled": true,
+    "slug": "buru-construction",
+    "bannerTitle": {
+      "en": "Buru Construction – All-in-one renovation service",
+      "nl": "Buru Construction - Alles-in-één renovatieservice"
+    },
+    "bannerSubtitle": {
+      "en": "Choose Buru Construction and take advantage of our all-in-one renovation service, so you can confidently leave everything to one trusted company. Quality, convenience, and reliability – that’s Buru Construction.",
+      "nl": "Kies voor Buru Construction en profiteer van onze alles-in-één renovatieservice, zodat u met een gerust hart alles aan één vertrouwd bedrijf kunt overlaten. Kwaliteit, gemak en betrouwbaarheid – dat is Buru Construction."
+    },
+    "expertiseForCasesList": "Web-app",
+    "dateProjectStart": "2025-03-01T00:00:00.000Z",
+    "dateProjectEnd": "2025-03-31T00:00:00.000Z",
+    "clientName": "Buru Construction",
+    "location": {
+      "en": "Rotterdam, NL",
+      "nl": "Rotterdam, NL"
+    },
+    "targetGroup": {
+      "en": "B2C",
+      "nl": "B2C"
+    },
+    "sector": {
+      "en": "Construction",
+      "nl": "Bouw"
+    },
+    "workArea": {
+      "en": "National",
+      "nl": "Nationaal"
+    },
+    "website": "www.buruconstruction.nl",
+    "displaydwebsiteurl": "buruconstruction.nl",
+    "description": {
+      "en": "Buru Construction is a renowned renovation company in Rotterdam, specialized in complete home renovations. With a passion for the craft, we transform homes into modern, comfortable living spaces every day.\n\nOur expertise lies mainly in bathroom and toilet renovations, but we also handle full home transformations, taking care of every detail. What makes our work unique is the combination of traditional craftsmanship with modern techniques.",
+      "nl": "Buru Construction is een gerenommeerd renovatiebedrijf in Rotterdam dat zich heeft gespecialiseerd in complete woningrenovaties. Met passie voor het vak transformeren wij dagelijks woningen in moderne, comfortabele leefruimtes.\n\nOnze expertise ligt vooral in badkamer- en toiletrenovaties, maar we verzorgen ook complete woningtransformaties waarbij we elk detail onder handen nemen. Wat ons werk bijzonder maakt is de combinatie van traditioneel vakmanschap met moderne technieken."
+    },
+    "challenge": {
+      "en": "During the rebranding process, the client expressed a strong desire to include a mascot in the visual identity. The name Buru means \"bull\" in Japanese, which served as an important starting point in the process. The challenge was to translate this idea into a fitting concept and to find a way to integrate this element into the renewed website in a consistent and thoughtful manner.",
+      "nl": "Tijdens het herpositioneren van het merk gaf de klant aan graag een mascotte terug te zien in de visuele identiteit. De naam Buru betekent \"stier\" in het Japans, wat een belangrijk uitgangspunt vormde binnen het proces. De uitdaging lag in het vertalen van deze wens naar een passend concept en het vinden van een manier om dit element op een consistente en doordachte manier onderdeel te laten worden van de vernieuwde website.\n"
+    },
+    "solution": {
+      "en": "To bring the idea of a mascot to life, we began by exploring visual directions that aligned with the brand’s core values: strength, reliability, and approachability. The concept of the bull was subtly translated into a character that feels friendly and trustworthy, without compromising the professional look and feel of the brand. Once the design was finalized, the focus shifted to integrating the mascot into the website in a natural and supportive way. The character is prominently featured and contributes to the overall brand experience, but always in a way that respects the readability and content of the website. Through carefully placed visuals, interactive elements, and subtle animations, the mascot became a strong part of the digital identity—distinct enough to stand out, without overpowering the rest.",
+      "nl": "Om de wens voor een mascotte tot leven te brengen, zijn we gestart met het verkennen van visuele richtingen die aansloten bij de kernwaarden van het merk: kracht, betrouwbaarheid en toegankelijkheid. Het concept van de stier werd op een subtiele manier vertaald naar een karakter dat vriendelijk en vertrouwd aanvoelt, zonder dat het afbreuk doet aan de professionele uitstraling van het merk. Nadat het ontwerp was vastgesteld, lag de focus op het op een natuurlijke en ondersteunende manier integreren van de mascotte binnen de website. Het karakter is prominent aanwezig en draagt bij aan de merkbeleving, maar altijd op een manier die de leesbaarheid en de inhoudelijke context van de website respecteert. Met zorgvuldig geplaatste visuals, interactieve elementen en subtiele animaties kreeg de mascotte een duidelijke rol binnen de digitale identiteit – met net genoeg karakter om op te vallen, zonder te overheersen."
+    },
+    "impact": {
+      "en": "The introduction of the mascot has given the brand a unique and personal touch, making Buru Construction instantly more recognizable and approachable. Website visitors now experience a digital journey that feels both professional and engaging. The mascot adds character and warmth without detracting from the core content, helping to build trust and making the brand more memorable. Internally, the mascot has also provided a clear and consistent visual anchor, supporting storytelling, communication, and brand consistency across various channels.",
+      "nl": "De introductie van de mascotte heeft een unieke en persoonlijke draai aan het merk gegeven, waardoor Buru Construction direct herkenbaarder en toegankelijker is geworden. Bezoekers van de website ervaren nu een digitale beleving die zowel professioneel als aantrekkelijk is. De mascotte voegt karakter en warmte toe, zonder afbreuk te doen aan de kerninhoud, waardoor het vertrouwen wordt versterkt en het merk beter in het geheugen blijft. Intern heeft de mascotte ook een duidelijke en consistente visuele houvast geboden, die bijdraagt aan storytelling, communicatie en merkconsistentie over verschillende kanalen heen."
+    },
+    "id": 31,
+    "bannerImage": "https://res.cloudinary.com/achievenl/image/upload/v1745413959/achieve/rrpatk65dpfmzpe0rqyd.webp",
+    "imageGallery": [
+      {
+        "image": "https://res.cloudinary.com/achievenl/image/upload/v1745402234/achieve/rquynxz2jmlsktf0c63i.webp"
+      },
+      {
+        "image": "https://res.cloudinary.com/achievenl/image/upload/v1745413962/achieve/roierl0khzukyz1wv6yq.webp"
+      },
+      {
+        "image": "https://res.cloudinary.com/achievenl/image/upload/v1745413740/achieve/vb2wygrs9keskganxbjo.webp"
+      }
+    ],
+    "logo": "https://res.cloudinary.com/achievenl/image/upload/v1745330449/achieve/wmfrqoqsayfdougqmzor.webp",
+    "bannerFadeColor": "f78f21",
+    "expertise": ["Web-app", "SEA"],
+    "previewImage": "https://res.cloudinary.com/achievenl/image/upload/v1745403735/achieve/lc8kwr8lek8fbyx2v7y1.webp"
+  },
+  "old_cases": {
+    "_id": 8,
+    "slug": "decathlon",
+    "title": {
+      "en": "Decathlon",
+      "nl": "Decathlon"
+    },
+    "aboutCase": {
+      "en": "<p>Due to the shortage on the labor market, Decathlon wanted to try a different way to recruit the right people. They have a national shortage of team leaders and are therefore looking for people with a passion for sports &amp; retail. </p>",
+      "nl": "<p>In verband met de krapte op de arbeidsmarkt wilde Decathlon op een andere manier proberen om de juiste mensen te werven. Ze hebben namelijk een landelijk tekort aan teamleaders en zijn dus hard op zoek naar mensen met een passie voor sport &amp; retail.</p>"
+    },
+    "WhoClient": {
+      "en": "Decathlon is a French sports store chain that was founded in 1976. Decathlon is part of the Oxylane Group, founded in 2008, which also produces the chain's own brands.\\n\\nDecathlon stores often have a floor space of several thousand square meters. Sports, camping and hiking gear can be found in these stores. They offer more than 68 different sports. They focus on making sports possible for everyone with prices from low to high. In addition, there is often a room where the products can be tested, and each store has a workshop for repairs, among other things. Decathlon also has its own sports brands, Quechua (trekking and camping), Wed'ze (winter sports), Domyos (fitness), Kalenji (running), Kipsta (football), B-twin (cycling), Rockrider (MTB), Nabaiji ( Aquatics). In addition, more and more sports articles and clothing with an ECO design are made from recycled materials.\n",
+      "nl": "Decathlon is een Franse sportwinkelketen die is opgericht in 1976. Decathlon is onderdeel van de in 2008 opgerichte Oxylane Group, die ook de huismerken van de keten produceert.\\n\\nDe Decathlonwinkels hebben vaak een vloeroppervlak van enkele duizenden vierkante meters. In deze winkels zijn sport-, kampeer- en trektochtspullen te vinden. Ze bieden meer dan 68 verschillende sporten aan. Ze richten zich op sporten voor iedereen mogelijk te maken met prijzen van laag naar hoog. Daarnaast is er vaak een ruimte waar de producten getest kunnen worden, en bevindt zich in elke winkel een werkplaats voor onder andere herstellingen. Decathlon heeft ook haar eigen sportmerken, Quechua (trekking en kamperen), Wed'ze (wintersport), Domyos (fitness), Kalenji (hardlopen), Kipsta (voetbal), B-twin (fietsen), Rockrider (MTB), Nabaiji (watersport). Daarnaast zijn er steeds meer sportartikelen en kleding met een ECO design gemaakt van gerecyclede materialen."
+    },
+    "youtube": [
+      {
+        "link": "https://youtu.be/nTR1yzlgWM0"
+      },
+      {
+        "link": "https://youtu.be/07hOLgQlU2s"
+      }
+    ],
+    "faq": {
+      "en": {
+        "aklantvraag": "Help us find the right people for our open vacancy in a creative way.\n",
+        "bstrategie": "Decathlon already employs people who hold the \"Team Leader\" position. What could be better to hear from these people in person how they experience this job. We therefore interviewed these people and used this content for Social Media advertising.\n",
+        "doelstelling": "Receive as many new applications as possible as quickly as possible.\n"
+      },
+      "nl": {
+        "aklantvraag": "Help ons op een creatieve manier de juiste mensen vinden voor onze openstaande vacature.",
+        "bstrategie": "Decathlon heeft al mensen in dienst die de functie ''Teamleader'' bekleden. Wat is er beter om van deze mensen persoonlijk te horen hoe ze deze baan ervaren. Wij hebben deze mensen dan ook geïnterviewd en deze content ingezet voor Social Media advertising.",
+        "doelstelling": "Zo snel en zoveel mogelijk nieuwe sollicitaties binnen krijgen."
+      },
+      "aklantvraag": {},
+      "bstrategie": {},
+      "doelstelling": {}
+    },
+    "image": "https://storage.googleapis.com/achieve-bucket/7633639d-2e73-4c83-80b1-61a53e889b0dRobert_Decathlon_1920_10800.png",
+    "caseLogo": {
+      "url": "https://storage.googleapis.com/achieve-bucket/8cfe33e2-8f1e-43a6-a528-437b40a55f12logo-cases-decathlon.png"
+    },
+    "testimonial": {
+      "en": {},
+      "nl": {}
+    },
+    "GeleverdeDiensten": ["Content Creation", "Social Media Advertising"],
+    "enabled": true,
+    "id": 8
+  },
+  "pluses": {
+    "_id": 6,
+    "desc": {
+      "en": "Do our 5 plus points appeal to you? Then fill in your details and apply directly for one of our vacancies.      ",
+      "nl": "Spreken onze 5 pluspunten jou aan? Vul dan je gegevens in en solliciteer direct op een van onze vacatures."
+    },
+    "heading": "Overtuigd?"
+  },
+  "prices": {
+    "_id": 11,
+    "name": {
+      "en": "Dashboard",
+      "nl": "Dashboard"
+    },
+    "b_name": {
+      "en": "Basic",
+      "nl": "Basic"
+    },
+    "s_name": {
+      "en": "Standard",
+      "nl": "Standard"
+    },
+    "p_name": {
+      "en": "Premium",
+      "nl": "Premium"
+    },
+    "b_price": {
+      "en": "997 ex VAT.",
+      "nl": "997 ex BTW."
+    },
+    "s_price": {
+      "en": "1497 ex VAT.",
+      "nl": "1497 ex BTW."
+    },
+    "p_price": {
+      "en": "2497 ex VAT.",
+      "nl": "2497 ex BTW."
+    },
+    "order": null,
+    "services": [
+      {
+        "title.en": null,
+        "title.nl": null,
+        "info.en": null,
+        "info.nl": null,
+        "seb.en": null,
+        "seb.nl": null,
+        "ses.en": null,
+        "ses.nl": null,
+        "sep.en": null,
+        "sep.nl": null,
+        "title": {
+          "en": "Dashboards",
+          "nl": "Dashboards"
+        },
+        "info": {},
+        "seb": {
+          "en": "1",
+          "nl": "1"
+        },
+        "ses": {
+          "en": "Max. 2",
+          "nl": "Max. 2"
+        },
+        "sep": {
+          "en": "Max 3.",
+          "nl": "Max 3."
+        }
+      },
+      {
+        "title.en": null,
+        "title.nl": null,
+        "info.en": null,
+        "info.nl": null,
+        "seb.en": null,
+        "seb.nl": null,
+        "ses.en": null,
+        "ses.nl": null,
+        "sep.en": null,
+        "sep.nl": null,
+        "title": {
+          "en": "Data source connectivity",
+          "nl": "Data source connectivity"
+        },
+        "info": {},
+        "seb": {
+          "en": "1",
+          "nl": "1"
+        },
+        "ses": {
+          "en": "Max. 2",
+          "nl": "Max. 2"
+        },
+        "sep": {
+          "en": "Max 4.",
+          "nl": "Max 4."
+        }
+      },
+      {
+        "title.en": null,
+        "title.nl": null,
+        "info.en": null,
+        "info.nl": null,
+        "seb.en": null,
+        "seb.nl": null,
+        "ses.en": null,
+        "ses.nl": null,
+        "sep.en": null,
+        "sep.nl": null,
+        "title": {
+          "en": "Interactive/animated visuals",
+          "nl": "Interactieve/geanimeerde beelden"
+        },
+        "info": {
+          "en": null
+        },
+        "seb": {
+          "en": "no",
+          "nl": "no"
+        },
+        "ses": {
+          "en": "yes",
+          "nl": "yes"
+        },
+        "sep": {
+          "en": "yes",
+          "nl": "yes"
+        }
+      },
+      {
+        "title.en": null,
+        "title.nl": null,
+        "info.en": null,
+        "info.nl": null,
+        "seb.en": null,
+        "seb.nl": null,
+        "ses.en": null,
+        "ses.nl": null,
+        "sep.en": null,
+        "sep.nl": null,
+        "title": {
+          "en": "Web embedding",
+          "nl": "Web embedding"
+        },
+        "info": {
+          "en": null
+        },
+        "seb": {
+          "en": "no",
+          "nl": "no"
+        },
+        "ses": {
+          "en": "no",
+          "nl": "no"
+        },
+        "sep": {
+          "en": "yes",
+          "nl": "yes"
+        }
+      },
+      {
+        "title.en": null,
+        "title.nl": null,
+        "info.en": null,
+        "info.nl": null,
+        "seb.en": null,
+        "seb.nl": null,
+        "ses.en": null,
+        "ses.nl": null,
+        "sep.en": null,
+        "sep.nl": null,
+        "title": {
+          "en": "Teampresentation",
+          "nl": "Teampresentatie"
+        },
+        "info": {
+          "en": null
+        },
+        "seb": {
+          "en": "no",
+          "nl": "no"
+        },
+        "ses": {
+          "en": "no",
+          "nl": "no"
+        },
+        "sep": {
+          "en": "yes",
+          "nl": "yes"
+        }
+      },
+      {
+        "title.en": null,
+        "title.nl": null,
+        "info.en": null,
+        "info.nl": null,
+        "seb.en": null,
+        "seb.nl": null,
+        "ses.en": null,
+        "ses.nl": null,
+        "sep.en": null,
+        "sep.nl": null,
+        "title": {
+          "en": "Extra online consultancy",
+          "nl": "Extra online consultancy"
+        },
+        "info": {
+          "en": null,
+          "nl": "no"
+        },
+        "seb": {
+          "en": "no",
+          "nl": "no"
+        },
+        "ses": {
+          "en": "no",
+          "nl": "no"
+        },
+        "sep": {
+          "en": "Up to 3 guided sessions",
+          "nl": "Tot 3 begeleidende sessies"
+        }
+      },
+      {
+        "title.en": null,
+        "title.nl": null,
+        "info.en": null,
+        "info.nl": null,
+        "seb.en": null,
+        "seb.nl": null,
+        "ses.en": null,
+        "ses.nl": null,
+        "sep.en": null,
+        "sep.nl": null,
+        "title": {
+          "en": "Correction rounds",
+          "nl": "Correctierondes"
+        },
+        "info": {
+          "en": null
+        },
+        "seb": {
+          "en": "1",
+          "nl": "1"
+        },
+        "ses": {
+          "en": "Max. 2",
+          "nl": "Max. 2"
+        },
+        "sep": {
+          "en": "Max. 3",
+          "nl": "Max. 3"
+        }
+      },
+      {
+        "title.en": null,
+        "title.nl": null,
+        "info.en": null,
+        "info.nl": null,
+        "seb.en": null,
+        "seb.nl": null,
+        "ses.en": null,
+        "ses.nl": null,
+        "sep.en": null,
+        "sep.nl": null,
+        "title": {
+          "en": " Delivery time",
+          "nl": "Levertijd"
+        },
+        "info": {
+          "en": null,
+          "nl": null
+        },
+        "seb": {
+          "en": "2 weeks",
+          "nl": "2 weken"
+        },
+        "ses": {
+          "en": "3 weeks",
+          "nl": "2 weken"
+        },
+        "sep": {
+          "en": "From 4 weeks",
+          "nl": "Vanaf 4 weken"
+        }
+      },
+      {
+        "title.en": null,
+        "title.nl": null,
+        "info.en": null,
+        "info.nl": null,
+        "seb.en": null,
+        "seb.nl": null,
+        "ses.en": null,
+        "ses.nl": null,
+        "sep.en": null,
+        "sep.nl": null,
+        "title": {
+          "en": "Additional work",
+          "nl": "Meerwerk"
+        },
+        "info": {
+          "en": null
+        },
+        "seb": {
+          "en": "130 ex VAT p/hour",
+          "nl": "130 ex BTW p/uur"
+        },
+        "ses": {
+          "en": "130 ex VAT p/hour",
+          "nl": "130 ex BTW p/uur"
+        },
+        "sep": {
+          "en": "130 ex VAT p/hour",
+          "nl": "130 ex BTW p/uur"
+        }
+      }
+    ]
+  },
+  "prices2": {
+    "_id": 2,
+    "name": {
+      "en": "Website",
+      "nl": "Website"
+    },
+    "service1": {
+      "title": "Customized template",
+      "info": "We present several templates and will then adjust them 100% to your liking.",
+      "seb": "yes",
+      "ses": "yes",
+      "sep": "Optional"
+    },
+    "service2": {
+      "title": "Pages",
+      "info": "",
+      "seb": "from 6",
+      "ses": "from 8",
+      "sep": "from 10"
+    },
+    "service3": {
+      "title": "Mobile first",
+      "info": "Due to the enormous increase in internet use on mobile phones, it is important that the website is developed with the mobile version as a foundation.",
+      "seb": "yes",
+      "ses": "yes",
+      "sep": "yes"
+    },
+    "service4": {
+      "title": "Responsive",
+      "info": "This ensures that the content of a website adapts to the device of the visitor.",
+      "seb": "yes",
+      "ses": "yes",
+      "sep": "yes"
+    },
+    "service5": {
+      "title": "CMS",
+      "info": "This ensures that the content of a website adapts to the device of the visitor.",
+      "seb": "yes",
+      "ses": "yes",
+      "sep": "yes"
+    },
+    "service6": {
+      "title": "Search engine friendly",
+      "info": "This ensures that the content of a website adapts to the device of the visitor.",
+      "seb": "yes",
+      "ses": "yes",
+      "sep": "yes"
+    },
+    "service7": {
+      "title": "Bug fixes",
+      "info": "If after delivery of the website \"errors\" are found that are caused by us, we will solve them free of charge.",
+      "seb": "yes",
+      "ses": "yes",
+      "sep": "yes"
+    },
+    "service8": {
+      "title": "Hosting",
+      "info": "Web hosting is basically renting a piece of storage, computing power and memory from a server. The hosting is not included in the price, it is possible to arrange this through us at additional costs.",
+      "seb": "View packages",
+      "ses": "no",
+      "sep": "View packages"
+    },
+    "service9": {
+      "title": "SSL certificate",
+      "info": "An SSL certificate is a bit of code on your web server that provides security for online communications. When a web browser contacts your secured website, the SSL certificate enables an encrypted connection. It's kind of like sealing a letter in an envelope before sending it through the mail.",
+      "seb": "yes",
+      "ses": "yes",
+      "sep": "yes"
+    },
+    "b_price": "v.a.997",
+    "s_price": "v.a.1997",
+    "p_price": "v.a.3497",
+    "b_name": "Wordpress",
+    "s_name": "Shopify",
+    "p_name": "Custom"
+  },
+  "privacy": {
+    "_id": 1,
+    "body": {
+      "nl": "<p>U bezoekt een website die deel uitmaakt van het online netwerk van Achieve Deze privacyverklaring is van toepassing op alle websites die behoren tot het netwerk van Achieve, hierna te noemen Achieve, tenzij anders vermeld. Achieve is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacy verklaring.<br><br>Persoonsgegevens die wij verwerken<br><br>Achieve verwerkt uw persoonsgegevens doordat u gebruik maakt van onze diensten en/of omdat u deze zelf aan ons verstrekt. Hieronder vindt u een overzicht van de persoonsgegevens die wij verwerken:<br><br>Bedrijfsnaam<br>Aanhef<br>Voor- en achternaam<br>Telefoonnummer<br>E-mailadres<br>Bedrijfsadres<br>Betaalgegevens<br>Gegevens over uw activiteiten op onze website<br>Bijzondere en/of gevoelige persoonsgegevens die wij verwerken<br><br>Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar. Tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als u er van overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op via info@achieve.nl dan verwijderen wij deze informatie.<br><br>Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken<br><br>Als u een bestelling plaatst, hebben we uw bedrijfsnaam, eigen naam, e-mailadres, bedrijfsadres en betaalgegevens nodig om uw bestelling uit te voeren en u van het verloop daarvan op de hoogte te houden.<br>Om het orderverloop bij Achieve zo aangenaam mogelijk te laten verlopen, slaan wij met uw toestemming uw persoonlijke gegevens en de gegevens met betrekking tot uw bestelling en uw gebruik van onze diensten op. Hierdoor kunnen wij de website personaliseren en in uw voordeel verbeteren.<br>Wij gebruiken uw e-mailadres om u te informeren over de ontwikkeling van haar website en om u op de hoogte te houden van speciale aanbiedingen en acties. Wanneer u hier niet langer prijs op stelt, kunt u zich uitschrijven op onze website.<br>Gegevens over het gebruik van onze site en de feedback die we krijgen van onze bezoekers helpen ons om onze site verder te ontwikkelen en te verbeteren.<br>Als u besluit een recensie te schrijven, kunt u zelf kiezen of u uw naam of andere persoonlijke gegevens toevoegt. We zijn benieuwd naar de meningen van onze bezoekers. Wel behouden wij het recht van moderatie in bijdragen die niet aan onze sitevoorwaarden voldoen.<br>Bij het verzenden van een online formulier of offerteaanvraag, vragen wij naar uw contactgegevens zodat wij terug kunnen komen op uw vraag/offerte. Bij het afstaan van uw e-mailadres en/of telefoonnummer geeft u toestemming dat wij u persoonlijk mogen benaderen voor de opvolging.<br>Geautomatiseerde besluitvorming<br><br>Achieve neemt niet op basis van geautomatiseerde verwerkingen besluiten over zaken die (aanzienlijke) gevolgen kunnen hebben voor personen. Het gaat hier om besluiten die worden genomen door computerprogramma’s of -systemen, zonder dat daar een mens (bijvoorbeeld een medewerker van Achieve) tussen zit.<br><br>Het bewaren van persoonsgegevens<br><br>Achieve bewaart uw persoonsgegevens niet langer dan strikt nodig is om de doelen te realiseren waarvoor uw gegevens worden verzameld.<br><br>Delen van persoonsgegevens met derden<br><br>Achieve verstrekt in het beginsel geen gegevens aan derden. Enkel wanneer dit nodig is om te voldoen aan een wettelijke verplichting. Of voor de uitvoering van onze overeenkomst met u.<br><br>Cookies, of vergelijkbare technieken, die wij gebruiken<br><br>Achieve gebruikt technische en functionele cookies. Voor meer informatie hierover verwijzen wij u graag naar ons Cookie beleid.<br><br>Gegevens inzien, aanpassen of verwijderen<br><br>U heeft het recht om uw persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heeft u het recht om uw eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van uw persoonsgegevens door Achieve en heeft u het recht op gegevensoverdraagbaarheid. Dat betekent dat u bij ons een verzoek kunt indienen om de persoonsgegevens die wij van u beschikken in een computerbestand naar u of een ander, door u genoemde organisatie, te sturen.<br><br>U kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van uw persoonsgegevens of verzoek tot intrekking van uw toestemming of bezwaar op de verwerking van uw persoonsgegevens sturen naar info@achieve.nl. Om er zeker van te zijn dat het verzoek tot inzage door u is gedaan, vragen wij u een kopie van uw identiteitsbewijs met het verzoek mee te sturen. Maak in deze kopie uw pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter bescherming van uw privacy. We reageren zo snel mogelijk, maar binnen vier weken, op uw verzoek.<br><br>Achieve wil u er tevens op wijzen dat u de mogelijkheid heeft om een klacht in te dienen bij de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link: <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons\">https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons</a><br><br>Toegang tot accounts<br><br>Om op een zo veilige mogelijke manier toegang tot u account te krijgen werken wij zonder gebruik van uw inloggegevens. U kunt via uw eigen account tijdelijk toegang geven aan ons. Daar zijn geen inloggegevens mee gemoeid. Op deze manier waarborgen we de veiligheid van uw gegevens. Tijdens analyses van uw campagne wijzigen wij vanzelfsprekend niets in uw account. Na de analyse kunt u gemakkelijk onze toegang tot uw account intrekken. De analyseresultaten worden enkel gedeeld met u als vast contactpersoon.<br><br>Hoe wij persoonsgegevens beveiligen<br><br>Achieve neemt de bescherming van uw gegevens serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Achieve maakt gebruik van diverse veiligheidsprocedures en de website zijn zodanig beveiligd dat deze omgeving zonder inlogcodes niet van buitenaf te benaderen is. Persoonsgegevens zijn verder beveiligd tegen ongewenst gebruik via een gebruikersnaam en een wachtwoord. Je kan je wachtwoord op elk ogenblik wijzigen in je Account.<br><br>Daarnaast is de omgeving zelf ook beveiligd. Deze beveiliging is te herkennen aan de vermelding ‘https’ in de URL (de webadres-balk) van uw browser alsmede door middel van de afbeelding van een gesloten slotje voor de domeinnaam.<br><br>Als u de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact op met onze klantenservice of via info@achieve.nl<br><br><strong>Wijziging van deze Verklaring</strong><br><br>Achieve behoudt zich het recht voor om wijzigingen aan te brengen in deze Privacy verklaring. Elke aanpassing zal op deze pagina worden gepubliceerd. Wij raden u aan deze Privacy verklaring geregeld te raadplegen, zodat u altijd van de inhoud van de geldende Privacy verklaring op de hoogte bent. Deze Privacy verklaring is voor het laatst gewijzigd op 29 september 2021.<br><br><strong>Achieve – Digital Agency</strong><br><br>Correspondentieadres:<br><br><br>Rivium Boulevard 2<br>2909 LK, Capelle aan den IJssel<br>Nederland<br><br><br>Tel: <strong>+31 85 4016590</strong><br>E-mail: info@achieve.nl<br><br><br>KvK nr. <strong>76815889</strong><br>BTW nr. NL003153126B65<br><br><br>Voor vragen over de Privacyverklaring kunt u altijd <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"contact\">contact</a> met ons opnemen.</p>",
+      "en": "<p><span style=\"color: rgb(0, 0, 0)\">You are visiting a website that is part of the Achieve online network. This privacy statement applies to all websites that belong to the Achieve network, hereinafter referred to as Achieve, unless stated otherwise. Achieve is responsible for the processing of personal data as shown in this privacy statement</span><br></p><p><span style=\"color: rgb(0, 0, 0)\">Personal data that we process</span></p><p><span style=\"color: rgb(0, 0, 0)\">Achieve processes your personal data because you use our services and/or because you provide it to us yourself. Below you will find an overview of the personal data we process:</span></p><p><span style=\"color: rgb(0, 0, 0)\">● Company name</span></p><p><span style=\"color: rgb(0, 0, 0)\">● Salutation</span></p><p><span style=\"color: rgb(0, 0, 0)\">● First and last name</span></p><p><span style=\"color: rgb(0, 0, 0)\">● Phone number</span></p><p><span style=\"color: rgb(0, 0, 0)\">● Email address</span></p><p><span style=\"color: rgb(0, 0, 0)\">● Company address</span></p><p><span style=\"color: rgb(0, 0, 0)\">● Payment information</span></p><p><span style=\"color: rgb(0, 0, 0)\">● Information about your activities on our websit</span><br></p><p><span style=\"color: rgb(0, 0, 0)\">Special and/or sensitive personal data that we process</span></p><p><span style=\"color: rgb(0, 0, 0)\">Our website and/or service does not intend to collect data about website visitors who are younger than 16 years of age. Unless they have permission from parents or guardians. However, we cannot check whether a visitor is older than 16. We therefore recommend that parents be involved in their children's online activities to prevent data about children from being collected without parental consent. If you are convinced that we have collected personal information about a minor without this consent, please contact us at </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:info@achieve.nl\"><span style=\"color: rgb(0, 0, 0)\">info@achieve.nl</span></a><span style=\"color: rgb(0, 0, 0)\"> and we will delete this information.</span><br></p><p><span style=\"color: rgb(0, 0, 0)\">For what purpose and on what basis do we process personal data?</span></p><p><span style=\"color: rgb(0, 0, 0)\">● When you place an order, we need your company name, own name, email address, company address and payment details to process your order and keep you informed of its progress.</span></p><p><span style=\"color: rgb(0, 0, 0)\">● To make the order process at Achieve as pleasant as possible, we store your personal data and data relating to your order and your use of our services with your permission. This allows us to personalize the website and improve it for your benefit.</span></p><p><span style=\"color: rgb(0, 0, 0)\">● We use your e-mail address to inform you about the development of its website and to keep you informed of special offers and promotions. If you no longer wish to receive this, you can unsubscribe on our website.</span></p><p><span style=\"color: rgb(0, 0, 0)\">● Data about the use of our site and the feedback we receive from our visitors help us to further develop and improve our site.</span></p><p><span style=\"color: rgb(0, 0, 0)\">● If you decide to write a review, you can choose whether to add your name or other personal information. We are curious about the opinions of our visitors. We do reserve the right to moderate contributions that do not meet our site conditions.</span></p><p><span style=\"color: rgb(0, 0, 0)\">● When sending an online form or quote request, we ask for your contact details so that we can respond to your question/quote. By providing your email address and/or telephone number, you give permission for us to contact you personally for follow-up.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0)\">Automated decision making</span></p><p><span style=\"color: rgb(0, 0, 0)\">Achieve does not make decisions based on automated processing on matters that could have (significant) consequences for people. This concerns decisions that are taken by computer programs or systems, without a human being involved (for example an Achieve employee).</span><br></p><p><span style=\"color: rgb(0, 0, 0)\">Retention of personal data</span></p><p><span style=\"color: rgb(0, 0, 0)\">Achieve does not store your personal data for longer than is strictly necessary to achieve the purposes for which your data is collected.</span><br></p><p><span style=\"color: rgb(0, 0, 0)\">Sharing personal data with third parties</span></p><p><span style=\"color: rgb(0, 0, 0)\">In principle, Achieve does not provide data to third parties. Only when this is necessary to comply with a legal obligation. Or for the execution of our agreement with you.</span></p><p><span style=\"color: rgb(0, 0, 0)\">Cookies, or similar techniques, that we use</span></p><p><span style=\"color: rgb(0, 0, 0)\">Achieve uses technical and functional cookies. For more information about this, please refer to our Cookie Policy.</span></p><p><span style=\"color: rgb(0, 0, 0)\">&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0)\">View, adjust or delete data</span></p><p><span style=\"color: rgb(0, 0, 0)\">You have the right to view, correct or delete your personal data. In addition, you have the right to withdraw your consent to data processing or to object to the processing of your personal data by Achieve and you have the right to data portability. This means that you can submit a request to us to send the personal data we have about you in a computer file to you or another organization mentioned by you.</span></p><p><span style=\"color: rgb(0, 0, 0)\">You can send a request for access, correction, deletion, data transfer of your personal data or request for withdrawal of your consent or objection to the processing of your personal data to </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:info@achieve.nl\"><span style=\"color: rgb(0, 0, 0)\">info@achieve.nl</span></a><span style=\"color: rgb(0, 0, 0)\">. To ensure that the request for access has been made by you, we ask you to enclose a copy of your proof of identity with the request. Make your passport photo, MRZ (machine readable zone, the strip with numbers at the bottom of the passport), passport number and Citizen Service Number (BSN) black in this copy. This is to protect your privacy. We will respond to your request as quickly as possible, but within four weeks.</span></p><p><span style=\"color: rgb(0, 0, 0)\">Achieve would also like to point out that you have the option to file a complaint with the national supervisory authority, the Dutch Data Protection Authority. This can be done via the following link: </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons\"><span style=\"color: rgb(0, 0, 0)\">https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons</span></a></p><p><span style=\"color: rgb(0, 0, 0)\">Access to accounts</span></p><p><span style=\"color: rgb(0, 0, 0)\">To gain access to your account in the most secure way possible, we work without using your login details. You can grant us temporary access via your own account. No login details are involved. In this way we guarantee the security of your data. We will of course not change anything in your account during analyzes of your campaign. After the analysis, you can easily revoke our access to your account. The analysis results are only shared with you as a permanent contact person.</span></p><p><span style=\"color: rgb(0, 0, 0)\">&nbsp;</span></p><p><span style=\"color: rgb(0, 0, 0)\">How we protect personal data</span></p><p><span style=\"color: rgb(0, 0, 0)\">Achieve takes the protection of your data seriously and takes appropriate measures to prevent misuse, loss, unauthorized access, unwanted disclosure and unauthorized modification. Achieve uses various security procedures and the website is secured in such a way that this environment cannot be accessed from outside without login codes. Personal data is further protected against unwanted use via a username and password. You can change your password at any time in your Account.</span></p><p><span style=\"color: rgb(0, 0, 0)\">In addition, the environment itself is also secured. This security can be recognized by the entry 'https' in the URL (the web address bar) of your browser as well as by the image of a closed lock in front of the domain name.</span></p><p><span style=\"color: rgb(0, 0, 0)\">If you have the impression that your data is not properly secured or there are indications of misuse, please contact our customer service or via </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:info@achieve.nl\"><span style=\"color: rgb(0, 0, 0)\">info@achieve.nl</span></a><br></p><p><span style=\"color: rgb(0, 0, 0)\">Changes to this Statement</span></p><p><span style=\"color: rgb(0, 0, 0)\">Achieve reserves the right to make changes to this Privacy Statement. Any changes will be published on this page. We recommend that you consult this Privacy Statement regularly, so that you are always aware of the contents of the applicable Privacy Statement. This Privacy Statement was last modified on September 29, 2021</span></p><p></p><p><span style=\"color: rgb(0, 0, 0)\">Achieve - Digital Agency</span></p><p><span style=\"color: rgb(0, 0, 0)\">Correspondence address:</span></p><p><span style=\"color: rgb(0, 0, 0)\">Rivium Boulevard 2</span></p><p><span style=\"color: rgb(0, 0, 0)\">2909 LK Capelle aan den IJssel</span></p><p><span style=\"color: rgb(0, 0, 0)\">The Netherlands</span></p><p></p><p><span style=\"color: rgb(0, 0, 0)\">Tel: +31 85 4016590</span></p><p><span style=\"color: rgb(0, 0, 0)\">Email: </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:info@achieve.nl\"><span style=\"color: rgb(0, 0, 0)\">info@achieve.nl</span></a></p><p></p><p><span style=\"color: rgb(0, 0, 0)\">Chamber of Commerce number 76815889</span></p><p><span style=\"color: rgb(0, 0, 0)\">VAT no. NL003153126B65</span></p><p></p><p><span style=\"color: rgb(0, 0, 0)\">If you have any questions about the Privacy Statement, you can always contact us.</span></p>"
+    },
+    "title": "Privacy policy",
+    "id": 1
+  },
+  "sales": {
+    "_id": 21,
+    "fullName": "R Pu",
+    "profession": {
+      "en": "Online marketing agency owner",
+      "nl": "Online marketing bureau eigenaar"
+    },
+    "message": {
+      "en": "\"The collaboration went very well. The work was delivered quickly, but above all with a super quality! You don't see that combination very often. Achieve is definitely recommended!\"",
+      "nl": "\"De samenwerking is erg goed bevallen. Snel het werk opgeleverd, maar ook vooral met een super kwaliteit! Die combinatie zie je niet vaak. Achieve is zeker een aanrader!\""
+    }
+  },
+  "services": {
+    "_id": 5,
+    "description": {
+      "en": "With Social Advertising you make paid advertising on social media such as Facebook, Instagram and LinkedIn. Thanks to the large amount of usable data on these platforms, you can advertise very specifically on, for example, demographics, geography and the interests of your target groups. We then use that data to find similar people, retarget people you've interacted with and continue to expand your reach. With all these factors you can build a community, increase brand awareness, boost your reach on the social platforms and increase conversions. This makes social advertising a very valuable advertising tool.",
+      "nl": "Bij Social Advertising maak je betaald reclame op social media zoals Facebook, Instagram en LinkedIn. Dankzij de grote hoeveelheid bruikbare data op deze platformen, kan je zeer gericht adverteren op bijvoorbeeld demografie, geografie en de interesses van jouw doelgroepen. Die data gebruiken we vervolgens om soortgelijke mensen te vinden, mensen waarmee je interactie hebt gehad te retargetten en jouw bereik steeds verder uit te bouwen. Met al deze factoren kun je een community bouwen, naamsbekendheid vergroten, je bereik op de sociale platformen boosten en conversies vergroten. Hierdoor is social advertising een zeer waardevol advertentiemiddel."
+    },
+    "title": {
+      "en": "Social Media Advertising",
+      "nl": "Social Media Advertising"
+    },
+    "image": "https://storage.googleapis.com/achieve-bucket/e4c6bbca-57e9-48d8-b99d-fb9d551c05e6social ad.webp",
+    "id": 5
+  },
+  "settings": {
+    "_id": 1,
+    "btnhovercolor": "#1C2262",
+    "image": "https://storage.googleapis.com/achieve-bucket/d276071e-71e3-4fea-9602-77f707dde2e6homo.png",
+    "caseLogo": {
+      "url": "https://storage.googleapis.com/achieve-bucket/72584110-3ccd-430f-86e1-2603d37b5474email.png"
+    }
+  },
+  "siteInfo": {
+    "_id": 1,
+    "title": "Achieve - Digital Agency",
+    "email": "info@achieve.nl",
+    "phone": "+31 (0) 85 4016590",
+    "address": "Rivium Boulevard 2; 2909 LK, Capelle a/d IJssel",
+    "facebook": "https://www.facebook.com/achieve.nl/",
+    "twitter": "https://twitter.com/",
+    "instagram": "https://www.instagram.com/achieve.nl/",
+    "linkedin": "https://www.linkedin.com/company/achieve-nl/",
+    "caseLogo": {
+      "url": "/images/data/siteInfo/d1f83980-83b8-4ad7-89dc-aab41c5eb74c.webp"
+    },
+    "image": "/images/data/siteInfo/5e2dd257-0048-4ce7-8fb2-8c147891d096.webp",
+    "logo": "https://storage.googleapis.com/achieve-bucket/5df19b19-7492-4985-a7d9-a16be25cc06ede7c7bce7d53037a75cf9f903fe17688a47ebdb6-380x89.webp",
+    "pictures": "https://storage.googleapis.com/achieve-bucket/b00de7f6-2bdd-4e5b-9ebb-178967de2a262b987b74ee85d574d5384f5bf1e8f901fe28b5f0-380x88.webp",
+    "youtube": "https://www.youtube.com/@achievenl"
+  },
+  "socialMediaFeedback": {
+    "_id": 2,
+    "slug": "eriktest",
+    "posts": [
+      {
+        "state": "unset",
+        "rating": null,
+        "image": "https://res.cloudinary.com/achievenl/image/upload/v1692094412/achieve/lqdq42b1uuu2hmncxuhp.png",
+        "feedback": null
+      },
+      {
+        "state": "unset",
+        "rating": null,
+        "image": "https://res.cloudinary.com/achievenl/image/upload/v1692094417/achieve/mgymwkwz60lunvpohyi5.png",
+        "feedback": null
+      },
+      {
+        "state": "unset",
+        "rating": null,
+        "image": "https://res.cloudinary.com/achievenl/image/upload/v1692094421/achieve/w6dwybc9npicjnr90lpc.png",
+        "feedback": null
+      },
+      {
+        "state": "unset",
+        "rating": null,
+        "image": "https://res.cloudinary.com/achievenl/image/upload/v1692094425/achieve/cho6o3iiplbtcssedrfe.png",
+        "feedback": null
+      }
+    ]
+  },
+  "socialMediaManagement": {
+    "_id": 12,
+    "slug": "test",
+    "category": "content-creation",
+    "enabled": true
+  },
+  "socialMediaManagementNew": {
+    "_id": 12,
+    "enabled": true,
+    "category": "social-media-management",
+    "slug": "QLAY-PRO",
+    "posts": [
+      {
+        "state": "approved",
+        "postText": "Op zoek naar het perfecte Moederdagcadeau? 💐\nVerwen haar met de ultieme stylingtool: de 6-in-1 QLAYPRO Airstyler! 🌟\nGeef haar lokken een stralende, veerkrachtige en bloeiende look in verschillende stijlen, allemaal moeiteloos bereikt met één buitengewoon hulpmiddel. Of haar haar nu kort of lang is, gekruld of steil, deze innovatieve hairwrap zorgt keer op keer voor de perfecte look. 🎁\nMeer weten? Zie link in de bio!\n#QLAYPRO #Moederdagcadeau #Haarverzorging#AirWrap #MultiStyler #HairCare #HairTransformation #EndlessPossibilities #airstyler #hairstyler\n",
+        "rating": null,
+        "feedback": null,
+        "image": [
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719911/achieve/jwlrnqo6zkhwlv1fbi7l.jpg"
+          }
+        ]
+      },
+      {
+        "state": "approved",
+        "postText": "Nieuwsgierig of de Airstyler PRO geschikt is voor jouw haar? 💁\nJa zeker! Onze Airstyler Pro is perfect voor alle haartypes, of je haar nu dun, dik, krullend, golvend of steil is. Pas eenvoudig de temperatuur aan op basis van je haar voor de beste resultaten. En voor de lengte? De opzetstukken zijn ideaal voor haar tot op de schouder of langer. Laat je haar stralen met de #QLAYPRO Airstyler! 💁‍️💁\nMeer weten? Zie link in de bio!\n#AirWrap #MultiStyler #HairCare #HairTransformation #EndlessPossibilities #multistyler #airstyler #hairstyle",
+        "rating": 1,
+        "feedback": "",
+        "image": [
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719912/achieve/xdeh5pev4g1udfz1yeuy.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719914/achieve/ggs0yicejyshd2c7rrtv.jpg"
+          }
+        ],
+        "prevPostText": "Nieuwsgierig of de Airstyler PRO geschikt is voor jouw haar? 💁\nJa zeker! Onze Airstyler Pro is perfect voor alle haartypes, of je haar nu dun, dik, krullend, golvend of steil is. Pas eenvoudig de temperatuur aan op basis van je haar voor de beste resultaten. En voor de lengte? De opzetstukken zijn ideaal voor haar tot op de schouder of langer. Laat je haar stralen met de #QLAYPRO Airstyler! 💁‍️💁\nMeer weten? Zie link in de bio!\n#AirWrap #MultiStyler #HairCare #HairTransformation #EndlessPossibilities #multistyler #airstyler #hairstyle"
+      },
+      {
+        "state": "approved",
+        "postText": "Geef je haar een boost met de QLAYPRO Volume Borstel! ‍\nTransformeer je haarstijl met deze veelzijdige tool, die deel uitmaakt van de 6 opzetstukken\nvan de QLAYPRO Airstyler. Voor een volumineuze look die indruk maakt! 💁‍️✨ Ontdek vandaag nog jouw favoriete stijl! 💫\nMeer weten? Zie link in de bio!\n#QLAYPRO #VolumeBorstel #AirWrap #MultiStyler #HairCare #HairTransformation #EndlessPossibilities #airstyler #hairstyle\n",
+        "rating": null,
+        "feedback": null,
+        "image": [
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719915/achieve/jp8o9kxcv1itembvqezk.jpg"
+          }
+        ]
+      },
+      {
+        "state": "approved",
+        "postText": "Ontdek de geheime kracht van de QLAY PRO Airstyler! 💫\nCreëer moeiteloos schitterende krullen en diverse stijlen met deze ultieme hairstyling tool, die de expertise van kapsalons naar jouw huis brengt. Geliefd bij professionals én perfect voor thuisgebruik, deze geavanceerde airstyler maakt elke styling sessie een feestje! 🎉\nEn goed nieuws: nu met 50% korting! 💥 Mis het niet! Meer weten? Zie link in de bio!\n#QLAYPRO #AirWrap #MultiStyler #HairCare #HairTransformation #EndlessPossibilities #multistyler #airstyler #hairstyler\n",
+        "rating": null,
+        "feedback": null,
+        "image": [
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719917/achieve/bslvizxezausbaa7r9ju.jpg"
+          }
+        ]
+      },
+      {
+        "state": "approved",
+        "postText": "Transformeer je haarroutine met de QLAYPRO Airstyler!💁‍\nMet 6 diverse opzetstukken, van volumeborstels tot een innovatief krulopzetstuk, zijn de stylingmogelijkheden eindeloos voor elk haartype en lengte.\nOntdek je nieuwe favoriete look vandaag nog! 💁‍💁‍ Meer weten? Zie link in de bio!\n#QLAYPRO #HairTransformation #EndlessPossibilities #multistyler #airstyler #hairstyle",
+        "rating": null,
+        "feedback": null,
+        "image": [
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719918/achieve/zgu1quzfuxvmmhktznr6.jpg"
+          }
+        ]
+      },
+      {
+        "state": "approved",
+        "postText": "Zeg vaarwel tegen pluizig haar met onze krachtige gladmakende borstel! 💁‍️🔥 Onze stevige borstelharen zorgen voor een strakke en gladde look, elke keer weer.\nGeef je haar de perfecte finishing touch en straal met zelfvertrouwen! ❄ Meer weten? Zie link in de bio!\n#QLAYPRO #GladHaar #Haarverzorging #Haarverzorging#AirWrap #MultiStyler #HairCare #HairTransformation #EndlessPossibilities #airstyler #hairstyler",
+        "rating": null,
+        "feedback": null,
+        "image": [
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719920/achieve/lmq2nx66ngkbnreqgzja.jpg"
+          }
+        ]
+      },
+      {
+        "state": "approved",
+        "postText": "Ontdek de geheimen van perfect gestylde krullen met onze innovatieve Coldshot-Functie! ❄💁\nDeze krachtige knop levert een stroom koude lucht om je krullen te fixeren en de styling te verzegelen. Zo blijven je krullen niet alleen mooi gevormd, maar ook langer in model, voor een langdurige, salonwaardige look! 💁‍️💇\nLaat je krullen stralen en bestel vandaag nog! ‍ Meer weten? Zie link in de bio!\n#QLAYPRO #Haarverzorging #Haarverzorging#AirWrap #MultiStyler #HairCare #HairTransformation #EndlessPossibilities #airstyler #hairstyler",
+        "rating": null,
+        "feedback": null,
+        "image": [
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719921/achieve/qp6pxjj6nrbcvgh4tjwd.jpg"
+          }
+        ]
+      },
+      {
+        "state": "approved",
+        "postText": "Klaar om je haarstijl naar een hoger niveau te tillen? 💇‍️Ontdek nu de Airstyler PRO met onze exclusieve 30 dagen trial! 🌟\nGeef jezelf de kans om moeiteloos te stylen, krullen of glad te maken en ervaar het verschil. Probeer het vandaag nog en ontdek waarom deze tool een gamechanger is! 💫\nMeer weten? Zie link in de bio!\n#QLAYPRO #Haarverzorging #Haarverzorging#AirWrap #MultiStyler #HairCare #HairTransformation #EndlessPossibilities #airstyler #hairstyler #30DaysTrial",
+        "rating": null,
+        "feedback": null,
+        "image": [
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719922/achieve/mozyur0shc96sznjk4f5.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719924/achieve/cvrig6uxa0pisji4imbp.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719925/achieve/yj2nun6ef2hdzjdl3gpe.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719926/achieve/oha3jxhoqvizsh2kiz5m.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719927/achieve/kajygs4cdludjdvi2wuo.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719928/achieve/fe0tnc3hq6le0k3pfgir.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719930/achieve/zcwis94d4fc3vk2txwgm.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719931/achieve/rcy8fmorsmek2towukrf.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719933/achieve/ciabuecrntzpuignayvd.jpg"
+          }
+        ]
+      },
+      {
+        "state": "approved",
+        "postText": "Story’s",
+        "rating": null,
+        "feedback": null,
+        "image": [
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719934/achieve/rlg1ydofzhoudo3r6kyv.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719936/achieve/mnjgecjed3ftkywmu3he.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719939/achieve/uxyorl02xjvnq2jhnp9n.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719941/achieve/zuze6d80uuazxjkagt9h.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719942/achieve/tcnpryow8boxdjsr0nht.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719944/achieve/wb7a0b2jysgwie3bl0fu.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719946/achieve/k5sasx672g0qwhh7rxyo.jpg"
+          },
+          {
+            "url": "https://res.cloudinary.com/achievenl/image/upload/v1714719947/achieve/pmnylyklfs0i39htavwl.jpg"
+          }
+        ]
+      }
+    ],
+    "id": 12
+  },
+  "staffTestimonials": {
+    "_id": 11,
+    "fullName": "Stef Doelman",
+    "profession": {
+      "en": "Ecommerce",
+      "nl": "Ecommerce"
+    },
+    "message": {
+      "en": "During the past internship year, I saw and did a lot. The guidance from Karim was always excellent and pleasant. That's why I would definitely recommend everyone to intern here!",
+      "nl": "In het afgelopen stagejaar heb ik veel gezien en gedaan. De begeleiding van Karim was altijd top en fijn. Daarom zou ik dus iedereen ook aanraden om hier stage te lopen!"
+    },
+    "id": 11
+  },
+  "teams": {
+    "_id": 23,
+    "name": "Ricardo",
+    "image": "https://res.cloudinary.com/achievenl/image/upload/v1751895215/achieve/qjk7cqyk3tbncbqmddss.webp",
+    "profession": {
+      "en": "Online marketer",
+      "nl": "Online marketer"
+    },
+    "email": "ricardo@achieve.nl",
+    "id": 23
+  },
+  "terms": {
+    "_id": 1,
+    "body": {
+      "nl": "<p><strong>Artikel 1. Definities</strong><br><br>In de navolgende bepalingen wordt verstaan onder:<br><br>1.1. Achieve: een eenmanszaak<br><br>Achieve, kantoorhoudende te Rivium Boulevard 2, 2909 LK Capelle aan den IJssel, Nederland en ingeschreven bij de Kamer van Koophandel onder dossiernummer 76815889.<br><br>1.2. Opdrachtgever: de natuurlijke of rechtspersoon die handelt in de uitoefening van beroep of bedrijf en die met Achieve een overeenkomst heeft afgesloten.<br><br>1.3. Algemene Voorwaarden: het geheel van de bepalingen als hierna opgenomen.<br><br>1.4. Overeenkomst: elke wederzijdse acceptatie, telefonisch, schriftelijk of per e-mail bevestigd, van levering van één of meer producten of diensten van Achieve.<br><br><strong>Artikel 2. Toepasselijkheid</strong><br><br>2.1 Deze Voorwaarden zijn van toepassing op alle overeenkomsten die tussen Achieve en een Opdrachtgever gesloten worden, alsmede op iedere in dat kader door een Opdrachtgever aan Achieve verstrekte opdracht.<br><br>2.2 Voor zover daarvan in onderlinge overeenstemming tussen partijen niet schriftelijk is afgeweken, zijn onderstaande artikelen in deze Algemene Voorwaarden van toepassing op elke aanbieding, offerte, opdracht of overeenkomst van of met Achieve.<br><br>2.3 De onderhavige voorwaarden zijn eveneens van toepassing op overeenkomsten met Achieve voor de uitvoering waarvan door Achieve derden dienen te worden betrokken.<br><br>2.4 Eventuele inkoop- of andere voorwaarden van opdrachtgever c.q. derden zijn voor Achieve niet bindend en de toepasselijkheid van dergelijke voorwaarden wordt uitdrukkelijk uitgesloten.<br><br>2.5 Door het verstrekken van een opdracht – het zij telefonisch hetzij schriftelijk – erkent de opdrachtgever van de inhoud van deze Algemene Voorwaarden op de hoogte te zijn en verklaart hij zich daarmee akkoord, indien en voor zover het bestaan van deze Algemene Voorwaarden tevoren aan hem is medegedeeld of indien er bij de offerte en/of bij de telefonische of schriftelijke orderbevestiging naar werd verwezen.<br><br>2.6 Indien één of meerdere bepalingen in deze Algemene Voorwaarden op enig moment geheel of gedeeltelijk nietig zijn of vernietigd mochten worden, dan blijft het overige in deze Algemene Voorwaarden bepaalde volledig van toepassing. Achieve en de Opdrachtgever zullen alsdan in overleg treden teneinde nieuwe bepalingen ter vervanging van de nietige of vernietigde bepalingen overeen te komen, waarbij zoveel als mogelijk het doel en de strekking van de oorspronkelijke bepalingen in acht wordt genomen.<br><br>2.7 Indien onduidelijkheid bestaat omtrent de uitleg van één of meerdere bepalingen van deze Algemene Voorwaarden, dan dient de uitleg plaats te vinden ‘naar de geest’ van deze bepalingen.<br><br>2.8 Indien zich tussen partijen een situatie voordoet die niet in deze Algemene Voorwaarden geregeld is, dan dient deze situatie te worden beoordeeld naar de geest van deze Algemene Voorwaarden.<br><br>2.9 Indien Achieve niet steeds strikte naleving van deze Voorwaarden verlangt, betekent dit niet, dat de bepalingen daarvan niet van toepassing zijn, of dat Achieve in enigerlei mate het recht zou verliezen om in andere gevallen de stipte naleving van de bepalingen van deze voorwaarden te verlangen.<br><br><strong>Artikel 3. Offertes en aanbiedingen</strong><br><br>3.1 Alle offertes en aanbiedingen van Achieve hebben een geldigheidsduur van 30 dagen, tenzij in de offerte een ander termijn voor aanvaarding is gesteld.<br><br>3.2 Indien blijkt dat de bij de aanvraag of overeenkomst door Opdrachtgever verstrekte gegevens onjuist waren heeft Achieve het recht de prijzen hierover aan te passen.<br><br>3.3 Achieve kan niet aan haar offertes of aanbiedingen worden gehouden indien de Opdrachtgever redelijkerwijs kan begrijpen dat de offertes of aanbiedingen, dan wel een onderdeel daarvan, een kennelijke vergissing of verschrijving bevat.<br><br>3.4 De in een offerte of aanbieding vermelde prijzen zijn exclusief BTW en andere heffingen van overheidswege, eventuele in het kader van de overeenkomst te maken kosten, daaronder begrepen reis- en verblijf-, verzend- en administratiekosten, tenzij anders aangegeven.<br><br>3.5 Indien de aanvaarding (al dan niet op ondergeschikte punten) afwijkt van het in de offerte of de aanbieding opgenomen aanbod dan is Achieve daaraan niet gebonden. De Overeenkomst komt dan niet overeenkomstig deze afwijkende aanvaarding tot stand, tenzij Achieve anders aangeeft.<br><br>3.6 Een samengestelde prijsopgave verplicht Achieve niet tot het verrichten van een gedeelte van de opdracht tegen een overeenkomstig gedeelte van de opgegeven prijs. Aanbiedingen of offertes gelden niet automatisch voor toekomstige orders.<br><br><strong>Artikel 4. Totstandkoming en uitvoering van de overeenkomst</strong><br><br>4.1 Een overeenkomst komt tot stand op het moment dat:<br><br>Indien een opdracht tot uitvoering van onze diensten telefonisch wordt verleend:<br><br>Opdrachtgever, na de initieel aan de afdeling Verkoop telefonisch verstrekte opdracht tot uitvoering van onze diensten, in een daarop volgend bevestigingsgesprek van Achieve nogmaals nadrukkelijk telefonisch akkoord voor uitvoering van deze opdracht geeft, welk gesprek, met toestemming van opdrachtgever, als bewijs van opdrachtverstrekking als geluidsopname digitaal wordt opgenomen en opgeslagen.<br><br>Indien een opdracht tot uitvoering van onze diensten schriftelijk wordt verleend:<br><br>opdrachtgever een bestelformulier heeft ingevuld en/of zijn akkoord heeft opgestuurd middels e-mail, website, post of fax en de ontvangst en acceptatie van zijn akkoord en daarmee de opdracht door Achieve telefonisch dan wel per e-mail aan opdrachtgever is bevestigd.<br><br>4.2 Achieve heeft het recht bepaalde werkzaamheden te laten verrichten door derden. De toepasselijkheid van de artikelen 7:404, 7:407 lid 2 en 7:409 BW wordt uitdrukkelijk uitgesloten.<br><br>4.3 Achieve is gerechtigd de overeenkomst in verschillende fasen uit te voeren en het aldus uitgevoerde gedeelte afzonderlijk te factureren.<br><br>4.4 Indien de overeenkomst in fasen wordt uitgevoerd kan Achieve de uitvoering van die onderdelen die tot een volgende fase behoren opschorten totdat de Opdrachtgever de resultaten van de daaraan voorafgaande fase schriftelijk heeft goedgekeurd.<br><br>4.5 De Opdrachtgever draagt er zorg voor dat alle gegevens, waarvan Achieve aangeeft dat deze noodzakelijk zijn of waarvan de Opdrachtgever redelijkerwijs behoort te begrijpen dat deze noodzakelijk zijn voor het uitvoeren van de overeenkomst, tijdig aan Achieve worden verstrekt.<br><br><strong>Artikel 5. Duur, beëindiging en annulering</strong><br><br>5.1 De Overeenkomst gaat in per besteldatum van de dienst door Opdrachtgever en wordt aangegaan voor de minimumduur van 3 maanden na factuurdatum, tenzij nadrukkelijk anders afgesproken.<br><br>5.2 Tenzij schriftelijk anders overeengekomen, is de Overeenkomst na het verstrijken van deze termijn maandelijks opzegbaar. De Overeenkomst kan ten alle tijden worden opgezegd, daarbij moet in acht worden genomen dat de minimumduur van het contract wel wordt voltooid. Daarbij wordt een opzegtermijn van één maand gehanteerd. Restitutie over al vooruit betaalde jaarkosten is niet mogelijk.<br><br>5.3 Na akkoord is annulering niet meer toegestaan en is de Opdrachtgever verplicht zich te houden aan alle in de Overeenkomst gemaakte afspraken.<br><br>5.4 Achieve is bevoegd de Overeenkomst te ontbinden indien:<br><br>de Opdrachtgever de verplichtingen uit de Overeenkomst niet, niet volledig of niet tijdig nakomt<br>na het sluiten van de Overeenkomst Achieve ter kennis gekomen omstandigheden goede grond geven te vrezen dat de Opdrachtgever de verplichtingen niet zal nakomen;<br><br>de Opdrachtgever bij het sluiten van de Overeenkomst verzocht is om zekerheid te stellen voor de voldoening van zijn verplichtingen uit de Overeenkomst en deze zekerheid uitblijft of onvoldoende is;<br>door vertraging aan de zijde van de Opdrachtgever niet langer van Achieve kan worden gevergd dat hij de Overeenkomst tegen de oorspronkelijk overeengekomen condities zal nakomen.<br>5.5 Voorts is Achieve bevoegd de Overeenkomst te ontbinden indien zich omstandigheden voordoen welke van dien aard zijn dat nakoming van de Overeenkomst onmogelijk is of indien er zich anderszins omstandigheden voordoen die van dien aard zijn dat ongewijzigde instandhouding van de Overeenkomst in redelijkheid niet van Achieve kan worden gevergd.<br><br>5.6 Indien de Overeenkomst wordt ontbonden zijn de vorderingen van Achieve op de Opdrachtgever onmiddellijk opeisbaar.<br><br>5.7 Indien Achieve tot ontbinding overgaat, is zij op generlei wijze gehouden tot vergoeding van schade en kosten daardoor op enigerlei wijze ontstaan.<br><br>5.8 Indien de ontbinding aan de Opdrachtgever toerekenbaar is, is Achieve gerechtigd tot vergoeding van de schade, daaronder begrepen de kosten, daardoor direct en indirect ontstaan.<br><br>5.9 Indien de Opdrachtgever zijn uit de Overeenkomst voortvloeiende verplichtingen niet nakomt en deze niet-nakoming ontbinding rechtvaardigt, dan is Achieve gerechtigd de Overeenkomst terstond en met directe ingang te ontbinden zonder enige verplichting zijnerzijds tot betaling van enige schadevergoeding of schadeloosstelling, terwijl de Opdrachtgever, uit hoofde van wanprestatie, wél tot schadevergoeding of schadeloosstelling is verplicht.<br><br>5.10 Indien de Overeenkomst tussentijds wordt opgezegd door Achieve, zal Achieve in overleg met de Opdrachtgever zorgdragen voor overdracht van nog te verrichten werkzaamheden aan derden. Dit tenzij de opzegging aan de Opdrachtgever toerekenbaar is. Indien de overdracht van de werkzaamheden voor Achieve extra kosten met zich meebrengt, dan worden deze aan de Opdrachtgever in rekening gebracht. De Opdrachtgever is gehouden deze kosten binnen de daarvoor genoemde termijn te voldoen, tenzij Achieve anders aangeeft.<br><br>5.11 Onverminderd hetgeen in de voorgaande leden is bepaald, is Achieve gerechtigd de Overeenkomst zonder ingebrekestelling of gerechtelijke tussenkomst met onmiddellijke ingang te ontbinden indien:<br><br>De Opdrachtgever in staat van faillissement is verklaard, surseance van betaling heeft aangevraagd of verkregen of anderszins het vrije beheer of zijn vermogen heeft verloren.<br><br>de Opdrachtgever oneigenlijk gebruik maakt van de door Achieve aangeboden producten en diensten, als het opslaan en/of verspreiden van mp3, warez of het versturen van ongevraagde e-mail (SPAM).<br>de Opdrachtgever informatie verspreidt die in strijd is met (inter)nationale wet- en regelgeving.<br>de Opdrachtgever informatie verspreidt die in strijd is met de algemeen aanvaarde normen en waarden.<br>de Opdrachtgever informatie verspreidt die discriminerend is ten aanzien van uiterlijk, ras, religie, geslacht, cultuur, afkomst of anderszins kwetsend genoemd kan worden.<br><br><strong>Artikel 6. Werkzaamheden Google Ads</strong><br><br>6.1 Een deel van de werkzaamheden van de campagnemanager bestaat uit het monitoren van de campagne en het analyseren van data. Een ander deel van de werkzaamheden is terug te vinden in de wijzigingsgeschiedenis van het Google Ads-account.<br><br>6.2 Indien Opdrachtgever zijn campagne/account wilt opschorten dan wel geen budget heeft, loopt de managementfee door onafhankelijk van de vraag of de campagne wel of niet aanstaat.<br><br>Indien Opdrachtnemer een account opzet waarbij Opdrachtnemer ook het budget betaalt, blijft dit eigendom van Opdrachtnemer; het kan ook na beëindiging van het contract niet worden overgedragen.<br><br>6.3 Indien Opdrachtnemer in opdracht van Opdrachtgever een account aanmaakt en Opdrachtgever rechtstreeks met Google afrekent, wordt Opdrachtgever eigenaar van het account.<br><br>6.4 Opdrachtgever blijft zelf verantwoordelijk voor de volledige SEA-campagne, waaronder gebruikte zoekwoorden en teksten van advertenties.<br><br>6.5 Opdrachtnemer kan niet aansprakelijk gesteld worden voor afgekeurde advertentieteksten, gederfde omzet voor het niet live staan van een campagne, vermindering van conversies dan wel van website-/webshop-omzet of voor andere negatieve gevolgen.<br><br>6.6 Google Ads is een advertentieprogramma van Google en niet van Opdrachtnemer. Deze onderhoudt en optimaliseert een campagne zo goed mogelijk maar is hierbij altijd afhankelijk van hoe dit programma zich gedraagt. Opdrachtgever dient zich te houden aan de regelgeving van Google Ads.<br><br>6.7 Posities met Google Ads ontstaan op basis van een biedsysteem, waardoor Opdrachtnemer nooit garanties op bepaalde posities kan geven.<br><br>6.8 Het is Opdrachtgever niet toegestaan gedurende de contractsduur te adverteren of te laten adverteren op zoekmachines waarop Opdrachtnemer een campagne voor Opdrachtgever heeft lopen met advertenties die linken naar dezelfde website(s) als de advertenties die Opdrachtnemer voor Opdrachtgever geplaatst heeft.<br><br>6.9 Het uitvoeren van werkzaamheden door een derde (webbouwer) of door Opdrachtgever zelf aan de website ten gunste van de SEA-campagne (plaatsen van scripts ten behoeve van meten conversies, Analytics, etc.) gebeurt onder verantwoordelijkheid van Opdrachtgever en niet die van Opdrachtnemer. Opdrachtnemer is niet verantwoordelijk voor het missen van data als een script niet (goed) geplaatst is door Opdrachtgever/webbouwer of externe partij.<br><br>6.10 Opdrachtnemer is niet aansprakelijk indien bepaalde Google Ads-functionaliteiten niet in werking gesteld kunnen worden vanwege beperkingen van de website/het cms dan wel vanwege de beperking van de producten van de Opdrachtgever (zoals bij producten zonder EAN-nummers).<br><br>6.11 Opdrachtnemer is niet aansprakelijk voor de (negatieve) gevolgen met betrekking tot de campagne of de resultaten, indien die gevolgen veroorzaakt worden door aanpassingen op de website of Google Ads campagne door Opdrachtgever en/of derden.<br><br><strong>Artikel 7. Meerwerk</strong><br><br>7.1 Indien tijdens de uitvoering van de Overeenkomst blijkt, dat het voor een behoorlijke uitvoering noodzakelijk is om de te verrichten werkzaamheden te wijzigen of aan te vullen, zullen partijen tijdig en in onderling overleg de Overeenkomst dienovereenkomstig aanpassen.<br><br>7.2 Indien partijen overeenkomen dat de Overeenkomst wordt gewijzigd of aangevuld, kan het tijdstip van voltooiing van de uitvoering daardoor worden beïnvloed. Achieve zal Opdrachtgever zo spoedig mogelijk hiervan op de hoogte stellen.<br><br><strong>Artikel 8. Beschikbaarheid en beheer van de dienst</strong><br><br>8.1 Achieve zal zich jegens de Opdrachtgever inspannen om de beschikbaarheid en bruikbaarheid van de diensten zo groot mogelijk te laten zijn.<br><br>8.2 Achieve zal eventuele storingen zo snel mogelijk (laten) verhelpen. Achieve kan geen onbelemmerde toegang tot haar producten en diensten garanderen, noch dat te allen tijde gebruik gemaakt kan worden van de overige door Achieve geleverde diensten.<br><br>8.3 Achieve is in het geheel niet aansprakelijk voor vermissing, verwisseling, of beschadiging van gegevens door het gebruik van de diensten, daaronder begrepen via het netwerk van Achieve verzonden (e-mail) berichten.<br><br>8.4 De Opdrachtgever zal geen toegang tot de diensten kunnen verkrijgen op tijdstippen dat onderhoud- en/of reparatiewerkzaamheden aan de diensten moeten worden verricht. Achieve zal zich inspannen deze werkzaamheden te laten plaatsvinden op tijden dat de Opdrachtgever daarvan de minste hinder ondervindt.<br><br>8.5 Achieve is met het oog op het behoud en/of verbetering van de kwaliteit en veiligheid van de diensten, gerechtigd in haar apparatuur, programmatuur alsmede in haar wijze van dienstverlening, wijzigingen aan te brengen.<br><br>8.6 Achieve spant zich in om de gegevens die Opdrachtgever opslaat op de apparatuur van Achieve zodanig te beveiligen dat deze gegevens niet beschikbaar zijn voor onbevoegde personen.<br><br>8.7 Zonder toestemming van Achieve is het Opdrachtgever verboden de door Achieve verschafte gebruikersnaam of gebruikersnamen en wachtwoord of wachtwoorden aan derden over te dragen.<br><br><strong>Artikel 9. Aansprakelijkheid</strong><br><br>9.1 Achieve aanvaardt geen enkele aansprakelijkheid voortvloeiende uit de buitengebruikstelling als gesteld in lid 4 van artikel 8.<br><br>9.2 Achieve kan niet aansprakelijk gesteld worden voor schade in welke vorm dan ook veroorzaakt door het verzenden van vertrouwelijke of geheime informatie. Achieve is niet aansprakelijk voor beveiliging of misbruik door derden van gegevens die worden verzonden of ontvangen.<br><br>9.3 Achieve kan niet aansprakelijk worden gesteld voor het op enigerwijs verloren gaan van digitaal opgeslagen informatie. Achieve behoudt zich het recht voor van haar Opdrachtgevers te verwachten dat digitaal opgeslagen informatie op een deugdelijke wijze en recentelijk voorafgaand aan de overeengekomen werkzaamheden hebben opgeslagen op een duplicaat.<br><br>9.4 Wijzigingen in de gegevens van opdrachtgever dient opdrachtgever schriftelijk mede te delen aan Achieve. Als opdrachtgever dit niet doet, is opdrachtgever aansprakelijk voor eventuele schade die Achieve als gevolg daarvan lijdt.<br><br>9.5 Opdrachtgever verklaart door het aanleveren van tekst- en/of beeldmateriaal aan Achieve, dat al het door Opdrachtgever aan Achieve verstrekte materiaal vrij is van rechten van derden, dan wel dat Opdrachtgever toestemming heeft van de rechthebbende(n) om het materiaal door Achieve te laten gebruiken bij de uitvoering van de opdracht.<br><br>9.6 Indien Achieve, onverminderd het voorgaande, aansprakelijk mocht zijn, dan is deze aansprakelijkheid beperkt tot hetgeen in de leden 7 tot en met 11 van dit artikel is geregeld, een en ander behoudens schade die te wijten is aan opzet of grove schuld aan de zijde van Achieve.<br><br>9.7 Achieve is niet aansprakelijk voor schade, van welke aard ook, ontstaan doordat Achieve is uitgegaan van door of namens de Opdrachtgever verstrekte onjuiste en/of onvolledige gegevens.<br><br>9.8 Indien Achieve aansprakelijk mocht zijn voor enigerlei schade, dan is de aansprakelijkheid van Achieve beperkt tot maximaal eenmaal de factuurwaarde van de order, althans tot dat gedeelte van de order waarop de aansprakelijkheid betrekking heeft.<br><br>9.9 De aansprakelijkheid van Achieve is in ieder geval steeds beperkt tot het bedrag der uitkering van zijn verzekeraar in voorkomend geval.<br><br>9.10 Achieve is uitsluitend aansprakelijk voor directe schade.<br><br>9.11 Onder directe schade wordt uitsluitend verstaan de redelijke kosten ter vaststelling van de oorzaak en de omvang van de schade, voor zover de vaststelling betrekking heeft op schade in de zin van deze voorwaarden, de eventuele redelijke kosten gemaakt om de gebrekkige prestatie van Achieve aan de overeenkomst te laten beantwoorden, voor zoveel deze aan Achieve toegerekend kunnen worden en redelijke kosten, gemaakt ter voorkoming of beperking van schade, voor zover de Opdrachtgever aantoont dat deze kosten hebben geleid tot beperking van directe schade als bedoeld in deze algemene voorwaarden. Achieve is nimmer aansprakelijk voor indirecte schade, daaronder begrepen gevolgschade, gederfde winst, gemiste besparingen en schade door bedrijfsstagnatie.<br><br><strong>Artikel 10. Vrijwaring</strong><br><br>10.1 De Opdrachtgever vrijwaart Achieve voor eventuele aanspraken van derden, die in verband met de uitvoering van de Overeenkomst schade lijden en waarvan de oorzaak aan andere dan aan Achieve toerekenbaar is. Indien Achieve uit dien hoofde door derden mocht worden aangesproken, dan is de Opdrachtgever gehouden Achieve zowel buiten als in rechte bij te staan en onverwijld al hetgeen te doen dat van hem in dat geval verwacht mag worden. Mocht de Opdrachtgever in gebreke blijven in het nemen van adequate maatregelen, dan is Achieve, zonder ingebrekestelling, gerechtigd zelf daartoe over te gaan. Alle kosten en schade aan de zijde van Achieve en derden daardoor ontstaan, komen integraal voor rekening en risico van de Opdrachtgever.<br><br><strong>Artikel 11. Prijzen</strong><br><br>11.1 Alle prijzen zijn exclusief omzetbelasting (BTW) en andere heffingen welke van overheidswege worden opgelegd.<br><br>11.2 Alle prijzen op de website, offertes en overige documenten van Achieve zijn onder voorbehoud van typefouten. Voor de gevolgen van typefouten wordt geen aansprakelijkheid aanvaard.<br><br>11.3 De door de Opdrachtgever te betalen vergoeding is gebaseerd op het tarief als vermeld in de Overeenkomst. Achieve behoudt zich het recht voor tarieven tussentijds te wijzigen en zal de Opdrachtgever hiervan dertig (30) dagen van tevoren op de hoogte stellen. Indien de Opdrachtgever een tariefswijziging niet wenst te accepteren, heeft hij het recht om binnen zeven dagen na de in dit artikel genoemde kennisgeving de Overeenkomst waarop de tariefswijziging betrekking heeft schriftelijk op te zeggen. De opzegging dient per aangetekende brief te geschieden.<br><br><strong>Artikel 12. Levertijd</strong><br><br>12.1 Een door Achieve opgegeven termijn voor het volbrengen van de opdracht heeft een indicatieve strekking, tenzij uit de aard of de inhoud van de Overeenkomst anders blijkt.<br><br>12.2 Vervaardiging en publicatie van een campagne of dienst geschiedt zo spoedig mogelijk na totstandkoming van de Overeenkomst en aanlevering van gegevens en tekst- en/of beeldmateriaal, of op een later af te spreken tijdstip.<br><br>12.3 Is voor de voltooiing van bepaalde werkzaamheden een termijn overeengekomen, dan is dit nimmer een fatale termijn. Bij overschrijding van de leveringstermijn dient Opdrachtgever Achieve derhalve schriftelijk in gebreke te stellen en Achieve een redelijke termijn te stellen haar verplichtingen alsnog na te komen.<br><br>12.4 De door Achieve opgegeven leveringstermijn vangt eerst aan nadat alle benodigde gegevens en zaken in haar bezit zijn.<br><br><strong>Artikel 13. Wijziging opdracht</strong><br><br>13.1 Alle wijzigingen in de opdracht, hetzij in opdracht van Opdrachtgever, hetzij als gevolg van het feit dat door welke omstandigheden dan ook een andere uitvoering noodzakelijk is, worden wanneer daaraan meerdere kosten verbonden zijn als meerwerk beschouwd en voor zover daaruit minder kosten bestaan als minderwerk. Deze worden overeenkomstig gefactureerd aan Opdrachtgever.<br><br>13.2 Indien Achieve, door omstandigheden ten tijde van de offerte of de opdrachtbevestiging onbekend, meer werk moet verrichten dan overeengekomen, of werkzaamheden dient te verrichten onder omstandigheden bezwaarlijker dan hem bij het aangaan van de overeenkomst bekend was, is Achieve gerechtigd de daaruit voortvloeiende meerdere kosten aan Opdrachtgever in rekening te brengen. Indien Opdrachtgever zich niet met de betrokken meerkosten kan verenigen heeft hij het recht het nog niet uitgevoerde gedeelte van de opdracht te annuleren.<br><br><strong>Artikel 14. Intellectuele eigendomsrechten</strong><br><br>14.1 Alle rechten van Intellectuele eigendom op alle krachtens de Overeenkomst ontwikkelde of ter beschikking gestelde programmatuur, apparatuur of andere materialen zoals analyses, ontwerpen, documentatie, rapporten, offertes, alsmede voorbereidend materiaal daarvan, berusten uitsluitend bij Achieve.<br><br>14.2 Het auteursrecht van door Achieve ontworpen of vervaardigde campagnes, advertenties en teksten blijft ten alle tijden bij Achieve berusten, tenzij anders schriftelijk is overeengekomen.<br><br>14.3 De Opdrachtgever verkrijgt uitsluitend een niet-exclusief en niet-overdraagbaar gebruiksrecht met betrekking tot het Intellectuele eigendom voor de duur van de Overeenkomst.<br><br>14.4 De Opdrachtgever onthoudt zich van het verveelvoudigen en/of openbaar maken en/of verspreiden van de programmatuur en de daarbij behorende andere materialen. Het is de Opdrachtgever niet toegestaan enige aanduiding omtrent auteursrechten, merken, handelsnamen of andere rechten van intellectuele eigendom uit de programmatuur, apparatuur of materialen te verwijderen of te wijzigen.<br><br>14.5 Het is Achieve toegestaan technische maatregelen te nemen ter bescherming van de Programmatuur. Indien Achieve door middel van technische bescherming de Programmatuur heeft beveiligd, is het de Opdrachtgever niet toegestaan deze beveiliging te verwijderen of te ontwijken.<br><br><strong>Artikel 15. Gebruiksrechten</strong><br><br>15.1 Onverminderd het bepaalde in artikel 14 verleent Achieve Opdrachtgever het niet- exclusieve recht tot het gebruik van de programmatuur. Opdrachtgever zal de tussen partijen overeengekomen gebruiksbeperkingen steeds stipt naleven. Onverminderd het overigens in deze Algemene Voorwaarden bepaalde, omvat het gebruiksrecht van Opdrachtgever uitsluitend het recht de programmatuur te laden en uit te voeren.<br><br>15.2 Het gebruiksrecht is niet overdraagbaar. Het is Opdrachtgever niet toegestaan de programmatuur en dragers waarop deze is vastgelegd te verkopen, te verhuren, te sublicentiëren, te vervreemden of daarop beperkte rechten te verlenen of op welke wijze of voor welk doel dan ook ter beschikking van een derde te stellen, ook niet indien de betreffende derde de programmatuur uitsluitend ten behoeve van Opdrachtgever gebruikt, tenzij anders schriftelijk overeengekomen.<br><br>15.3 De broncode van de programmatuur en de bij de ontwikkeling van de programmatuur voortgebrachte technische documentatie worden niet aan Opdrachtgever ter beschikking gesteld, tenzij anders schriftelijk overeengekomen.<br><br><strong>Artikel 16. Betalingsvoorwaarden</strong><br><br>16.1 Alle facturen dienen binnen 14 dagen na factuurdatum te worden voldaan op de wijze zoals op de factuur aangegeven, tenzij schriftelijk anders is overeengekomen.<br><br>16.2 Achieve zal niet in verzuim geraken door de enkele late verzending van een factuur. Het enkele feit dat Opdrachtgever niet binnen de in lid 1 vermelde termijn een factuur van Achieve ontvangt, zal nimmer tot gevolg hebben dat Opdrachtgever geen vergoeding ter zake de verleende dienst verschuldigd is en impliceert evenmin op enigerlei wijze afstand van recht door Achieve op betaling.<br><br>16.3 Indien automatische incasso is overeengekomen, wordt het bedrag na toestemming van Opdrachtgever automatisch geïncasseerd ten laste van het rekeningnummer van Opdrachtgever en ten gunste van IBAN nummer NL21 KNAB 0259 9950 29 ten name van Achieve. De automatische incasso vindt ineens plaats en binnen 14 dagen na factuurdatum.<br><br>16.4 Indien automatische incasso niet mogelijk blijkt te zijn, zal Opdrachtgever daarvan op de hoogte worden gesteld en is Opdrachtgever gehouden het niet-geïncasseerde bedrag binnen 14 dagen na factuurdatum alsnog aan Achieve te voldoen.<br><br>16.5 Indien en zodra de betalingstermijn van 14 dagen verstrijkt, zonder dat Achieve de gehele betaling heeft ontvangen, zal Opdrachtgever – zonder nadere ingebrekestelling – in verzuim verkeren, tenzij schriftelijk een andere betalingstermijn is overeengekomen. Na het verstrijken van 30 dagen na de factuurdatum zal het factuurbedrag alsdan verhoogd worden met administratiekosten ad €17,50. Vanaf het moment van verzuim tot aan het moment van integrale voldoening van het verschuldigde is Opdrachtgever tevens de wettelijke handelsrente verschuldigd.<br><br>16.6 Vanaf het moment waarop Opdrachtgever in verzuim verkeert, zal Opdrachtgever tevens aansprakelijk zijn voor de als gevolg daarvan door Achieve te maken buitengerechtelijke incassokosten, die gelijk aan 15% van het factuurbedrag worden geacht te zijn, met een minimum van €40,- per factuur. Indien en voor zover de daadwerkelijk door Achieve gemaakte incassokosten hoger zijn dan 15% van het factuurbedrag, is Achieve gerechtigd deze daadwerkelijke kosten aan Opdrachtgever in rekening te brengen, een en ander in plaats van de fictieve incassokosten en voor zover in redelijkheid gemaakt.<br><br>16.7 Opdrachtgever is nimmer bevoegd om enige betaling voortvloeiende uit de Overeenkomst op te schorten dan wel te verrekenen met enige vordering die Opdrachtgever op enig moment mocht hebben op Achieve.<br><br>16.8 Mocht zich op enig moment ten aanzien van Opdrachtgever de situatie voordoen van liquidatie, faillissement, beslag of surséance van betaling, dan worden alle verbintenissen van Opdrachtgever voortvloeiend uit de Overeenkomst en alle overige tussen partijen bestaande overeenkomsten onmiddellijk en in het geheel opeisbaar. Hetzelfde geldt mutatis mutandis voor het geval waarin Opdrachtgever in verzuim is met enige uit de Overeenkomst voortvloeiende verbintenis.<br><br>16.9 Achieve heeft het recht de door Opdrachtgever gedane betalingen te laten strekken in de eerste plaats in mindering van de kosten, vervolgens in mindering van de opengevallen rente en tenslotte in mindering van de hoofdsom en de lopende rente. Achieve kan, zonder daardoor in verzuim te komen, een aanbod tot betaling weigeren, indien Opdrachtgever een andere volgorde voor de toerekening van de betaling aanwijst. Achieve kan volledige aflossing van de hoofdsom weigeren, indien daarbij niet eveneens de opengevallen en lopende rente en incassokosten worden voldaan.<br><br>16.10 Indien Opdrachtgever namens een derde een Overeenkomst is aangegaan, blijft deze Opdrachtgever jegens Achieve aansprakelijk voor nakoming van alle verplichtingen voortvloeiende uit de Overeenkomst. Bij gebreke van betaling door Opdrachtgever is de derde gehouden op eerste verzoek voor betaling aan Achieve zorg te dragen.<br><br><strong>Artikel 17. Overmacht</strong><br><br>17.1 Achieve is niet gehouden tot het nakomen van enige verplichting jegens de Opdrachtgever indien hij daartoe gehinderd wordt als gevolg van een omstandigheid die niet is te wijten aan schuld, en noch krachtens de wet, een rechtshandeling of in het verkeer geldende opvattingen voor zijn rekening komt.<br><br>17.2 Onder overmacht wordt in deze algemene voorwaarden verstaan, naast hetgeen daaromtrent in de wet en jurisprudentie wordt begrepen, alle van buitenkomende oorzaken, voorzien of niet-voorzien, waarop Achieve geen invloed kan uitoefenen, doch waardoor Achieve niet in staat is zijn verplichtingen na te komen. Werkstakingen in het bedrijf van Achieve of van derden daaronder begrepen. Achieve heeft ook het recht zich op overmacht te beroepen indien de omstandigheid die (verdere) nakoming van de overeenkomst verhindert, intreedt nadat Achieve zijn verbintenis had moeten nakomen.<br><br>17.3 Achieve kan gedurende de periode dat de overmacht voortduurt de verplichtingen uit de overeenkomst opschorten. Indien deze periode langer duurt dan twee maanden, dan is ieder der partijen gerechtigd de overeenkomst te ontbinden, zonder verplichting tot vergoeding van schade aan de andere partij.<br><br>17.4 Voor zoveel Achieve ten tijde van het intreden van overmacht zijn verplichtingen uit de overeenkomst inmiddels gedeeltelijk is nagekomen of deze zal kunnen nakomen, en aan het nagekomen respectievelijk na te komen gedeelte zelfstandige waarde toekomt, is Achieve gerechtigd om het reeds nagekomen respectievelijk na te komen gedeelte separaat te factureren. De Opdrachtgever is gehouden deze factuur te voldoen als ware er sprake van een afzonderlijke overeenkomst.<br><br><strong>Artikel 18. Opschorting</strong><br><br>18.1 Bij het achterwege blijven van juiste of tijdige nakoming van een of meer van zijn verplichtingen, zal de Opdrachtgever zonder voorafgaande ingebrekestelling, en zonder dat daar enige aansprakelijkheid van Achieve uit voortvloeit, in verzuim zijn, waardoor de verplichtingen van Achieve tot nakoming van haar eigen verplichtingen automatisch en onmiddellijk opgeschort worden totdat hetgeen de Opdrachtgever verschuldigd is volledig is voldaan, met inbegrip van betaling van eventuele rente en kosten (schadevergoeding daaronder begrepen).<br><br><strong>Artikel 19. Reclamatie</strong><br><br>19.1 Gedurende de overeengekomen contractperiode zal Achieve naar beste vermogen eventuele technische gebreken in de website en/of webapplicatie gratis herstellen, indien deze gedetailleerd omschreven schriftelijk door de opdrachtgever bij Achieve zijn gemeld. Achieve kan haar gebruikelijke tarieven en kosten in rekening brengen indien sprake is van gebruiksfouten of onoordeelkundig gebruik of van andere niet aan Achieve toe te rekenen oorzaken.<br><br>19.2 Achieve behoeft geen gebreken in de website en/of webapplicatie te herstellen indien deze zijn veroorzaakt door Opdrachtgever zelf, door derden of door gewijzigde omstandigheden, waarvan Achieve ten tijde van het sluiten van de overeenkomst niet wist of behoorde te weten.<br><br>19.3 De verplichting zoals vermeld in dit artikel vervalt indien Opdrachtgever zonder toestemming van Achieve wijzigingen in de software en broncodes aanbrengt of doet aanbrengen, alsmede indien de opdrachtgever op enige wijze zelf zonder schriftelijke toestemming van Achieve een gebrek tracht te herstellen.<br><br>19.4 Reclamatie schort de verplichting van Opdrachtgever tot nakoming van de verplichtingen van opdrachtgever niet op.<br><br><strong>Artikel 20. Wijzigingen in Algemene Voorwaarden</strong><br><br>20.1 Achieve heeft het recht deze Algemene Voorwaarden te wijzigen.<br><br>20.2 Wijzigingen gelden ook ten aanzien van reeds gesloten overeenkomsten met inachtneming van een termijn van 30 dagen na bekendmaking van de wijziging op de website van Achieve of per elektronische berichtgeving.<br><br>20.3 Indien Opdrachtgever een wijziging in deze voorwaarden niet wil accepteren, kan hij tot de datum waarop de nieuwe voorwaarden van kracht worden de Overeenkomst ontbinden tegen deze datum of op de ontvangstdatum van de opzegging indien deze na de ingangsdatum van de wijziging is.<br><br><strong>Artikel 21. Slotbepalingen</strong><br><br>21.1 Op de Overeenkomst is Nederlands recht van toepassing.<br><br>21.2 Verandering in management of rechtsvorm hebben geen invloed op de Overeenkomst.<br><br>21.3 Voor zover door de regels van dwingend recht niet anders wordt voorgeschreven, zullen alle geschillen die mochten ontstaan naar aanleiding van de overeenkomst worden voorgelegd aan de bevoegde rechter te Rotterdam.<br><br></p><h3><strong>Achieve</strong></h3><p><br>Correspondentieadres:<br><br>Rivium Boulevard 2<br><br>2909 LK, Rotterdam<br><br>Nederland<br><br>Tel: +31 85 4016590<br><br>E-mail: info@achieve.nl<br><br>KvK nr. 76815889<br><br>BTW nr. NL003153126B65<br><br>Voor vragen over de Algemene Voorwaarden kunt u altijd <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"contact\">contact</a> met ons opnemen.<br><br>Wil je ook groeien op basis van data en de kracht van creativiteit? Neem <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"contact\">contact</a> met ons op voor de mogelijkheden.</p>",
+      "en": "<p><span style=\"color: rgb(110, 110, 110)\">Article 1. Definitions</span></p><p><span style=\"color: rgb(110, 110, 110)\">In the provisions below, the following definitions apply:</span></p><p><span style=\"color: rgb(110, 110, 110)\">1.1. Achieve: a&nbsp; company registered in the Netherlands, with offices at Zuidplein 54, 3083 CW Rotterdam, the Netherlands and registered with the Chamber of Commerce under number 76815889.</span></p><p><span style=\"color: rgb(110, 110, 110)\">1.2. Client: the natural or legal person who acts in the exercise of a profession or business and who has concluded an agreement with Achieve.</span></p><p><span style=\"color: rgb(110, 110, 110)\">1.3. General Terms and Conditions: the entirety of the provisions as included below.</span></p><p><span style=\"color: rgb(110, 110, 110)\">1.4. Agreement: any mutual acceptance, confirmed by telephone, in writing or by e-mail, of the delivery of one or more products or services of Achieve.</span></p><p><span style=\"color: rgb(110, 110, 110)\">1.5 Software: All software code that was created by Achieve, such as website pages, application programming interfaces (API) or mobile applications.</span></p><p></p><p><span style=\"color: rgb(110, 110, 110)\">Article 2. Applicability</span></p><p><span style=\"color: rgb(110, 110, 110)\">2.1 These Terms and Conditions apply to all agreements concluded between Achieve and a Client, as well as to every assignment given to Achieve by a Client in that context.</span></p><p><span style=\"color: rgb(110, 110, 110)\">2.2 Insofar as the parties have not deviated from this in writing by mutual agreement, the articles below in these General Terms and Conditions apply to every offer, quotation, assignment or agreement of or with Achieve.</span></p><p><span style=\"color: rgb(110, 110, 110)\">2.3 The present terms and conditions also apply to agreements with Achieve for the execution of which third parties must be involved by Achieve.</span></p><p><span style=\"color: rgb(110, 110, 110)\">2.4 Any purchase or other conditions of or by the Client or third parties are not binding to Achieve and the applicability of such conditions is expressly excluded.</span></p><p><span style=\"color: rgb(110, 110, 110)\">2.5 By placing an order – be it by telephone or in writing – the Client acknowledges to be aware of the contents of these General Terms and Conditions and declares to agree with them, if and insofar as the existence of these General Terms and Conditions has been notified to him in advance or if reference was made to it in the quotation and/or in the telephone or written order confirmation.</span></p><p><span style=\"color: rgb(110, 110, 110)\">2.6 If one or more provisions in these General Terms and Conditions are at any time wholly or partially invalid or should be destroyed, the other provisions of these General Terms and Conditions will remain fully applicable. Achieve and the Client will then enter into consultation in order to agree on new provisions to replace the void or voided provisions, taking into account as much as possible the purpose and intent of the original provisions.</span></p><p><span style=\"color: rgb(110, 110, 110)\">2.7 If there is uncertainty about the interpretation of one or more provisions of these General Terms and Conditions, the explanation must be given 'in the spirit' of these provisions.</span></p><p><span style=\"color: rgb(110, 110, 110)\">2.8 If a situation arises between the parties that is not regulated in these General Terms and Conditions, this situation must be assessed in the spirit of these General Terms and Conditions.</span></p><p><span style=\"color: rgb(110, 110, 110)\">2.9 If Achieve does not always require strict compliance with these Conditions, this does not mean that the provisions thereof do not apply, or that Achieve would to any extent lose the right to demand strict compliance with the provisions of these Conditions in other cases. .</span></p><p><span style=\"color: rgb(110, 110, 110)\">&nbsp;</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 3. Proposals and offers</span></p><p><span style=\"color: rgb(110, 110, 110)\">3.1 All proposals and offers from Achieve are valid for 30 days, unless a different term for acceptance is stated in the proposal.</span></p><p><span style=\"color: rgb(110, 110, 110)\">3.2 If it appears that the information provided by the Client with the application or agreement was incorrect, Achieve has the right to adjust the prices accordingly.</span></p><p><span style=\"color: rgb(110, 110, 110)\">3.3 Achieve cannot be held to its proposals or offers if the Client can reasonably understand that the proposals or offers, or a part thereof, contain an obvious mistake or error.</span></p><p><span style=\"color: rgb(110, 110, 110)\">3.4 The prices stated in a proposal or offer are exclusive of VAT and other government levies,and exclusive of any costs to be incurred in the context of the agreement, including travel and accommodation, shipping and administration costs, unless indicated otherwise.</span></p><p><span style=\"color: rgb(110, 110, 110)\">3.5 If the acceptance (whether or not on minor points) deviates from the offer included in the quotation or offer, Achieve is not bound by it. The Agreement will then not be concluded in accordance with this deviating acceptance, unless Achieve indicates otherwise.</span></p><p><span style=\"color: rgb(110, 110, 110)\">3.6 A composite proposal&nbsp; does not oblige Achieve to perform a singled out part of the assignment for a corresponding part of the stated price. Offers or quotations do not automatically apply to future orders.</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 4. Conclusion and implementation of the agreement</span></p><p><span style=\"color: rgb(110, 110, 110)\">4.1 An agreement is concluded when:</span></p><p><em><span style=\"color: rgb(110, 110, 110)\">If an order to perform our services is given by telephone:</span></em></p><p><span style=\"color: rgb(110, 110, 110)\">The Client, after initially given permission by telephone to perform our services, in a subsequent confirmation interview from Achieve once again expressly agrees by telephone for the execution of this assignment, which conversation, with the Client's permission, serves as proof of assignment as a sound recording which is digitally recorded and stored.</span></p><p><em><span style=\"color: rgb(110, 110, 110)\">If an order to perform our services is given in writing:</span></em></p><p><span style=\"color: rgb(110, 110, 110)\">The Client has completed an order form and/or has sent it his agreement by e-mail, website, post or fax and the receipt and acceptance of his agreement and thus the assignment has been confirmed by Achieve to the Client by telephone or e-mail.</span></p><p><span style=\"color: rgb(110, 110, 110)\">4.2 Achieve has the right to have certain activities performed by third parties. The applicability of articles 7:404, 7:407 paragraph 2 and 7:409 of the Dutch Civil Code is expressly excluded.</span></p><p><span style=\"color: rgb(110, 110, 110)\">4.3 Achieve is entitled to execute the agreement in different phases and to invoice the part thus executed separately.</span></p><p><span style=\"color: rgb(110, 110, 110)\">4.4 If the agreement is executed in phases, Achieve can suspend the execution of those parts that belong to a following phase until the Client has approved the results of the preceding phase in writing.</span></p><p><span style=\"color: rgb(110, 110, 110)\">4.5 The Client will ensure that all data, which Achieve indicates are necessary or which the Client should reasonably understand to be necessary for the execution of the agreement, are provided to Achieve in a timely manner.</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 5. Duration, termination and cancellation</span></p><p><span style=\"color: rgb(110, 110, 110)\">5.1 The Agreement takes effect on the order date of the service by the Client and is entered into for a minimum duration of 3 months after the invoice date, unless expressly agreed otherwise.</span></p><p><span style=\"color: rgb(110, 110, 110)\">5.2 Unless otherwise agreed in writing, the Agreement can be cancelled monthly after the expiry of this term. The Agreement can be terminated at any time, taking into account that the minimum duration of the contract is completed. A notice period of one month is used. Refunds on any annual costs already paid in advance are not possible.</span></p><p><span style=\"color: rgb(110, 110, 110)\">5.3 After approval, cancellation is no longer permitted and the Client is obliged to adhere to all agreements made in the Agreement.</span></p><p><span style=\"color: rgb(110, 110, 110)\">5.4 Achieve is authorized to dissolve the Agreement if:</span></p><ol><li><p><span style=\"color: rgb(110, 110, 110)\">the Client does not, not fully or not timely fulfill the obligations under the Agreement</span></p></li></ol><p><span style=\"color: rgb(110, 110, 110)\">Circumstances that have come to the attention of Achieve after the conclusion of the Agreement give good grounds to fear that the Client will not fulfill its obligations;</span></p><ol><li><p><span style=\"color: rgb(110, 110, 110)\">upon entering into the Agreement, the Client was requested to provide security for the fulfillment of its obligations under the Agreement and this security is not provided or is insufficient;</span></p></li><li><p><span style=\"color: rgb(110, 110, 110)\">due to delays on the part of the Client, Achieve can no longer be expected to fulfill the Agreement under the originally agreed conditions.</span></p></li></ol><p></p><p><span style=\"color: rgb(110, 110, 110)\">5.5 Furthermore, Achieve is authorized to dissolve the Agreement if circumstances arise of such a nature that fulfillment of the Agreement is impossible or if other circumstances arise that are of such a nature that unaltered fullfillment of the Agreement cannot reasonably be expected of Achieve. required.</span></p><p><span style=\"color: rgb(110, 110, 110)\">5.6 If the Agreement is dissolved, Achieve's claims against the Client are immediately due and payable.</span></p><p><span style=\"color: rgb(110, 110, 110)\">5.7 If Achieve proceeds to dissolution, it is in no way obliged to compensate damage and costs incurred in any way as a result.</span></p><p><span style=\"color: rgb(110, 110, 110)\">5.8 If the dissolution is attributable to the Client, Achieve is entitled to compensation for the damage, including the costs, incurred directly and indirectly as a result.</span></p><p><span style=\"color: rgb(110, 110, 110)\">5.9 If the Client fails to fulfill its obligations under the Agreement and this non-compliance justifies dissolution, Achieve is entitled to dissolve the Agreement immediately and with immediate effect without any obligation on its part to pay any compensation or indemnification, while the Client, on account of breach of contract, is obliged to pay compensation or indemnification.</span></p><p><span style=\"color: rgb(110, 110, 110)\">5.10 If the Agreement is terminated prematurely by Achieve, Achieve will arrange for the transfer of work still to be performed to third parties in consultation with the Client. This unless the termination is attributable to the Client. If the transfer of the work entails additional costs for Achieve, these will be charged to the Client. The Client is obliged to pay these costs within the specified term, unless Achieve indicates otherwise.</span></p><p><span style=\"color: rgb(110, 110, 110)\">5.11 Without prejudice to the provisions of the previous paragraphs, Achieve is entitled to dissolve the Agreement with immediate effect without notice of default or judicial intervention if:</span></p><ul><li><p><span style=\"color: rgb(110, 110, 110)\">The Client has been declared bankrupt, has applied for or obtained a moratorium or has otherwise lost free management or its assets.</span></p></li><li><p><span style=\"color: rgb(110, 110, 110)\">the Client makes improper use of the products and services offered by Achieve.</span></p></li><li><p><span style=\"color: rgb(110, 110, 110)\">the Client disseminates information that is in conflict with (inter)national laws and regulations.</span></p></li><li><p><span style=\"color: rgb(110, 110, 110)\">the Client disseminates information that conflicts with generally accepted standards and values.</span></p></li><li><p><span style=\"color: rgb(110, 110, 110)\">the Client disseminates information that is discriminatory with regard to appearance, race, religion, sex, culture, origin or can otherwise be called offensive.</span></p></li></ul><p></p><p><span style=\"color: rgb(110, 110, 110)\">Article 6. Google Ads activities</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.1 Part of the campaign manager's work consists of monitoring the campaign and analyzing data. Another part of the work can be found in the change history of the Google Ads account.</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.2 If the Client wishes to suspend its campaign/account or has no budget, the management fee will continue regardless of whether the campaign is enabled or not.</span></p><p><span style=\"color: rgb(110, 110, 110)\">If Achieve sets up an account where Achieve also pays the budget, this remains the property of Achieve; it cannot be transferred even after termination of the contract.</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.3 If Achieve creates an account on behalf of the Client and the Client settles directly with Google, the Client will become the owner of the account.</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.4 The Client remains responsible for the entire SEA campaign, including used keywords and texts of advertisements.</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.5 Achieve cannot be held liable for rejected advertisement texts, lost turnover due to a campaign not being live, reduction of conversions or website/webshop turnover or for other negative consequences.</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.6 Google Ads is an advertising program of Google and not of Achieve. This maintains and optimizes a campaign as well as possible, but always depends on how this program behaves. The Client must comply with the regulations of Google Ads.</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.7 Positions with Google Ads are created on the basis of a bidding system, which means that Achieve can never give guarantees on certain positions.</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.8 During the term of the contract, the Client is not permitted to advertise or have advertised on search engines on which Achieve has run a campaign for the Client with advertisements that link to the same website(s) as the advertisements that Achieve has placed for the Client.</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.9 The performance of work by a third party (web builder) or by the Client itself on the website for the benefit of the SEA campaign (placement of scripts for measuring conversions, Analytics, etc.) is the responsibility of the Client and not that of Achieve. Achieve is not responsible for missing data if a script is not (properly) placed by the Client/web builder or external party.</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.10 Achieve is not liable if certain Google Ads functionalities cannot be activated due to limitations of the website/cms or due to the limitation of the Client's products.</span></p><p><span style=\"color: rgb(110, 110, 110)\">6.11 Achieve is not liable for the (negative) consequences with regard to the campaign or the results, if those consequences are caused by adjustments to the website or Google Ads campaign by the Client and/or third parties.</span></p><p></p><p><span style=\"color: rgb(110, 110, 110)\">Article 7. Additional work</span></p><p><span style=\"color: rgb(110, 110, 110)\">7.1 If during the execution of the Agreement it appears that it is necessary for a proper execution to change or supplement the work to be performed, the parties will adjust the Agreement accordingly in good time and in mutual consultation.</span></p><p><span style=\"color: rgb(110, 110, 110)\">7.2 If the parties agree that the Agreement will be amended or supplemented, the time of completion of the execution may be affected as a result. Achieve will inform the Client of this as soon as possible.</span></p><p><span style=\"color: rgb(110, 110, 110)\">&nbsp;</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 8. Availability and management of the service</span></p><p><span style=\"color: rgb(110, 110, 110)\">8.1 Achieve will make every effort towards the Client to ensure that the availability and usability of the services are as high as possible.</span></p><p><span style=\"color: rgb(110, 110, 110)\">8.2 Achieve will remedy any malfunctions as soon as possible. Achieve cannot guarantee unimpeded access to its products and services, nor that the other services provided by Achieve can be used at all times.</span></p><p><span style=\"color: rgb(110, 110, 110)\">8.3 Achieve is in no way liable for loss, confusion or damage to data through the use of the services, including (e-mail) messages sent via Achieve's network.</span></p><p><span style=\"color: rgb(110, 110, 110)\">8.4 The Client will not be able to gain access to the services at times when maintenance and/or repair work must be performed on the services. Achieve will make every effort to have these activities take place at times when the Client is least inconvenienced.</span></p><p><span style=\"color: rgb(110, 110, 110)\">8.5 With a view to maintaining and/or improving the quality and safety of the services, Achieve is entitled to make changes to its equipment, software and the way in which it provides services.</span></p><p><span style=\"color: rgb(110, 110, 110)\">8.6 Achieve makes every effort to secure the data that the Client stores on Achieve's equipment in such a way that this data is not available to unauthorized persons.</span></p><p><span style=\"color: rgb(110, 110, 110)\">8.7 The Client is prohibited from transferring the username or usernames and password or passwords provided by Achieve to third parties without Achieve's permission.</span></p><p><span style=\"color: rgb(110, 110, 110)\">&nbsp;</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 9. Liability&nbsp;</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.1 Achieve does not accept any liability arising from the decommissioning as stated in paragraph 4 of article 8.</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.2 Achieve cannot be held liable for damage in any form whatsoever caused by sending confidential or secret information. Achieve is not liable for security or misuse by third parties of data sent or received.</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.3 Achieve cannot be held liable for any loss of digitally stored information. Achieve reserves the right to expect its Clients to have copied&nbsp; digitally stored information in a proper manner and recently on a duplicate data carrier prior to the agreed work.</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.4 Changes in the Client's data must be communicated to Achieve in writing by the Client. If the Client does not do this, the Client is liable for any damage that Achieve suffers as a result.</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.5 By supplying text and/or image material to Achieve, the Client declares that all material provided by the Client to Achieve is free from third-party rights, or that the Client has permission from the rightful claimant(s) for the material to be used by Achieve in the execution of the assignment.</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.6 If Achieve, without prejudice to the foregoing, should be liable, then this liability is limited to what is regulated in paragraphs 7 to 11 of this article, except for damage that can be attributed to intent or gross negligence on the part of Achieve.</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.7 Achieve is not liable for damage, of whatever nature, caused by Achieve relying on incorrect and/or incomplete information provided by or on behalf of the Client.</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.8 If Achieve should be liable for any damage, Achieve's liability is limited to a maximum of the invoice value of the order, at least to that part of the order to which the liability relates, minus any third party cost that Achieved invoiced on behalf of that third party..</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.9 Achieve's liability is in any case always limited to the amount paid out by its insurer, where appropriate.</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.10 Achieve is only liable for direct damage.</span></p><p><span style=\"color: rgb(110, 110, 110)\">9.11 Direct damage is exclusively understood to mean the reasonable costs to determine the cause and extent of the damage, insofar as the determination relates to damage within the meaning of these terms and conditions, any reasonable costs incurred to compensate the defective performance of Achieve to the the agreement, insofar as these can be attributed to Achieve and reasonable costs incurred to prevent or limit damage, insofar as the Client demonstrates that these costs have led to limitation of direct damage as referred to in these general terms and conditions. Achieve is never liable for indirect damage, including consequential damage, lost profit, lost savings and damage due to business interruption.</span></p><p></p><p><span style=\"color: rgb(110, 110, 110)\">Article 10. Indemnification&nbsp;</span></p><p><span style=\"color: rgb(110, 110, 110)\">10.1 The Client indemnifies Achieve against any claims from third parties who suffer damage in connection with the execution of the Agreement and the cause of which is attributable to others than Achieve. If Achieve should be held liable for this by third parties, the Client is obliged to assist Achieve both in and out of court and to immediately do everything that may be expected of it in that case. Should the Client fail to take adequate measures, Achieve is entitled to do so itself without notice of default. All costs and damage on the part of Achieve and third parties that arise as a result will be entirely at the expense and risk of the Client.</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 11. Prices</span></p><p><span style=\"color: rgb(110, 110, 110)\">11.1 All prices are exclusive of Value Added&nbsp; Tax (VAT) and other levies imposed by the government.</span></p><p><span style=\"color: rgb(110, 110, 110)\">11.2 All prices on the website, quotations and other documents of Achieve are subject to typing errors. No liability is accepted for the consequences of typing errors.</span></p><p><span style=\"color: rgb(110, 110, 110)\">11.3 The fee to be paid by the Client is based on the rate as stated in the Agreement. Achieve reserves the right to change rates in the interim and will inform the Client of this thirty (30) days in advance. If the Client does not wish to accept a rate change, he has the right to terminate the Agreement to which the rate change relates in writing within seven days of the notification referred to in this article. The cancellation must be made by registered letter.</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 12. Delivery time</span></p><p><span style=\"color: rgb(110, 110, 110)\">12.1 A term specified by Achieve for the completion of the assignment is indicative, unless the nature or content of the Agreement shows otherwise.</span></p><p><span style=\"color: rgb(110, 110, 110)\">12.2 A campaign or service will be produced and activated as soon as possible after the Agreement has been concluded and data and text and/or visual material have been supplied by the Client, or at a later date to be agreed.</span></p><p><span style=\"color: rgb(110, 110, 110)\">12.3 If a term has been agreed for the completion of certain activities, this is never a strict deadline. If the delivery term is exceeded, the Client must therefore give Achieve written notice of default and set Achieve a reasonable term to still fulfill its obligations.</span></p><p><span style=\"color: rgb(110, 110, 110)\">12.4 The delivery period stated by Achieve only commences after all necessary data and items are in its possession.</span></p><p><span style=\"color: rgb(110, 110, 110)\">&nbsp;</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 13. Change of assignment</span></p><p><span style=\"color: rgb(110, 110, 110)\">13.1 All changes in the order, either on the instructions of the Client or as a result of the fact that, due to any circumstances whatsoever, a different execution is necessary, if several costs are associated with them, are regarded as additional work and insofar as fewer costs consist of less work. These will be invoiced to the Client accordingly.</span></p><p><span style=\"color: rgb(110, 110, 110)\">13.2 If Achieve, due to circumstances unknown at the time of the quotation or the order confirmation, has to perform more work than agreed, or has to perform work under circumstances more difficult than was known to it when the agreement was entered into, Achieve is entitled to pay the additional costs arising from this and to charge the Client. If the Client cannot agree with the additional costs involved, he has the right to cancel the part of the assignment that has not yet been performed.</span></p><p><span style=\"color: rgb(110, 110, 110)\">&nbsp;</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 14. Intellectual property rights</span></p><p><span style=\"color: rgb(110, 110, 110)\">14.1 All intellectual property rights to all software, equipment or other materials developed or made available under the Agreement, such as analyses, designs, documentation, reports, quotations, as well as preparatory material thereof, rest exclusively with Achieve.</span></p><p><span style=\"color: rgb(110, 110, 110)\">14.2 The copyright of campaigns, advertisements and texts designed or produced by Achieve remains with Achieve at all times, unless otherwise agreed in writing.</span></p><p><span style=\"color: rgb(110, 110, 110)\">14.3 The Client only acquires a non-exclusive and non-transferable right of use with regard to the Intellectual Property for the duration of the Agreement.</span></p><p><span style=\"color: rgb(110, 110, 110)\">14.4 The Client shall refrain from duplicating and/or publishing and/or distributing the Software and the associated other materials. The Client is not permitted to remove or change any designation regarding copyrights, brands, trade names or other intellectual property rights from the Software, equipment or materials.</span></p><p><span style=\"color: rgb(110, 110, 110)\">14.5 Achieve is allowed to take technical measures to protect the Software. If Achieve has secured the Software by means of technical protection, the Client is not permitted to remove or evade this protection.</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 15. Rights of use</span></p><p><span style=\"color: rgb(110, 110, 110)\">15.1 Without prejudice to the provisions of Article 14, Achieve grants the Client the non-exclusive right to use the Software. The Client will always strictly observe the usage restrictions agreed between the parties. Without prejudice to the other provisions of these General Terms and Conditions, the right of use of the Client only includes the right to load and run the Software.</span></p><p><span style=\"color: rgb(110, 110, 110)\">15.2 The right of use is not transferable. The Client is not permitted to sell, rent, sublicense, alienate or grant limited rights to the Software and carriers on which it is recorded or make it available to a third party in any way or for any purpose whatsoever, including if the third party concerned uses the Software exclusively for the benefit of the Client, unless otherwise agreed in writing.</span></p><p><span style=\"color: rgb(110, 110, 110)\">15.3 The source code of the Software and the technical documentation produced during the development of the Software will not be made available to the Client, unless otherwise agreed in writing.</span></p><p><span style=\"color: rgb(110, 110, 110)\">&nbsp;</span></p><p><span style=\"color: rgb(110, 110, 110)\">Article 16. Payment conditions</span></p><p><span style=\"color: rgb(110, 110, 110)\">16.1 All invoices must be paid within 14 days of the invoice date in the manner indicated on the invoice, unless otherwise agreed in writing.</span></p><p><span style=\"color: rgb(110, 110, 110)\">16.2 Achieve will not be in default by the mere late sending of an invoice. The mere fact that the Client does not receive an invoice from Achieve within the term stated in paragraph 1 shall never result in the Client not being liable for compensation for the service rendered, nor does it imply any waiver of the right to payment by Achieve in any way.</span></p><p><span style=\"color: rgb(110, 110, 110)\">16.3 If direct debit has been agreed, the amount will be collected automatically, after the Client's permission, from the Client's account number and in favor of IBAN number NL21 KNAB 0259 9950 29 in the name of Achieve. The direct debit takes place all at once and within 14 days of the invoice date.</span></p><p><span style=\"color: rgb(110, 110, 110)\">16.4 If direct debit turns out not to be possible, the Client will be notified of this and the Client is obliged to pay Achieve the uncollected amount within 14 days of the invoice date.</span></p><p><span style=\"color: rgb(110, 110, 110)\">16.5 If and as soon as the payment term of 14 days expires without Achieve having received full payment, the Client will be in default - without further notice of default - unless a different payment term has been agreed in writing. After the expiry of 30 days after the invoice date, the invoice amount will then be increased with administration costs of € 17.50. From the moment of default until the moment of full payment of the amount owed, the Client also owes the statutory commercial interest.</span></p><p><span style=\"color: rgb(110, 110, 110)\">16.6 From the moment the Client is in default, the Client will also be liable for the extrajudicial collection costs to be incurred by Achieve as a result, which are deemed to be equal to 15% of the invoice amount, with a minimum of € 40 per invoice. . If and insofar as the actual collection costs incurred by Achieve are higher than 15% of the invoice amount, Achieve is entitled to charge these actual costs to the Client, instead of the fictitious collection costs and insofar as reasonably incurred.</span></p><p><span style=\"color: rgb(110, 110, 110)\">16.7 The Client is never authorized to suspend any payment arising from the Agreement or to set it off against any claim that the Client may have against Achieve at any time.</span></p><p><span style=\"color: rgb(110, 110, 110)\">16.8 If at any time the situation of liquidation, bankruptcy, attachment or suspension of payment arises with regard to the Client, all obligations of the Client arising from the Agreement and all other agreements existing between the parties will become immediately due and payable in full. The same applies mutatis mutandis in the event that the Client is in default with any obligation arising from the Agreement.</span></p><p><span style=\"color: rgb(110, 110, 110)\">16.9 Achieve has the right to have the payments made by the Client go first of all to reduce the costs, then to reduce the interest due and finally to reduce the principal sum and the current interest. Achieve can, without being in default as a result, refuse an offer of payment if the Client designates a different order for the allocation of the payment. Achieve can refuse full repayment of the principal if the outstanding and current interest and collection costs are not also paid.</span></p><p><span style=\"color: rgb(110, 110, 110)\">16.10 If the Client has entered into an Agreement on behalf of a third party, this Client will remain liable towards Achieve for compliance with all obligations arising from the Agreement. In the absence of payment by the Client, the third party is obliged to ensure payment to Achieve on first request.</span></p><p></p><p><span style=\"color: rgb(110, 110, 110)\">Article 17. Force majeure</span></p><p><span style=\"color: rgb(110, 110, 110)\">17.1 Achieve is not obliged to fulfill any obligation towards the Client if it is prevented from doing so as a result of a circumstance that is not due to fault, and is not for its account under the law, a legal act or generally accepted views. .</span></p><p><span style=\"color: rgb(110, 110, 110)\">17.2 In these general terms and conditions, force majeure is understood to mean, in addition to what is understood in this regard in law and jurisprudence, all external causes, foreseen or unforeseen, over which Achieve has no influence, but as a result of which Achieve is unable to fulfill its obligations. Work strikes in the company of Achieve or of third parties. Achieve also has the right to invoke force majeure if the circumstance that prevents (further) fulfillment of the agreement, occurs after Achieve should have fulfilled its obligation.</span></p><p><span style=\"color: rgb(110, 110, 110)\">17.3 Achieve can suspend the obligations under the agreement during the period that the force majeure continues. If this period lasts longer than two months, each of the parties is entitled to dissolve the agreement, without any obligation to pay compensation to the other party.</span></p><p><span style=\"color: rgb(110, 110, 110)\">17.4 To the extent that Achieve has partially fulfilled or will be able to fulfill its obligations under the agreement at the time of the occurrence of force majeure, and the part fulfilled or to be performed has independent value, Achieve is entitled invoiced separately these fulfilled obligations. The Client is obliged to pay this invoice as if it were a separate agreement.</span></p><p></p><p><span style=\"color: rgb(110, 110, 110)\">Article 18. Suspension</span></p><p><span style=\"color: rgb(110, 110, 110)\">18.1 In the event of failure to fulfill one or more of its obligations correctly or on time, the Client will be in default without prior notice of default, and without any liability on the part of Achieve resulting from this, as a result of which Achieve's obligations to fulfill its own obligations, these obligations are automatically and immediately suspended until that which is owed by the Client has been paid in full, including payment of any interest and costs (including compensation).</span></p><p></p><p><span style=\"color: rgb(110, 110, 110)\">Article 19. Complaints</span></p><p><span style=\"color: rgb(110, 110, 110)\">19.1 During the agreed contract period, Achieve will repair any technical defects in the website and/or web application free of charge to the best of its ability, if these have been reported to Achieve in writing by the Client in detail. Achieve can charge its usual rates and costs in the event of user errors or injudicious use or other causes not attributable to Achieve.</span></p><p><span style=\"color: rgb(110, 110, 110)\">19.2 Achieve is not required to repair defects in the website and/or web application if these are caused by the Client itself, by third parties or by changed circumstances, of which Achieve was not aware or should not have been aware at the time of concluding the agreement.</span></p><p><span style=\"color: rgb(110, 110, 110)\">19.3 The obligation as stated in this article lapses if the Client makes or has changes made to the Software and source codes without Achieve's permission, as well as if the Client itself attempts to repair a defect in any way without Achieve's written permission.</span></p><p><span style=\"color: rgb(110, 110, 110)\">19.4 Complaints do not suspend the Clientto comply with the Client's obligations.</span></p><p></p><p><span style=\"color: rgb(110, 110, 110)\">Article 20. Changes to General Terms and Conditions</span></p><p><span style=\"color: rgb(110, 110, 110)\">20.1 Achieve has the right to change these General Terms and Conditions.</span></p><p><span style=\"color: rgb(110, 110, 110)\">20.2 Changes also apply to agreements already concluded with due observance of a term of 30 days after announcement of the change on the Achieve website or by electronic message.</span></p><p><span style=\"color: rgb(110, 110, 110)\">20.3 If the Client does not wish to accept a change to these terms and conditions, it may terminate the Agreement until the date on which the new terms and conditions come into effect on this date or on the date of receipt of the cancellation if this is after the effective date of the change.</span></p><p></p><p><span style=\"color: rgb(110, 110, 110)\">Article 21. Final provisions</span></p><p><span style=\"color: rgb(110, 110, 110)\">21.1 The Agreement is governed by Dutch law.</span></p><p><span style=\"color: rgb(110, 110, 110)\">21.2 Changes in management or legal form do not affect the Agreement.</span></p><p><span style=\"color: rgb(110, 110, 110)\">21.3 Insofar as not dictated otherwise by mandatory law, all disputes that may arise as a result of the agreement will be submitted to the competent court in Rotterdam.</span></p><p><span style=\"color: rgb(110, 110, 110)\">&nbsp;</span></p><h3><span style=\"color: rgb(126, 101, 238)\">Achieve</span></h3><p></p><p><span style=\"color: rgb(110, 110, 110)\">Correspondence Address:</span></p><p><span style=\"color: rgb(110, 110, 110)\">Rivium Boulevard 2</span></p><p><span style=\"color: rgb(110, 110, 110)\">2909 LK Capelle aan den IJssel</span></p><p><span style=\"color: rgb(110, 110, 110)\">Netherlands</span></p><p><span style=\"color: rgb(110, 110, 110)\">Phone: </span><span style=\"color: rgb(126, 101, 238)\">+31 85 4016590</span></p><p><span style=\"color: rgb(110, 110, 110)\">Email: </span><span style=\"color: rgb(126, 101, 238)\">info@achieve.nl</span></p><p><span style=\"color: rgb(110, 110, 110)\">Chamber of Commerce no. 76815889</span></p><p><span style=\"color: rgb(110, 110, 110)\">VAT no. NL003153126B65</span></p><p></p><p><em><span style=\"color: rgb(110, 110, 110)\">For questions about the General Terms and Conditions, you can always </span></em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://achieve.nl/contact/\"><em><span style=\"color: rgb(126, 101, 238)\">contact</span></em></a><em><span style=\"color: rgb(110, 110, 110)\"> us.</span></em></p>"
+    },
+    "title": "Hallo! Wij zijn Achieve.",
+    "id": 1
+  },
+  "testimonials": {
+    "_id": 3,
+    "fullName": "Souhaib Aouini",
+    "profession": {
+      "en": "Managing Director at Qartago",
+      "nl": "Managing Director at Qartago"
+    },
+    "message": {
+      "en": "We worked on a couple of projects with Team Achieve such as building a couple of websites, web-shops, setting up SEO and SEA, setting up campaigns with Active Campaign, Google Ads, Social Media Ads and many more. The level of commitment, speed, interaction and engagement with us was very high and their tenacity in pursuing a successful outcome is unparalleled. It certainly felt like an extension to our IT Development and our Marketing teams.",
+      "nl": "We worked on a couple of projects with Team Achieve such as building a couple of websites, web-shops, setting up SEO and SEA, setting up campaigns with Active Campaign, Google Ads, Social Media Ads and many more. The level of commitment, speed, interaction and engagement with us was very high and their tenacity in pursuing a successful outcome is unparalleled. It certainly felt like an extension to our IT Development and our Marketing teams."
+    }
+  },
+  "vacancies": {
+    "_id": 2,
+    "title": {
+      "en": "Content internship",
+      "nl": "Content stage"
+    },
+    "employmentType": {
+      "en": "Fulltime",
+      "nl": "Fulltime"
+    },
+    "location": "Rotterdam",
+    "description": {
+      "en": "Are you an enthusiastic intern(s) looking for a challenging content internship and are you ready to explore the online marketing field? We are looking for a creative person who is full of inspiration and is ready to apply it in the field of content creation. In addition, you will not only get started for our customers, but also for the marketing of Achieve itself. We are very interested in your ideas and for that you get a lot of freedom and possibilities with us. So are you too anxious to enter the digital world and do you want to further develop yourself and join a cool team? Apply now for our Content Marketing internship!",
+      "nl": "Ben jij als enthousiaste stagiair(e) op zoek naar een uitdagende Content stage en ben je klaar om het online marketing werkveld te verkennen? Wij zijn namelijk op zoek naar een creatieveling die vol inspiratie zit en klaar is om dit toe te passen op het gebied van content creatie. Daarbij ga je niet alleen aan de slag voor onze klanten, maar ook voor de marketing van Achieve zelf. We zijn erg benieuwd naar jouw ideeën en daarvoor krijg je bij ons veel vrijheid en mogelijkheden. Sta je dus te trappelen om de digitale wereld te betreden en wil je jezelf verder ontwikkelen en meedraaien in een tof team? Solliciteer dan nu op onze Content Marketing stage!"
+    },
+    "slug": {
+      "current": "content-internship"
+    },
+    "data": [
+      {
+        "heading": {
+          "en": "You will do this",
+          "nl": "Dit ga je doen"
+        },
+        "vacancyItem": [
+          {
+            "title": {
+              "en": "Your internship starts with a fun work-in week in our energetic content team.",
+              "nl": "Your internship starts with a fun work-in week in our energetic content team."
+            }
+          },
+          {
+            "title": {
+              "en": "You take part in strategic and interesting brainstorming sessions.",
+              "nl": "You take part in strategic and interesting brainstorming sessions."
+            }
+          },
+          {
+            "title": {
+              "en": "You work together with your supervisor in front of real clients.",
+              "nl": "You work together with your supervisor in front of real clients."
+            }
+          },
+          {
+            "title": {
+              "en": "You think and collaborate on the content strategy (from social media to knowledge articles).",
+              "nl": "You think and collaborate on the content strategy (from social media to knowledge articles)."
+            }
+          },
+          {
+            "title": {
+              "en": "You support the creation of social media posts to online and offline advertisements and web applications.",
+              "nl": "You support the creation of social media posts to online and offline advertisements and web applications."
+            }
+          },
+          {
+            "title": {
+              "en": "You contribute to the good atmosphere at Achieve.",
+              "nl": "You contribute to the good atmosphere at Achieve."
+            }
+          }
+        ]
+      },
+      {
+        "heading": {
+          "en": "We expect this from you",
+          "nl": "Dit verwachten wij van je"
+        },
+        "vacancyItem": [
+          {
+            "title": {
+              "en": "That you follow a course that is related to this internship.",
+              "nl": "That you follow a course that is related to this internship."
+            }
+          },
+          {
+            "title": {
+              "en": "That you have an ambitious attitude to contribute to the brand awareness of Achieve and our customers.",
+              "nl": "That you have an ambitious attitude to contribute to the brand awareness of Achieve and our customers."
+            }
+          },
+          {
+            "title": {
+              "en": "Basic knowledge of the Adobe packages.",
+              "nl": "Basic knowledge of the Adobe packages."
+            }
+          },
+          {
+            "title": {
+              "en": "Independence, proactivity and time management are skills that describe you like no other.",
+              "nl": "Independence, proactivity and time management are skills that describe you like no other."
+            }
+          },
+          {
+            "title": {
+              "en": "Ambition and the drive to grow and develop further.",
+              "nl": "Ambition and the drive to grow and develop further."
+            }
+          },
+          {
+            "title": {
+              "en": "Some experience in content marketing or copywriting.",
+              "nl": "Some experience in content marketing or copywriting."
+            }
+          }
+        ]
+      },
+      {
+        "heading": {
+          "en": "This is what we offer you",
+          "nl": "Dit bieden wij je"
+        },
+        "vacancyItem": [
+          {
+            "title": {
+              "en": "Personal development and a trusted environment in which to excel.",
+              "nl": "Personal development and a trusted environment in which to excel."
+            }
+          },
+          {
+            "title": {
+              "en": "Opportunity for a permanent job after your internship.",
+              "nl": "Opportunity for a permanent job after your internship."
+            }
+          },
+          {
+            "title": {
+              "en": "Gain work experience by working for clients.",
+              "nl": "Gain work experience by working for clients."
+            }
+          },
+          {
+            "title": {
+              "en": "A lot of collegiality and fun.",
+              "nl": "A lot of collegiality and fun."
+            }
+          }
+        ]
+      }
+    ],
+    "id": 2
+  }
+}
