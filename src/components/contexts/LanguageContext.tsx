@@ -1,23 +1,27 @@
-// src/contexts/LanguageContext.tsx
 "use client";
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext } from "react";
+import { useLocale } from "next-intl";
+import { useRouter, usePathname } from "@/i18n/navigation";
 
-const LanguageContext = createContext({
-  locale: "en",
+interface LanguageContextType {
+  locale: string;
+  setLocale: (locale: string) => void;
+}
+
+const LanguageContext = createContext<LanguageContextType>({
+  locale: "nl",
   setLocale: (_locale: string) => {},
 });
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [locale, setLocaleState] = useState("en");
-
-  useEffect(() => {
-    const saved = localStorage.getItem("locale") || "en";
-    setLocaleState(saved);
-  }, []);
+  const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
 
   const setLocale = (newLocale: string) => {
-    setLocaleState(newLocale);
-    localStorage.setItem("locale", newLocale);
+    // Use next-intl's router which handles locale prefixing automatically
+    // This will respect the 'as-needed' configuration
+    router.push(pathname, { locale: newLocale });
   };
 
   return (
@@ -27,4 +31,10 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   );
 }
 
-export const useLanguage = () => useContext(LanguageContext);
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  if (!context) {
+    throw new Error("useLanguage must be used within LanguageProvider");
+  }
+  return context;
+};

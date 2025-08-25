@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
 
 interface Project {
@@ -82,7 +83,7 @@ const ProjectsSection: React.FC = () => {
   ];
 
   return (
-    <div className="pt-4 bg-achieve-gray-50">
+    <div className="pt-4 ">
       <section className="flex flex-col gap-y-12 relative">
         {/* Header */}
         <div
@@ -151,7 +152,7 @@ const ProjectsSection: React.FC = () => {
 
           {/* View More Button */}
           <div className="flex justify-center mt-12">
-            <a
+            <Link
               className="inline-flex items-center px-8 py-3 bg-purple-600 text-white font-medium rounded-lg hover:bg-opacity-90 transition-all duration-300 group"
               href="/projecten"
             >
@@ -169,7 +170,7 @@ const ProjectsSection: React.FC = () => {
                   d="M13 7l5 5m0 0l-5 5m5-5H6"
                 ></path>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

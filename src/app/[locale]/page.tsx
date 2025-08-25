@@ -8,7 +8,6 @@ import Testimonial from "@/components/home/Testimonial";
 import FAQSection from "@/components/home/FAQSection";
 import TextCarousel from "@/components/home/TextCarousel";
 import StrategySection from "@/components/home/StrategySection";
-import Footer from "@/components/home/Footer";
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
       <FAQSection />
       <TextCarousel />
       <StrategySection />
-      <Footer />
     </div>
   );
 }

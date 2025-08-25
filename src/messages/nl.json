@@ -10,7 +10,20 @@
     "cta": "Lees meer..."
   },
   "companies": {
-    "title": "Deze bedrijven gingen je voor"
+    "serverError": "Server Fout - Kan bedrijven niet laden",
+    "loading": "Bedrijven laden...",
+    "title": {
+      "prefix": "Deze",
+      "companies": "bedrijven",
+      "suffix": "gingen je voor"
+    }
+  },
+
+  "services": {
+    "title": "Onze diensten",
+    "read_more": "Lees meer...",
+    "show_more": "Toon meer",
+    "show_less": "Toon minder"
   },
   "navigation": {
     "home": {

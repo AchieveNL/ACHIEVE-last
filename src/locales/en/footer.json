@@ -1,0 +1,69 @@
+{
+  "menu": {
+    "text": "Menu",
+    "links": {
+      "home": {
+        "text": "Home",
+        "slug": "/"
+      },
+      "about_us": {
+        "text": "About Us",
+        "slug": "/over-ons"
+      },
+      "services": {
+        "text": "Services",
+        "slug": "/diensten"
+      },
+      "cases": {
+        "text": "Projects",
+        "slug": "/projecten"
+      },
+      "prices": {
+        "text": "Prices",
+        "slug": "/tarieven"
+      },
+      "career": {
+        "text": "Vacancies",
+        "slug": "/werken-bij"
+      },
+      "contact": {
+        "text": "Contact",
+        "slug": "/contact"
+      }
+    }
+  },
+  "our_services": {
+    "text": "Our Services",
+    "links": {
+      "brandbook": "Brand Book",
+      "web_development": "Web Development",
+      "email_marketing": "Email Marketing",
+      "video_marketing": "Video Marketing",
+      "sea": "Search Engine Advertising",
+      "sma": "Social Media Advertising",
+      "sm": "Social Media Management",
+      "dashboard": "Dashboard"
+    }
+  },
+  "over_achieve": {
+    "text": "Over Achieve",
+    "links": {
+      "faq": {
+        "text": "FAQ",
+        "slug": "/veelgestelde-vragen"
+      },
+      "p_policy": {
+        "text": "Privacy Policy",
+        "slug": "/privacy-policy"
+      },
+      "terms": {
+        "text": "Terms & Conditions",
+        "slug": "/algemene-voorwaarden"
+      },
+      "contact": {
+        "text": "Contact",
+        "slug": "/contact"
+      }
+    }
+  }
+}

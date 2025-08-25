@@ -11,7 +11,7 @@ const HeroSectionSecond = () => {
   const { t, locale } = useClientTranslations("secondaryHero");
 
   return (
-    <section className="relative bg-achieve-gray-50  flex items-center overflow-hidden">
+    <section className="relative   flex items-center overflow-hidden">
       <div className="container mx-auto px-4 py-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}

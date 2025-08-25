@@ -136,7 +136,7 @@ const PricingSection: React.FC = () => {
   };
 
   return (
-    <div className=" bg-achieve-gray-50 mx-auto px-4 py-16 pb-8">
+    <div className="  mx-auto px-4 py-16 pb-8">
       <section className="flex container flex-col gap-y-12">
         {/* Header */}
         <div

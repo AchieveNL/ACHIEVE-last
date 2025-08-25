@@ -1,27 +1,11 @@
-// src/hooks/useClientTranslations.ts
-import { useLanguage } from "@/components/contexts/LanguageContext";
-import enMessages from "@/messages/en.json";
-import nlMessages from "@/messages/nl.json";
-
-const messages = { en: enMessages, nl: nlMessages };
+import { Locale } from "@/types/dbdatas";
+import { useTranslations, useLocale } from "next-intl";
 
 export function useClientTranslations(namespace?: string) {
-  const { locale } = useLanguage();
+  const locale = useLocale() as Locale;
 
-  const t = (key: string): string => {
-    const keys = key.split(".");
-    let value: unknown = messages[locale as keyof typeof messages];
-
-    if (namespace) {
-      value = (value as Record<string, unknown>)?.[namespace];
-    }
-
-    for (const k of keys) {
-      value = (value as Record<string, unknown>)?.[k];
-    }
-
-    return (value as string) || key;
-  };
+  // If no namespace provided, use the root level translations
+  const t = useTranslations(namespace);
 
   return { t, locale };
 }

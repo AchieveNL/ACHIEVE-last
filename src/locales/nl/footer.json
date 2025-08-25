@@ -1,0 +1,78 @@
+{
+  "menu": {
+    "text": "Menu",
+    "links": {
+      "home": {
+        "text": "Home",
+        "slug": "/"
+      },
+      "about_us": {
+        "text": "Over ons",
+        "slug": "/over-ons"
+      },
+      "services": {
+        "text": "Diensten",
+        "slug": "/diensten"
+      },
+      "cases": {
+        "text": "Projecten",
+        "slug": "/projecten"
+      },
+      "prices": {
+        "text": "Tarieven",
+        "slug": "/tarieven"
+      },
+      "career": {
+        "text": "Werken bij",
+        "slug": "/werken-bij"
+      },
+      "contact": {
+        "text": "Contact",
+        "slug": "/contact"
+      }
+    }
+  },
+  "our_services": {
+    "text": "Onze diensten",
+    "links": {
+      "brandbook": {
+        "text": "Brand Book",
+        "slug": "/diensten/brand-book" 
+      },
+      "web_development": {
+        "text": "Web Development",
+        "slug": "/diensten/web-development"
+      },
+      "email_marketing":{
+        "text": "Email Marketing", 
+        "slug": "/diensten/email-marketing"
+      },
+      "video_marketing": {"text": "Video Marketing", "slug": "/diensten/video-marketing"},
+      "sea": {"text":"Search Engine Advertising", "slug":"/diensten/search-engine-advertising"},
+      "sma": {"text": "Social Media Advertising", "slug": "/diensten/social-media-advertising"},
+      "sm": {"text": "Social Media Management", "slug": "/diensten/social-media-management"},
+      "dashboard": {"text": "Dashboard", "slug": "/diensten/dashboard"}
+    }
+  },
+  "over_achieve": {
+    "text": "Over Achieve",
+    "links": {
+      "faq": {
+        "text": "FAQ",
+        "slug": "/veelgestelde-vragen"
+      },
+      "p_policy": {
+        "text": "Privacy Policy",
+        "slug": "/privacy-policy"
+      },
+      "terms": {
+        "text": "Terms & Conditions",
+        "slug": "/algemene-voorwaarden"
+      },
+      "contact": {
+        "text": "Contact",
+        "slug": "/contact"
+      }
+    }
+  }
+}

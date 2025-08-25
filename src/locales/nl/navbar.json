@@ -1,0 +1,48 @@
+{
+  "home": {
+    "text": "Home",
+    "links": {}
+  },
+  "cases": {
+    "text": "Over ons",
+    "links": {}
+  },
+  "services": {
+    "text": "Diensten▼",
+    "links": {
+      "brandbook": "Brand Book",
+      "web_development": "Web Development",
+      "email_marketing": "Email Marketing",
+      "video_marketing": "Video Marketing",
+      "sea": "Search Engine Advertising",
+      "sma": "Social Media Advertising",
+      "sm": "Social Media Management",
+      "dashboard": "Dashboard"
+    }
+  },
+  "about_us": {
+    "text": "Projecten",
+    "links": {}
+  },
+  "prices": {
+    "text": "Tarieven▼",
+    "links": {
+      "cih": "Brand Book",
+      "website": "Custom website",
+      "email_marketing": "Email Marketing",
+      "vm": "Video Marketing",
+      "sea": "Search Engine Advertising",
+      "sma": "Social Media Advertising",
+      "smm": "Social Media Management"
+    }
+  },
+  "career": {
+    "text": "Werken bij",
+    "links": {}
+  },
+  "contact": {
+    "text": "Contact",
+    "links": {}
+  },
+  "consultation": "Strategiegesprek"
+}

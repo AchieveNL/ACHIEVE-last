@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Groeien op basis van data en de kracht van creativiteit",
+    "description": "Wij creëren, experimenteren en optimaliseren online campagnes om bedrijven en/of merken te helpen groeien, resulterend in meer bezoekers, kwalitatieve leads en een ijzersterke omzet.",
+    "cta": "Onze diensten"
+  },
+  "secondaryHero": {
+    "title": "Wij zijn een full-service online marketing bureau",
+    "description": "Achieve is een digital agency bestaande uit een kleine groep specialisten, ieder met hun eigen specifieke ambities, kwaliteiten en vaardigheden. Het team wordt voortdurend op de hoogte gehouden van de laatste ontwikkelingen in het digitale landschap. Voor ons is dat geen probleem, want wij hebben van onze passie ons werk gemaakt. Dit is wat wij leuk vinden en daarom zijn wij er goed in.",
+    "cta": "Lees meer..."
+  },
+  "companies": {
+    "title": "Deze bedrijven gingen je voor"
+  },
+  "navigation": {
+    "home": {
+      "value": "Home",
+      "slug": "/"
+    },
+    "about": {
+      "value": "Over ons",
+      "slug": "/over-ons"
+    },
+    "services": {
+      "value": "Diensten",
+      "slug": "/diensten",
+      "links": {
+        "brandBook": "Brand Book",
+        "webDevelopment": "Web Development",
+        "emailMarketing": "Email Marketing",
+        "videoMarketing": "Video Marketing",
+        "searchEngineAdvertising": "Search Engine Advertising",
+        "socialMediaAdvertising": "Social Media Advertising"
+      }
+    },
+    "projects": {
+      "value": "Projecten",
+      "slug": "/projecten"
+    },
+    "pricing": {
+      "value": "Tarieven",
+      "slug": "/tarieven",
+      "links": {
+        "brandBook": "Brand Book",
+        "customWebsite": "Custom website",
+        "emailMarketing": "Email Marketing",
+        "videoMarketing": "Video Marketing",
+        "searchEngineAdvertising": "Search Engine Advertising",
+        "socialMediaAdvertising": "Social Media Advertising",
+        "socialMediaManagement": "Social Media Management"
+      }
+    },
+    "careers": {
+      "value": "Werken bij",
+      "slug": "/werken-bij"
+    },
+    "contact": {
+      "value": "Contact",
+      "slug": "/contact"
+    }
+  }
+}

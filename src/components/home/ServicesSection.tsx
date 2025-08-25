@@ -1,74 +1,85 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
+import { Locale, Service } from "@/types/dbdatas";
+import { useClientTranslations } from "../hooks/useClientTranslations";
+import TextWithUnderline from "../ui/TextWithUnderline";
+import { MongoService } from "@/lib/mongoService";
+import CollapsibleDescription from "./CollapsibleDescription";
+import Image from "next/image";
 
-interface Service {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-  imageAlt: string;
+interface ServicesSectionProps {
+  font?: string;
+  showTitle?: boolean;
 }
 
-const ServicesSection: React.FC = () => {
-  const services: Service[] = [
-    {
-      id: 1,
-      title: "Branding",
-      description:
-        "Branding is the conscious creation and reinforcement of a desired image of ...",
-      image:
-        "https://storage.googleapis.com/achieve-bucket/0ee00e2e-73ce-4acb-b91b-07e9848831ddbranding.webp",
-      imageAlt: "Branding icon",
-    },
-    {
-      id: 2,
-      title: "Web Development",
-      description:
-        "A website can have different objectives. There are websites that inform, we...",
-      image:
-        "https://storage.googleapis.com/achieve-bucket/99baa157-2c91-4538-b97a-c4a2189ed268website.webp",
-      imageAlt: "Web Development icon",
-    },
-    {
-      id: 3,
-      title: "Email Marketing",
-      description:
-        "With e-mail marketing, you use a mailing list with interested parties who ...",
-      image:
-        "https://storage.googleapis.com/achieve-bucket/369830cf-44f1-484d-a985-1c09350fc0ecemail.webp",
-      imageAlt: "Email Marketing icon",
-    },
-    {
-      id: 4,
-      title: "Content Creation",
-      description:
-        "Content generally refers to (online) expressions such as texts, images and ...",
-      image:
-        "https://storage.googleapis.com/achieve-bucket/95514170-9260-4e24-b982-3dc60f373bd1content.webp",
-      imageAlt: "Content Creation icon",
-    },
-    {
-      id: 5,
-      title: "Social Media Advertising",
-      description:
-        "With Social Advertising you make paid advertising on social media such as F...",
-      image:
-        "https://storage.googleapis.com/achieve-bucket/e4c6bbca-57e9-48d8-b99d-fb9d551c05e6social ad.webp",
-      imageAlt: "Social Media Advertising icon",
-    },
-    {
-      id: 6,
-      title: "Search Engine Advertising",
-      description:
-        "In Search Engine Advertising (SEA) heb je de mogelijkheid om betaald reclam...",
-      image:
-        "https://storage.googleapis.com/achieve-bucket/search-engine-icon.webp",
-      imageAlt: "Search Engine Advertising icon",
-    },
-  ];
+// Server component that fetches data
+async function getServicesData(): Promise<Service[]> {
+  try {
+    const services = await MongoService.getServices();
+    return services;
+  } catch (error) {
+    console.error("Failed to load services:", error);
+    return [];
+  }
+}
+
+// Service Card Component (server component)
+const ServiceCard: React.FC<{
+  service: Service;
+  locale: Locale;
+  t: (key: string) => string;
+}> = ({ service, locale, t }) => {
+  const description =
+    typeof service.description === "string"
+      ? service.description
+      : service.description?.[locale] ||
+        service.description?.en ||
+        "No description available";
+
+  const title =
+    typeof service.title === "string"
+      ? service.title
+      : service.title?.[locale] || service.title?.en || "Service";
 
   return (
-    <div className=" bg-achieve-gray-50 mx-auto px-4 py-8 pb-16 relative">
+    <div className="flex items-start rounded-xl flex-col gap-y-4 p-7 bg-white hover:shadow-lg transition-all duration-300 cursor-pointer group min-h-80">
+      {/* Image */}
+      <div className="flex justify-center items-center w-full">
+        <Image
+          className=" object-contain"
+          width="96"
+          height="96"
+          src={service.image}
+          alt={`${title} icon`}
+          loading="lazy"
+        />
+      </div>
+
+      {/* Title */}
+      <h4 className="text-center font-bold mt-3 whitespace-nowrap text-lg w-full">
+        {title}
+      </h4>
+
+      {/* Collapsible Description - Client Component */}
+      <div className="flex-grow w-full flex flex-col justify-between">
+        <CollapsibleDescription
+          description={description}
+          showMoreText={t("show_more") || "Show more"}
+          showLessText={t("show_less") || "Show less"}
+        />
+      </div>
+    </div>
+  );
+};
+
+// Client component for interactive parts
+const ServicesContent: React.FC<{
+  services: Service[];
+  showTitle: boolean;
+}> = ({ services, showTitle }) => {
+  const { t, locale } = useClientTranslations("services");
+
+  return (
+    <div className=" mx-auto px-4 py-8 pb-16 relative">
       {/* Background Image */}
       <div
         className="absolute w-full h-full left-0 top-0"
@@ -83,53 +94,46 @@ const ServicesSection: React.FC = () => {
 
       <section className="flex container flex-col gap-y-12 relative z-10">
         {/* Header */}
-        <div className="flex justify-center items-center flex-col mb-5 gap-1">
-          <h2 className="text-4xl font-bold text-gray-800 mb-2">
-            Our services
-          </h2>
-          <div className="flex gap-x-2">
-            <div className="bg-purple-600 h-1.5 w-16 rounded-md"></div>
-            <div className="bg-purple-600 h-1.5 w-24 rounded-md"></div>
+        {showTitle && (
+          <div className="flex justify-center items-center flex-col mb-5 gap-1">
+            <TextWithUnderline>
+              <h2 className="text-4xl font-bold text-gray-800 mb-2">
+                {t("title")}
+              </h2>
+            </TextWithUnderline>
           </div>
-        </div>
+        )}
 
         {/* Services Grid */}
-        <div className="grid z-50 grid-cols-3 gap-6 lg:grid-cols-3 md:grid-cols-1">
-          {services.map((service) => (
-            <div
-              key={service.id}
-              className="h-80 flex items-center rounded-xl flex-col gap-y-4 p-7 bg-white hover:shadow-lg transition-shadow duration-300 cursor-pointer group"
-            >
-              {/* Image */}
-              <div className="flex justify-center items-center">
-                <img
-                  className="w-24 h-24 object-contain"
-                  src={service.image}
-                  alt={service.imageAlt}
-                  loading="lazy"
-                />
-              </div>
-
-              {/* Title */}
-              <h4 className="text-center font-bold mt-3 whitespace-nowrap text-lg">
-                {service.title}
-              </h4>
-
-              {/* Description */}
-              <p className="text-center max-w-xs text-gray-600 flex-grow">
-                {service.description}
-              </p>
-
-              {/* Read More Button */}
-              <button className="text-purple-600 font-medium hover:text-purple-700 transition-colors duration-200">
-                Read more...
-              </button>
+        <div className="grid z-50 grid-cols-3 gap-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 items-start">
+          {services.length === 0 ? (
+            <div className="col-span-full flex justify-center items-center min-h-[400px]">
+              <div className="text-gray-500">No services available</div>
             </div>
-          ))}
+          ) : (
+            services.map((service) => (
+              <ServiceCard
+                key={service._id}
+                service={service}
+                locale={locale}
+                t={t}
+              />
+            ))
+          )}
         </div>
       </section>
     </div>
   );
+};
+
+// Main server component
+const ServicesSection: React.FC<ServicesSectionProps> = async ({
+  font,
+  showTitle = true,
+}) => {
+  const services = await getServicesData();
+
+  return <ServicesContent services={services} showTitle={showTitle} />;
 };
 
 export default ServicesSection;

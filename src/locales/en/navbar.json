@@ -1,0 +1,49 @@
+{
+  "home": {
+    "text": "Home",
+    "links": {}
+  },
+  "cases": {
+    "text": "About us",
+    "links": {}
+  },
+  "services": {
+    "text": "Services▼",
+    "links": {
+      "brandbook": "Brand Book",
+      "web_development": "Web Development",
+      "email_marketing": "Email Marketing",
+      "video_marketing": "Video Marketing",
+      "sea": "Search Engine Advertising",
+      "sma": "Social Media Advertising",
+      "sm": "Social Media Management",
+
+      "dashboard": "Dashboard"
+    }
+  },
+  "about_us": {
+    "text": "Projects",
+    "links": {}
+  },
+  "prices": {
+    "text": "Prices▼",
+    "links": {
+      "cih": "Brand Book",
+      "website": "Custom Website",
+      "email_marketing": "Email Marketing",
+      "vm": "Video Marketing",
+      "sea": "Search Engine Advertising",
+      "sma": "Social Media Advertising",
+      "smm": "Social Media Management"
+    }
+  },
+  "career": {
+    "text": "Career",
+    "links": {}
+  },
+  "contact": {
+    "text": "Contact",
+    "links": {}
+  },
+  "consultation": "Strategy meeting"
+}

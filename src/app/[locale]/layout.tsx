@@ -1,12 +1,16 @@
-// app/layout.tsx
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 import BodyWrapper from "@/components/BodyWrapper";
 import NavBar from "@/components/header/NavBar";
 import { LanguageProvider } from "@/components/contexts/LanguageContext";
+import Footer from "@/components/home/Footer";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -32,23 +36,42 @@ export const metadata = {
   },
 };
 
+// Generate static params for all locales - using routing config
+export async function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 export default async function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
+  // Await the params
+  const { locale } = await params;
+
+  // Validate locale
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  // Get messages using next-intl's built-in function
+  const messages = await getMessages();
+
   return (
-    <html className={poppins.variable}>
+    <html lang={locale} className={poppins.variable}>
       <body className="font-sans antialiased">
         <LocalBusinessSchema />
-        <LanguageProvider>
-          <BodyWrapper>
-            <NavBar />
-            <main>{children}</main>
-            <footer>{/* Global footer */}</footer>
-          </BodyWrapper>
-        </LanguageProvider>
+        <NextIntlClientProvider messages={messages}>
+          <LanguageProvider>
+            <BodyWrapper>
+              <NavBar />
+              <main>{children}</main>
+              <Footer />
+            </BodyWrapper>
+          </LanguageProvider>
+        </NextIntlClientProvider>
         <Analytics />
         <SpeedInsights />
       </body>

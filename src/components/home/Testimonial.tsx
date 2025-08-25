@@ -101,7 +101,7 @@ export function TestimonialSlider() {
 
 const Testimonial = () => {
   return (
-    <div className=" bg-achieve-gray-50 mx-auto px-4 py-16 pb-8">
+    <div className="  mx-auto px-4 py-16 pb-8">
       {/* Header */}
       <div
         className="flex justify-center items-center flex-col"
