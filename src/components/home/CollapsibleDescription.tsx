@@ -1,8 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
+import CustomButton from "../ui/CustomButton";
+import { Link } from "@/i18n/navigation";
 
 interface CollapsibleDescriptionProps {
+  textFirst: string;
+  textSecond: string;
   description: string;
   showMoreText: string;
   showLessText: string;
@@ -10,6 +14,8 @@ interface CollapsibleDescriptionProps {
 }
 
 const CollapsibleDescription: React.FC<CollapsibleDescriptionProps> = ({
+  textFirst,
+  textSecond,
   description,
   showMoreText,
   showLessText,
@@ -29,6 +35,30 @@ const CollapsibleDescription: React.FC<CollapsibleDescriptionProps> = ({
       <p className="transition-all duration-300 leading-relaxed">
         {isExpanded ? description : truncatedDescription}
       </p>
+
+      {isExpanded && (
+        <div className={"flex justify-center items-center w-full gap-x-3 p-4"}>
+          <CustomButton
+            text={textFirst}
+            clickFor={"calendly"}
+            fontSize={12}
+            paddingX={7}
+            paddingY={7}
+            scaleNum={1.1}
+            iconSize={18}
+          />
+          <Link href="/tarieven">
+            <CustomButton
+              text={textSecond}
+              fontSize={12}
+              paddingX={7}
+              paddingY={7}
+              scaleNum={1.1}
+              iconSize={18}
+            />
+          </Link>
+        </div>
+      )}
 
       {/* Toggle Button */}
       {shouldShowToggle && (

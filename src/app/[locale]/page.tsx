@@ -8,15 +8,17 @@ import Testimonial from "@/components/home/Testimonial";
 import FAQSection from "@/components/home/FAQSection";
 import TextCarousel from "@/components/home/TextCarousel";
 import StrategySection from "@/components/home/StrategySection";
+import { Locale } from "@/types/dbdatas";
 
-export default function Home() {
+export default function Home({ params }: { params: { locale: Locale } }) {
+  const locale = params.locale || "en";
   return (
     <div>
       <HeroSection />
       <CompaniesSection />
       <HeroSectionSecond />
       <ServicesSection />
-      <ProjectsSection />
+      <ProjectsSection locale={locale} />
       <PricingSection />
       <Testimonial />
       <FAQSection />

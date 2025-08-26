@@ -11,6 +11,7 @@ import { LanguageProvider } from "@/components/contexts/LanguageContext";
 import Footer from "@/components/home/Footer";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { CalendlyProvider } from "@/components/contexts/CalendlyContext";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -65,11 +66,13 @@ export default async function RootLayout({
         <LocalBusinessSchema />
         <NextIntlClientProvider messages={messages}>
           <LanguageProvider>
-            <BodyWrapper>
-              <NavBar />
-              <main>{children}</main>
-              <Footer />
-            </BodyWrapper>
+            <CalendlyProvider>
+              <BodyWrapper>
+                <NavBar />
+                <main>{children}</main>
+                <Footer />
+              </BodyWrapper>
+            </CalendlyProvider>
           </LanguageProvider>
         </NextIntlClientProvider>
         <Analytics />

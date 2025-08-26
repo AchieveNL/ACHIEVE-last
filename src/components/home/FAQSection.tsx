@@ -112,7 +112,7 @@ export default function FAQSection({
   const currentFAQs = faqData[activeCategory] || [];
 
   return (
-    <div className="  mx-auto px-4 py-16 pb-8">
+    <div className="bg-achieve-gray-50  mx-auto px-4 py-16 pb-8">
       <div className="container mx-auto px-4  !pb-[70px]">
         <section className="flex flex-col gap-y-12">
           {/* Header */}
