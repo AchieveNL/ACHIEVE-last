@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Price } from "@/types/dbdatas";
-import { useClientTranslations } from "../hooks/useClientTranslations";
+import { useClientTranslations } from "../../hooks/useClientTranslations";
 
 interface PricingContentProps {
   prices: Price[];
