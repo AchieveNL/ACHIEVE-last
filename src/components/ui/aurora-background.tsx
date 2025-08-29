@@ -5,19 +5,22 @@ import React, { ReactNode } from "react";
 interface AuroraBackgroundProps extends React.HTMLProps<HTMLDivElement> {
   children: ReactNode;
   showRadialGradient?: boolean;
+  autoHeight?: boolean;
 }
 
 export const AuroraBackground = ({
   className,
   children,
   showRadialGradient = true,
+  autoHeight = false,
   ...props
 }: AuroraBackgroundProps) => {
   return (
     <main>
       <div
         className={cn(
-          "transition-bg relative h-[100vh] flex-col items-center justify-center ",
+          "transition-bg relative flex-col items-center justify-center",
+          autoHeight ? "h-auto" : "h-[100vh]", // Conditional height based on prop
           className,
         )}
         {...props}
@@ -30,7 +33,6 @@ export const AuroraBackground = ({
                 "repeating-linear-gradient(100deg,#3b82f6_10%,#a5b4fc_15%,#93c5fd_20%,#ddd6fe_25%,#60a5fa_30%)",
               "--white-gradient":
                 "repeating-linear-gradient(100deg,#fff_0%,#fff_7%,transparent_10%,transparent_12%,#fff_16%)",
-
               "--blue-300": "#93c5fd",
               "--blue-400": "#60a5fa",
               "--blue-500": "#3b82f6",

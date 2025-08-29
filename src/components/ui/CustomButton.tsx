@@ -1,7 +1,7 @@
 "use client";
-
 import FireIcon from "@/components/icons/FireIcon";
 import { useCalendly } from "@/components/contexts/CalendlyContext";
+
 interface CustomButtonProps {
   text: string;
   width?: number;
@@ -52,7 +52,6 @@ export default function CustomButton({
       onClick={handleClick}
       style={{
         width: takeFullWidth ? "100%" : "auto",
-        transform: "perspective(1px) translateZ(0)",
         padding: `${paddingY}px ${paddingX}px`,
         fontWeight: fontWeight,
         borderRadius: borderRadius,
@@ -61,10 +60,11 @@ export default function CustomButton({
         filter: disabled ? "grayscale(1)" : "none",
       }}
       className={
-        "CustomButton hover:scale-105 ease-out flex justify-center bg-achieve-purple hover:bg-none items-center gap-x-1 origin-center CustomButton text-white border-[1px] border-mainPurple  duration-300  "
+        "CustomButton group hover:scale-125 hover:bg-white hover:text-achieve-purple ease-out flex justify-center bg-achieve-purple hover:bg-none items-center gap-x-1 origin-center CustomButton text-white border-[1px] border-mainPurple duration-300"
       }
     >
       <FireIcon iconSize={iconSize} />
+
       {text}
     </button>
   );

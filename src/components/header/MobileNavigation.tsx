@@ -84,7 +84,7 @@ export default function MobileNavigation({
                               onClick={() => setOpen(false)}
                               className="block text-sm text-gray-600 hover:text-achieve-purple hover:bg-gray-50 transition-all duration-200 py-2 px-3 rounded-md"
                             >
-                              {linkText as string}
+                              {linkText.title as string}
                             </Link>
                           ))}
                         </div>

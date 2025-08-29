@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Price } from "@/types/dbdatas";
 import { useClientTranslations } from "../../hooks/useClientTranslations";
+import CustomButton from "@/components/ui/CustomButton";
 
 interface PricingContentProps {
   prices: Price[];
@@ -32,11 +33,14 @@ const PricingContent: React.FC<PricingContentProps> = ({
 
   const [activeTab, setActiveTab] = useState("");
   const [isMobileDropdownOpen, setIsMobileDropdownOpen] = useState(false);
+  const [currentCategoryIndex, setCurrentCategoryIndex] = useState(0); // Fixed: Added missing state
+  const [currentPricingIndex, setCurrentPricingIndex] = useState(1); // Start with Standard (most popular)
 
   // Set initial tab when serviceCategories changes
   React.useEffect(() => {
     if (serviceCategories.length > 0 && !activeTab) {
       setActiveTab(serviceCategories[0]);
+      setCurrentCategoryIndex(0);
     }
   }, [serviceCategories, activeTab]);
 
@@ -100,12 +104,42 @@ const PricingContent: React.FC<PricingContentProps> = ({
     </svg>
   );
 
+  const ChevronLeftIcon = () => (
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M15 19l-7-7 7-7"
+      />
+    </svg>
+  );
+
+  const ChevronRightIcon = () => (
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M9 5l7 7-7 7"
+      />
+    </svg>
+  );
+
+  // Fixed: Added missing ChevronDownIcon
   const ChevronDownIcon = () => (
     <svg
-      className="w-5 h-5 transition-transform duration-200"
-      style={{
-        transform: isMobileDropdownOpen ? "rotate(180deg)" : "rotate(0deg)",
-      }}
+      className="w-5 h-5"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
@@ -138,9 +172,44 @@ const PricingContent: React.FC<PricingContentProps> = ({
     return text?.[locale] || text?.en || "";
   };
 
-  const handleTabSelect = (tab: string) => {
-    setActiveTab(tab);
+  // Fixed: Added missing handleTabSelect function
+  const handleTabSelect = (category: string) => {
+    setActiveTab(category);
     setIsMobileDropdownOpen(false);
+    const newIndex = serviceCategories.indexOf(category);
+    if (newIndex !== -1) {
+      setCurrentCategoryIndex(newIndex);
+    }
+  };
+
+  const handlePrevCategory = () => {
+    const newIndex =
+      currentCategoryIndex > 0
+        ? currentCategoryIndex - 1
+        : serviceCategories.length - 1;
+    setCurrentCategoryIndex(newIndex);
+    setActiveTab(serviceCategories[newIndex]);
+  };
+
+  const handleNextCategory = () => {
+    const newIndex =
+      currentCategoryIndex < serviceCategories.length - 1
+        ? currentCategoryIndex + 1
+        : 0;
+    setCurrentCategoryIndex(newIndex);
+    setActiveTab(serviceCategories[newIndex]);
+  };
+
+  const handlePrevPricing = () => {
+    setCurrentPricingIndex(
+      currentPricingIndex > 0 ? currentPricingIndex - 1 : 2,
+    );
+  };
+
+  const handleNextPricing = () => {
+    setCurrentPricingIndex(
+      currentPricingIndex < 2 ? currentPricingIndex + 1 : 0,
+    );
   };
 
   // Safety check for rendering
@@ -159,6 +228,37 @@ const PricingContent: React.FC<PricingContentProps> = ({
   // Safe services array
   const safeServices = activePriceData?.services || [];
 
+  // Pricing options for mobile carousel
+  const pricingOptions = [
+    {
+      title: getLocalizedText(activePriceData?.b_name),
+      price: getLocalizedText(activePriceData?.b_price),
+      services: safeServices.map((service) => ({
+        title: getLocalizedText(service?.title),
+        value: getLocalizedText(service?.seb),
+      })),
+      isPopular: false,
+    },
+    {
+      title: getLocalizedText(activePriceData?.s_name),
+      price: getLocalizedText(activePriceData?.s_price),
+      services: safeServices.map((service) => ({
+        title: getLocalizedText(service?.title),
+        value: getLocalizedText(service?.ses),
+      })),
+      isPopular: true,
+    },
+    {
+      title: getLocalizedText(activePriceData?.p_name),
+      price: getLocalizedText(activePriceData?.p_price),
+      services: safeServices.map((service) => ({
+        title: getLocalizedText(service?.title),
+        value: getLocalizedText(service?.sep),
+      })),
+      isPopular: false,
+    },
+  ];
+
   return (
     <div className="bg-achieve-gray-50 mx-auto px-4 py-8 sm:py-12 lg:py-16">
       <section className="flex container mx-auto flex-col gap-y-8 sm:gap-y-10 lg:gap-y-12 max-w-7xl">
@@ -176,7 +276,7 @@ const PricingContent: React.FC<PricingContentProps> = ({
         )}
 
         <div className="relative">
-          {/* Mobile Dropdown */}
+          {/* Mobile Dropdown - Fixed and Enhanced */}
           <div className="block lg:hidden mb-6">
             <div className="relative">
               <button
@@ -184,27 +284,40 @@ const PricingContent: React.FC<PricingContentProps> = ({
                 className="w-full bg-white border border-gray-300 rounded-lg px-4 py-3 text-left focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 flex items-center justify-between shadow-sm"
               >
                 <span className="font-medium text-gray-900 truncate">
-                  {activeTab}
+                  {activeTab || "Select a service"}
                 </span>
-                <ChevronDownIcon />
+                <div
+                  className={`transition-transform duration-200 ${isMobileDropdownOpen ? "rotate-180" : ""}`}
+                >
+                  <ChevronDownIcon />
+                </div>
               </button>
 
               {isMobileDropdownOpen && (
-                <div className="absolute z-10 mt-1 w-full bg-white border border-gray-300 rounded-lg shadow-lg max-h-60 overflow-auto">
-                  {serviceCategories.map((category) => (
-                    <button
-                      key={category}
-                      onClick={() => handleTabSelect(category)}
-                      className={`w-full text-left px-4 py-3 hover:bg-purple-50 focus:outline-none focus:bg-purple-50 text-sm ${
-                        activeTab === category
-                          ? "bg-purple-100 text-purple-700 font-medium"
-                          : "text-gray-900"
-                      }`}
-                    >
-                      {category}
-                    </button>
-                  ))}
-                </div>
+                <>
+                  {/* Overlay to close dropdown when clicking outside */}
+                  <div
+                    className="fixed inset-0 z-[5]"
+                    onClick={() => setIsMobileDropdownOpen(false)}
+                  ></div>
+
+                  {/* Dropdown menu */}
+                  <div className="absolute z-10 mt-1 w-full bg-white border border-gray-300 rounded-lg shadow-lg max-h-60 overflow-auto">
+                    {serviceCategories.map((category) => (
+                      <button
+                        key={category}
+                        onClick={() => handleTabSelect(category)}
+                        className={`w-full text-left px-4 py-3 hover:bg-purple-50 focus:outline-none focus:bg-purple-50 text-sm transition-colors duration-150 ${
+                          activeTab === category
+                            ? "bg-purple-100 text-purple-700 font-medium"
+                            : "text-gray-900"
+                        }`}
+                      >
+                        {category}
+                      </button>
+                    ))}
+                  </div>
+                </>
               )}
             </div>
           </div>
@@ -230,61 +343,66 @@ const PricingContent: React.FC<PricingContentProps> = ({
             </div>
           </div>
 
-          {/* Mobile Cards Layout */}
+          {/* Mobile Cards Carousel */}
           <div className="block lg:hidden">
-            <div className="space-y-6">
-              {/* Basic Package */}
-              <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-                <div className="text-center mb-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">
-                    {getLocalizedText(activePriceData?.b_name)}
-                  </h3>
-                  <div className="flex justify-center items-baseline">
-                    <span className="text-2xl font-bold text-gray-700">€</span>
-                    <span className="text-3xl font-bold text-gray-700 mx-1">
-                      {getLocalizedText(activePriceData?.b_price)}
-                    </span>
-                    <span className="text-sm text-blue-600">
-                      {t("ex_vat") || "ex VAT"}
-                    </span>
+            {/* Pricing Carousel */}
+            <div className="relative">
+              {/* Carousel Navigation */}
+              <div className="flex items-center justify-between mb-4">
+                <button
+                  onClick={handlePrevPricing}
+                  className="p-3 rounded-full bg-white shadow-md border border-gray-200 text-purple-600 hover:bg-purple-50 active:bg-purple-100 transition-colors duration-200"
+                >
+                  <ChevronLeftIcon />
+                </button>
+
+                <div className="text-center">
+                  <h4 className="font-semibold text-gray-900">
+                    {pricingOptions[currentPricingIndex]?.title}
+                  </h4>
+                  <div className="flex justify-center mt-2 space-x-1">
+                    {[0, 1, 2].map((index) => (
+                      <div
+                        key={index}
+                        className={`h-2 w-2 rounded-full transition-all duration-200 ${
+                          index === currentPricingIndex
+                            ? "bg-purple-600 w-6"
+                            : "bg-gray-300"
+                        }`}
+                      />
+                    ))}
                   </div>
                 </div>
 
-                <div className="space-y-3 mb-6">
-                  {safeServices.map((service, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0"
-                    >
-                      <span className="font-medium text-gray-700 text-sm flex-1 pr-2">
-                        {getLocalizedText(service?.title)}
-                      </span>
-                      <div className="text-right flex-shrink-0">
-                        {renderFeatureValue(getLocalizedText(service?.seb))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-                <button className="w-full flex justify-center items-center gap-x-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white hover:from-purple-700 hover:to-purple-800 px-6 py-4 font-semibold rounded-lg duration-300 transform hover:scale-105 shadow-md">
-                  <FireIcon />
-                  {t("more_info") || "More information"}
+                <button
+                  onClick={handleNextPricing}
+                  className="p-3 rounded-full bg-white shadow-md border border-gray-200 text-purple-600 hover:bg-purple-50 active:bg-purple-100 transition-colors duration-200"
+                >
+                  <ChevronRightIcon />
                 </button>
               </div>
 
-              {/* Standard Package */}
-              <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300 border-2 border-purple-200">
+              {/* Current Pricing Card */}
+              <div
+                className={`bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300 ${
+                  pricingOptions[currentPricingIndex]?.isPopular
+                    ? "border-2 border-purple-200"
+                    : ""
+                }`}
+              >
                 <div className="text-center mb-6">
-                  <div className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold mb-3 inline-block">
-                    {t("popular") || "Most Popular"}
-                  </div>
+                  {pricingOptions[currentPricingIndex]?.isPopular && (
+                    <div className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold mb-3 inline-block">
+                      {t("popular") || "Most Popular"}
+                    </div>
+                  )}
                   <h3 className="text-xl font-bold text-gray-800 mb-3">
-                    {getLocalizedText(activePriceData?.s_name)}
+                    {pricingOptions[currentPricingIndex]?.title}
                   </h3>
                   <div className="flex justify-center items-baseline">
                     <span className="text-2xl font-bold text-gray-700">€</span>
                     <span className="text-3xl font-bold text-gray-700 mx-1">
-                      {getLocalizedText(activePriceData?.s_price)}
+                      {pricingOptions[currentPricingIndex]?.price}
                     </span>
                     <span className="text-sm text-blue-600">
                       {t("ex_vat") || "ex VAT"}
@@ -293,64 +411,32 @@ const PricingContent: React.FC<PricingContentProps> = ({
                 </div>
 
                 <div className="space-y-3 mb-6">
-                  {safeServices.map((service, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0"
-                    >
-                      <span className="font-medium text-gray-700 text-sm flex-1 pr-2">
-                        {getLocalizedText(service?.title)}
-                      </span>
-                      <div className="text-right flex-shrink-0">
-                        {renderFeatureValue(getLocalizedText(service?.ses))}
+                  {pricingOptions[currentPricingIndex]?.services.map(
+                    (service, index) => (
+                      <div
+                        key={index}
+                        className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0"
+                      >
+                        <span className="font-medium text-gray-700 text-sm flex-1 pr-2">
+                          {service.title}
+                        </span>
+                        <div className="text-right flex-shrink-0">
+                          {renderFeatureValue(service.value)}
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    ),
+                  )}
                 </div>
 
-                <button className="w-full flex justify-center items-center gap-x-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white hover:from-purple-700 hover:to-purple-800 px-6 py-4 font-semibold rounded-lg duration-300 transform hover:scale-105 shadow-md">
-                  <FireIcon />
-                  {t("more_info") || "More information"}
-                </button>
-              </div>
-
-              {/* Premium Package */}
-              <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-                <div className="text-center mb-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">
-                    {getLocalizedText(activePriceData?.p_name)}
-                  </h3>
-                  <div className="flex justify-center items-baseline">
-                    <span className="text-2xl font-bold text-gray-700">€</span>
-                    <span className="text-3xl font-bold text-gray-700 mx-1">
-                      {getLocalizedText(activePriceData?.p_price)}
-                    </span>
-                    <span className="text-sm text-blue-600">
-                      {t("ex_vat") || "ex VAT"}
-                    </span>
-                  </div>
+                <div className="flex justify-center">
+                  <CustomButton
+                    clickFor="calendly"
+                    paddingY={12}
+                    paddingX={20}
+                    borderRadius={8}
+                    text={t("more_info") || "More information"}
+                  ></CustomButton>
                 </div>
-
-                <div className="space-y-3 mb-6">
-                  {safeServices.map((service, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center justify-between py-3 border-b border-gray-100 last:border-b-0"
-                    >
-                      <span className="font-medium text-gray-700 text-sm flex-1 pr-2">
-                        {getLocalizedText(service?.title)}
-                      </span>
-                      <div className="text-right flex-shrink-0">
-                        {renderFeatureValue(getLocalizedText(service?.sep))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-                <button className="w-full flex justify-center items-center gap-x-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white hover:from-purple-700 hover:to-purple-800 px-6 py-4 font-semibold rounded-lg duration-300 transform hover:scale-105 shadow-md">
-                  <FireIcon />
-                  {t("more_info") || "More information"}
-                </button>
               </div>
             </div>
           </div>
@@ -459,22 +545,37 @@ const PricingContent: React.FC<PricingContentProps> = ({
                     <tr>
                       <th className="p-4 sm:p-6"></th>
                       <td className="p-4 sm:p-6">
-                        <button className="flex justify-center items-center gap-x-1 sm:gap-x-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white hover:from-purple-700 hover:to-purple-800 px-3 sm:px-6 py-2 sm:py-3 font-semibold rounded-lg duration-300 transform hover:scale-105 shadow-md mx-auto text-sm sm:text-base">
-                          <FireIcon />
-                          {t("more_info") || "More information"}
-                        </button>
+                        <div className="flex justify-center">
+                          <CustomButton
+                            clickFor="calendly"
+                            paddingY={12}
+                            paddingX={20}
+                            borderRadius={8}
+                            text={t("more_info") || "More information"}
+                          ></CustomButton>
+                        </div>
                       </td>
                       <td className="p-4 sm:p-6">
-                        <button className="flex justify-center items-center gap-x-1 sm:gap-x-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white hover:from-purple-700 hover:to-purple-800 px-3 sm:px-6 py-2 sm:py-3 font-semibold rounded-lg duration-300 transform hover:scale-105 shadow-md mx-auto text-sm sm:text-base">
-                          <FireIcon />
-                          {t("more_info") || "More information"}
-                        </button>
+                        <div className="flex justify-center">
+                          <CustomButton
+                            clickFor="calendly"
+                            paddingY={12}
+                            paddingX={20}
+                            borderRadius={8}
+                            text={t("more_info") || "More information"}
+                          ></CustomButton>
+                        </div>
                       </td>
                       <td className="p-4 sm:p-6">
-                        <button className="flex justify-center items-center gap-x-1 sm:gap-x-2 bg-gradient-to-r from-purple-600 to-purple-700 text-white hover:from-purple-700 hover:to-purple-800 px-3 sm:px-6 py-2 sm:py-3 font-semibold rounded-lg duration-300 transform hover:scale-105 shadow-md mx-auto text-sm sm:text-base">
-                          <FireIcon />
-                          {t("more_info") || "More information"}
-                        </button>
+                        <div className="flex justify-center">
+                          <CustomButton
+                            clickFor="calendly"
+                            paddingY={12}
+                            paddingX={20}
+                            borderRadius={8}
+                            text={t("more_info") || "More information"}
+                          ></CustomButton>
+                        </div>
                       </td>
                     </tr>
                   </tbody>

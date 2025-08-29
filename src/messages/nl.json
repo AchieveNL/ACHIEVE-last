@@ -115,6 +115,10 @@
     "launch_support": "Launch ondersteuning",
     "post_launch_support": "Post-launch ondersteuning"
   },
+  "strategySection": {
+    "title": "Benieuwd naar wat wij voor jouw onderneming kunnen betekenen?",
+    "consultationButton": "Strategiegesprek"
+  },
   "navigation": {
     "home": {
       "value": "Home",
@@ -128,12 +132,38 @@
       "value": "Diensten",
       "slug": "/diensten",
       "links": {
-        "brandBook": "Brand Book",
-        "webDevelopment": "Web Development",
-        "emailMarketing": "Email Marketing",
-        "videoMarketing": "Video Marketing",
-        "searchEngineAdvertising": "Search Engine Advertising",
-        "socialMediaAdvertising": "Social Media Advertising"
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "Analytics en rapportage dashboard voor je campagnes"
+        },
+        "brandBook": {
+          "title": "Brand Book",
+          "description": "Uitgebreide merkidentiteit en richtlijnen"
+        },
+        "webDevelopment": {
+          "title": "Web Development",
+          "description": "Maatwerk websites en webapplicaties"
+        },
+        "emailMarketing": {
+          "title": "Email Marketing",
+          "description": "Gerichte e-mailcampagnes en automatisering"
+        },
+        "videoMarketing": {
+          "title": "Video Marketing",
+          "description": "Boeiende video content en campagnes"
+        },
+        "searchEngineAdvertising": {
+          "title": "Search Engine Advertising",
+          "description": "Google Ads en zoekmachine marketing campagnes"
+        },
+        "socialMediaAdvertising": {
+          "title": "Social Media Advertising",
+          "description": "Facebook, Instagram en social media advertenties"
+        },
+        "socialMediaManagement": {
+          "title": "Social Media Management",
+          "description": "Complete social media strategie en beheer"
+        }
       }
     },
     "projects": {
@@ -144,13 +174,38 @@
       "value": "Tarieven",
       "slug": "/tarieven",
       "links": {
-        "brandBook": "Brand Book",
-        "customWebsite": "Custom website",
-        "emailMarketing": "Email Marketing",
-        "videoMarketing": "Video Marketing",
-        "searchEngineAdvertising": "Search Engine Advertising",
-        "socialMediaAdvertising": "Social Media Advertising",
-        "socialMediaManagement": "Social Media Management"
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "Analytics en rapportage pakketten"
+        },
+        "brandBook": {
+          "title": "Brand Book",
+          "description": "Merkidentiteit pakketten en tarieven"
+        },
+        "customWebsite": {
+          "title": "Custom Website",
+          "description": "Website ontwikkeling pakketten"
+        },
+        "emailMarketing": {
+          "title": "Email Marketing",
+          "description": "E-mailcampagne pakketten en tarieven"
+        },
+        "videoMarketing": {
+          "title": "Video Marketing",
+          "description": "Videoproductie en marketing pakketten"
+        },
+        "searchEngineAdvertising": {
+          "title": "Search Engine Advertising",
+          "description": "Google Ads beheer pakketten"
+        },
+        "socialMediaAdvertising": {
+          "title": "Social Media Advertising",
+          "description": "Social media advertising pakketten"
+        },
+        "socialMediaManagement": {
+          "title": "Social Media Management",
+          "description": "Social media beheer pakketten"
+        }
       }
     },
     "careers": {

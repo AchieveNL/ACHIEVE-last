@@ -1,6 +1,10 @@
 import { ConsultationButton } from "../header";
+import { useClientTranslations } from "../hooks/useClientTranslations";
+import CustomButton from "../ui/CustomButton";
 
 export default function StrategySection() {
+  const { t, locale } = useClientTranslations("strategySection");
+
   return (
     <section
       className="py-[5rem]"
@@ -12,10 +16,19 @@ export default function StrategySection() {
       <div className="container mx-auto py-12 px-4">
         <div className="flex flex-col md:flex-row justify-between items-center 1200:flex-col gap-y-4">
           <h2 className="800:text-center leading-[1.2] text-[35px] !font-[800] 800:!text-[30px] 600:!text-[25px] max-w-[35ch]">
-            Benieuwd naar wat wij voor jouw onderneming kunnen betekenen?
+            {t("title")}
           </h2>
 
-          <ConsultationButton className="px-8 md:px-12 py-4 md:py-6" />
+          <CustomButton
+            clickFor={"calendly"}
+            text={t("consultationButton")}
+            whitespace={"nowrap"}
+            paddingY={19}
+            paddingX={50}
+            fontSize={20}
+            scaleNum={1.25}
+            iconSize={24}
+          />
         </div>
       </div>
     </section>

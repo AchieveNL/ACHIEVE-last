@@ -22,14 +22,38 @@ export function useNavigationData(): NavigationData[] {
       value: t("services.value"),
       slug: t("services.slug"),
       links: {
-        "brand-book": t("services.links.brandBook"),
-        "web-development": t("services.links.webDevelopment"),
-        "email-marketing": t("services.links.emailMarketing"),
-        "video-marketing": t("services.links.videoMarketing"),
-        "search-engine-advertising": t(
-          "services.links.searchEngineAdvertising"
-        ),
-        "social-media-advertising": t("services.links.socialMediaAdvertising"),
+        dashboard: {
+          title: t("services.links.dashboard.title"),
+          description: t("services.links.dashboard.description"),
+        },
+        "brand-book": {
+          title: t("services.links.brandBook.title"),
+          description: t("services.links.brandBook.description"),
+        },
+        "web-development": {
+          title: t("services.links.webDevelopment.title"),
+          description: t("services.links.webDevelopment.description"),
+        },
+        "email-marketing": {
+          title: t("services.links.emailMarketing.title"),
+          description: t("services.links.emailMarketing.description"),
+        },
+        "video-marketing": {
+          title: t("services.links.videoMarketing.title"),
+          description: t("services.links.videoMarketing.description"),
+        },
+        "search-engine-advertising": {
+          title: t("services.links.searchEngineAdvertising.title"),
+          description: t("services.links.searchEngineAdvertising.description"),
+        },
+        "social-media-advertising": {
+          title: t("services.links.socialMediaAdvertising.title"),
+          description: t("services.links.socialMediaAdvertising.description"),
+        },
+        "social-media-management": {
+          title: t("services.links.socialMediaManagement.title"),
+          description: t("services.links.socialMediaManagement.description"),
+        },
       },
     },
     {
@@ -43,13 +67,38 @@ export function useNavigationData(): NavigationData[] {
       value: t("pricing.value"),
       slug: t("pricing.slug"),
       links: {
-        "brand-book": t("pricing.links.brandBook"),
-        "custom-website": t("pricing.links.customWebsite"),
-        "email-marketing": t("pricing.links.emailMarketing"),
-        "video-marketing": t("pricing.links.videoMarketing"),
-        "search-engine-advertising": t("pricing.links.searchEngineAdvertising"),
-        "social-media-advertising": t("pricing.links.socialMediaAdvertising"),
-        "social-media-management": t("pricing.links.socialMediaManagement"),
+        dashboard: {
+          title: t("pricing.links.dashboard.title"),
+          description: t("pricing.links.dashboard.description"),
+        },
+        "brand-book": {
+          title: t("pricing.links.brandBook.title"),
+          description: t("pricing.links.brandBook.description"),
+        },
+        "custom-website": {
+          title: t("pricing.links.customWebsite.title"),
+          description: t("pricing.links.customWebsite.description"),
+        },
+        "email-marketing": {
+          title: t("pricing.links.emailMarketing.title"),
+          description: t("pricing.links.emailMarketing.description"),
+        },
+        "video-marketing": {
+          title: t("pricing.links.videoMarketing.title"),
+          description: t("pricing.links.videoMarketing.description"),
+        },
+        "search-engine-advertising": {
+          title: t("pricing.links.searchEngineAdvertising.title"),
+          description: t("pricing.links.searchEngineAdvertising.description"),
+        },
+        "social-media-advertising": {
+          title: t("pricing.links.socialMediaAdvertising.title"),
+          description: t("pricing.links.socialMediaAdvertising.description"),
+        },
+        "social-media-management": {
+          title: t("pricing.links.socialMediaManagement.title"),
+          description: t("pricing.links.socialMediaManagement.description"),
+        },
       },
     },
     {

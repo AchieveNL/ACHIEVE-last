@@ -114,6 +114,10 @@
     "launch_support": "Launch support",
     "post_launch_support": "Post-launch support"
   },
+  "strategySection": {
+    "title": "Curious about what we can do for your company?",
+    "consultationButton": "Strategy meeting"
+  },
   "navigation": {
     "home": {
       "value": "Home",
@@ -127,12 +131,38 @@
       "value": "Services",
       "slug": "/services",
       "links": {
-        "brandBook": "Brand Book",
-        "webDevelopment": "Web Development",
-        "emailMarketing": "Email Marketing",
-        "videoMarketing": "Video Marketing",
-        "searchEngineAdvertising": "Search Engine Advertising",
-        "socialMediaAdvertising": "Social Media Advertising"
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "Analytics and reporting dashboard for your campaigns"
+        },
+        "brandBook": {
+          "title": "Brand Book",
+          "description": "Comprehensive brand identity and guidelines"
+        },
+        "webDevelopment": {
+          "title": "Web Development",
+          "description": "Custom websites and web applications"
+        },
+        "emailMarketing": {
+          "title": "Email Marketing",
+          "description": "Targeted email campaigns and automation"
+        },
+        "videoMarketing": {
+          "title": "Video Marketing",
+          "description": "Engaging video content and campaigns"
+        },
+        "searchEngineAdvertising": {
+          "title": "Search Engine Advertising",
+          "description": "Google Ads and search marketing campaigns"
+        },
+        "socialMediaAdvertising": {
+          "title": "Social Media Advertising",
+          "description": "Facebook, Instagram and social advertising"
+        },
+        "socialMediaManagement": {
+          "title": "Social Media Management",
+          "description": "Complete social media strategy and management"
+        }
       }
     },
     "projects": {
@@ -143,13 +173,38 @@
       "value": "Pricing",
       "slug": "/pricing",
       "links": {
-        "brandBook": "Brand Book",
-        "customWebsite": "Custom Website",
-        "emailMarketing": "Email Marketing",
-        "videoMarketing": "Video Marketing",
-        "searchEngineAdvertising": "Search Engine Advertising",
-        "socialMediaAdvertising": "Social Media Advertising",
-        "socialMediaManagement": "Social Media Management"
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "Analytics and reporting packages"
+        },
+        "brandBook": {
+          "title": "Brand Book",
+          "description": "Brand identity packages and pricing"
+        },
+        "customWebsite": {
+          "title": "Custom Website",
+          "description": "Website development packages"
+        },
+        "emailMarketing": {
+          "title": "Email Marketing",
+          "description": "Email campaign packages and pricing"
+        },
+        "videoMarketing": {
+          "title": "Video Marketing",
+          "description": "Video production and marketing packages"
+        },
+        "searchEngineAdvertising": {
+          "title": "Search Engine Advertising",
+          "description": "Google Ads management packages"
+        },
+        "socialMediaAdvertising": {
+          "title": "Social Media Advertising",
+          "description": "Social media advertising packages"
+        },
+        "socialMediaManagement": {
+          "title": "Social Media Management",
+          "description": "Social media management packages"
+        }
       }
     },
     "careers": {

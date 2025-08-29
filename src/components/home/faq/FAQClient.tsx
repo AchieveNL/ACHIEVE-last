@@ -109,7 +109,7 @@ export default function FAQClient({
                   <h5 className="font-bold text-gray-900 pr-4">
                     {faq.question[locale]}
                   </h5>
-                  <div className="bg-purple-600 z-[50] flex justify-center items-center w-[30px] h-[30px] rounded-[6px] flex-shrink-0">
+                  <div className="bg-purple-600  flex justify-center items-center w-[30px] h-[30px] rounded-[6px] flex-shrink-0">
                     <PlusIcon isOpen={openFAQ === Number(faq._id)} />
                   </div>
                 </div>
