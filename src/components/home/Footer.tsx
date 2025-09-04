@@ -97,7 +97,7 @@ const Footer = () => {
                                 fill="currentColor"
                                 strokeWidth="0"
                                 viewBox="0 0 512 512"
-                                className="group-hover:text-white text-mainPurple text-[14px] sm:text-[12px] text-center leading-[32px] sm:leading-[28px]"
+                                className="group-hover:text-white text-bg-achieve-purple text-[14px] sm:text-[12px] text-center leading-[32px] sm:leading-[28px]"
                                 height="1em"
                                 width="1em"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@ const Footer = () => {
                           <li>
                             <a
                               href="https://www.instagram.com/achieve.nl/"
-                              className="group hover:bg-mainPurple cursor-pointer inline-flex justify-center items-center size-[32px] sm:size-[28px] leading-[32px] sm:leading-[28px] text-center rounded-full text-[14px] sm:text-[12px] bg-white duration-500 m-[2px]"
+                              className="group hover:bg-achieve-purple cursor-pointer inline-flex justify-center items-center size-[32px] sm:size-[28px] leading-[32px] sm:leading-[28px] text-center rounded-full text-[14px] sm:text-[12px] bg-white duration-500 m-[2px]"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -118,7 +118,7 @@ const Footer = () => {
                                 fill="currentColor"
                                 strokeWidth="0"
                                 viewBox="0 0 448 512"
-                                className="group-hover:text-white text-mainPurple text-[14px] sm:text-[12px] text-center leading-[32px] sm:leading-[28px]"
+                                className="group-hover:text-white text-achieve-purple text-[14px] sm:text-[12px] text-center leading-[32px] sm:leading-[28px]"
                                 height="1em"
                                 width="1em"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ const Footer = () => {
                           <li>
                             <a
                               href="https://www.linkedin.com/company/achieve-nl/"
-                              className="group hover:bg-mainPurple cursor-pointer inline-flex justify-center items-center size-[32px] sm:size-[28px] leading-[32px] sm:leading-[28px] text-center rounded-full text-[14px] sm:text-[12px] bg-white duration-500 m-[2px]"
+                              className="group hover:bg-achieve-purple cursor-pointer inline-flex justify-center items-center size-[32px] sm:size-[28px] leading-[32px] sm:leading-[28px] text-center rounded-full text-[14px] sm:text-[12px] bg-white duration-500 m-[2px]"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

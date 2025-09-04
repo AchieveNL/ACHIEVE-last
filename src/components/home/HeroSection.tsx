@@ -59,7 +59,7 @@ const HeroSection = () => {
             </div>
 
             {/* Description */}
-            <p className="text-lg lg:text-xl text-achieve-gray-600 leading-relaxed max-w-xl">
+            <p className="text-base text-achieve-gray-600 leading-relaxed max-w-xl">
               {t("description")}
             </p>
 

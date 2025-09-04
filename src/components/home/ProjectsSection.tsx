@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import type { CaseDocument, Locale } from "@/types/dbdatas"; // Adjust path as needed
 import { MongoService } from "@/lib/mongoService";
 import { Link } from "@/i18n/navigation";
+import HighlightedText from "../ui/HighlightedText";
 
 interface ProjectsSectionServerProps {
   locale?: Locale;
@@ -60,11 +61,9 @@ const ProjectsSectionServer = async ({
             className="flex justify-center items-center flex-col"
             style={{ marginBottom: "20px", gap: "4px" }}
           >
-            <h2 className="text-4xl font-bold text-gray-800">{t("title")}</h2>
-            <div className="flex gap-x-2">
-              <div className="bg-purple-600 h-[5px] w-16 rounded-md"></div>
-              <div className="bg-purple-600 h-[5px] w-24 rounded-md"></div>
-            </div>
+            <HighlightedText className="text-achieve-purple">
+              <h2 className="text-4xl font-bold text-gray-800">{t("title")}</h2>
+            </HighlightedText>{" "}
           </div>
 
           <div className="container mx-auto px-4">
@@ -85,11 +84,9 @@ const ProjectsSectionServer = async ({
           className="flex justify-center items-center flex-col"
           style={{ marginBottom: "20px", gap: "4px" }}
         >
-          <h2 className="text-4xl font-bold text-gray-800">{t("title")}</h2>
-          <div className="flex gap-x-2">
-            <div className="bg-purple-600 h-[5px] w-16 rounded-md"></div>
-            <div className="bg-purple-600 h-[5px] w-24 rounded-md"></div>
-          </div>
+          <HighlightedText className="text-achieve-purple">
+            <h2 className="text-4xl font-bold text-gray-800">{t("title")}</h2>
+          </HighlightedText>{" "}
         </div>
 
         <div className="container mx-auto px-4">

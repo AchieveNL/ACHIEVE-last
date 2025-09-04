@@ -1,13 +1,21 @@
 import { MongoService } from "@/lib/mongoService";
 import FAQClient from "./FAQClient";
 import type { Locale } from "@/types/dbdatas";
+import AnimatedText from "@/components/ui/AnimatedText";
+import HighlightedText from "@/components/ui/HighlightedText";
 
 interface FAQSectionProps {
   locale?: Locale;
   className?: string;
   title?: {
-    en: string;
-    nl: string;
+    en: {
+      prefix: string;
+      animated: string;
+    };
+    nl: {
+      prefix: string;
+      animated: string;
+    };
   };
 }
 
@@ -15,8 +23,14 @@ export default async function FAQSection({
   locale = "en",
   className = "",
   title = {
-    en: "Frequently Asked Questions",
-    nl: "Veelgestelde vragen",
+    en: {
+      prefix: "Frequently Asked",
+      animated: "Questions",
+    },
+    nl: {
+      prefix: "Veelgestelde",
+      animated: "vragen",
+    },
   },
 }: FAQSectionProps) {
   try {
@@ -25,21 +39,19 @@ export default async function FAQSection({
 
     return (
       <section className={`bg-gray-50 mx-auto px-4 py-16 pb-8 ${className}`}>
-        <div className="container  mx-auto px-4 !pb-[70px]">
+        <div className="container mx-auto px-4 !pb-[70px]">
           {/* Header */}
           <div
-            className="flex justify-center  items-center flex-col"
+            className="flex justify-center items-center flex-col"
             style={{ marginBottom: "20px", gap: "4px" }}
           >
             <h2 className="text-4xl font-bold text-gray-800">
-              {title[locale]}
+              {title[locale].prefix}{" "}
+              <HighlightedText className="text-achieve-purple">
+                <AnimatedText>{title[locale].animated}</AnimatedText>
+              </HighlightedText>{" "}
             </h2>
-            <div className="flex gap-x-2">
-              <div className="bg-purple-600 h-[5px] w-16 rounded-md"></div>
-              <div className="bg-purple-600 h-[5px] w-24 rounded-md"></div>
-            </div>
           </div>
-
           {/* FAQ Client Component */}
           <FAQClient
             faqCategories={faqData.faqCategories}
@@ -51,13 +63,13 @@ export default async function FAQSection({
     );
   } catch (error) {
     console.error("Error loading FAQ data:", error);
-
     return (
       <section className={`bg-gray-50 mx-auto px-4 py-16 pb-8 ${className}`}>
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              {title[locale]}
+              {title[locale].prefix}{" "}
+              <AnimatedText>{title[locale].animated}</AnimatedText>
             </h2>
             <p className="text-gray-600">
               {locale === "en"

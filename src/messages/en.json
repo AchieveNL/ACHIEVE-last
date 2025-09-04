@@ -19,7 +19,8 @@
     }
   },
   "services": {
-    "title": "Our services",
+    "titleOur": "Our",
+    "titleServices": "services",
     "read_more": "Read more...",
     "show_more": "Show more",
     "show_less": "Show less",
@@ -32,7 +33,8 @@
     "viewMoreButton": "View more projects"
   },
   "pricing": {
-    "select_service": "Select one of our services",
+    "select_service": "Select one of our",
+    "services": "services",
     "choose_package": "Choose your package deal",
     "fixed_amount": "A fixed amount, no surprises afterwards",
     "more_info": "More information",

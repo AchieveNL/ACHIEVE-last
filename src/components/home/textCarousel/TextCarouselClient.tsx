@@ -28,7 +28,7 @@ function CarouselSlider({ carouselData, to, locale }: CarouselSliderProps) {
   const duplicatedData = [...carouselData, ...carouselData];
 
   const carouselStyle = {
-    animation: `carousel 10s linear infinite ${to === "right" ? "reverse" : ""}`,
+    animation: `carousel 20s linear infinite ${to === "right" ? "reverse" : ""}`,
     animationPlayState: isPaused ? "paused" : "running",
   };
 

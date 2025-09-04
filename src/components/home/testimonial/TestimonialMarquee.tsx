@@ -126,7 +126,7 @@ export default function TestimonialMarquee({
 
   return (
     <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
-      <Marquee pauseOnHover className="[--duration:60s]">
+      <Marquee pauseOnHover className="[--duration:90s]">
         {firstRow.map((review, index) => (
           <ReviewCard key={`${review.name}-${index}`} {...review} />
         ))}
@@ -134,7 +134,7 @@ export default function TestimonialMarquee({
 
       {/* Only show second row if we have enough testimonials */}
       {secondRow.length > 0 && (
-        <Marquee reverse pauseOnHover className="[--duration:60s]">
+        <Marquee reverse pauseOnHover className="[--duration:90s]">
           {secondRow.map((review, index) => (
             <ReviewCard key={`${review.name}-${index}-row2`} {...review} />
           ))}

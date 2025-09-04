@@ -20,7 +20,8 @@
   },
 
   "services": {
-    "title": "Onze diensten",
+    "titleOur": "Onze",
+    "titleServices": "diensten",
     "read_more": "Lees meer...",
     "show_more": "Toon meer",
     "show_less": "Toon minder",
@@ -33,7 +34,8 @@
     "viewMoreButton": "Bekijk meer projecten"
   },
   "pricing": {
-    "select_service": "Selecteer een van onze services",
+    "select_service": "Selecteer een van onze",
+    "services": "diensten",
     "choose_package": "Kies jouw pakketdeal",
     "fixed_amount": "Een vast bedrag, geen verrassingen achteraf",
     "more_info": "Meer informatie",

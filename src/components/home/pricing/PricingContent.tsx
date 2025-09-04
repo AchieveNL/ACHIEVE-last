@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { Price } from "@/types/dbdatas";
 import { useClientTranslations } from "../../hooks/useClientTranslations";
 import CustomButton from "@/components/ui/CustomButton";
+import AnimatedText from "@/components/ui/AnimatedText";
+import HighlightedText from "@/components/ui/HighlightedText";
 
 interface PricingContentProps {
   prices: Price[];
@@ -266,12 +268,11 @@ const PricingContent: React.FC<PricingContentProps> = ({
         {showTitle && (
           <div className="flex justify-center items-center flex-col mb-4 sm:mb-6 lg:mb-8 gap-1">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 text-center px-4">
-              {t("select_service") || "Select one of our services"}
+              {t("select_service") || "Select one of our services"}{" "}
+              <HighlightedText className="text-achieve-purple">
+                <AnimatedText>{t("services") || "servicecs"}</AnimatedText>
+              </HighlightedText>{" "}
             </h2>
-            <div className="flex gap-x-2 mt-2">
-              <div className="bg-purple-600 h-[5px] w-12 sm:w-16 rounded-md"></div>
-              <div className="bg-purple-600 h-[5px] w-16 sm:w-24 rounded-md"></div>
-            </div>
           </div>
         )}
 
@@ -404,9 +405,6 @@ const PricingContent: React.FC<PricingContentProps> = ({
                     <span className="text-3xl font-bold text-gray-700 mx-1">
                       {pricingOptions[currentPricingIndex]?.price}
                     </span>
-                    <span className="text-sm text-blue-600">
-                      {t("ex_vat") || "ex VAT"}
-                    </span>
                   </div>
                 </div>
 
@@ -465,14 +463,11 @@ const PricingContent: React.FC<PricingContentProps> = ({
                         </div>
                         <div className="border-t-2 border-dashed border-gray-200 pt-4">
                           <div className="flex justify-center items-baseline">
-                            <span className="text-xl sm:text-2xl font-bold text-gray-700">
+                            <span className="text-xl font-bold text-gray-700">
                               €
                             </span>
-                            <span className="text-2xl sm:text-3xl font-bold text-gray-700 mx-1">
+                            <span className="text-xl  font-bold text-gray-700 mx-1">
                               {getLocalizedText(activePriceData?.b_price)}
-                            </span>
-                            <span className="text-xs sm:text-sm text-blue-600">
-                              {t("ex_vat") || "ex VAT"}
                             </span>
                           </div>
                         </div>
@@ -485,14 +480,11 @@ const PricingContent: React.FC<PricingContentProps> = ({
                         </div>
                         <div className="border-t-2 border-dashed border-gray-200 pt-4">
                           <div className="flex justify-center items-baseline">
-                            <span className="text-xl sm:text-2xl font-bold text-gray-700">
+                            <span className="text-xl  font-bold text-gray-700">
                               €
                             </span>
-                            <span className="text-2xl sm:text-3xl font-bold text-gray-700 mx-1">
+                            <span className="text-xl  font-bold text-gray-700 mx-1">
                               {getLocalizedText(activePriceData?.s_price)}
-                            </span>
-                            <span className="text-xs sm:text-sm text-blue-600">
-                              {t("ex_vat") || "ex VAT"}
                             </span>
                           </div>
                         </div>
@@ -505,14 +497,11 @@ const PricingContent: React.FC<PricingContentProps> = ({
                         </div>
                         <div className="border-t-2 border-dashed border-gray-200 pt-4">
                           <div className="flex justify-center items-baseline">
-                            <span className="text-xl sm:text-2xl font-bold text-gray-700">
+                            <span className="text-xl  font-bold text-gray-700">
                               €
                             </span>
-                            <span className="text-2xl sm:text-3xl font-bold text-gray-700 mx-1">
+                            <span className="text-xl font-bold text-gray-700 mx-1">
                               {getLocalizedText(activePriceData?.p_price)}
-                            </span>
-                            <span className="text-xs sm:text-sm text-blue-600">
-                              {t("ex_vat") || "ex VAT"}
                             </span>
                           </div>
                         </div>

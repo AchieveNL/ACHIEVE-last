@@ -1,25 +1,11 @@
 import React from "react";
-import Image from "next/image";
 import { Marquee } from "../magicui/marquee";
 import { Company } from "@/types/dbdatas";
 import { MongoService } from "@/lib/mongoService";
 import { getTranslations } from "next-intl/server";
-
-const CompanyCard = ({ name, logo }: { name: string; logo: string }) => {
-  return (
-    <figure className="relative w-[200px] h-[120px] cursor-pointer overflow-hidden rounded-xl  p-4 flex items-center justify-center group">
-      <div className="flex items-center justify-center w-full h-full">
-        <Image
-          src={logo}
-          alt={name}
-          width={200}
-          height={120}
-          className="max-w-full max-h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
-        />
-      </div>
-    </figure>
-  );
-};
+import HighlightedText from "../ui/HighlightedText";
+import AnimatedText from "../ui/AnimatedText";
+import CompanyCard from "./company/companyCard";
 
 const CompaniesSection = async () => {
   const t = await getTranslations("companies");
@@ -67,18 +53,21 @@ const CompaniesSection = async () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-achieve-navy mb-4">
             {t("title.prefix")}{" "}
-            <span className="text-achieve-purple relative">
-              {t("title.companies")}
-              {/* Underline decoration */}
-              <span className="absolute bottom-0 left-0 w-full h-1 bg-achieve-purple"></span>
-            </span>{" "}
+            <HighlightedText className="text-achieve-purple">
+              <AnimatedText
+                animationType="gradient"
+                className="text-achieve-purple font-bold"
+              >
+                {t("title.companies")}
+              </AnimatedText>{" "}
+            </HighlightedText>{" "}
             {t("title.suffix")}
           </h2>
         </div>
 
         {/* Companies Carousel */}
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
-          <Marquee pauseOnHover className="[--duration:40s]">
+          <Marquee pauseOnHover className="[--duration:90s]">
             {firstRow.map((company) => (
               <CompanyCard
                 key={`first-${company.company}`}
@@ -87,7 +76,7 @@ const CompaniesSection = async () => {
               />
             ))}
           </Marquee>
-          <Marquee reverse pauseOnHover className="[--duration:40s]">
+          <Marquee reverse pauseOnHover className="[--duration:90s]">
             {secondRow.map((company) => (
               <CompanyCard
                 key={`second-${company.company}`}

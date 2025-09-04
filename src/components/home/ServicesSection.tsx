@@ -1,10 +1,11 @@
 import React from "react";
 import { Locale, Service } from "@/types/dbdatas";
 import { useClientTranslations } from "../hooks/useClientTranslations";
-import TextWithUnderline from "../ui/TextWithUnderline";
 import { MongoService } from "@/lib/mongoService";
 import CollapsibleDescription from "./CollapsibleDescription";
 import Image from "next/image";
+import AnimatedText from "../ui/AnimatedText";
+import HighlightedText from "../ui/HighlightedText";
 
 interface ServicesSectionProps {
   font?: string;
@@ -105,11 +106,17 @@ const ServicesContent: React.FC<{
         {/* Header */}
         {showTitle && (
           <div className="flex justify-center items-center flex-col mb-3 sm:mb-4 lg:mb-5 gap-1">
-            <TextWithUnderline>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-2 text-center px-4">
-                {t("title")}
-              </h2>
-            </TextWithUnderline>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-2 text-center px-4">
+              {t("titleOur")}{" "}
+              <HighlightedText className="text-achieve-purple">
+                <AnimatedText
+                  animationType="gradient"
+                  className="text-achieve-purple font-bold"
+                >
+                  {t("titleServices")}
+                </AnimatedText>{" "}
+              </HighlightedText>{" "}
+            </h2>
           </div>
         )}
 

@@ -145,7 +145,7 @@ export default function DesktopNavigation({
                                       ].alt
                                     : defaultServiceImage.alt
                                 }
-                                className="w-full min-h-72 object-cover transition-all duration-300"
+                                className="w-full min-h-80 object-cover transition-all duration-300"
                               />
                               {/* Text overlay positioned at bottom of image */}
                               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent p-4">

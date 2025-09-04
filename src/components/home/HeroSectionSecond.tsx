@@ -5,6 +5,7 @@ import LottieHelper from "../ui/LottieHelper";
 import { useHomePageAnimation } from "../../hooks/useHomePageAnimation";
 import AnimatedLinkWithArrow from "./AnimatedLinkWithArrowProps";
 import { useClientTranslations } from "../hooks/useClientTranslations";
+import HighlightedText from "../ui/HighlightedText";
 
 const HeroSectionSecond = () => {
   const { animationData, loading } = useHomePageAnimation("WeAchieve");
@@ -21,37 +22,34 @@ const HeroSectionSecond = () => {
               <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
                 {locale === "en" ? (
                   <>
-                    Hallo! Wij zijn
-                    <AnimatedText
-                      animationType="gradient"
-                      className="text-achieve-purple font-bold"
-                    >
-                      data
-                    </AnimatedText>{" "}
-                    and the power of{" "}
-                    <AnimatedText
-                      animationType="gradient"
-                      className="text-achieve-purple font-bold"
-                    >
-                      creativity
-                    </AnimatedText>
+                    Hello! We are{" "}
+                    <HighlightedText className="text-achieve-purple">
+                      <AnimatedText
+                        animationType="gradient"
+                        className="text-achieve-purple font-bold"
+                      >
+                        Achieve
+                      </AnimatedText>{" "}
+                    </HighlightedText>{" "}
                   </>
                 ) : (
                   <>
                     Hallo! Wij zijn{" "}
-                    <AnimatedText
-                      animationType="gradient"
-                      className="text-achieve-purple font-bold"
-                    >
-                      Achieve
-                    </AnimatedText>{" "}
+                    <HighlightedText className="text-achieve-purple">
+                      <AnimatedText
+                        animationType="gradient"
+                        className="text-achieve-purple font-bold"
+                      >
+                        Achieve
+                      </AnimatedText>{" "}
+                    </HighlightedText>{" "}
                   </>
                 )}
               </h1>
             </div>
 
             {/* Description */}
-            <p className="text-lg lg:text-xl text-achieve-gray-600 leading-relaxed max-w-xl">
+            <p className="text-base text-achieve-gray-600 leading-relaxed max-w-xl">
               {t("description")}
             </p>
 
