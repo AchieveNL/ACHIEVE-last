@@ -47,7 +47,7 @@ const CompaniesSection = async () => {
   const secondRow = companies.slice(Math.ceil(companies.length / 2));
 
   return (
-    <section className="py-16 bg-achieve-gray-50">
+    <section className="py-16 bg-achieve-background">
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-12">

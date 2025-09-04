@@ -217,7 +217,7 @@ const PricingContent: React.FC<PricingContentProps> = ({
   // Safety check for rendering
   if (!activePriceData || !prices || prices.length === 0) {
     return (
-      <div className="bg-achieve-gray-50 mx-auto px-4 py-8 sm:py-12 lg:py-16">
+      <div className="bg-achieve-background mx-auto px-4 py-8 sm:py-12 lg:py-16">
         <div className="container mx-auto">
           <div className="text-center text-gray-500">
             No pricing data available
@@ -262,7 +262,8 @@ const PricingContent: React.FC<PricingContentProps> = ({
   ];
 
   return (
-    <div className="bg-achieve-gray-50 mx-auto px-4 py-8 sm:py-12 lg:py-16">
+    <div className="bg-achieve-background mx-auto px-4 py-8 sm:py-12 lg:py-16">
+      {" "}
       <section className="flex container mx-auto flex-col gap-y-8 sm:gap-y-10 lg:gap-y-12 max-w-7xl">
         {/* Header */}
         {showTitle && (

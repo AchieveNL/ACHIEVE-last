@@ -38,7 +38,9 @@ export default async function FAQSection({
     const faqData = await MongoService.getFaqData();
 
     return (
-      <section className={`bg-gray-50 mx-auto px-4 py-16 pb-8 ${className}`}>
+      <section
+        className={`bg-achieve-background mx-auto px-4 py-16 pb-8 ${className}`}
+      >
         <div className="container mx-auto px-4 !pb-[70px]">
           {/* Header */}
           <div

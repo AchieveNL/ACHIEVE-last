@@ -16,7 +16,7 @@ export default async function TextCarouselSection({
     const carouselData = await MongoService.getCarouselData();
 
     return (
-      <section className={`bg-gray-50 ${className}`}>
+      <section className={`bg-achieve-background ${className}`}>
         <TextCarouselClient
           carouselDataTop={carouselData.carouselDataTop}
           carouselDataBottom={carouselData.carouselDataBottom}
@@ -29,7 +29,9 @@ export default async function TextCarouselSection({
 
     // Fallback UI
     return (
-      <section className={`bg-gray-50 mx-auto px-4 py-8 ${className}`}>
+      <section
+        className={`bg-achieve-background mx-auto px-4 py-8 ${className}`}
+      >
         <div className="text-center">
           <p className="text-gray-600">
             {locale === "en"

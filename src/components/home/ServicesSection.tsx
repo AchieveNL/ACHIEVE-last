@@ -89,7 +89,7 @@ const ServicesContent: React.FC<{
   const { t, locale } = useClientTranslations("services");
 
   return (
-    <div className="mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12 pb-12 sm:pb-14 lg:pb-16 bg-achieve-gray-50 relative">
+    <div className="mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12 pb-12 sm:pb-14 lg:pb-16 bg-achieve-background relative">
       {/* Background Image */}
       <div
         className="absolute w-full h-full left-0 top-0"
