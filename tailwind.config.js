@@ -12,6 +12,7 @@ module.exports = {
         // Achieve.nl Brand Colors
         achieve: {
           purple: "#8138FB",
+          background: "#F8F5FF",
           navy: "#1E2470",
           blue: "#2563EB",
           gray: {
@@ -81,6 +82,13 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-poppins)", "system-ui", "sans-serif"],
+      },
+
+      boxShadow: {
+        navBoxShadow: "0 1px 40px 0 rgba(0,0,0,.1)",
+        serviceCardShadow: "0 0 10px 4px rgba(31,66,135,.1)",
+        serviceCardShadowHover: "0 0 10px 4px rgba(31,66,135,.2)",
+        purpleShadowHover: "2px 3px 33px 1px #8639fa",
       },
       animation: {
         aurora: "aurora 60s linear infinite",
