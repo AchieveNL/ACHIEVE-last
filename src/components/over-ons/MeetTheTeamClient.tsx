@@ -76,7 +76,7 @@ export default async function MeetTheTeam({
                   />
                 </div>
                 <div
-                  className={`bg-white ml-5 flex flex-col justify-center items-center p-[30px] rounded-[10px] shadow-serviceCardShadow z-[99] mt-[-60px] relative`}
+                  className={`bg-white ml-5 flex flex-col justify-center items-center p-[30px] rounded-[10px] shadow-serviceCardShadow  mt-[-60px] relative`}
                 >
                   <div className={`flex flex-col items-center`}>
                     <h4 className={`font-bold mb-[3px]`}>{person.name}</h4>
