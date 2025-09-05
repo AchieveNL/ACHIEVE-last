@@ -6,18 +6,22 @@ import HighlightedText from "@/components/ui/HighlightedText";
 interface TestimonialsSectionProps {
   locale?: Locale;
   className?: string;
+  bgPrimary?: boolean;
 }
 
 export default async function TestimonialsSection({
   locale = "en",
   className = "",
+  bgPrimary = false,
 }: TestimonialsSectionProps) {
   try {
     // Fetch testimonials from MongoDB using MongoService
     const testimonials = await MongoService.getTestimonials();
 
     return (
-      <section className={`mx-auto px-4 py-16 pb-8 ${className}`}>
+      <section
+        className={`mx-auto px-4 py-16 pb-8 ${className} ${bgPrimary ? "bg-achieve-background" : ""}`}
+      >
         {/* Header */}
         <div
           className="flex justify-center items-center flex-col"
@@ -38,7 +42,7 @@ export default async function TestimonialsSection({
     console.error("Error loading testimonials:", error);
 
     return (
-      <section className={`mx-auto px-4 py-16 pb-8 ${className}`}>
+      <section className={`mx-auto px-4 py-16 pb-8 ${className} `}>
         <div className="text-center">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             {locale === "en" ? "Testimonials" : "Getuigenissen"}

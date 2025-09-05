@@ -1,5 +1,10 @@
+import StrategySection from "@/components/home/StrategySection";
+import TestimonialsSection from "@/components/home/testimonial/TestimonialsSection";
+import TextCarouselSection from "@/components/home/textCarousel/TextCarouselSection";
 import Banner from "@/components/layout/Banner";
 import AboutUsSection from "@/components/over-ons/AboutUsSection";
+import MeetTheTeam from "@/components/over-ons/MeetTheTeam";
+import Promise from "@/components/over-ons/Promise";
 import { Locale } from "@/types/dbdatas";
 
 const AboutUsPage = async ({
@@ -12,7 +17,12 @@ const AboutUsPage = async ({
   return (
     <>
       <Banner title="Over ons" />
-      <AboutUsSection locale={locale} />
+      <AboutUsSection locale={resolvedLocale} />
+      <TextCarouselSection locale={resolvedLocale} />
+      <Promise locale={resolvedLocale} />
+      <MeetTheTeam locale={resolvedLocale} />
+      <TestimonialsSection bgPrimary locale={resolvedLocale} />
+      <StrategySection />
     </>
   );
 };

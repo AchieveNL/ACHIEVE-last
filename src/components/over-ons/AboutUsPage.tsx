@@ -16,7 +16,7 @@ function AboutUsPage({
   const { animationData, loading } = useHomePageAnimation("aboutus");
 
   return (
-    <section className={`flex container items-center 1000:flex-col pb-[70px]`}>
+    <section className={`flex container items-center 1000:flex-col py-[70px]`}>
       <div className={`basis-[50%] mb-[30px]`}>
         <LottieHelper jsonFile={animationData} />
       </div>
