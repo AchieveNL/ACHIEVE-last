@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { AuroraBackground } from "../ui/aurora-background";
+import HighlightedText from "../ui/HighlightedText";
 
 const Footer = () => {
   return (
@@ -180,13 +181,14 @@ const Footer = () => {
                     <div className="lg:basis-1/3 md:basis-1/3 flex justify-center">
                       <div className="mb-[30px] ">
                         <div className="flex  flex-col gap-y-1 mb-[30px]">
-                          <h5 className="text-[24px] sm:text-[20px] font-bold pb-[10px] text-white leading-[1.2]">
-                            Menu
-                          </h5>
-                          <div className="flex items-center gap-x-1 justify-start">
-                            <span className="h-[5px] w-[20px] rounded-md bg-white"></span>
-                            <span className="bg-white h-[5px] w-[55px] rounded-md"></span>
-                          </div>
+                          <HighlightedText
+                            variant="white"
+                            className="text-achieve-purple"
+                          >
+                            <h5 className="text-[24px] sm:text-[20px] font-bold  text-white leading-[1.2]">
+                              Menu
+                            </h5>
+                          </HighlightedText>{" "}
                         </div>
                         <div>
                           <ul className="space-y-1">
@@ -255,13 +257,14 @@ const Footer = () => {
                     <div className="lg:basis-1/3 md:basis-1/3 flex justify-center">
                       <div className="mb-[30px] ">
                         <div className="flex flex-col gap-y-1 mb-[30px]">
-                          <h5 className="text-[24px] sm:text-[20px] font-bold pb-[10px] text-white leading-[1.2]">
-                            Onze diensten
-                          </h5>
-                          <div className="flex items-center gap-x-1 justify-start">
-                            <span className="h-[5px] w-[20px] rounded-md bg-white"></span>
-                            <span className="bg-white h-[5px] w-[55px] rounded-md"></span>
-                          </div>
+                          <HighlightedText
+                            variant="white"
+                            className="text-achieve-purple"
+                          >
+                            <h5 className="text-[24px] sm:text-[20px] font-bold  text-white leading-[1.2]">
+                              Onze diensten
+                            </h5>
+                          </HighlightedText>
                         </div>
                         <div>
                           <ul className="space-y-1">
@@ -338,13 +341,14 @@ const Footer = () => {
                     <div className="lg:basis-1/3 md:basis-1/3 flex justify-center">
                       <div className="mb-[30px]">
                         <div className="flex flex-col gap-y-1 mb-[30px]">
-                          <h5 className="text-[24px] sm:text-[20px] font-bold pb-[10px] text-white leading-[1.2]">
-                            Over Achieve
-                          </h5>
-                          <div className="flex items-center gap-x-1 justify-start">
-                            <span className="h-[5px] w-[20px] rounded-md bg-white"></span>
-                            <span className="bg-white h-[5px] w-[55px] rounded-md"></span>
-                          </div>
+                          <HighlightedText
+                            variant="white"
+                            className="text-achieve-purple"
+                          >
+                            <h5 className="text-[24px] sm:text-[20px] font-bold  text-white leading-[1.2]">
+                              Over Achieve
+                            </h5>
+                          </HighlightedText>
                         </div>
                         <div>
                           <ul className="space-y-1">
