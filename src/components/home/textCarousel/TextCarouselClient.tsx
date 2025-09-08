@@ -13,6 +13,7 @@ interface TextCarouselClientProps {
   carouselDataTop: CarouselData[];
   carouselDataBottom: CarouselData[];
   locale: Locale;
+  bgPrimary?: boolean;
 }
 
 // CarouselSlider component
@@ -58,6 +59,7 @@ export default function TextCarouselClient({
   carouselDataTop,
   carouselDataBottom,
   locale,
+  bgPrimary = false,
 }: TextCarouselClientProps) {
   // Check if we have any data to display
   const hasTopData = carouselDataTop && carouselDataTop.length > 0;
@@ -66,7 +68,9 @@ export default function TextCarouselClient({
   // If no data at all, show fallback
   if (!hasTopData && !hasBottomData) {
     return (
-      <section className="bg-achieve-background mx-auto px-4 py-8">
+      <section
+        className={`${bgPrimary ? "bg-achieve-background" : "bg-white"} mx-auto px-4 py-8`}
+      >
         <div className="text-center">
           <p className="text-gray-600">
             {locale === "en"
@@ -90,7 +94,9 @@ export default function TextCarouselClient({
           }
         }
       `}</style>
-      <section className="bg-achieve-background mx-auto px-4 py-8">
+      <section
+        className={`${bgPrimary ? "bg-achieve-background" : "bg-white"} mx-auto px-4 py-8`}
+      >
         <div className="">
           {/* Top carousel */}
           {hasTopData && (

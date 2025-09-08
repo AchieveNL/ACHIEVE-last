@@ -85,7 +85,9 @@ const ProjectsSectionServer = async ({
           style={{ marginBottom: "20px", gap: "4px" }}
         >
           <HighlightedText className="text-achieve-purple">
-            <h2 className="text-4xl font-bold text-gray-800">{t("title")}</h2>
+            <h2 className="text-4xl font-bold text-achieve-navy">
+              {t("title")}
+            </h2>
           </HighlightedText>{" "}
         </div>
 

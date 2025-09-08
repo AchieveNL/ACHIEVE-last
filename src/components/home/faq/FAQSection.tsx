@@ -47,7 +47,7 @@ export default async function FAQSection({
             className="flex justify-center items-center flex-col"
             style={{ marginBottom: "20px", gap: "4px" }}
           >
-            <h2 className="text-4xl font-bold text-gray-800">
+            <h2 className="text-4xl font-bold text-achieve-navy">
               {title[locale].prefix}{" "}
               <HighlightedText className="text-achieve-purple">
                 <AnimatedText>{title[locale].animated}</AnimatedText>

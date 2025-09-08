@@ -18,7 +18,7 @@ const AboutUsPage = async ({
     <>
       <Banner title="Over ons" />
       <AboutUsSection locale={resolvedLocale} />
-      <TextCarouselSection locale={resolvedLocale} />
+      <TextCarouselSection bgPrimary locale={resolvedLocale} />
       <Promise locale={resolvedLocale} />
       <MeetTheTeam locale={resolvedLocale} />
       <TestimonialsSection bgPrimary locale={resolvedLocale} />

@@ -268,7 +268,7 @@ const PricingContent: React.FC<PricingContentProps> = ({
         {/* Header */}
         {showTitle && (
           <div className="flex justify-center items-center flex-col mb-4 sm:mb-6 lg:mb-8 gap-1">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 text-center px-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-achieve-navy text-center px-4">
               {t("select_service") || "Select one of our services"}{" "}
               <HighlightedText className="text-achieve-purple">
                 <AnimatedText>{t("services") || "servicecs"}</AnimatedText>

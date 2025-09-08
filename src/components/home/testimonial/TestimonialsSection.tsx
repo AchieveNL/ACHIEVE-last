@@ -28,7 +28,7 @@ export default async function TestimonialsSection({
           style={{ marginBottom: "20px", gap: "4px" }}
         >
           <HighlightedText className="text-achieve-purple">
-            <h2 className="text-4xl font-bold text-gray-800">
+            <h2 className="text-4xl font-bold text-achieve-navy">
               {locale === "en" ? "Testimonials" : "Zij gingen je voor"}
             </h2>
           </HighlightedText>{" "}

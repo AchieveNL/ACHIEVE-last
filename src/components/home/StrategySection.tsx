@@ -1,4 +1,3 @@
-import { ConsultationButton } from "../header";
 import { useClientTranslations } from "../hooks/useClientTranslations";
 import CustomButton from "../ui/CustomButton";
 
@@ -15,7 +14,7 @@ export default function StrategySection() {
     >
       <div className="container mx-auto py-12 px-4">
         <div className="flex flex-col md:flex-row justify-between items-center 1200:flex-col gap-y-4">
-          <h2 className="800:text-center leading-[1.2] text-[35px] !font-[800] 800:!text-[30px] 600:!text-[25px] max-w-[35ch]">
+          <h2 className="800:text-center text-achieve-navy leading-[1.2] text-[35px] !font-[800] 800:!text-[30px] 600:!text-[25px] max-w-[35ch]">
             {t("title")}
           </h2>
 

@@ -26,6 +26,9 @@ export const metadata = {
     default: "Your Agency Name - Professional Digital Services",
   },
   description: "Professional digital marketing and web development services",
+  icons: {
+    icon: "/favico.ico",
+  },
   metadataBase: new URL("https://youragency.com"),
   openGraph: {
     title: "Your Agency Name",

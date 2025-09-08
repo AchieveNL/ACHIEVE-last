@@ -22,7 +22,7 @@ const CompaniesSection = async () => {
 
   if (hasError) {
     return (
-      <section className="py-16 bg-achieve-gray-50">
+      <section className="py-16 bg-achieve-background">
         <div className="container mx-auto px-4">
           <div className="text-center text-achieve-red-500">
             {t("serverError")}
@@ -34,7 +34,7 @@ const CompaniesSection = async () => {
 
   if (companies.length === 0) {
     return (
-      <section className="py-16 bg-achieve-gray-50">
+      <section className="py-16 bg-achieve-background">
         <div className="container mx-auto px-4">
           <div className="text-center">{t("loading")}</div>
         </div>
@@ -85,8 +85,8 @@ const CompaniesSection = async () => {
               />
             ))}
           </Marquee>
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-achieve-gray-50"></div>
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-achieve-gray-50"></div>
+          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-achieve-background"></div>
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-achieve-background"></div>
         </div>
       </div>
     </section>
