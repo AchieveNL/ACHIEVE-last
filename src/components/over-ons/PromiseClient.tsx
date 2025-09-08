@@ -43,33 +43,35 @@ export default async function PromisesClient({
     <section
       className={`flex container flex-col gap-[3rem] justify-center items-center py-[4rem]`}
     >
-      <HighlightedText className="text-achieve-purple">
-        {/*<h2 className={'TitleText'}>*/}
-        {locale === "en" ? (
-          <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
-            Our{" "}
+      {/*<h2 className={'TitleText'}>*/}
+      {locale === "en" ? (
+        <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
+          Our{" "}
+          <HighlightedText className="text-achieve-purple">
             <AnimatedText
               animationType="gradient"
               className="text-achieve-purple font-bold"
             >
               promises
             </AnimatedText>{" "}
-            to you
-          </h1>
-        ) : (
-          <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
-            Onze{" "}
+          </HighlightedText>{" "}
+          to you
+        </h1>
+      ) : (
+        <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
+          Onze{" "}
+          <HighlightedText className="text-achieve-purple">
             <AnimatedText
               animationType="gradient"
               className="text-achieve-purple font-bold"
             >
               beloften
             </AnimatedText>{" "}
-            aan jou
-          </h1>
-        )}
-        {/*</h2>*/}
-      </HighlightedText>
+          </HighlightedText>{" "}
+          aan jou
+        </h1>
+      )}
+      {/*</h2>*/}
       <div
         className={`grid grid-cols-4 mx-[-15px] gap-6 1000:grid-cols-2 600:!grid-cols-1`}
       >

@@ -30,29 +30,31 @@ export default async function MeetTheTeam({
         <div
           className={`flex justify-center items-center flex-col mb-3 sm:mb-4 lg:mb-5 gap-1`}
         >
-          <HighlightedText className="text-achieve-purple ">
-            {locale === "en" ? (
-              <h1 className="text-4xl lg:text-4xl  font-bold leading-tight text-achieve-navy">
-                Meet the{" "}
+          {locale === "en" ? (
+            <h1 className="text-4xl lg:text-4xl  font-bold leading-tight text-achieve-navy">
+              Meet the{" "}
+              <HighlightedText className="text-achieve-purple ">
                 <AnimatedText
                   animationType="gradient"
                   className="text-achieve-purple font-bold"
                 >
                   team
                 </AnimatedText>
-              </h1>
-            ) : (
-              <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
-                Ontmoet het{" "}
+              </HighlightedText>
+            </h1>
+          ) : (
+            <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
+              Ontmoet het{" "}
+              <HighlightedText className="text-achieve-purple ">
                 <AnimatedText
                   animationType="gradient"
                   className="text-achieve-purple font-bold"
                 >
                   team
                 </AnimatedText>
-              </h1>
-            )}
-          </HighlightedText>
+              </HighlightedText>
+            </h1>
+          )}
         </div>
         <p className={`text-center mb-[1rem] mt-3`}>
           {data.teamDescription[locale]}
