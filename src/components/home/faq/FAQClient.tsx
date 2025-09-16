@@ -16,7 +16,7 @@ function PlusIcon({ isOpen = false }) {
       fill="currentColor"
       strokeWidth="0"
       viewBox="0 0 24 24"
-      className={`text-white text-[30px] duration-500 transform ${isOpen ? "rotate-45" : "rotate-0"}`}
+      className={`text-white text-[20px] duration-300 transform ${isOpen ? "rotate-45" : "rotate-0"}`}
       height="1em"
       width="1em"
       xmlns="http://www.w3.org/2000/svg"
@@ -69,69 +69,103 @@ export default function FAQClient({
   }
 
   return (
-    <section className="flex flex-col gap-y-12">
-      <div>
-        <div className="flex flex-col gap-y-4">
-          {/* Category Tabs */}
-          <div>
-            <ul className="text-center">
-              {faqCategories.map((category) => (
-                <li
-                  key={category._id}
-                  className={`inline-block cursor-pointer rounded-[30px] p-4 duration-500 mb-[1rem] ml-2 mr-[-1px] font-[500] capitalize text-[18px] py-[10px] px-[30px] hover:shadow-lg ${
+    <section className="flex flex-col lg:flex-row gap-8 min-h-[500px]">
+      {/* Left Side - Categories */}
+      <div className="lg:w-[465px] w-full">
+        <div className=" rounded-lg p-6 ">
+          <ul className="space-y-2">
+            {faqCategories.map((category) => (
+              <li key={category._id}>
+                <button
+                  className={`w-full text-left p-4 rounded-lg duration-300 font-medium text-[16px] flex items-center justify-between group hover:shadow-sm ${
                     activeCategory === category._id.toString()
-                      ? "bg-purple-600 text-white"
-                      : "bg-white text-[#8d8fb4]"
+                      ? "bg-purple-600 text-white shadow-md"
+                      : "bg-white text-gray-700 hover:bg-gray-100"
                   }`}
                   onClick={() => {
                     setActiveCategory(category._id.toString());
                     setOpenFAQ(null); // Close any open FAQ when switching categories
                   }}
                 >
-                  {category.title[locale]}
-                </li>
-              ))}
-            </ul>
-          </div>
+                  <span className="capitalize">{category.title[locale]}</span>
+                  <svg
+                    className={`w-5 h-5 transition-transform duration-200 ${
+                      activeCategory === category._id.toString()
+                        ? "text-white rotate-0"
+                        : "text-gray-400 group-hover:text-gray-600"
+                    }`}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
 
-          {/* FAQ Items */}
-          <div className="flex flex-col gap-y-4">
-            {currentFAQs.map((faq) => (
-              <article
-                key={faq._id}
-                className="bg-white hover:shadow-lg rounded-[8px] duration-500"
-              >
-                {/* FAQ Question */}
-                <div
-                  className="flex p-3 justify-between items-center rounded-[8px] bg-white cursor-pointer"
-                  onClick={() => toggleFAQ(Number(faq._id))}
-                >
-                  <h5 className="font-bold text-gray-900 pr-4">
-                    {faq.question[locale]}
-                  </h5>
-                  <div className="bg-purple-600  flex justify-center items-center w-[30px] h-[30px] rounded-[6px] flex-shrink-0">
-                    <PlusIcon isOpen={openFAQ === Number(faq._id)} />
-                  </div>
-                </div>
-
-                {/* FAQ Answer */}
-                <div
-                  className={`rounded-[8px] bg-white duration-200 overflow-hidden transition-all ${
+      {/* Right Side - FAQ Accordion */}
+      <div className="lg:w-[646px] mt-2 w-full">
+        <div className=" rounded-lg  min-h-full p-6">
+          {currentFAQs.length > 0 ? (
+            <div className="space-y-3">
+              {currentFAQs.map((faq) => (
+                <article
+                  key={faq._id}
+                  className={`border rounded-lg hover:shadow-sm transition-all duration-200 ${
                     openFAQ === Number(faq._id)
-                      ? "max-h-96 opacity-100 pb-4 px-3"
-                      : "max-h-0 opacity-0"
+                      ? "border-purple-200 bg-purple-600"
+                      : "border-gray-200 bg-white"
                   }`}
                 >
-                  <div className="pt-2 text-gray-600 leading-relaxed">
-                    {faq.answer[locale]}
+                  {/* FAQ Question */}
+                  <div
+                    className={`flex items-center justify-between p-4 cursor-pointer 
+`}
+                    onClick={() => toggleFAQ(Number(faq._id))}
+                  >
+                    <span
+                      className={`font-medium text-base pr-4 flex-1 transition-colors duration-200 ${
+                        openFAQ === Number(faq._id)
+                          ? "text-white  "
+                          : "text-gray-800"
+                      }`}
+                    >
+                      {faq.question[locale]}
+                    </span>
+                    <div className="bg-purple-600 flex justify-center items-center w-[25px] h-[25px] rounded-md flex-shrink-0">
+                      <PlusIcon isOpen={openFAQ === Number(faq._id)} />
+                    </div>
                   </div>
-                </div>
-              </article>
-            ))}
 
-            {/* No FAQs message */}
-            {currentFAQs.length === 0 && (
-              <div className="text-center py-8 text-gray-500">
+                  {/* FAQ Answer */}
+                  <div
+                    className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                      openFAQ === Number(faq._id)
+                        ? "max-h-96 opacity-100"
+                        : "max-h-0 opacity-0"
+                    }`}
+                  >
+                    <div className="px-4 pb-4 pt-2 ">
+                      <div className="text-white leading-relaxed text-[15px]">
+                        {faq.answer[locale]}
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-12 text-gray-500">
+              <p>
                 {locale === "en"
                   ? `No frequently asked questions available for ${
                       faqCategories.find(
@@ -143,9 +177,9 @@ export default function FAQClient({
                         (cat) => cat._id.toString() === activeCategory,
                       )?.title[locale] || "deze categorie"
                     }`}
-              </div>
-            )}
-          </div>
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </section>

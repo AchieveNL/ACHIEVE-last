@@ -5,12 +5,14 @@ import HighlightedText from "../ui/HighlightedText";
 export default async function Banner({
   title,
   locale,
+  className,
 }: {
   title: string;
   locale?: Locale;
+  className?: string;
 }) {
   return (
-    <div className={`relative h-[210px]`}>
+    <div className={`relative h-[210px] ${className}`}>
       <div className={`container1 px-[15px] mx-auto`}>
         <div className={`pt-[120px]`}>
           <div className="container">

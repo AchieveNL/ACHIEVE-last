@@ -107,12 +107,12 @@ export default function DesktopNavigation({
             return (
               <NavigationMenuItem key={item.id}>
                 <NavigationMenuTrigger className="hover:bg-transparent hover:text-achieve-purple focus:bg-transparent focus:text-achieve-purple data-[state=open]:bg-transparent data-[state=open]:text-achieve-purple">
-                  {item.value}
+                  <Link href={item.slug}>{item.value}</Link>
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   {item.id === "services" || item.id === "pricing" ? (
                     // Enhanced Services dropdown with image callout
-                    <div className="flex w-[700px]">
+                    <div className="flex w-[800px]">
                       {/* Left side - Image callout */}
                       <div
                         className="flex-shrink-0 w-[280px] rounded-l-lg"
@@ -145,7 +145,7 @@ export default function DesktopNavigation({
                                       ].alt
                                     : defaultServiceImage.alt
                                 }
-                                className="w-full min-h-80 object-cover transition-all duration-300"
+                                className="w-full min-h-[401px] object-cover transition-all duration-300"
                               />
                               {/* Text overlay positioned at bottom of image */}
                               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent p-4">
