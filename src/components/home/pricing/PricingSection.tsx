@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from "react";
 import { Price } from "@/types/dbdatas";
 import { MongoService } from "@/lib/mongoService";

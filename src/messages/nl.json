@@ -134,21 +134,13 @@
       "value": "Diensten",
       "slug": "/diensten",
       "links": {
-        "dashboard": {
-          "title": "Dashboard",
-          "description": "Analytics en rapportage dashboard voor je campagnes"
+        "brandStrategy": {
+          "title": "Merkstrategie",
+          "description": "Strategische merkpositionering en marktanalyse"
         },
-        "brandBook": {
-          "title": "Brand Book",
-          "description": "Uitgebreide merkidentiteit en richtlijnen"
-        },
-        "webDevelopment": {
-          "title": "Web Development",
-          "description": "Maatwerk websites en webapplicaties"
-        },
-        "emailMarketing": {
-          "title": "Email Marketing",
-          "description": "Gerichte e-mailcampagnes en automatisering"
+        "customWebsite": {
+          "title": "Maatwerk Website",
+          "description": "Op maat gemaakte websites en webapplicaties"
         },
         "videoMarketing": {
           "title": "Video Marketing",
@@ -158,13 +150,29 @@
           "title": "Search Engine Advertising",
           "description": "Google Ads en zoekmachine marketing campagnes"
         },
+        "socialMediaManagement": {
+          "title": "Social Media Management",
+          "description": "Complete social media strategie en beheer"
+        },
+        "brandBook": {
+          "title": "Brand Book",
+          "description": "Uitgebreide merkidentiteit en richtlijnen"
+        },
+        "emailMarketing": {
+          "title": "Email Marketing",
+          "description": "Gerichte e-mailcampagnes en automatisering"
+        },
+        "ugcMarketing": {
+          "title": "UGC Marketing",
+          "description": "User-generated content campagnes en strategie"
+        },
         "socialMediaAdvertising": {
           "title": "Social Media Advertising",
           "description": "Facebook, Instagram en social media advertenties"
         },
-        "socialMediaManagement": {
-          "title": "Social Media Management",
-          "description": "Complete social media strategie en beheer"
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "Analytics en rapportage dashboard voor je campagnes"
         }
       }
     },
@@ -176,21 +184,13 @@
       "value": "Tarieven",
       "slug": "/tarieven",
       "links": {
-        "dashboard": {
-          "title": "Dashboard",
-          "description": "Analytics en rapportage pakketten"
-        },
-        "brandBook": {
-          "title": "Brand Book",
-          "description": "Merkidentiteit pakketten en tarieven"
+        "brandStrategy": {
+          "title": "Merkstrategie",
+          "description": "Strategische merkpositionering pakketten en tarieven"
         },
         "customWebsite": {
-          "title": "Custom Website",
+          "title": "Maatwerk Website",
           "description": "Website ontwikkeling pakketten"
-        },
-        "emailMarketing": {
-          "title": "Email Marketing",
-          "description": "E-mailcampagne pakketten en tarieven"
         },
         "videoMarketing": {
           "title": "Video Marketing",
@@ -200,13 +200,29 @@
           "title": "Search Engine Advertising",
           "description": "Google Ads beheer pakketten"
         },
+        "socialMediaManagement": {
+          "title": "Social Media Management",
+          "description": "Social media beheer pakketten"
+        },
+        "brandBook": {
+          "title": "Brand Book",
+          "description": "Merkidentiteit pakketten en tarieven"
+        },
+        "emailMarketing": {
+          "title": "Email Marketing",
+          "description": "E-mailcampagne pakketten en tarieven"
+        },
+        "ugcMarketing": {
+          "title": "UGC Marketing",
+          "description": "User-generated content pakketten en tarieven"
+        },
         "socialMediaAdvertising": {
           "title": "Social Media Advertising",
           "description": "Social media advertising pakketten"
         },
-        "socialMediaManagement": {
-          "title": "Social Media Management",
-          "description": "Social media beheer pakketten"
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "Analytics en rapportage pakketten"
         }
       }
     },

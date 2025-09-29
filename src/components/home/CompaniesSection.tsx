@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from "react";
 import { Marquee } from "../magicui/marquee";
 import { Company } from "@/types/dbdatas";

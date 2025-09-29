@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { MongoService } from "@/lib/mongoService";
 import { AboutUs, Locale } from "@/types/dbdatas";
 import AboutUsPage from "./AboutUsPage";

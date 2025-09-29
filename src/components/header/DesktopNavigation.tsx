@@ -19,36 +19,44 @@ interface DesktopNavigationProps {
 
 // Service images mapping - only paths and alt text, descriptions come from translations
 const serviceImages = {
-  "brand-book": {
-    src: "/images/services/brand-book.jpg",
-    alt: "Brand Book Services",
+  "brand-strategy": {
+    src: "/images/services/brand-strategy.png",
+    alt: "Brand Strategy Services",
   },
-  "web-development": {
-    src: "/images/services/web-development.jpg",
-    alt: "Web Development Services",
-  },
-  "email-marketing": {
-    src: "/images/services/email-marketing.jpg",
-    alt: "Email Marketing Services",
+  "custom-website": {
+    src: "/images/services/custom-website.png",
+    alt: "Custom Website Services",
   },
   "video-marketing": {
-    src: "/images/services/video-marketing.jpg",
+    src: "/images/services/video-marketing.png",
     alt: "Video Marketing Services",
   },
   "search-engine-advertising": {
-    src: "/images/services/sea.jpg",
+    src: "/images/services/sea.png",
     alt: "Search Engine Advertising",
   },
-  "social-media-advertising": {
-    src: "/images/services/social-ads.jpg",
-    alt: "Social Media Advertising",
-  },
   "social-media-management": {
-    src: "/images/services/social-management.jpg",
+    src: "/images/services/social-management.png",
     alt: "Social Media Management",
   },
+  "brand-book": {
+    src: "/images/services/brand-book.png",
+    alt: "Brand Book Services",
+  },
+  "email-marketing": {
+    src: "/images/services/email-marketing.png",
+    alt: "Email Marketing Services",
+  },
+  "ugc-marketing": {
+    src: "/images/services/ugc-marketing.png",
+    alt: "UGC Marketing Services",
+  },
+  "social-media-advertising": {
+    src: "/images/services/social-ads.png",
+    alt: "Social Media Advertising",
+  },
   dashboard: {
-    src: "/images/services/dashboard.jpg",
+    src: "/images/services/dashboard.png",
     alt: "Dashboard Services",
   },
 } as const;

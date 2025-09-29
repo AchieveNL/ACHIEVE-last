@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import React, { useEffect, useState } from "react";
 import type { CustomerTestimonial, Locale } from "@/types/dbdatas";
@@ -40,7 +41,7 @@ interface TestimonialSliderProps {
 }
 
 // Star component
-function FaStar({ color = "#ffe435", size = 20, fontWeight = 900 }: StarProps) {
+function FaStar({ color = "#ffe435", size = 20 }: StarProps) {
   return (
     <svg
       width={size}
@@ -157,7 +158,7 @@ function CustomSlider({ children, settings = {} }: CustomSliderProps) {
       }, 5000);
       return () => clearInterval(interval);
     }
-  }, [mergedSettings.infinite, children.length, isAnimating]);
+  }, [mergedSettings.infinite, children.length, isAnimating, nextSlide]);
 
   return (
     <div className="relative">

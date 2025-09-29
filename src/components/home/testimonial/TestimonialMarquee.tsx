@@ -118,7 +118,7 @@ const ReviewCard = ({
         &quot;{body}&quot;
       </blockquote>
       {date && (
-        <p className="absolute left-[30px] bottom-[20px] text-[15px] text-[#505489] mb-3">
+        <p className="absolute left-[40px] bottom-[20px] text-[15px] text-[#505489] mb-3">
           {formatDate(date)}
         </p>
       )}

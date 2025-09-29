@@ -133,21 +133,13 @@
       "value": "Services",
       "slug": "/services",
       "links": {
-        "dashboard": {
-          "title": "Dashboard",
-          "description": "Analytics and reporting dashboard for your campaigns"
+        "brandStrategy": {
+          "title": "Brand Strategy",
+          "description": "Strategic brand positioning and market analysis"
         },
-        "brandBook": {
-          "title": "Brand Book",
-          "description": "Comprehensive brand identity and guidelines"
-        },
-        "webDevelopment": {
-          "title": "Web Development",
-          "description": "Custom websites and web applications"
-        },
-        "emailMarketing": {
-          "title": "Email Marketing",
-          "description": "Targeted email campaigns and automation"
+        "customWebsite": {
+          "title": "Custom Website",
+          "description": "Tailor-made websites and web applications"
         },
         "videoMarketing": {
           "title": "Video Marketing",
@@ -157,13 +149,29 @@
           "title": "Search Engine Advertising",
           "description": "Google Ads and search marketing campaigns"
         },
+        "socialMediaManagement": {
+          "title": "Social Media Management",
+          "description": "Complete social media strategy and management"
+        },
+        "brandBook": {
+          "title": "Brand Book",
+          "description": "Comprehensive brand identity and guidelines"
+        },
+        "emailMarketing": {
+          "title": "Email Marketing",
+          "description": "Targeted email campaigns and automation"
+        },
+        "ugcMarketing": {
+          "title": "UGC Marketing",
+          "description": "User-generated content campaigns and strategy"
+        },
         "socialMediaAdvertising": {
           "title": "Social Media Advertising",
           "description": "Facebook, Instagram and social advertising"
         },
-        "socialMediaManagement": {
-          "title": "Social Media Management",
-          "description": "Complete social media strategy and management"
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "Analytics and reporting dashboard for your campaigns"
         }
       }
     },
@@ -175,21 +183,13 @@
       "value": "Pricing",
       "slug": "/pricing",
       "links": {
-        "dashboard": {
-          "title": "Dashboard",
-          "description": "Analytics and reporting packages"
-        },
-        "brandBook": {
-          "title": "Brand Book",
-          "description": "Brand identity packages and pricing"
+        "brandStrategy": {
+          "title": "Brand Strategy",
+          "description": "Strategic brand positioning packages and pricing"
         },
         "customWebsite": {
           "title": "Custom Website",
           "description": "Website development packages"
-        },
-        "emailMarketing": {
-          "title": "Email Marketing",
-          "description": "Email campaign packages and pricing"
         },
         "videoMarketing": {
           "title": "Video Marketing",
@@ -199,13 +199,29 @@
           "title": "Search Engine Advertising",
           "description": "Google Ads management packages"
         },
+        "socialMediaManagement": {
+          "title": "Social Media Management",
+          "description": "Social media management packages"
+        },
+        "brandBook": {
+          "title": "Brand Book",
+          "description": "Brand identity packages and pricing"
+        },
+        "emailMarketing": {
+          "title": "Email Marketing",
+          "description": "Email campaign packages and pricing"
+        },
+        "ugcMarketing": {
+          "title": "UGC Marketing",
+          "description": "User-generated content packages and pricing"
+        },
         "socialMediaAdvertising": {
           "title": "Social Media Advertising",
           "description": "Social media advertising packages"
         },
-        "socialMediaManagement": {
-          "title": "Social Media Management",
-          "description": "Social media management packages"
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "Analytics and reporting packages"
         }
       }
     },

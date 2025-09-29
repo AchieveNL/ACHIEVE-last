@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { AboutUs, Locale } from "@/types/dbdatas";
 import PromisesClient from "./PromiseClient";
 import { MongoService } from "@/lib/mongoService";

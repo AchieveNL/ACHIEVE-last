@@ -1,10 +1,7 @@
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable @next/next/no-img-element */
 import { Locale } from "@/types/dbdatas";
 import HighlightedText from "../ui/HighlightedText";
 export default async function Banner({
   title,
-  locale,
   className,
 }: {
   title: string;

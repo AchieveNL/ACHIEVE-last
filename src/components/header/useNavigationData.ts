@@ -22,21 +22,14 @@ export function useNavigationData(): NavigationData[] {
       value: t("services.value"),
       slug: t("services.slug"),
       links: {
-        dashboard: {
-          title: t("services.links.dashboard.title"),
-          description: t("services.links.dashboard.description"),
+        // First grid
+        "brand-strategy": {
+          title: t("services.links.brandStrategy.title"),
+          description: t("services.links.brandStrategy.description"),
         },
-        "brand-book": {
-          title: t("services.links.brandBook.title"),
-          description: t("services.links.brandBook.description"),
-        },
-        "web-development": {
-          title: t("services.links.webDevelopment.title"),
-          description: t("services.links.webDevelopment.description"),
-        },
-        "email-marketing": {
-          title: t("services.links.emailMarketing.title"),
-          description: t("services.links.emailMarketing.description"),
+        "custom-website": {
+          title: t("services.links.customWebsite.title"),
+          description: t("services.links.customWebsite.description"),
         },
         "video-marketing": {
           title: t("services.links.videoMarketing.title"),
@@ -46,13 +39,30 @@ export function useNavigationData(): NavigationData[] {
           title: t("services.links.searchEngineAdvertising.title"),
           description: t("services.links.searchEngineAdvertising.description"),
         },
+        "social-media-management": {
+          title: t("services.links.socialMediaManagement.title"),
+          description: t("services.links.socialMediaManagement.description"),
+        },
+        // Second grid
+        "brand-book": {
+          title: t("services.links.brandBook.title"),
+          description: t("services.links.brandBook.description"),
+        },
+        "email-marketing": {
+          title: t("services.links.emailMarketing.title"),
+          description: t("services.links.emailMarketing.description"),
+        },
+        "ugc-marketing": {
+          title: t("services.links.ugcMarketing.title"),
+          description: t("services.links.ugcMarketing.description"),
+        },
         "social-media-advertising": {
           title: t("services.links.socialMediaAdvertising.title"),
           description: t("services.links.socialMediaAdvertising.description"),
         },
-        "social-media-management": {
-          title: t("services.links.socialMediaManagement.title"),
-          description: t("services.links.socialMediaManagement.description"),
+        dashboard: {
+          title: t("services.links.dashboard.title"),
+          description: t("services.links.dashboard.description"),
         },
       },
     },
@@ -67,21 +77,14 @@ export function useNavigationData(): NavigationData[] {
       value: t("pricing.value"),
       slug: t("pricing.slug"),
       links: {
-        dashboard: {
-          title: t("pricing.links.dashboard.title"),
-          description: t("pricing.links.dashboard.description"),
-        },
-        "brand-book": {
-          title: t("pricing.links.brandBook.title"),
-          description: t("pricing.links.brandBook.description"),
+        // First grid
+        "brand-strategy": {
+          title: t("pricing.links.brandStrategy.title"),
+          description: t("pricing.links.brandStrategy.description"),
         },
         "custom-website": {
           title: t("pricing.links.customWebsite.title"),
           description: t("pricing.links.customWebsite.description"),
-        },
-        "email-marketing": {
-          title: t("pricing.links.emailMarketing.title"),
-          description: t("pricing.links.emailMarketing.description"),
         },
         "video-marketing": {
           title: t("pricing.links.videoMarketing.title"),
@@ -91,13 +94,30 @@ export function useNavigationData(): NavigationData[] {
           title: t("pricing.links.searchEngineAdvertising.title"),
           description: t("pricing.links.searchEngineAdvertising.description"),
         },
+        "social-media-management": {
+          title: t("pricing.links.socialMediaManagement.title"),
+          description: t("pricing.links.socialMediaManagement.description"),
+        },
+        // Second grid
+        "brand-book": {
+          title: t("pricing.links.brandBook.title"),
+          description: t("pricing.links.brandBook.description"),
+        },
+        "email-marketing": {
+          title: t("pricing.links.emailMarketing.title"),
+          description: t("pricing.links.emailMarketing.description"),
+        },
+        "ugc-marketing": {
+          title: t("pricing.links.ugcMarketing.title"),
+          description: t("pricing.links.ugcMarketing.description"),
+        },
         "social-media-advertising": {
           title: t("pricing.links.socialMediaAdvertising.title"),
           description: t("pricing.links.socialMediaAdvertising.description"),
         },
-        "social-media-management": {
-          title: t("pricing.links.socialMediaManagement.title"),
-          description: t("pricing.links.socialMediaManagement.description"),
+        dashboard: {
+          title: t("pricing.links.dashboard.title"),
+          description: t("pricing.links.dashboard.description"),
         },
       },
     },

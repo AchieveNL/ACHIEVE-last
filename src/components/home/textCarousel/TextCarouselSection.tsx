@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { MongoService } from "@/lib/mongoService";
 import TextCarouselClient from "./TextCarouselClient";
 import type { Locale } from "@/types/dbdatas";
