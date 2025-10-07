@@ -234,5 +234,143 @@
       "value": "Contact",
       "slug": "/contact"
     }
+  },
+  "page-brand-strategy": {
+    "heroSection": {
+      "titleDescription": "Brand Strategy vormt de basis die zorgt voor herkenning, vertrouwen en samenhang",
+      "page-trust-credibility": "Zorgt voor vertrouwen en geloofwaardigheid",
+      "page-customer-choice": "De klant kiest sneller voor jouw dienst, product of bedrijf",
+      "page-brand-associations": "Het roept associaties op bij mensen",
+      "page-unity-recognition": "Zorgt voor eenheid en herkenning",
+      "page-memorability": "De klant onthoudt je beter",
+      "page-efficiency-revenue": "Bespaart tijd, kosten en zorgt voor meer omzet",
+      "page-guidelines-overview": "Alle richtlijnen in één overzicht"
+    },
+    "sectionTwo": {
+      "paragraph1": "Met onze aanpak bouwen we een strategisch fundament dat alles bij elkaar brengt: jouw missie, visie, merkpersoonlijkheid, tone of voice en doelgroep. Zo weet je precies hoe je wilt dat jouw merk overkomt en zorg je dat elk contactmoment, van marketing tot klantenservice, consistent en krachtig is.",
+      "paragraph2": "Daarbij kijken we naar je markt en concurrentie, bepalen we je positionering en maken we een concreet plan om je merk door te vertalen naar actie. Afhankelijk van het pakket dat je kiest, ontvang je een compleet strategisch document, een social media strategie, een planning en zelfs een onboarding deck om je hele team mee te nemen.",
+      "paragraph3": "Of je nu kiest voor Basic (focus op de kern en fundament), Standard (met analyse en positionering) of Premium (inclusief actieplan, strategie en teampresentatie), je krijgt altijd een strategie die jouw merk herkenbaar, geloofwaardig en onweerstaanbaar maakt.",
+      "buttonText": "Ontdek onze pakketen!"
+    },
+    "stepSection": {
+      "description": "Onze aanpak is een effectief bewezen proces. Elke stap brengt ons dichter bij het realiseren van jouw doelstellingen en visie. Daarom hebben we een aanpak in 4 fasen gecreëerd, zodat er altijd duidelijk wordt gemanaged of voldaan is aan alle verwachtingen.",
+      "step1": {
+        "title": "Stap 1: Visie & Positionering",
+        "content": "We starten met een uitgebreide intake en één-op-één consults. Samen brengen we jouw merk, doelgroep en ambities in kaart. Dit vormt de basis om scherp te bepalen wie je bent, wat je wilt uitstralen en hoe je je onderscheidt in de markt."
+      },
+      "step2": {
+        "title": "Stap 2: Concept",
+        "content": "Op basis van onderzoek en analyses bouwen we het strategische fundament van jouw merk. Denk aan missie, visie, merkpersoonlijkheid, tone of voice en duidelijke doelgroepen. Voor de uitgebreidere trajecten verdiepen we dit met markt- en concurrentieanalyses, positionering, merkverhaal en een concreet social media-actieplan."
+      },
+      "step3": {
+        "title": "Stap 3: Feedback & Fine Tuning",
+        "content": "Jij krijgt de eerste strategische voorstellen gepresenteerd. We nemen jouw feedback mee en verfijnen het plan totdat alles naadloos aansluit bij jouw visie, waarden en doelstellingen. Afhankelijk van het pakket zijn er meerdere correctierondes mogelijk."
+      },
+      "step4": {
+        "title": "Stap 4: Oplevering",
+        "content": "Het eindresultaat is een volledig en praktisch brand strategy document. Dit bevat jouw merkessentie, messaging framework en indien van toepassing een social media plan of onboarding deck voor je team. Zo heb je een duidelijke koers én concrete handvatten om je merk sterk in de markt te zetten."
+      },
+      "buttonText": "Ik wil direct starten!"
+    },
+    "quoteSection": {
+      "quote": "\"Producten worden gemaakt in de fabriek, maar merken worden gecreëerd in de geest.\"",
+      "author": "Walter Landor"
+    },
+    "projectsSection": {
+      "title": "Projecten",
+      "description": "Elimineer de ruis van losse ideeën en onsamenhangende communicatie, met onze brand strategy heb je één duidelijk fundament dat alles voor je merk samenbrengt.",
+      "noProjectsMessage": "Geen projecten beschikbaar op dit moment.",
+      "viewMoreButton": "Bekijk meer projecten"
+    },
+    "discountSection": {
+      "description": "Alleen deze maand: 10% korting om jouw visie om te zetten in een krachtige Brand Strategy die jouw merk herkenbaar en onweerstaanbaar maakt.",
+      "days": "dagen",
+      "hours": "uren",
+      "minutes": "min",
+      "seconds": "sec",
+      "buttonText": "Ik ga in op deze korting"
+    }
+  },
+  "page-brand-book": {
+    "heroSection": {
+      "titleDescription": "Alle redenen waarom jouw bedrijf niet zonder kan",
+      "page-professional-impression": "Voor een goede professionele eerste indruk",
+      "page-trust-credibility": "Zorgt voor vertrouwen en geloofwaardigheid",
+      "page-customer-choice": "De klant kiest sneller voor jouw dienst, product of bedrijf",
+      "page-brand-associations": "Het roept associaties op bij mensen",
+      "page-unity-recognition": "Zorgt voor eenheid en herkenning",
+      "page-memorability": "De klant onthoudt je beter",
+      "page-efficiency-revenue": "Bespaart tijd, kosten en zorgt voor meer omzet",
+      "page-guidelines-overview": "Alle richtlijnen in één overzicht",
+      "buttonText": "No-brainer, let's go!"
+    },
+    "sectionTwo": {
+      "section1": {
+        "title": "Merken zijn erg belangrijk voor bedrijven",
+        "content": "Branding zorgt ervoor dat een bedrijf of een product wordt herkend. Deze herkenbaarheid is belangrijk en wanneer dit goed is toegepast kan het ervoor zorgen dat klanten - huidige en potentiële - vertrouwen krijgen of, nog beter, onderdeel willen uitmaken van het merk."
+      },
+      "section2": {
+        "title": "Consistentie",
+        "content": "Branding is een breed begrip en bestaat uit verschillende zaken (logo, kleurstellingen, lettertype) die met elkaar samenwerken om de uitstraling van het bedrijf of het product te bepalen. Het is belangrijk dat erover nagedacht wordt en dat alle beslissingen over de branding worden vastgelegd. Zo kun je ervoor zorgen dat wat er besloten is ook consequent wordt toegepast."
+      },
+      "section3": {
+        "title": "Herkenning",
+        "content": "Alle beslissingen met betrekking tot de branding komen samen in de huisstijl. En de huisstijl wordt vastgelegd in het Brand Book. Een eenduidige huisstijl is van belang, want elke medewerker moet zich kunnen herkennen in je merk. Dus zo nu en dan is verduidelijking van de visualisatie van het merk nodig."
+      },
+      "buttonText": "Ontdek onze pakketen!"
+    },
+    "quoteSection": {
+      "quote": "\"Een merk is niet wat jij zegt dat het is. Het is wat zij zeggen dat het is.\"",
+      "author": "Marty Neumeier"
+    },
+    "sectionThird": {
+      "subtitle": "Een gemis dat opgelost kan worden",
+      "paragraph1": "Dat een bedrijf niet voldoende wordt opgemerkt is een veelvoorkomend probleem. Dit komt voor bij starters, maar ook bij bedrijven die geen eenduidige houvast hebben. Omdat een sterk bedrijfsimago ontbreekt, zal de doelgroep het bedrijf of merk niet herkennen.",
+      "paragraph2": "Een huisstijl stelt een bedrijf in staat om een sterk bedrijfsimago op te bouwen bij de doelgroep en beïnvloedt de houding en het gedrag van de organisatie. Het zorgt voor een betere herkenbaarheid, waardoor het bedrijf zich onderscheidt ten opzichte van concurrenten. Een professionele huisstijl wekt vertrouwen in de diensten en producten die worden aangeboden, en dat is vaak precies wat je nodig hebt!",
+      "paragraph3": "Kortom: een goede huisstijl vertegenwoordigt niet alleen de identiteit van een organisatie, maar versterkt deze ook!",
+      "buttonText": "Ontdek onze pakketen!"
+    },
+    "sectionFourth": {
+      "subtitle": "Een gemis dat opgelost kan worden",
+      "paragraph1": "De meedenkende samenwerking is wat ons uniek maakt. Wij leveren niet alleen een product, maar zorgen er ook voor dat het hele proces eromheen prettig verloopt. Zo willen we eerst dat jouw wensen volledig duidelijk zijn, daarna gaan we pas aan de slag met een voorstel waarvan wij denken dat het bij jullie past.",
+      "paragraph2": "Daarbij doen we niet alleen wat van ons gevraagd wordt, maar denken we ook altijd verder mee bij het proces. Door onze expertise zijn we in staat om voorstellen te doen waar je zelf vaak nog niet eerder aan hebt gedacht. We zetten altijd een stapje extra.",
+      "paragraph3": "Ook krijg je bij ons ontwerpen van verschillende ontwerpers, waardoor er veel meer diversiteit aan ideeën op tafel komt te liggen. Dit zorgt voor een eindresultaat dat tot stand is gekomen uit jouw wensen en onze expertise en adviezen. Klanttevredenheid, dat is voor ons het belangrijkste en daar werken we samen aan!",
+      "paragraph4": "Tenslotte zijn we ook transparant over onze tarieven.",
+      "buttonText": "Ontdek onze pakketen!"
+    },
+    "stepSection": {
+      "description": "Onze aanpak is een effectief bewezen proces. Elke stap brengt ons dichter bij het realiseren van jouw doelstellingen en visie. Daarom hebben we een aanpak in 4 fasen gecreëerd, zodat er altijd duidelijk wordt gemanaged of voldaan is aan alle verwachtingen.",
+      "step1": {
+        "title": "Stap 1: Visie & Positionering",
+        "content": "Onze digitale strateeg zal zich eerst verdiepen in het begrijpen van jouw merk en doelen. Daarvoor zal een vragenlijst worden ingevuld, die tijdens een intakegesprek van ongeveer één uur, zal worden besproken. Dit is de fase waarin de plannen worden gesmeed en de koers wordt bepaald."
+      },
+      "step2": {
+        "title": "Stap 2: Grafisch ontwerp",
+        "content": "Nu komt ons creatieve team in actie. Ze nemen de concepten van de strateeg over en zetten deze om in visuele en digitale content. We bedenken concepten en strategieën die precies passen bij wat je wilt bereiken. De eerste voorstellen van creatieve concepten worden in deze fase gepresenteerd."
+      },
+      "step3": {
+        "title": "Stap 3: Feedback & Fine Tuning",
+        "content": "Dit is het moment van actieve samenwerking, waarbij eerlijkheid voorop staat. Dit proces kan meerdere rondes van aanpassingen bevatten. Aan de hand van jouw feedback zullen we steeds dichter bij het eindresultaat komen, namelijk een merk waar je trots op kunt zijn!"
+      },
+      "step4": {
+        "title": "Stap 4: Oplevering",
+        "content": "Jaaa, het is zo ver. Alle revisie rondes zitten er op, je bent blij met het eindresultaat en kan niet wachten om het in te gaan zetten. We gaan het complete Brand Book afronden. Dit betekent dat we alle onderdelen (logo, tagline, visitekaartje, kleurenpalet etc.) zullen opleveren, zodat jij jouw merk aan de wereld kunt presenteren! Het is natuurlijk mogelijk om hierna een vervolgtraject op te starten door samen met ons dezelfde huisstijl te gaan doorvoeren in bijvoorbeeld een website, app, of social ads, banner, autobestickering en nog veel meer."
+      },
+      "buttonText": "Ik wil direct starten!"
+    },
+    "projectsSection": {
+      "title": "Projecten",
+      "description": "Elimineer de ruis van losse ideeën en onsamenhangende communicatie, met onze brand strategy heb je één duidelijk fundament dat alles voor je merk samenbrengt.",
+      "noProjectsMessage": "Geen projecten beschikbaar op dit moment.",
+      "viewMoreButton": "Bekijk meer projecten"
+    },
+    "discountSection": {
+      "description": "Alleen deze maand: 10% korting om jouw visie om te zetten in een krachtig Brand Book dat jouw merk herkenbaar en onweerstaanbaar maakt.",
+      "days": "dagen",
+      "hours": "uren",
+      "minutes": "min",
+      "seconds": "sec",
+      "buttonText": "Ik ga in op deze korting"
+    }
   }
 }

@@ -1,6 +1,5 @@
 import BrandBookSection from "@/components/diensten/brand-strategy/ImageTextSection";
 import SectionTwo from "@/components/diensten/brand-strategy/SectionTwo";
-import ServicesSection from "@/components/diensten/brand-strategy/ProjectSection";
 import StepSection from "@/components/diensten/brand-strategy/StepSection";
 import StrategyQuoteSection from "@/components/diensten/brand-strategy/StrategyQuoteSection";
 import ServicesDiscount from "@/components/diensten/ServicesDiscount";

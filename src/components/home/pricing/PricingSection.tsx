@@ -7,12 +7,14 @@ import PricingContent from "./PricingContent";
 interface PricingSectionProps {
   font?: string;
   showTitle?: boolean;
+  isPrimaryBackground?: boolean;
 }
 
 // Main server component
 const PricingSection: React.FC<PricingSectionProps> = async ({
   font,
   showTitle = true,
+  isPrimaryBackground = false,
 }) => {
   // Fetch data directly using MongoService
   let prices: Price[] = [];
@@ -41,7 +43,13 @@ const PricingSection: React.FC<PricingSectionProps> = async ({
     );
   }
 
-  return <PricingContent prices={prices} showTitle={showTitle} />;
+  return (
+    <PricingContent
+      isPrimaryBackground={isPrimaryBackground}
+      prices={prices}
+      showTitle={showTitle}
+    />
+  );
 };
 
 export default PricingSection;

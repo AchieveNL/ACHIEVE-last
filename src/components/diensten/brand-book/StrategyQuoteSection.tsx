@@ -1,8 +1,11 @@
 "use client";
 import HighlightedText from "@/components/ui/HighlightedText";
 import React from "react";
+import { useClientTranslations } from "@/components/hooks/useClientTranslations";
 
 const StrategyQuoteSection = () => {
+  const { t } = useClientTranslations("page-brand-book.quoteSection");
+
   return (
     <section
       className="bg-achieve-purple min-h-[385px] flex flex-col items-center justify-center  bgquote"
@@ -18,10 +21,10 @@ const StrategyQuoteSection = () => {
             className="text-achieve-purple"
           >
             <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-white">
-              ‘‘A brand is not what you say it is. It is what they say it is.’’
+              {t("quote")}
             </h1>
           </HighlightedText>{" "}
-          <p className="text-white text-2xl">Marty Neumeier</p>
+          <p className="text-white text-2xl">{t("author")}</p>
         </div>
       </div>
     </section>

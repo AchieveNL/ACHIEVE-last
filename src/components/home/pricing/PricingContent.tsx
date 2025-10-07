@@ -9,11 +9,13 @@ import HighlightedText from "@/components/ui/HighlightedText";
 interface PricingContentProps {
   prices: Price[];
   showTitle: boolean;
+  isPrimaryBackground?: boolean;
 }
 
 const PricingContent: React.FC<PricingContentProps> = ({
   prices = [],
   showTitle,
+  isPrimaryBackground = false,
 }) => {
   const { t, locale } = useClientTranslations("pricing");
 
@@ -262,7 +264,9 @@ const PricingContent: React.FC<PricingContentProps> = ({
   ];
 
   return (
-    <div className="bg-achieve-background mx-auto px-4 py-8 sm:py-12 lg:py-16">
+    <div
+      className={`${!isPrimaryBackground ? "bg-achieve-background " : ""}mx-auto px-4 py-8 sm:py-12 lg:py-16`}
+    >
       {" "}
       <section className="flex container mx-auto flex-col gap-y-8 sm:gap-y-10 lg:gap-y-12 max-w-7xl">
         {/* Header */}

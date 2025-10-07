@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { useState } from "react";
 import {
   NavigationMenu,
@@ -12,6 +11,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { NavigationData, NavigationLink } from "./types";
 import ListItem from "./ListItem";
+import { Link } from "@/i18n/navigation";
 
 interface DesktopNavigationProps {
   navigationData: NavigationData[];
@@ -61,8 +61,43 @@ const serviceImages = {
   },
 } as const;
 
+// Route mapping using pathname keys (Dutch keys that will be auto-localized by next-intl)
+const serviceRoutes: Record<string, string> = {
+  "brand-strategy": "/diensten/brand-strategy",
+  "brand-book": "/diensten/brand-book",
+  "custom-website": "/diensten/custom-website",
+  "email-marketing": "/diensten/email-marketing",
+  "video-marketing": "/diensten/video-marketing",
+  "ugc-marketing": "/diensten/ugc-marketing",
+  "search-engine-advertising": "/diensten/search-engine-advertising",
+  "social-media-advertising": "/diensten/social-media-advertising",
+  "social-media-management": "/diensten/social-media-management",
+  dashboard: "/diensten/dashboard",
+} as const;
+
+// Main navigation routes using pathname keys (Dutch keys that will be auto-localized)
+const mainRoutes: Record<string, string> = {
+  home: "/",
+  about: "/over-ons", // Will become /about in EN
+  services: "/diensten", // Will become /services in EN
+  projects: "/projecten", // Will become /projects in EN
+  pricing: "/prijzen", // Will become /pricing in EN
+  careers: "/carriere", // Will become /careers in EN
+  contact: "/contact", // Will remain /contact in EN
+} as const;
+
 // Default image for services
-const defaultServiceImage = serviceImages["brand-book"];
+const defaultServiceImage = serviceImages["brand-strategy"];
+
+// Helper function to get service route
+const getServiceRoute = (serviceKey: string): string => {
+  return serviceRoutes[serviceKey] || "/diensten/brand-book";
+};
+
+// Helper function to get main route
+const getMainRoute = (routeId: string): string => {
+  return mainRoutes[routeId] || "/";
+};
 
 // Helper function to get description from navigation data
 const getServiceDescription = (
@@ -105,7 +140,9 @@ export default function DesktopNavigation({
                     asChild
                     className={`${navigationMenuTriggerStyle()} hover:bg-transparent hover:text-achieve-purple focus:bg-transparent focus:text-achieve-purple`}
                   >
-                    <Link href={item.slug}>{item.value}</Link>
+                    <Link href={getMainRoute(item.id) as any}>
+                      {item.value}
+                    </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
               );
@@ -115,7 +152,7 @@ export default function DesktopNavigation({
             return (
               <NavigationMenuItem key={item.id}>
                 <NavigationMenuTrigger className="hover:bg-transparent hover:text-achieve-purple focus:bg-transparent focus:text-achieve-purple data-[state=open]:bg-transparent data-[state=open]:text-achieve-purple">
-                  <Link href={item.slug}>{item.value}</Link>
+                  <Link href={getMainRoute(item.id) as any}>{item.value}</Link>
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   {item.id === "services" || item.id === "pricing" ? (
@@ -128,7 +165,11 @@ export default function DesktopNavigation({
                       >
                         <NavigationMenuLink asChild>
                           <Link
-                            href={`${item.slug}/${hoveredService || "brand-book"}`}
+                            href={
+                              getServiceRoute(
+                                hoveredService || "brand-book",
+                              ) as any
+                            }
                             className="Callout block h-full"
                           >
                             <div className="relative rounded-lg overflow-hidden">
@@ -183,7 +224,7 @@ export default function DesktopNavigation({
                                   ? linkData
                                   : linkData.title
                               }
-                              href={`${item.slug}/${key}`}
+                              href={getServiceRoute(key) as any}
                             ></ListItem>
                           </div>
                         ))}
@@ -196,7 +237,7 @@ export default function DesktopNavigation({
                         {Object.entries(item.links).map(([key, linkData]) => (
                           <NavigationMenuLink asChild key={key}>
                             <Link
-                              href={`${item.slug}/${key}`}
+                              href={getServiceRoute(key) as any}
                               className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-transparent hover:text-achieve-purple focus:bg-transparent focus:text-achieve-purple"
                             >
                               <div className="text-sm font-medium leading-none">

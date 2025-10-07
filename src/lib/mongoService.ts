@@ -41,6 +41,7 @@ export class MongoService {
         .find({})
         .sort({ _id: -1 })
         .toArray()) as unknown as CaseDocument[];
+      console.log("Fetched cases:", cases);
 
       // Filter by enabled status
       cases = cases.filter((value) => {

@@ -7,16 +7,19 @@ import { useClientTranslations } from "@/components/hooks/useClientTranslations"
 import { Button } from "@/components/ui/button";
 
 const BrandBookSection = () => {
-  const { t, locale } = useClientTranslations("hero");
+  const { t, locale } = useClientTranslations(
+    "page-brand-strategy.heroSection",
+  );
+
   const benefits = [
-    "Voor een goede professionele eerste indruk",
-    "Zorgt voor vertrouwen en geloofwaardigheid",
-    "De klant kiest sneller voor jouw dienst, product of bedrijf",
-    "Het roept associaties op bij mensen",
-    "Zorgt voor eenheid en herkenning",
-    "De klant onthoudt je beter",
-    "Bespaart tijd, kosten en zorgt voor meer omzet",
-    "Alle richtlijnen in één overzicht",
+    "page-professional-impression",
+    "page-trust-credibility",
+    "page-customer-choice",
+    "page-brand-associations",
+    "page-unity-recognition",
+    "page-memorability",
+    "page-efficiency-revenue",
+    "page-guidelines-overview",
   ];
 
   return (
@@ -28,19 +31,19 @@ const BrandBookSection = () => {
               <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
                 {locale === "en" ? (
                   <>
-                    Growing based on{" "}
+                    Give your brand{" "}
                     <AnimatedText
                       animationType="gradient"
                       className="text-achieve-purple font-bold"
                     >
-                      data
+                      direction
                     </AnimatedText>{" "}
-                    and the power of{" "}
+                    and{" "}
                     <AnimatedText
                       animationType="gradient"
                       className="text-achieve-purple font-bold"
                     >
-                      creativity
+                      strength
                     </AnimatedText>
                   </>
                 ) : (
@@ -63,25 +66,21 @@ const BrandBookSection = () => {
                 )}
               </h1>
               <p className="font-bold text-[20px] leading-relaxed max-w-xl">
-                Brand Strategy vormt de basis die zorgt voor herkenning,
-                vertrouwen en samenhang
+                {t("titleDescription")}
               </p>
             </div>
-
             <ul className="flex flex-col items-start gap-4 mb-4 mt-4">
               {benefits.map((benefit, index) => (
                 <li key={index} className="flex items-center gap-2">
                   <div className="flex-shrink-0">
                     <CheckMarkIcon />
                   </div>
-                  <p className="text-base font-sans">{benefit}</p>
+                  <p className="text-base font-sans">{t(benefit)}</p>
                 </li>
               ))}
             </ul>
-
-            <Button className="w-[280px]">No-brainer, let’s go!</Button>
+            <Button className="w-[280px]">No-brainer, let's go!</Button>
           </div>
-
           <div className="relative lg:h-full h-[320px]">
             <Image
               src="/diesten/brand-strategy/brand-book-hero.png"

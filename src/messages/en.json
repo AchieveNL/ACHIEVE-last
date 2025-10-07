@@ -233,5 +233,144 @@
       "value": "Contact",
       "slug": "/contact"
     }
+  },
+  "page-brand-strategy": {
+    "heroSection": {
+      "titleDescription": "Brand Strategy forms the foundation that ensures recognition, trust and coherence",
+      "page-professional-impression": "For a good professional first impression",
+      "page-trust-credibility": "Ensures trust and credibility",
+      "page-customer-choice": "The customer chooses your service, product or company faster",
+      "page-brand-associations": "It evokes associations in people",
+      "page-unity-recognition": "Ensures unity and recognition",
+      "page-memorability": "The customer remembers you better",
+      "page-efficiency-revenue": "Saves time, costs and generates more revenue",
+      "page-guidelines-overview": "All guidelines in one overview"
+    },
+    "sectionTwo": {
+      "paragraph1": "With our approach, we build a strategic foundation that brings everything together: your mission, vision, brand personality, tone of voice and target audience. This way you know exactly how you want your brand to come across and ensure that every touchpoint, from marketing to customer service, is consistent and powerful.",
+      "paragraph2": "We look at your market and competition, determine your positioning and create a concrete plan to translate your brand into action. Depending on the package you choose, you receive a complete strategic document, a social media strategy, a planning and even an onboarding deck to bring your entire team along.",
+      "paragraph3": "Whether you choose Basic (focus on core and foundation), Standard (with analysis and positioning) or Premium (including action plan, strategy and team presentation), you always get a strategy that makes your brand recognizable, credible and irresistible.",
+      "buttonText": "Discover our packages!"
+    },
+    "stepSection": {
+      "description": "Our approach is a proven effective process. Each step brings us closer to realizing your goals and vision. That's why we've created a 4-phase approach, ensuring clear management and meeting all expectations.",
+      "step1": {
+        "title": "Step 1: Vision & Positioning",
+        "content": "We start with an extensive intake and one-on-one consultations. Together we map out your brand, target audience and ambitions. This forms the basis to sharply determine who you are, what you want to convey and how you stand out in the market."
+      },
+      "step2": {
+        "title": "Step 2: Concept",
+        "content": "Based on research and analysis, we build the strategic foundation of your brand. Think mission, vision, brand personality, tone of voice and clear target audiences. For more extensive trajectories, we deepen this with market and competitive analyses, positioning, brand story and a concrete social media action plan."
+      },
+      "step3": {
+        "title": "Step 3: Feedback & Fine Tuning",
+        "content": "You receive the first strategic proposals presented. We incorporate your feedback and refine the plan until everything seamlessly aligns with your vision, values and objectives. Depending on the package, multiple correction rounds are possible."
+      },
+      "step4": {
+        "title": "Step 4: Delivery",
+        "content": "The end result is a complete and practical brand strategy document. This contains your brand essence, messaging framework and, if applicable, a social media plan or onboarding deck for your team. This gives you a clear direction and concrete tools to position your brand strongly in the market."
+      },
+      "buttonText": "I want to start right away!"
+    },
+    "quoteSection": {
+      "quote": "\"Products are made in the factory, but brands are created in the mind.\"",
+      "author": "Walter Landor"
+    },
+    "projectsSection": {
+      "title": "Projects",
+      "description": "Eliminate the noise of loose ideas and incoherent communication, with our brand strategy you have one clear foundation that brings everything together for your brand.",
+      "noProjectsMessage": "No projects available at this moment.",
+      "viewMoreButton": "View more projects"
+    },
+    "discountSection": {
+      "description": "Only this month: 10% discount to transform your vision into a powerful Brand Strategy that makes your brand recognizable and irresistible.",
+      "days": "days",
+      "hours": "hours",
+      "minutes": "min",
+      "seconds": "sec",
+      "buttonText": "I'll take this discount"
+    }
+  },
+  "page-brand-book": {
+    "heroSection": {
+      "titleDescription": "All the reasons why your business can't do without it",
+      "page-professional-impression": "For a good professional first impression",
+      "page-trust-credibility": "Ensures trust and credibility",
+      "page-customer-choice": "The customer chooses your service, product or company faster",
+      "page-brand-associations": "It evokes associations in people",
+      "page-unity-recognition": "Ensures unity and recognition",
+      "page-memorability": "The customer remembers you better",
+      "page-efficiency-revenue": "Saves time, costs and generates more revenue",
+      "page-guidelines-overview": "All guidelines in one overview",
+      "buttonText": "No-brainer, let's go!"
+    }
+  },
+  "sectionTwo": {
+    "section1": {
+      "title": "Brands are very important for businesses",
+      "content": "Branding ensures that a company or product is recognized. This recognition is important and when properly applied, it can ensure that customers - current and potential - gain trust or, even better, want to become part of the brand."
+    },
+    "section2": {
+      "title": "Consistency",
+      "content": "Branding is a broad concept and consists of various elements (logo, color schemes, typography) that work together to determine the appearance of the company or product. It's important to think about this and document all decisions about the branding. This way you can ensure that what has been decided is also applied consistently."
+    },
+    "section3": {
+      "title": "Recognition",
+      "content": "All decisions regarding branding come together in the corporate identity. And the corporate identity is documented in the Brand Book. A consistent corporate identity is important, because every employee must be able to identify with your brand. So from time to time, clarification of the brand's visualization is necessary."
+    },
+    "buttonText": "Discover our packages!"
+  },
+  "quoteSection": {
+    "quote": "\"A brand is not what you say it is. It is what they say it is.\"",
+    "author": "Marty Neumeier"
+  },
+  "sectionThird": {
+    "subtitle": "A gap that can be solved",
+    "paragraph1": "A business not being noticed enough is a common problem. This occurs with startups, but also with companies that lack clear direction. Because a strong corporate image is missing, the target audience won't recognize the company or brand.",
+    "paragraph2": "A corporate identity enables a company to build a strong corporate image with the target audience and influences the attitude and behavior of the organization. It ensures better recognition, allowing the company to stand out from competitors. A professional corporate identity creates trust in the services and products offered, and that's often exactly what you need!",
+    "paragraph3": "In short: a good corporate identity not only represents an organization's identity, but also strengthens it!",
+    "buttonText": "Discover our packages!"
+  },
+  "sectionFourth": {
+    "subtitle": "A gap that can be solved",
+    "paragraph1": "Our collaborative approach is what makes us unique. We don't just deliver a product, but also ensure that the entire process runs smoothly. First, we want your wishes to be completely clear, then we start working on a proposal that we think fits you.",
+    "paragraph2": "We don't just do what's asked of us, but we always think along with you in the process. Through our expertise, we're able to make suggestions that you often haven't thought of before. We always go the extra mile.",
+    "paragraph3": "You also get designs from different designers, which brings much more diversity of ideas to the table. This ensures a final result that comes from your wishes and our expertise and advice. Customer satisfaction is the most important thing for us and we work on that together!",
+    "paragraph4": "Finally, we are also transparent about our rates.",
+    "buttonText": "Discover our packages!"
+  },
+  "stepSection": {
+    "description": "Our approach is a proven effective process. Each step brings us closer to realizing your goals and vision. That's why we've created a 4-phase approach, ensuring clear management and meeting all expectations.",
+    "step1": {
+      "title": "Step 1: Vision & Positioning",
+      "content": "Our digital strategist will first delve into understanding your brand and goals. A questionnaire will be completed, which will be discussed during an intake meeting of approximately one hour. This is the phase where plans are forged and the course is determined."
+    },
+    "step2": {
+      "title": "Step 2: Graphic Design",
+      "content": "Now our creative team comes into action. They take over the strategist's concepts and transform them into visual and digital content. We devise concepts and strategies that perfectly match what you want to achieve. The first proposals of creative concepts are presented in this phase."
+    },
+    "step3": {
+      "title": "Step 3: Feedback & Fine Tuning",
+      "content": "This is the moment of active collaboration, where honesty comes first. This process can contain multiple rounds of adjustments. Based on your feedback, we will get closer and closer to the end result, namely a brand you can be proud of!"
+    },
+    "step4": {
+      "title": "Step 4: Delivery",
+      "content": "Yes, it's time. All revision rounds are complete, you're happy with the end result and can't wait to implement it. We'll finalize the complete Brand Book. This means we'll deliver all components (logo, tagline, business card, color palette, etc.), so you can present your brand to the world! It's of course possible to start a follow-up project afterwards by implementing the same corporate identity with us in, for example, a website, app, or social ads, banner, vehicle wrapping and much more."
+    },
+    "buttonText": "I want to start right away!"
+  },
+  "projectsSection": {
+    "title": "Projects",
+    "description": "Eliminate the noise of loose ideas and incoherent communication, with our brand strategy you have one clear foundation that brings everything together for your brand.",
+    "noProjectsMessage": "No projects available at this moment.",
+    "viewMoreButton": "View more projects"
+  },
+  "discountSection": {
+    "description": "Only this month: 10% discount to transform your vision into a powerful Brand Book that makes your brand recognizable and irresistible.",
+    "days": "days",
+    "hours": "hours",
+    "minutes": "min",
+    "seconds": "sec",
+    "buttonText": "I'll take this discount"
   }
 }

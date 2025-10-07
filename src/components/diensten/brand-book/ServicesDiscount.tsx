@@ -1,12 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import React, { useState, useEffect } from "react";
-import { Button } from "../ui/button";
 import { useClientTranslations } from "@/components/hooks/useClientTranslations";
+import { Button } from "@/components/ui/button";
 
 const ServicesDiscount = () => {
   const { t, locale } = useClientTranslations(
-    "page-brand-strategy.discountSection",
+    "page-brand-book.discountSection",
   );
   const [currentMonth, setCurrentMonth] = useState("");
   const [timeLeft, setTimeLeft] = useState({
@@ -89,7 +89,7 @@ const ServicesDiscount = () => {
 
   return (
     <section
-      className="bg-white py-24 px-4"
+      className="bg-achieve-background py-24 px-4"
       style={{
         backgroundImage: `url("/backgrounds/effective.png")`,
       }}

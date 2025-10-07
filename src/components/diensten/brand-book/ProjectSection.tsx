@@ -39,7 +39,7 @@ const ProjectsSectionServer = async ({
   locale = "en",
   limit = 3,
 }: ProjectsSectionServerProps) => {
-  const t = await getTranslations("projects");
+  const t = await getTranslations("page-brand-book.projectsSection");
 
   let cases: CaseDocument[] = [];
   let error: string | null = null;
@@ -48,6 +48,9 @@ const ProjectsSectionServer = async ({
     cases = await MongoService.getCases({
       enabled: true,
       limit: limit,
+      filterFunction(val, i) {
+        return val.expertiseForCasesList.includes("Brand Book");
+      },
     });
   } catch (err) {
     error = err instanceof Error ? err.message : "Failed to fetch projects";
@@ -79,7 +82,7 @@ const ProjectsSectionServer = async ({
   }
 
   return (
-    <div className="py-12 bg-achieve-background">
+    <div className="py-12 ">
       <section className="flex flex-col gap-y-12 relative">
         {/* Header */}
         <div
@@ -88,20 +91,33 @@ const ProjectsSectionServer = async ({
         >
           <HighlightedText className="text-achieve-purple">
             <h2 className="text-4xl font-bold text-achieve-navy">
-              Mooi verhaal, lekker kort! Laat ons nu maar een{" "}
-              <AnimatedText
-                animationType="gradient"
-                className="text-achieve-purple font-bold"
-              >
-                voorbeeld
-              </AnimatedText>{" "}
-              zien!
+              {locale === "en" ? (
+                <>
+                  Nice story, nice and short! Now show us an{" "}
+                  <AnimatedText
+                    animationType="gradient"
+                    className="text-achieve-purple font-bold"
+                  >
+                    example
+                  </AnimatedText>
+                  !
+                </>
+              ) : (
+                <>
+                  Mooi verhaal, lekker kort! Laat ons nu maar een{" "}
+                  <AnimatedText
+                    animationType="gradient"
+                    className="text-achieve-purple font-bold"
+                  >
+                    voorbeeld
+                  </AnimatedText>{" "}
+                  zien!
+                </>
+              )}
             </h2>
           </HighlightedText>{" "}
           <p className="text-[20px] mt-2 text-center max-w-[1105px] font-semibold text-achieve-navy">
-            Elimineer de ruis van losse ideeën en onsamenhangende communicatie,
-            met onze brand strategy heb je één duidelijk fundament dat alles
-            voor je merk samenbrengt.
+            {t("description")}
           </p>
         </div>
 
@@ -111,7 +127,7 @@ const ProjectsSectionServer = async ({
             {cases.map((project) => (
               <Link
                 key={project._id}
-                href={`/projecten/${project.slug}`}
+                href={`/projecten/${project.slug}` as any}
                 className="group h-full"
               >
                 <div className="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all duration-700 h-full flex flex-col">

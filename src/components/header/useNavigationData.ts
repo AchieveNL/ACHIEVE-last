@@ -22,44 +22,43 @@ export function useNavigationData(): NavigationData[] {
       value: t("services.value"),
       slug: t("services.slug"),
       links: {
-        // First grid
         "brand-strategy": {
           title: t("services.links.brandStrategy.title"),
           description: t("services.links.brandStrategy.description"),
+        },
+        "brand-book": {
+          title: t("services.links.brandBook.title"),
+          description: t("services.links.brandBook.description"),
         },
         "custom-website": {
           title: t("services.links.customWebsite.title"),
           description: t("services.links.customWebsite.description"),
         },
-        "video-marketing": {
-          title: t("services.links.videoMarketing.title"),
-          description: t("services.links.videoMarketing.description"),
-        },
-        "search-engine-advertising": {
-          title: t("services.links.searchEngineAdvertising.title"),
-          description: t("services.links.searchEngineAdvertising.description"),
-        },
-        "social-media-management": {
-          title: t("services.links.socialMediaManagement.title"),
-          description: t("services.links.socialMediaManagement.description"),
-        },
-        // Second grid
-        "brand-book": {
-          title: t("services.links.brandBook.title"),
-          description: t("services.links.brandBook.description"),
-        },
         "email-marketing": {
           title: t("services.links.emailMarketing.title"),
           description: t("services.links.emailMarketing.description"),
+        },
+        "video-marketing": {
+          title: t("services.links.videoMarketing.title"),
+          description: t("services.links.videoMarketing.description"),
         },
         "ugc-marketing": {
           title: t("services.links.ugcMarketing.title"),
           description: t("services.links.ugcMarketing.description"),
         },
+        "search-engine-advertising": {
+          title: t("services.links.searchEngineAdvertising.title"),
+          description: t("services.links.searchEngineAdvertising.description"),
+        },
         "social-media-advertising": {
           title: t("services.links.socialMediaAdvertising.title"),
           description: t("services.links.socialMediaAdvertising.description"),
         },
+        "social-media-management": {
+          title: t("services.links.socialMediaManagement.title"),
+          description: t("services.links.socialMediaManagement.description"),
+        },
+
         dashboard: {
           title: t("services.links.dashboard.title"),
           description: t("services.links.dashboard.description"),

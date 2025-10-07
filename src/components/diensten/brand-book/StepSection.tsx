@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import AnimatedText from "@/components/ui/AnimatedText";
 import HighlightedText from "@/components/ui/HighlightedText";
 import { Button } from "@/components/ui/button";
+import { useClientTranslations } from "@/components/hooks/useClientTranslations";
 
 interface ChevronIconProps {
   isExpanded: boolean;
@@ -31,32 +32,29 @@ const ChevronIcon: React.FC<ChevronIconProps> = ({ isExpanded }) => (
 );
 
 const StepSection: React.FC = () => {
+  const { t, locale } = useClientTranslations("page-brand-book.stepSection");
   const [expandedStep, setExpandedStep] = useState<number | null>(null);
 
   const steps: Step[] = [
     {
       id: 1,
-      title: "Stap 1: Visie & Positionering",
-      content:
-        "We starten met een uitgebreide intake en één-op-één consults. Samen brengen we jouw merk, doelgroep en ambities in kaart. Dit vormt de basis om scherp te bepalen wie je bent, wat je wilt uitstralen en hoe je je onderscheidt in de markt.",
+      title: t("step1.title"),
+      content: t("step1.content"),
     },
     {
       id: 2,
-      title: "Stap 2: Concept",
-      content:
-        "Op basis van onderzoek en analyses bouwen we het strategische fundament van jouw merk. Denk aan missie, visie, merkpersoonlijkheid, tone of voice en duidelijke doelgroepen. Voor de uitgebreidere trajecten verdiepen we dit met markt- en concurrentieanalyses, positionering, merkverhaal en een concreet social media-actieplan.",
+      title: t("step2.title"),
+      content: t("step2.content"),
     },
     {
       id: 3,
-      title: "Stap 3: Feedback & Fine Tuning",
-      content:
-        "Jij krijgt de eerste strategische voorstellen gepresenteerd. We nemen jouw feedback mee en verfijnen het plan totdat alles naadloos aansluit bij jouw visie, waarden en doelstellingen. Afhankelijk van het pakket zijn er meerdere correctierondes mogelijk.",
+      title: t("step3.title"),
+      content: t("step3.content"),
     },
     {
       id: 4,
-      title: "Stap 4: Oplevering",
-      content:
-        "Het eindresultaat is een volledig en praktisch brand strategy document. Dit bevat jouw merkessentie, messaging framework en indien van toepassing een social media plan of onboarding deck voor je team. Zo heb je een duidelijke koers én concrete handvatten om je merk sterk in de markt te zetten.",
+      title: t("step4.title"),
+      content: t("step4.content"),
     },
   ];
 
@@ -74,24 +72,36 @@ const StepSection: React.FC = () => {
       <div className="container mx-auto text-center">
         <div className="flex flex-col gap-4">
           <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
-            Onze{" "}
-            <HighlightedText className="text-achieve-purple">
-              <AnimatedText
-                animationType="gradient"
-                className="text-achieve-purple font-bold"
-              >
-                effectieve
-              </AnimatedText>{" "}
-            </HighlightedText>{" "}
-            vier-stappen aanpak
+            {locale === "en" ? (
+              <>
+                Our{" "}
+                <HighlightedText className="text-achieve-purple">
+                  <AnimatedText
+                    animationType="gradient"
+                    className="text-achieve-purple font-bold"
+                  >
+                    effective
+                  </AnimatedText>{" "}
+                </HighlightedText>{" "}
+                four-step approach
+              </>
+            ) : (
+              <>
+                Onze{" "}
+                <HighlightedText className="text-achieve-purple">
+                  <AnimatedText
+                    animationType="gradient"
+                    className="text-achieve-purple font-bold"
+                  >
+                    effectieve
+                  </AnimatedText>{" "}
+                </HighlightedText>{" "}
+                vier-stappen aanpak
+              </>
+            )}
           </h1>
         </div>
-        <p className="mt-6 font-bold">
-          Onze aanpak is een effectief bewezen proces. Elke stap brengt ons
-          dichter bij het realiseren van jouw doelstellingen en visie. Daarom
-          hebben we een aanpak in 4 fasen gecreëerd, zodat er altijd duidelijk
-          wordt gemanaged of voldaan is aan alle verwachtingen.
-        </p>
+        <p className="mt-6 font-bold">{t("description")}</p>
         <div className="flex flex-col gap-y-4 my-8">
           {steps.map((step: Step) => (
             <article
@@ -118,7 +128,7 @@ const StepSection: React.FC = () => {
           ))}
         </div>
         <div className="w-full flex justify-center">
-          <Button className="px-16">Ik wil direct starten!</Button>
+          <Button className="px-16">{t("buttonText")}</Button>
         </div>
       </div>
     </section>
