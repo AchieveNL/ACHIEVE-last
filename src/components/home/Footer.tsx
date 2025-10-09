@@ -176,7 +176,7 @@ const Footer = () => {
                   </div>
 
                   {/* Footer Links */}
-                  <div className="flex justify-between lg:basis-[80%] md:flex-row flex-col gap-y-8 md:gap-y-0">
+                  <div className="flex justify-between  lg:basis-[80%] md:flex-row flex-col gap-y-8 md:gap-y-0">
                     {/* Menu */}
                     <div className="lg:basis-1/3 md:basis-1/3 flex justify-center">
                       <div className="mb-[30px] ">

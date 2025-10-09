@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from "react";
 import { Locale, Service } from "@/types/dbdatas";
 import { useClientTranslations } from "../hooks/useClientTranslations";

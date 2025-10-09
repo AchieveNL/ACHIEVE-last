@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { MongoService } from "@/lib/mongoService";
 import { Service } from "@/types/dbdatas";
 import ServicesSectionsClient from "./ServicesSectionsClient";

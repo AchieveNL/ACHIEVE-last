@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable @next/next/no-img-element */
 import { getTranslations } from "next-intl/server";
 import type { CaseDocument, Locale } from "@/types/dbdatas"; // Adjust path as needed
@@ -97,7 +98,7 @@ const ProjectsSectionServer = async ({
             {cases.map((project) => (
               <Link
                 key={project._id}
-                href={`/projecten/${project.slug}`}
+                href={`/projecten/${project.slug}` as any}
                 className="group h-full"
               >
                 <div className="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all duration-700 h-full flex flex-col">

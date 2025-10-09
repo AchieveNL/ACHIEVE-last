@@ -42,7 +42,7 @@ function CarouselSlider({ carouselData, to, locale }: CarouselSliderProps) {
       <div className="flex whitespace-nowrap" style={carouselStyle}>
         {duplicatedData.map((data, index) => (
           <div key={`${data._id}-${index}`} className="flex-shrink-0">
-            <Link href={data.link}>
+            <Link href={data.link as any}>
               <h1 className="text-left font-bold text-[54px] italic cursor-pointer py-[15px] px-[20px] block text-[#5fb1ee] hover:text-purple-600 transition-colors duration-300">
                 {data.title[locale]}
               </h1>

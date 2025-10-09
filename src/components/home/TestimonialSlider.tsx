@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import React, { useEffect, useState } from "react";
 
@@ -83,7 +84,7 @@ const mockTestimonials: Testimonial[] = [
 ];
 
 // Star component (replacing FaStar)
-function FaStar({ color = "#ffe435", size = 20, fontWeight = 900 }: StarProps) {
+function FaStar({ color = "#ffe435", size = 20 }: StarProps) {
   return (
     <svg
       width={size}

@@ -21,7 +21,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const setLocale = (newLocale: string) => {
     // Use next-intl's router which handles locale prefixing automatically
     // This will respect the 'as-needed' configuration
-    router.push(pathname, { locale: newLocale });
+    router.push(pathname as any, { locale: newLocale });
   };
 
   return (

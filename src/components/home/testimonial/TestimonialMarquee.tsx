@@ -114,7 +114,7 @@ const ReviewCard = ({
           </div>
         </div>
       </div>
-      <blockquote className="text-[15px]  text-gray-700 leading-relaxed line-clamp-4">
+      <blockquote className="text-[15px]  text-gray-700 leading-relaxed line-clamp-8">
         &quot;{body}&quot;
       </blockquote>
       {date && (

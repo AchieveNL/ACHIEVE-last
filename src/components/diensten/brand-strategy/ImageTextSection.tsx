@@ -10,7 +10,6 @@ const BrandBookSection = () => {
   const { t, locale } = useClientTranslations(
     "page-brand-strategy.heroSection",
   );
-
   const benefits = [
     "page-professional-impression",
     "page-trust-credibility",
@@ -21,14 +20,13 @@ const BrandBookSection = () => {
     "page-efficiency-revenue",
     "page-guidelines-overview",
   ];
-
   return (
-    <div className="py-32   lg:px-0">
+    <div className="py-24 lg:py-32 px-4 lg:px-0">
       <div className="container mx-auto">
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
-          <div className="flex flex-col gap-4">
-            <div className="flex flex-col gap-4">
-              <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 lg:gap-4">
+          <div className="flex flex-col gap-4 lg:gap-4">
+            <div className="flex flex-col gap-3 lg:gap-4">
+              <h1 className="text-3xl lg:text-4xl font-bold leading-tight text-achieve-navy">
                 {locale === "en" ? (
                   <>
                     Give your brand{" "}
@@ -65,28 +63,31 @@ const BrandBookSection = () => {
                   </>
                 )}
               </h1>
-              <p className="font-bold text-[20px] leading-relaxed max-w-xl">
+              <p className="font-bold text-lg lg:text-[20px] leading-relaxed max-w-xl">
                 {t("titleDescription")}
               </p>
             </div>
-            <ul className="flex flex-col items-start gap-4 mb-4 mt-4">
+            <ul className="flex flex-col items-start gap-3 lg:gap-4 mb-4 mt-2 lg:mt-4">
               {benefits.map((benefit, index) => (
-                <li key={index} className="flex items-center gap-2">
-                  <div className="flex-shrink-0">
+                <li key={index} className="flex items-start gap-2">
+                  <div className="flex-shrink-0 mt-0.5">
                     <CheckMarkIcon />
                   </div>
-                  <p className="text-base font-sans">{t(benefit)}</p>
+                  <p className="text-sm lg:text-base font-sans">{t(benefit)}</p>
                 </li>
               ))}
             </ul>
-            <Button className="w-[280px]">No-brainer, let's go!</Button>
+            <Button className="w-full sm:w-[280px]">
+              No-brainer, let&apos;s go!
+            </Button>
           </div>
-          <div className="relative lg:h-full h-[320px]">
+          <div className="relative w-full h-[320px] lg:h-full flex items-center justify-center lg:justify-start">
             <Image
               src="/diesten/brand-strategy/brand-book-hero.png"
               width={466.93}
               height={475.99}
               alt="Brand Book Hero"
+              className="object-contain max-w-full h-auto"
             />
           </div>
         </div>

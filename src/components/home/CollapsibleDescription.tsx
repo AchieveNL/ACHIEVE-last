@@ -47,7 +47,7 @@ const CollapsibleDescription: React.FC<CollapsibleDescriptionProps> = ({
             scaleNum={1.1}
             iconSize={18}
           />
-          <Link href="/tarieven">
+          <Link href={"/tarieven" as any}>
             <CustomButton
               text={textSecond}
               fontSize={12}

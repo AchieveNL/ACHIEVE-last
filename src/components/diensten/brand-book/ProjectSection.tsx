@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable @next/next/no-img-element */
 import { getTranslations } from "next-intl/server";
-import type { CaseDocument, Locale } from "@/types/dbdatas"; // Adjust path as needed
+import type { CaseDocument, Locale } from "@/types/dbdatas";
 import { MongoService } from "@/lib/mongoService";
 import { Link } from "@/i18n/navigation";
 import HighlightedText from "@/components/ui/HighlightedText";
@@ -60,20 +60,21 @@ const ProjectsSectionServer = async ({
   // Error state
   if (error || cases.length === 0) {
     return (
-      <div className="pt-4">
-        <section className="flex flex-col gap-y-12 relative">
-          <div
-            className="flex justify-center items-center flex-col"
-            style={{ marginBottom: "20px", gap: "4px" }}
-          >
+      <div className="py-12 md:py-16 lg:py-20 px-4 md:px-6">
+        <section className="flex flex-col gap-y-8 md:gap-y-12 relative">
+          <div className="flex justify-center items-center flex-col gap-3 md:gap-4">
             <HighlightedText className="text-achieve-purple">
-              <h2 className="text-4xl font-bold text-gray-800">{t("title")}</h2>
-            </HighlightedText>{" "}
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center px-4">
+                {t("title")}
+              </h2>
+            </HighlightedText>
           </div>
 
-          <div className="container mx-auto px-4">
-            <div className="text-center py-12">
-              <p className="text-gray-600">{t("noProjectsMessage")}</p>
+          <div className="container mx-auto">
+            <div className="text-center py-8 md:py-12">
+              <p className="text-gray-600 text-sm md:text-base">
+                {t("noProjectsMessage")}
+              </p>
             </div>
           </div>
         </section>
@@ -82,15 +83,12 @@ const ProjectsSectionServer = async ({
   }
 
   return (
-    <div className="py-12 ">
-      <section className="flex flex-col gap-y-12 relative">
+    <div className="py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-0">
+      <section className="flex flex-col gap-y-8 md:gap-y-12 relative">
         {/* Header */}
-        <div
-          className="flex justify-center items-center flex-col"
-          style={{ marginBottom: "20px", gap: "4px" }}
-        >
+        <div className="flex justify-center items-center flex-col gap-3 md:gap-4 mb-4 md:mb-8">
           <HighlightedText className="text-achieve-purple">
-            <h2 className="text-4xl font-bold text-achieve-navy">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-achieve-navy text-center px-4">
               {locale === "en" ? (
                 <>
                   Nice story, nice and short! Now show us an{" "}
@@ -115,15 +113,15 @@ const ProjectsSectionServer = async ({
                 </>
               )}
             </h2>
-          </HighlightedText>{" "}
-          <p className="text-[20px] mt-2 text-center max-w-[1105px] font-semibold text-achieve-navy">
+          </HighlightedText>
+          <p className="text-base md:text-lg lg:text-[20px] mt-2 text-center max-w-[1105px] font-semibold text-achieve-navy px-4">
             {t("description")}
           </p>
         </div>
 
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto">
           {/* Projects Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {cases.map((project) => (
               <Link
                 key={project._id}
@@ -131,27 +129,27 @@ const ProjectsSectionServer = async ({
                 className="group h-full"
               >
                 <div className="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all duration-700 h-full flex flex-col">
-                  <div className="relative h-[240px] overflow-hidden">
+                  <div className="relative h-[200px] md:h-[240px] overflow-hidden">
                     <img
                       src={project.previewImage || project.bannerImage}
                       alt={getLocalizedText(project.bannerTitle, locale)}
                       className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
-                  <div className="p-6 flex flex-col flex-grow">
-                    <h3 className="text-xl font-semibold mb-2">
+                  <div className="p-4 md:p-6 flex flex-col flex-grow">
+                    <h3 className="text-lg md:text-xl font-semibold mb-2 line-clamp-2">
                       {getLocalizedText(project.bannerTitle, locale)}
                     </h3>
-                    <p className="text-gray-600 mb-4 line-clamp-2 flex-grow">
+                    <p className="text-gray-600 text-sm md:text-base mb-4 line-clamp-2 flex-grow">
                       {getLocalizedText(project.description, locale)}
                     </p>
-                    <div className="flex justify-between items-center mt-auto pt-4 border-t border-gray-100">
-                      <span className="text-sm font-medium text-gray-500">
+                    <div className="flex justify-between items-center mt-auto pt-3 md:pt-4 border-t border-gray-100">
+                      <span className="text-xs md:text-sm font-medium text-gray-500 truncate pr-2">
                         {getCategoryFromExpertise(project.expertise)}
                       </span>
-                      <span className="text-sm text-gray-400 flex items-center gap-1">
+                      <span className="text-xs md:text-sm text-gray-400 flex items-center gap-1 flex-shrink-0">
                         <svg
-                          className="w-4 h-4"
+                          className="w-3.5 h-3.5 md:w-4 md:h-4"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -179,14 +177,14 @@ const ProjectsSectionServer = async ({
           </div>
 
           {/* View More Button */}
-          <div className="flex justify-center mt-12">
+          <div className="flex justify-center mt-8 md:mt-12">
             <Link
-              className="inline-flex items-center px-8 py-3 bg-purple-600 text-white font-medium rounded-lg hover:bg-opacity-90 transition-all duration-300 group"
+              className="inline-flex items-center px-6 md:px-8 py-2.5 md:py-3 bg-purple-600 text-white text-sm md:text-base font-medium rounded-lg hover:bg-opacity-90 transition-all duration-300 group w-full sm:w-auto justify-center"
               href="/projecten"
             >
               {t("viewMoreButton")}
               <svg
-                className="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
+                className="ml-2 w-4 h-4 md:w-5 md:h-5 transform group-hover:translate-x-1 transition-transform duration-300"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

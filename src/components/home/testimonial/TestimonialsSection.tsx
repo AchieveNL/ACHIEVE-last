@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { MongoService } from "@/lib/mongoService";
 import type { Locale } from "@/types/dbdatas";
 import TestimonialMarquee from "./TestimonialMarquee";
