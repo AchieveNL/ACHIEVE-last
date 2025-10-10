@@ -161,10 +161,10 @@ const PricingContent: React.FC<PricingContentProps> = ({
     if (!value) return <span className="text-gray-400">-</span>;
 
     // Check if it's a boolean-like value
-    if (value.toLowerCase() === "true" || value === "✓") {
+    if (value.toLowerCase() === "yes" || value === "✓") {
       return <CheckIcon />;
     }
-    if (value.toLowerCase() === "false" || value === "✗") {
+    if (value.toLowerCase() === "no" || value === "✗") {
       return <XIcon />;
     }
     return <span className="text-gray-600 text-sm sm:text-base">{value}</span>;
@@ -467,7 +467,7 @@ const PricingContent: React.FC<PricingContentProps> = ({
                           </h3>
                         </div>
                         <div className="border-t-2 border-dashed border-gray-200 pt-4">
-                          <div className="flex justify-center items-baseline">
+                          <div className="flex justify-center items-baseline min-w-52">
                             <span className="text-xl font-bold text-gray-700">
                               €
                             </span>
@@ -484,7 +484,7 @@ const PricingContent: React.FC<PricingContentProps> = ({
                           </h3>
                         </div>
                         <div className="border-t-2 border-dashed border-gray-200 pt-4">
-                          <div className="flex justify-center items-baseline">
+                          <div className="flex justify-center items-baseline min-w-52">
                             <span className="text-xl  font-bold text-gray-700">
                               €
                             </span>
@@ -501,7 +501,7 @@ const PricingContent: React.FC<PricingContentProps> = ({
                           </h3>
                         </div>
                         <div className="border-t-2 border-dashed border-gray-200 pt-4">
-                          <div className="flex justify-center items-baseline">
+                          <div className="flex justify-center items-baseline min-w-52">
                             <span className="text-xl  font-bold text-gray-700">
                               €
                             </span>

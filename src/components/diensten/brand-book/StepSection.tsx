@@ -145,7 +145,10 @@ const StepSection: React.FC = () => {
           ))}
         </div>
         <div className="w-full flex justify-center mt-6 md:mt-8">
-          <Button className="w-full sm:w-auto sm:min-w-[280px] px-8 md:px-16">
+          <Button
+            clickFor="calendly"
+            className="w-full sm:w-auto sm:min-w-[280px] px-8 md:px-16"
+          >
             {t("buttonText")}
           </Button>
         </div>

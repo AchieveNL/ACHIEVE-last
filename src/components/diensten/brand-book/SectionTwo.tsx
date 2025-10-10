@@ -74,7 +74,10 @@ const SectionTwo = () => {
                 </p>
               </div>
             </div>
-            <Button className="w-full sm:w-auto sm:min-w-[280px] mt-2">
+            <Button
+              clickFor="calendly"
+              className="w-full sm:w-auto sm:min-w-[280px] mt-2"
+            >
               {t("buttonText")}
             </Button>
           </div>

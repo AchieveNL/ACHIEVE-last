@@ -193,7 +193,10 @@ const ServicesDiscount = () => {
           </div>
 
           <div className="flex justify-center mt-2 md:mt-4">
-            <Button className="w-full sm:w-auto py-3 md:py-6 px-6 md:px-8 text-sm md:text-base">
+            <Button
+              clickFor="calendly"
+              className="w-full sm:w-auto py-3 md:py-6 px-6 md:px-8 text-sm md:text-base"
+            >
               {t("buttonText")}
             </Button>
           </div>

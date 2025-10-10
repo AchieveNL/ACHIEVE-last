@@ -21,7 +21,7 @@ const BrandBookSection = () => {
     "page-guidelines-overview",
   ];
   return (
-    <div className="py-24 lg:py-32 px-4 lg:px-0">
+    <div className="py-24 relative z-10 lg:py-32 px-4 lg:px-0">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 lg:gap-4">
           <div className="flex flex-col gap-4 lg:gap-4">
@@ -77,7 +77,7 @@ const BrandBookSection = () => {
                 </li>
               ))}
             </ul>
-            <Button className="w-full sm:w-[280px]">
+            <Button clickFor="calendly" className="w-full sm:w-[280px]">
               No-brainer, let&apos;s go!
             </Button>
           </div>

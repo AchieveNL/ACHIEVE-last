@@ -18,7 +18,7 @@ const BrandBookSection = () => {
     "page-guidelines-overview",
   ];
   return (
-    <div className="py-24  lg:py-32 px-4 md:px-6 lg:px-0">
+    <div className="py-24 relative z-10  lg:py-32 px-4 md:px-6 lg:px-0">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 lg:gap-12 items-center">
           <div className="flex flex-col gap-6 lg:gap-8">
@@ -62,7 +62,10 @@ const BrandBookSection = () => {
                 </li>
               ))}
             </ul>
-            <Button className="w-full sm:w-auto sm:min-w-[280px] mt-2">
+            <Button
+              clickFor="calendly"
+              className="w-full sm:w-auto sm:min-w-[280px] mt-2"
+            >
               {t("buttonText")}
             </Button>
           </div>
