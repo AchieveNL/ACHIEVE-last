@@ -467,11 +467,11 @@ const PricingContent: React.FC<PricingContentProps> = ({
                           </h3>
                         </div>
                         <div className="border-t-2 border-dashed border-gray-200 pt-4">
-                          <div className="flex justify-center items-baseline min-w-52">
-                            <span className="text-xl font-bold text-gray-700">
+                          <div className="flex justify-center items-baseline min-w-64">
+                            <span className="text-base font-bold text-gray-700">
                               €
                             </span>
-                            <span className="text-xl  font-bold text-gray-700 mx-1">
+                            <span className="text-base  font-bold text-gray-700 mx-1">
                               {getLocalizedText(activePriceData?.b_price)}
                             </span>
                           </div>
@@ -484,11 +484,11 @@ const PricingContent: React.FC<PricingContentProps> = ({
                           </h3>
                         </div>
                         <div className="border-t-2 border-dashed border-gray-200 pt-4">
-                          <div className="flex justify-center items-baseline min-w-52">
-                            <span className="text-xl  font-bold text-gray-700">
+                          <div className="flex justify-center items-baseline min-w-64">
+                            <span className="text-base  font-bold text-gray-700">
                               €
                             </span>
-                            <span className="text-xl  font-bold text-gray-700 mx-1">
+                            <span className="text-base  font-bold text-gray-700 mx-1">
                               {getLocalizedText(activePriceData?.s_price)}
                             </span>
                           </div>
@@ -501,11 +501,11 @@ const PricingContent: React.FC<PricingContentProps> = ({
                           </h3>
                         </div>
                         <div className="border-t-2 border-dashed border-gray-200 pt-4">
-                          <div className="flex justify-center items-baseline min-w-52">
-                            <span className="text-xl  font-bold text-gray-700">
+                          <div className="flex justify-center items-baseline min-w-64">
+                            <span className="text-base  font-bold text-gray-700">
                               €
                             </span>
-                            <span className="text-xl font-bold text-gray-700 mx-1">
+                            <span className="text-base font-bold text-gray-700 mx-1">
                               {getLocalizedText(activePriceData?.p_price)}
                             </span>
                           </div>
