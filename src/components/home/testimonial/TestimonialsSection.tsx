@@ -28,7 +28,10 @@ export default async function TestimonialsSection({
           className="flex justify-center items-center flex-col"
           style={{ marginBottom: "20px", gap: "4px" }}
         >
-          <HighlightedText className="text-achieve-purple">
+          <HighlightedText
+            bottomOffset="-20%"
+            className="text-achieve-purple mb-4 "
+          >
             <h2 className="text-4xl font-bold text-achieve-navy">
               {locale === "en" ? "Testimonials" : "Zij gingen je voor"}
             </h2>
