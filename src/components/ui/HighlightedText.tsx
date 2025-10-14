@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import { SVGProps } from "react";
 import { UnderLineMark } from "../icons/UnderLineMark";
 
 // Props interface for HighlightedText component
