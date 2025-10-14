@@ -117,8 +117,25 @@
     "post_launch_support": "Post-launch support"
   },
   "strategySection": {
-    "title": "Curious about what we can do for your company?",
-    "consultationButton": "Strategy meeting"
+    "consultationButton": "Strategy meeting",
+    "phrase0Before": "Ready to make your brand ",
+    "phrase0Highlight": "stronger",
+    "phrase0After": "?",
+    "phrase1Before": "Curious how we contribute to your ",
+    "phrase1Highlight": "success",
+    "phrase1After": "?",
+    "phrase2Before": "Curious about the ",
+    "phrase2Highlight": "possibilities",
+    "phrase2After": "?",
+    "phrase3Before": "The next step in your ",
+    "phrase3Highlight": "business",
+    "phrase3After": "",
+    "phrase4Before": "Start your ",
+    "phrase4Highlight": "brand transformation",
+    "phrase4After": " now",
+    "phrase5Before": "Discover what we can do for your ",
+    "phrase5Highlight": "business",
+    "phrase5After": ""
   },
   "navigation": {
     "home": {

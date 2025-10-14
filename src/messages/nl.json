@@ -118,8 +118,25 @@
     "post_launch_support": "Post-launch ondersteuning"
   },
   "strategySection": {
-    "title": "Benieuwd naar wat wij voor jouw onderneming kunnen betekenen?",
-    "consultationButton": "Strategiegesprek"
+    "consultationButton": "Strategiegesprek",
+    "phrase0Before": "Klaar om je merk ",
+    "phrase0Highlight": "sterker",
+    "phrase0After": " te maken?",
+    "phrase1Before": "Benieuwd hoe wij bijdragen aan jouw ",
+    "phrase1Highlight": "succes",
+    "phrase1After": "?",
+    "phrase2Before": "Benieuwd naar de ",
+    "phrase2Highlight": "mogelijkheden",
+    "phrase2After": "?",
+    "phrase3Before": "De volgende stap in jouw ",
+    "phrase3Highlight": "onderneming",
+    "phrase3After": "",
+    "phrase4Before": "Start je ",
+    "phrase4Highlight": "merktransformatie",
+    "phrase4After": " nu",
+    "phrase5Before": "Ontdek wat we voor jouw ",
+    "phrase5Highlight": "onderneming",
+    "phrase5After": " kunnen doen"
   },
   "navigation": {
     "home": {
