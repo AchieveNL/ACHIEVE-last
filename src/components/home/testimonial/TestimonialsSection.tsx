@@ -29,7 +29,7 @@ export default async function TestimonialsSection({
           style={{ marginBottom: "20px", gap: "4px" }}
         >
           <HighlightedText
-            bottomOffset="-20%"
+            bottomOffset="-30%"
             className="text-achieve-purple mb-4 "
           >
             <h2 className="text-4xl font-bold text-achieve-navy">
