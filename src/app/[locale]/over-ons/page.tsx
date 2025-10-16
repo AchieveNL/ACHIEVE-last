@@ -21,7 +21,7 @@ const AboutUsPage = async ({
       <TextCarouselSection bgPrimary locale={resolvedLocale} />
       <Promise locale={resolvedLocale} />
       <MeetTheTeam locale={resolvedLocale} />
-      <TestimonialsSection bgPrimary locale={resolvedLocale} />
+      <TestimonialsSection bgPrimary={false} locale={resolvedLocale} />
       <StrategySection />
     </>
   );
