@@ -4,7 +4,13 @@ import CustomButton from "../ui/CustomButton";
 import AnimatedText from "../ui/AnimatedText";
 import { useState, useEffect } from "react";
 
-export default function StrategySection() {
+type StrategySectionProps = {
+  primarybg?: boolean;
+};
+
+export default function StrategySection({
+  primarybg = true,
+}: StrategySectionProps) {
   const { t, locale } = useClientTranslations("strategySection");
 
   // Total number of phrase variations
@@ -26,13 +32,20 @@ export default function StrategySection() {
   const phraseAfter = t(`phrase${currentPhraseIndex}After`);
 
   return (
-    <section className="bg-achieve-background">
+    <section className={primarybg ? "bg-achieve-background" : "bg-white"}>
       <div
         className="py-12 md:py-16 lg:py-20"
-        style={{
-          backgroundImage: `linear-gradient(rgba(248,245,255,0.4), rgba(248,245,255,0.4)), url("/backgrounds/pattern.svg")`,
-          backgroundSize: "125px 125px",
-        }}
+        style={
+          primarybg
+            ? {
+                backgroundImage: `linear-gradient(rgba(248,245,255,0.4), rgba(248,245,255,0.4)), url("/backgrounds/pattern.svg")`,
+                backgroundSize: "125px 125px",
+              }
+            : {
+                backgroundImage: `url("/backgrounds/pattern.svg")`,
+                backgroundSize: "125px 125px",
+              }
+        }
       >
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-6 md:gap-8">

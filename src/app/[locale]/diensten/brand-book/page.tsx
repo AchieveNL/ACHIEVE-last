@@ -30,7 +30,7 @@ export default async function brandBookPage({
       <ServicesDiscount />
       <PricingSection isPrimaryBackground />
       <TestimonialsSection bgPrimary locale={resolvedLocale} />
-      <StrategySection />
+      <StrategySection primarybg={false} />
     </div>
   );
 }

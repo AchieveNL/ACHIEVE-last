@@ -9,7 +9,7 @@ const dienstenPage = () => {
       <Banner className="bg-white" title="Onze diensten" />
       <ServicesSections />
       <FAQSection />
-      <StrategySection />
+      <StrategySection primarybg={false} />
     </section>
   );
 };

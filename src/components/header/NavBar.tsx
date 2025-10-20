@@ -1,5 +1,4 @@
 "use client";
-
 import * as React from "react";
 import Logo from "./Logo";
 import DesktopNavigation from "./DesktopNavigation";
@@ -24,10 +23,14 @@ export default function NavBar() {
           {/* Desktop Navigation Menu - Hidden on lg and below */}
           <DesktopNavigation navigationData={navigationData} />
 
-          {/* Right Side Elements - Always visible */}
+          {/* Right Side Elements */}
           <div className="gap-2 flex items-center">
             <LanguageSwitcher />
-            <ConsultationButton />
+
+            {/* Desktop CTA - Hidden on mobile */}
+            <div className="hidden lg:block">
+              <ConsultationButton />
+            </div>
 
             {/* Mobile Navigation - Only visible on lg and below */}
             <MobileNavigation
