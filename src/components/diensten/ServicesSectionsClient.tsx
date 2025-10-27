@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Service } from "@/types/dbdatas";
+import { Locale, Service } from "@/types/dbdatas";
 import AnimatedLinkWithArrow from "../home/AnimatedLinkWithArrowProps";
 import { useClientTranslations } from "../hooks/useClientTranslations";
 import Image from "next/image";
@@ -46,13 +46,19 @@ const AnimatedText = ({
 interface ServiceItemProps {
   service: Service;
   isExpanded: boolean;
+  locale: Locale;
   onToggle: () => void;
 }
 
-const ServiceItem = ({ service, isExpanded, onToggle }: ServiceItemProps) => {
+const ServiceItem = ({
+  service,
+  isExpanded,
+  onToggle,
+  locale,
+}: ServiceItemProps) => {
   const [isHovered, setIsHovered] = useState(false);
 
-  const { t, locale } = useClientTranslations("secondaryHero");
+  const { t } = useClientTranslations("secondaryHero");
 
   // Function to convert title to URL-friendly format
   const createSlugFromTitle = (title: string) => {
@@ -64,9 +70,9 @@ const ServiceItem = ({ service, isExpanded, onToggle }: ServiceItemProps) => {
       className="border-b border-2  md:border-4 border-achieve-background last:border-b-0"
       initial={false}
       animate={{
-        backgroundColor: isExpanded ? "var(--achieve-background)" : "white",
+        backgroundColor: isExpanded ? "var(--achieve-background)" : "#fff",
       }}
-      transition={{ duration: 0.3 }}
+      transition={{ duration: 0.5, ease: "easeIn" }}
     >
       <motion.div
         className="py-4 md:py-8 container  px-4 md:px-6 cursor-pointer"
@@ -157,7 +163,7 @@ const ServiceItem = ({ service, isExpanded, onToggle }: ServiceItemProps) => {
                   className="flex-1 max-w-none lg:max-w-lg"
                 >
                   <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6 md:mb-8">
-                    {service.description.en}
+                    {service.description[locale]}
                   </p>
 
                   {/* CTA Button */}
@@ -197,9 +203,10 @@ const ServiceItem = ({ service, isExpanded, onToggle }: ServiceItemProps) => {
 
 interface ServicesClientProps {
   services: Service[];
+  locale: Locale;
 }
 
-const ServicesSectionsClient = ({ services }: ServicesClientProps) => {
+const ServicesSectionsClient = ({ services, locale }: ServicesClientProps) => {
   const [expandedItem, setExpandedItem] = useState<number | null>(null);
 
   const toggleExpanded = (id: number) => {
@@ -220,6 +227,7 @@ const ServicesSectionsClient = ({ services }: ServicesClientProps) => {
               className="w-full"
             >
               <ServiceItem
+                locale={locale}
                 service={service}
                 isExpanded={expandedItem === service._id}
                 onToggle={() => toggleExpanded(service._id)}

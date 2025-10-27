@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import { MongoService } from "@/lib/mongoService";
-import { Service } from "@/types/dbdatas";
+import { Locale, Service } from "@/types/dbdatas";
 import ServicesSectionsClient from "./ServicesSectionsClient";
 
 // Server component that fetches data
@@ -14,10 +14,10 @@ async function getServicesData(): Promise<Service[]> {
   }
 }
 
-const ServicesSections = async () => {
+const ServicesSections = async ({ locale }: { locale: Locale }) => {
   const services = await getServicesData();
 
-  return <ServicesSectionsClient services={services} />;
+  return <ServicesSectionsClient locale={locale} services={services} />;
 };
 
 export default ServicesSections;

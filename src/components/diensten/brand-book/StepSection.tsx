@@ -64,7 +64,7 @@ const StepSection: React.FC = () => {
 
   return (
     <section
-      className="bg-gray-50 py-12 md:py-20 lg:py-24 px-4 md:px-6 lg:px-8 bgeffective"
+      className="bg-achieve-background py-12 md:py-20 lg:py-24 px-4 md:px-6 lg:px-8 bgeffective"
       style={{
         backgroundImage: `url("/backgrounds/effective.png")`,
       }}

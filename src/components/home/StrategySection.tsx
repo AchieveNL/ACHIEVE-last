@@ -3,6 +3,7 @@ import { useClientTranslations } from "../hooks/useClientTranslations";
 import CustomButton from "../ui/CustomButton";
 import AnimatedText from "../ui/AnimatedText";
 import { useState, useEffect } from "react";
+import HighlightedText from "../ui/HighlightedText";
 
 type StrategySectionProps = {
   primarybg?: boolean;
@@ -55,7 +56,9 @@ export default function StrategySection({
                 animationType="gradient"
                 className="text-achieve-purple font-bold"
               >
-                {phraseHighlight}
+                <HighlightedText className="text-achieve-purple">
+                  {phraseHighlight}
+                </HighlightedText>
               </AnimatedText>
               {phraseAfter}
             </h2>

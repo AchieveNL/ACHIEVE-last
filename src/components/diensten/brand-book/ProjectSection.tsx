@@ -87,33 +87,35 @@ const ProjectsSectionServer = async ({
       <section className="flex flex-col gap-y-8 md:gap-y-12 relative">
         {/* Header */}
         <div className="flex justify-center items-center flex-col gap-3 md:gap-4 mb-4 md:mb-8">
-          <HighlightedText className="text-achieve-purple">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-achieve-navy text-center px-4">
-              {locale === "en" ? (
-                <>
-                  Nice story, nice and short! Now show us an{" "}
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-achieve-navy text-center px-4">
+            {locale === "en" ? (
+              <>
+                Nice story, nice and short! Now show us an{" "}
+                <HighlightedText className="text-achieve-purple">
                   <AnimatedText
                     animationType="gradient"
                     className="text-achieve-purple font-bold"
                   >
                     example
                   </AnimatedText>
-                  !
-                </>
-              ) : (
-                <>
-                  Mooi verhaal, lekker kort! Laat ons nu maar een{" "}
+                </HighlightedText>
+                !
+              </>
+            ) : (
+              <>
+                Mooi verhaal, lekker kort! Laat ons nu maar een{" "}
+                <HighlightedText className="text-achieve-purple">
                   <AnimatedText
                     animationType="gradient"
                     className="text-achieve-purple font-bold"
                   >
                     voorbeeld
                   </AnimatedText>{" "}
-                  zien!
-                </>
-              )}
-            </h2>
-          </HighlightedText>
+                </HighlightedText>
+                zien!
+              </>
+            )}
+          </h2>
           <p className="text-base md:text-lg lg:text-[20px] mt-2 text-center max-w-[1105px] font-semibold text-achieve-navy px-4">
             {t("description")}
           </p>
