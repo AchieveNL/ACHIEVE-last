@@ -52,14 +52,14 @@ export default function StrategySection({
           <div className="flex flex-col lg:flex-row justify-between items-center gap-6 md:gap-8">
             <h2 className="text-achieve-navy leading-tight text-2xl md:text-3xl lg:text-4xl font-bold text-center lg:text-left max-w-[35ch]">
               {phraseBefore}
-              <AnimatedText
-                animationType="gradient"
-                className="text-achieve-purple font-bold"
-              >
-                <HighlightedText className="text-achieve-purple">
+              <HighlightedText className="text-achieve-purple">
+                <AnimatedText
+                  animationType="gradient"
+                  className="text-achieve-purple font-bold"
+                >
                   {phraseHighlight}
-                </HighlightedText>
-              </AnimatedText>
+                </AnimatedText>
+              </HighlightedText>
               {phraseAfter}
             </h2>
             <div className="w-full sm:w-auto flex justify-center lg:justify-end">
