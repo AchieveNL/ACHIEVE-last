@@ -32,9 +32,7 @@ const ChevronIcon: React.FC<ChevronIconProps> = ({ isExpanded }) => (
 );
 
 const StepSection: React.FC = () => {
-  const { t, locale } = useClientTranslations(
-    "page-brand-strategy.stepSection",
-  );
+  const { t, locale } = useClientTranslations("page-brand-book.stepSection");
   const [expandedStep, setExpandedStep] = useState<number | null>(null);
 
   const steps: Step[] = [
@@ -66,14 +64,14 @@ const StepSection: React.FC = () => {
 
   return (
     <section
-      className="bg-white py-12 md:py-20 lg:py-24 px-4 md:px-6 lg:px-8 bgeffective"
+      className=" py-12 md:py-20 lg:py-24 px-4 md:px-6 lg:px-8 bgeffective"
       style={{
         backgroundImage: `url("/backgrounds/effective.png")`,
       }}
     >
       <div className="container mx-auto text-center">
         <div className="flex flex-col gap-3 md:gap-4">
-          <h2 className="text-3xl md:text-4xl  font-bold leading-tight text-achieve-navy px-2">
+          <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy px-2">
             {locale === "en" ? (
               <>
                 Our{" "}

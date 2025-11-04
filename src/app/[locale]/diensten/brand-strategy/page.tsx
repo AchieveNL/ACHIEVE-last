@@ -22,7 +22,8 @@ export default async function BrandStrategyPage({
       <SectionTwo />
       <StepSection />
       <StrategyQuoteSection />
-      <ProjectSection />
+      <ProjectSection locale={locale} />
+
       <ServicesDiscount />
       <PricingSection />
       <TestimonialsSection locale={resolvedLocale} />

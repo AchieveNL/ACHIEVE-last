@@ -22,8 +22,8 @@ const poppins = Poppins({
 
 export const metadata = {
   title: {
-    template: "%s | Your Agency Name",
-    default: "Your Agency Name - Professional Digital Services",
+    template: "%s | Achieve - Digital Agency",
+    default: "Achieve - Digital Agency",
   },
   description: "Professional digital marketing and web development services",
   icons: {
@@ -31,10 +31,10 @@ export const metadata = {
   },
   metadataBase: new URL("https://youragency.com"),
   openGraph: {
-    title: "Your Agency Name",
-    description: "Professional digital services",
-    url: "https://youragency.com",
-    siteName: "Your Agency Name",
+    title: "Achieve - Digital Agency",
+    description: "Professional digital marketing and web development services",
+    url: "https://achieve.com",
+    siteName: "Achieve",
     type: "website",
     images: ["/og-image.jpg"],
   },

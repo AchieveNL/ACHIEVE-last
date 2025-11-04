@@ -108,7 +108,7 @@ const StepSection: React.FC = () => {
           {steps.map((step: Step) => (
             <article
               key={step.id}
-              className="bg-white cursor-pointer hover:shadow-lg rounded-lg transition-shadow duration-300"
+              className="bg-white cursor-pointer hover:shadow-lg shadow-md rounded-lg transition-shadow duration-300"
               onClick={() => toggleStep(step.id)}
               role="button"
               aria-expanded={expandedStep === step.id}

@@ -111,7 +111,7 @@ const ProjectsSectionServer = async ({
                   >
                     voorbeeld
                   </AnimatedText>{" "}
-                </HighlightedText>
+                </HighlightedText>{" "}
                 zien!
               </>
             )}

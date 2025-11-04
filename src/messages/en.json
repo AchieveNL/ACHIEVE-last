@@ -320,74 +320,268 @@
       "page-efficiency-revenue": "Saves time, costs and generates more revenue",
       "page-guidelines-overview": "All guidelines in one overview",
       "buttonText": "No-brainer, let's go!"
+    },
+    "sectionTwo": {
+      "section1": {
+        "title": "Brands are very important for businesses",
+        "content": "Branding ensures that a company or product is recognized. This recognition is important and when properly applied, it can ensure that customers - current and potential - gain trust or, even better, want to become part of the brand."
+      },
+      "section2": {
+        "title": "Consistency",
+        "content": "Branding is a broad concept and consists of various elements (logo, color schemes, typography) that work together to determine the appearance of the company or product. It's important to think about this and document all decisions about the branding. This way you can ensure that what has been decided is also applied consistently."
+      },
+      "section3": {
+        "title": "Recognition",
+        "content": "All decisions regarding branding come together in the corporate identity. And the corporate identity is documented in the Brand Book. A consistent corporate identity is important, because every employee must be able to identify with your brand. So from time to time, clarification of the brand's visualization is necessary."
+      },
+      "buttonText": "Discover our packages!"
+    },
+    "quoteSection": {
+      "quote": "\"A brand is not what you say it is. It is what they say it is.\"",
+      "author": "Marty Neumeier"
+    },
+    "sectionThird": {
+      "subtitle": "A gap that can be solved",
+      "paragraph1": "A business not being noticed enough is a common problem. This occurs with startups, but also with companies that lack clear direction. Because a strong corporate image is missing, the target audience won't recognize the company or brand.",
+      "paragraph2": "A corporate identity enables a company to build a strong corporate image with the target audience and influences the attitude and behavior of the organization. It ensures better recognition, allowing the company to stand out from competitors. A professional corporate identity creates trust in the services and products offered, and that's often exactly what you need!",
+      "paragraph3": "In short: a good corporate identity not only represents an organization's identity, but also strengthens it!",
+      "buttonText": "Discover our packages!"
+    },
+    "sectionFourth": {
+      "subtitle": "A gap that can be solved",
+      "paragraph1": "Our collaborative approach is what makes us unique. We don't just deliver a product, but also ensure that the entire process runs smoothly. First, we want your wishes to be completely clear, then we start working on a proposal that we think fits you.",
+      "paragraph2": "We don't just do what's asked of us, but we always think along with you in the process. Through our expertise, we're able to make suggestions that you often haven't thought of before. We always go the extra mile.",
+      "paragraph3": "You also get designs from different designers, which brings much more diversity of ideas to the table. This ensures a final result that comes from your wishes and our expertise and advice. Customer satisfaction is the most important thing for us and we work on that together!",
+      "paragraph4": "Finally, we are also transparent about our rates.",
+      "buttonText": "Discover our packages!"
+    },
+    "stepSection": {
+      "description": "Our approach is a proven effective process. Each step brings us closer to realizing your goals and vision. That's why we've created a 4-phase approach, ensuring clear management and meeting all expectations.",
+      "step1": {
+        "title": "Step 1: Vision & Positioning",
+        "content": "Our digital strategist will first delve into understanding your brand and goals. A questionnaire will be completed, which will be discussed during an intake meeting of approximately one hour. This is the phase where plans are forged and the course is determined."
+      },
+      "step2": {
+        "title": "Step 2: Graphic Design",
+        "content": "Now our creative team comes into action. They take over the strategist's concepts and transform them into visual and digital content. We devise concepts and strategies that perfectly match what you want to achieve. The first proposals of creative concepts are presented in this phase."
+      },
+      "step3": {
+        "title": "Step 3: Feedback & Fine Tuning",
+        "content": "This is the moment of active collaboration, where honesty comes first. This process can contain multiple rounds of adjustments. Based on your feedback, we will get closer and closer to the end result, namely a brand you can be proud of!"
+      },
+      "step4": {
+        "title": "Step 4: Delivery",
+        "content": "Yes, it's time. All revision rounds are complete, you're happy with the end result and can't wait to implement it. We'll finalize the complete Brand Book. This means we'll deliver all components (logo, tagline, business card, color palette, etc.), so you can present your brand to the world! It's of course possible to start a follow-up project afterwards by implementing the same corporate identity with us in, for example, a website, app, or social ads, banner, vehicle wrapping and much more."
+      },
+      "buttonText": "I want to start right away!"
+    },
+    "projectsSection": {
+      "title": "Projects",
+      "description": "Eliminate the noise of loose ideas and incoherent communication, with our brand strategy you have one clear foundation that brings everything together for your brand.",
+      "noProjectsMessage": "No projects available at this moment.",
+      "viewMoreButton": "View more projects"
+    },
+    "discountSection": {
+      "description": "Only this month: 10% discount to transform your vision into a powerful Brand Book that makes your brand recognizable and irresistible.",
+      "days": "days",
+      "hours": "hours",
+      "minutes": "min",
+      "seconds": "sec",
+      "buttonText": "I'll take this discount"
     }
   },
-  "sectionTwo": {
-    "section1": {
-      "title": "Brands are very important for businesses",
-      "content": "Branding ensures that a company or product is recognized. This recognition is important and when properly applied, it can ensure that customers - current and potential - gain trust or, even better, want to become part of the brand."
+
+  "page-custom-website": {
+    "heroSection": {
+      "titleDescription": "What does a profitable website mean for your business?",
+      "page-subtitle": "It is much more than a business card, let it function as a marketing machine",
+      "page-more-leads": "Ensures more leads and therefore more customers",
+      "page-24-7-service": "Your website serves your (potential) customers 24/7",
+      "page-professionalism": "Radiates the professionalism of your business",
+      "page-full-control": "Unlike social media platforms, you are in full control",
+      "page-information-point": "Create the most important information point for current customers",
+      "page-investment": "Your website is an investment, not a cost",
+      "page-future-ready": "A website that is set up for the future",
+      "buttonText": "No-brainer, let's go!"
     },
-    "section2": {
-      "title": "Consistency",
-      "content": "Branding is a broad concept and consists of various elements (logo, color schemes, typography) that work together to determine the appearance of the company or product. It's important to think about this and document all decisions about the branding. This way you can ensure that what has been decided is also applied consistently."
+    "sectionTwo": {
+      "title": "A poorly functioning website",
+      "subtitle": "Does this sound familiar?",
+      "problem1": "You have a slow website",
+      "problem2": "The design is no longer current",
+      "problem3": "Not user-friendly",
+      "problem4": "Too much text makes the website unclear",
+      "problem5": "Does not work well on mobile devices",
+      "problem6": "Does not reflect what the company has to offer",
+      "problem7": "Your website does not convert",
+      "paragraph1": "Too little attention paid to your website results in a major loss of customers, while it should just generate money. We regularly hear that websites are seen as an endless cost, because a party has to be hired for every adjustment. Perhaps you think so too: that it would be easier? For example, by being able to change your website yourself or with an affordable maintenance subscription?",
+      "paragraph2": "Or perhaps your website no longer fits your current business operations at all. Every website is built with a specific vision and specific goals. It regularly happens that this does not fit well together. Therefore, it would be more favorable if more thought were given to the business operations, asking questions in advance about the size of the organization and whether a marketing department is present. If this is thought through in the right way, it means you are better prepared to grow.",
+      "paragraph3": "So you are probably looking for a party that fully thinks along with your business operations to achieve the best results and is transparent in costs!",
+      "buttonText": "I want to discover that!"
     },
-    "section3": {
-      "title": "Recognition",
-      "content": "All decisions regarding branding come together in the corporate identity. And the corporate identity is documented in the Brand Book. A consistent corporate identity is important, because every employee must be able to identify with your brand. So from time to time, clarification of the brand's visualization is necessary."
+    "sectionThree": {
+      "title": "Others offer what they're good at. We advise what suits you best",
+      "paragraph1": "At Achieve we have a unique approach. We don't just look at our expertise, we find it more important that the website actually fits your business operations. A website should be a real addition to the business. That's why we always first delve into the company and its objectives, so that we can advise and support in the right way. This approach ensures that all expectations are met and a healthy relationship for the long term is created.",
+      "paragraph2": "Transparency is also something that characterizes us. You'll notice that immediately, because we don't work with hidden costs, annoying contracts, or other tricks that don't work in your favor. We focus primarily on creating a long-term partnership.",
+      "paragraph3": "When the website functions well and you're satisfied with it, you can immediately move on to other options and possibilities at Achieve to scale up your business operations. Let us advise you on the possibilities, for example by outsourcing online advertising to increase your visitor flow, and thereby also increase your leads and ultimately increase your revenue!",
+      "buttonText": "Discover our packages!"
     },
-    "buttonText": "Discover our packages!"
+    "quoteSection": {
+      "quote": "\"Websites promote you 24/7: No employee will do that.\"",
+      "author": "Paul Cookson"
+    }
   },
-  "quoteSection": {
-    "quote": "\"A brand is not what you say it is. It is what they say it is.\"",
-    "author": "Marty Neumeier"
-  },
-  "sectionThird": {
-    "subtitle": "A gap that can be solved",
-    "paragraph1": "A business not being noticed enough is a common problem. This occurs with startups, but also with companies that lack clear direction. Because a strong corporate image is missing, the target audience won't recognize the company or brand.",
-    "paragraph2": "A corporate identity enables a company to build a strong corporate image with the target audience and influences the attitude and behavior of the organization. It ensures better recognition, allowing the company to stand out from competitors. A professional corporate identity creates trust in the services and products offered, and that's often exactly what you need!",
-    "paragraph3": "In short: a good corporate identity not only represents an organization's identity, but also strengthens it!",
-    "buttonText": "Discover our packages!"
-  },
-  "sectionFourth": {
-    "subtitle": "A gap that can be solved",
-    "paragraph1": "Our collaborative approach is what makes us unique. We don't just deliver a product, but also ensure that the entire process runs smoothly. First, we want your wishes to be completely clear, then we start working on a proposal that we think fits you.",
-    "paragraph2": "We don't just do what's asked of us, but we always think along with you in the process. Through our expertise, we're able to make suggestions that you often haven't thought of before. We always go the extra mile.",
-    "paragraph3": "You also get designs from different designers, which brings much more diversity of ideas to the table. This ensures a final result that comes from your wishes and our expertise and advice. Customer satisfaction is the most important thing for us and we work on that together!",
-    "paragraph4": "Finally, we are also transparent about our rates.",
-    "buttonText": "Discover our packages!"
-  },
-  "stepSection": {
-    "description": "Our approach is a proven effective process. Each step brings us closer to realizing your goals and vision. That's why we've created a 4-phase approach, ensuring clear management and meeting all expectations.",
-    "step1": {
-      "title": "Step 1: Vision & Positioning",
-      "content": "Our digital strategist will first delve into understanding your brand and goals. A questionnaire will be completed, which will be discussed during an intake meeting of approximately one hour. This is the phase where plans are forged and the course is determined."
+  "page-email-marketing": {
+    "heroSection": {
+      "titleDescription": "The underestimated power of Email Marketing",
+      "page-subtitle": "Much more leads thanks to automated Email marketing",
+      "page-relevant-audience": "Very relevant target audience",
+      "page-measurable-results": "The results are easily measurable",
+      "page-personalization": "You can personalize messages",
+      "page-reach-insights": "You get insights into which people you have and have not reached",
+      "page-cost-effective": "Email marketing is relatively inexpensive",
+      "page-scalable": "Scalable through automation",
+      "page-timing-control": "You determine when a message reaches a recipient",
+      "buttonText": "No-brainer, let's go!"
     },
-    "step2": {
-      "title": "Step 2: Graphic Design",
-      "content": "Now our creative team comes into action. They take over the strategist's concepts and transform them into visual and digital content. We devise concepts and strategies that perfectly match what you want to achieve. The first proposals of creative concepts are presented in this phase."
+    "sectionTwo": {
+      "title": "No one understands you better than we do",
+      "subtitle": "Discover the solution!",
+      "paragraph1": "You want to get more out of your existing customer base, but it seems challenging to determine where to start. You have an extensive email database, but you lack insight and measurability in your email marketing campaigns. Finding the right KPIs is of great importance to be able to measure and optimize the effectiveness of your efforts.",
+      "paragraph2": "It's not only important to know who you have reached, but also who you may have missed. Reaching the right target audience is essential to improve the results of your email marketing. You feel that you are currently not reaching the relevant target audience with your marketing efforts, and that is a missed opportunity!",
+      "paragraph3": "We understand that these challenges can be complex, but we are ready to help you. With our expertise and solutions, we can help you get more value from your existing customer base, optimize your email marketing and increase the return on your investment. Together we ensure that you no longer miss opportunities and that your business can grow. Good email marketing not only ensures that part of your marketing efforts are automated, but that it actually generates more leads/sales!",
+      "buttonText": "I want to discover that!"
     },
-    "step3": {
-      "title": "Step 3: Feedback & Fine Tuning",
-      "content": "This is the moment of active collaboration, where honesty comes first. This process can contain multiple rounds of adjustments. Based on your feedback, we will get closer and closer to the end result, namely a brand you can be proud of!"
+    "sectionThree": {
+      "title": "Others offer what they're good at. We advise what suits you best",
+      "paragraph1": "At Achieve we have a unique approach. We don't just look at our expertise, we find it more important that the website actually fits your business operations. A website should be a real addition to the business. That's why we always first delve into the company and its objectives, so that we can advise and support in the right way. This approach ensures that all expectations are met and a healthy relationship for the long term is created.",
+      "paragraph2": "Transparency is also something that characterizes us. You'll notice that immediately, because we don't work with hidden costs, annoying contracts, or other tricks that don't work in your favor. We focus primarily on creating a long-term partnership.",
+      "paragraph3": "When the website functions well and you're satisfied with it, you can immediately move on to other options and possibilities at Achieve to scale up your business operations. Let us advise you on the possibilities, for example by outsourcing online advertising to increase your visitor flow, and thereby also increase your leads and ultimately increase your revenue!",
+      "buttonText": "Discover our packages!"
     },
-    "step4": {
-      "title": "Step 4: Delivery",
-      "content": "Yes, it's time. All revision rounds are complete, you're happy with the end result and can't wait to implement it. We'll finalize the complete Brand Book. This means we'll deliver all components (logo, tagline, business card, color palette, etc.), so you can present your brand to the world! It's of course possible to start a follow-up project afterwards by implementing the same corporate identity with us in, for example, a website, app, or social ads, banner, vehicle wrapping and much more."
+    "sectionFourth": {
+      "title": "Nice story, nice and short! Let us now show you an",
+      "titleHighlight": "example",
+      "subtitle": "Eliminate the process from qualifying a lead to scheduling a sales call; this",
+      "subtitleHighlight": "automation",
+      "subtitleEnd": "does it all for you!"
     },
-    "buttonText": "I want to start right away!"
+
+    "quoteSection": {
+      "quote": "\"Personalization is not about first/last name. It’s about relevant content.\"",
+      "author": "Dan Jak"
+    },
+    "featuresSection": {
+      "title": "What makes us",
+      "titleHighlight": "different",
+      "subtitle": "Many reasons why you would like to",
+      "subtitleHighlight": "work together",
+      "subtitleEnd": "with us",
+      "readMore": "Read more",
+      "readLess": "Read less",
+      "feature1": {
+        "title": "Sharpen marketing goals",
+        "description": "Are you looking for an email marketing partner who can help you achieve business goals? A...",
+        "fullText": "Are you looking for an email marketing partner who can help you achieve business goals? At Achieve we go beyond the inbox. In addition to sending effective emails, we also strive to achieve your marketing objectives. Achieve specializes in email marketing with an integrated marketing strategy, where we ensure that your message reaches the right target audience and delivers results. We understand the importance of an effective email marketing campaign!"
+      },
+      "feature2": {
+        "title": "Unique and personal approach",
+        "description": "We attach great value to creating valuable email experiences for our customers. We do t...",
+        "fullText": "We attach great value to creating valuable email experiences for our customers. We do this in various ways. We ensure that the emails are tailored to your individual preferences. The emails are written in the most personal and unique way possible to create a bond of trust. Of course, special discounts and promotions can also be added. We ensure that these benefits are clearly communicated in the emails."
+      },
+      "feature3": {
+        "title": "Dissect and define target audiences",
+        "description": "Also emphasize what distinguishes your products or services from the competition and why...",
+        "fullText": "Also emphasize what distinguishes your products or services from the competition and why they should be with your company. We communicate clearly about the benefits and added value that your company offers. We use advanced criteria to identify specific target audiences and send relevant messages to them. This way we can better respond to the specific needs of different target audiences. We also regularly conduct A/B tests to discover which content and calls to action perform best. These insights are used to continuously optimize the email campaigns. Email marketing is all about delivering value and building lasting relationships."
+      },
+      "feature4": {
+        "title": "Laws and regulations in practice",
+        "description": "Finally, transparency and trust are important in the world of email marketing. We under...",
+        "fullText": "Finally, transparency and trust are important in the world of email marketing. We understand the importance of transparency and are fully aware of the relevant laws and regulations regarding email marketing, such as the General Data Protection Regulation (GDPR) in Europe. Our goal is not only to conduct effective email marketing campaigns, but also to do so in a legally compliant manner. We will of course inform you about this and it is also possible that we check your privacy policy to make sure that personal data is handled correctly and reputation damage is prevented."
+      }
+    },
+    "carouselSection": {
+      "title": "Still not",
+      "titleHighlight": "convinced",
+      "subtitle": "Maybe numbers will help",
+      "prevSlide": "Previous slide",
+      "nextSlide": "Next slide",
+      "goToSlide": "Go to slide"
+    }
   },
-  "projectsSection": {
-    "title": "Projects",
-    "description": "Eliminate the noise of loose ideas and incoherent communication, with our brand strategy you have one clear foundation that brings everything together for your brand.",
-    "noProjectsMessage": "No projects available at this moment.",
-    "viewMoreButton": "View more projects"
+  "page-video-marketing": {
+    "heroSection": {
+      "title": "Need strong video ads?",
+      "subtitle": "Expand the reach of your business",
+      "page-creative-ideas": "Fresh & creative ideas",
+      "page-no-stress": "Never stress about maintaining social media again",
+      "page-cost-savings": "Cost savings through access to professional equipment",
+      "page-targeted-strategies": "Creating targeted video marketing strategies",
+      "page-trend-tracking": "Never have to keep track of trends again",
+      "page-professional-content": "Professional content is produced",
+      "buttonText": "No-brainer, let's go!"
+    },
+    "sectionTwo": {
+      "title": "So you guys are that",
+      "titleHighlight": "special",
+      "subtitle": "(Honestly, yes)",
+      "paragraph1": "Are you looking for a marketing partner who can help you achieve your business goals? At Achieve we look beyond our lens. In addition to shooting beautiful images, the goal of the video must also be achieved. Achieve specializes in creating promotional videos with a combined marketing/communication strategy.",
+      "paragraph2": "In addition to communication and marketing objectives, at Achieve we naturally also look at the attention value of the video itself. Maintaining the attention value of videos is crucial in a time when people's average attention span is getting shorter. In a world where we are constantly bombarded with information and distractions, it is essential that video content remains attractive and engaging to keep the viewer involved. To maintain the attention value of videos, it is important to consider various elements, such as the quality of the content, the style and pace of the video, the length and format of the video, the visual and auditory effects used, and so on. It is essential to understand the target audience and their interests to respond to this.",
+      "paragraph3": "Another USP is that once we have this visual material, we could use it for our other services, think of social media management, social media advertising!",
+      "paragraph4": "Discover how we can help you build emotional connections, increase your visibility and achieve your goals.",
+      "buttonText": "I want to discover that!"
+    },
+    "sectionThree": {
+      "title": "Still not ",
+      "highlight": "convinced ?",
+      "subtitle": "Maybe numbers will help"
+    },
+    "quoteSection": {
+      "quote": "\"Marketing is no longer about the stuff that you make but about the stories you tell.\"",
+      "author": "Seth Godin"
+    },
+    "discountSection": {
+      "description": "This month is the month of storytelling: 10% discount on video marketing that brings your vision to life",
+      "days": "days",
+      "hours": "hours",
+      "minutes": "min",
+      "seconds": "sec",
+      "buttonText": "I'll take this discount"
+    }
   },
-  "discountSection": {
-    "description": "Only this month: 10% discount to transform your vision into a powerful Brand Book that makes your brand recognizable and irresistible.",
-    "days": "days",
-    "hours": "hours",
-    "minutes": "min",
-    "seconds": "sec",
-    "buttonText": "I'll take this discount"
+  "page-ugc-marketing": {
+    "heroSection": {
+      "subtitle": "It's much more than just content; let your customers become your most powerful ambassadors.",
+      "ugc-authenticity": "Authentic stories (real experiences, real emotions, real impact)",
+      "increased-involvement": "Increased involvement",
+      "trust-credibility": "More trust and credibility",
+      "expenential-visibility": "Exponential visibility",
+      "content-keep-working": "Content that keeps working",
+      "buttonText": "No-brainer, let's go!"
+    },
+    "sectionTwo": {
+      "paragraph1": "You're active on social media, consistently posting content and spending money on ads. Yet, nothing seems to happen. The likes and comments you get feel empty — there’s no real connection with your brand. Meanwhile, your competitors seem to be thriving: their content gets engagement, they build trust, and customers choose them faster.",
+      "paragraph2": "It’s frustrating. It feels like you’re doing everything right, but the results just aren’t coming. You start wondering: what am I missing? Why does it work for others but not for me?",
+      "paragraph3": "The truth is simple: people trust people. Real experiences and authentic stories resonate far more than any polished ad or campaign ever could. That’s exactly where UGC marketing comes in.",
+      "paragraph4": "With our UGC packages, you don’t have to guess — you’ll see results right away:",
+      "paragraph4item1": "We find and match the right UGC creators for your brand.",
+      "paragraph4item2": "We handle contracts, agreements, and concept development.",
+      "paragraph4item3": "You receive professional UGC videos every month in the required formats.",
+      "paragraph4item4": "The videos can be used on both your channels and the creator’s, doubling your reach and credibility.",
+      "buttonText": "I want to discover that!"
+    },
+    "quoteSection": {
+      "quote": "\"A brand is no longer what we tell the customer it is — it is what customers tell each other it is.\"",
+      "author": "Scott Cook"
+    },
+    "discountSection": {
+      "firstdescriptionPart": "Turn your community into your strength: get",
+      "seconddescriptionPart": " 10% off UGC marketing that sells and connects.",
+      "days": "days",
+      "hours": "hours",
+      "minutes": "min",
+      "seconds": "sec",
+      "buttonText": "I'll take this discount"
+    }
   }
 }

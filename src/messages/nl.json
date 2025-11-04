@@ -390,5 +390,200 @@
       "seconds": "sec",
       "buttonText": "Ik ga in op deze korting"
     }
+  },
+
+  "page-custom-website": {
+    "heroSection": {
+      "titleDescription": "Wat betekent een winstgevende website voor jouw bedrijf?",
+      "page-subtitle": "Het is veel meer dan een visitekaartje, laat het fungeren als een marketingmachine",
+      "page-more-leads": "Zorgt voor meer leads en dus meer klanten",
+      "page-24-7-service": "Je website bedient jouw (potentiële) klanten 24/7",
+      "page-professionalism": "Straal de professionaliteit van je bedrijf uit",
+      "page-full-control": "In tegenstelling tot social media platformen, ben je zelf in control",
+      "page-information-point": "Creëer het belangrijkste informatiepunt voor huidige klanten",
+      "page-investment": "Je website is een investering, geen kostenpost",
+      "page-future-ready": "Een website die is ingericht voor de toekomst",
+      "buttonText": "No-brainer, let's go!"
+    },
+    "sectionTwo": {
+      "title": "Een niet goed functionerende website",
+      "subtitle": "Dit klinkt bekend toch?",
+      "problem1": "Je hebt een trage website",
+      "problem2": "Het ontwerp is niet meer van deze tijd",
+      "problem3": "Niet gebruiksvriendelijk",
+      "problem4": "Door teveel tekst is de website niet overzichtelijk",
+      "problem5": "Werkt niet goed op mobiele apparaten",
+      "problem6": "Straalt niet uit wat het bedrijf te bieden heeft",
+      "problem7": "Je website converteert niet",
+      "paragraph1": "Te weinig aandacht besteden aan je website zorgt voor een groot verlies aan klanten, terwijl het juist geld zou moeten opleveren. We horen regelmatig dat websites worden gezien als oneindige kostenpost, omdat voor elke aanpassing weer een partij ingeschakeld moet worden. Misschien denk je wel eens: dat zou toch makkelijker moeten kunnen? Bijvoorbeeld door zelf eenvoudig je website te kunnen wijzigen of met een betaalbaar onderhoudsabonnement?",
+      "paragraph2": "Of misschien past je website momenteel helemaal niet meer bij je huidige bedrijfsvoering. Elke website is gebouwd met een bepaalde visie en met specifieke doelen. Het komt regelmatig voor dat dit niet goed op elkaar aansluit. Daarom zou het gunstiger zijn als er breder mee wordt gedacht over de bedrijfsvoering, waarbij van tevoren vragen worden gesteld over de grootte van de organisatie en of er een marketing afdeling aanwezig is. Als er op de juiste wijze mee wordt gedacht betekent dit dat je beter bent voorbereid om te groeien.",
+      "paragraph3": "Je bent dus waarschijnlijk op zoek naar een partij die volledig meedenkt met jouw bedrijfsvoering om de beste resultaten te behalen en transparant is in de kosten!",
+      "buttonText": "Ik wil dat ontdekken!"
+    },
+    "sectionThree": {
+      "title": "Anderen bieden aan waar ze goed in zijn. Wij adviseren wat het beste bij jou past",
+      "paragraph1": "Bij Achieve hebben we een unieke benadering. Wij kijken namelijk niet alleen naar onze expertise, we vinden het belangrijker dat de website ook daadwerkelijk past bij jouw bedrijfsvoering. Een website dient namelijk een echte aanvulling te zijn voor het bedrijf. Daarom verdiepen wij ons van tevoren altijd eerst in het bedrijf en de doelstellingen, zodat we op de juiste manier kunnen adviseren en ondersteunen. Deze aanpak zorgt ervoor dat aan alle verwachtingen wordt voldaan en er een gezonde relatie voor de langere termijn ontstaat.",
+      "paragraph2": "Transparantie is ook iets wat ons kenmerkt. Dat ga je meteen merken, want wij werken niet met verborgen kosten, vervelende contracten, of andere trucjes die niet in jouw voordeel werken. Wij richten ons voornamelijk op het creëren van een samenwerking op de langere termijn.",
+      "paragraph3": "Als de website goed functioneert en je er tevreden over bent, dan kan je bij Achieve meteen doorstromen naar andere opties en mogelijkheden om de bedrijfsvoering op te schalen. Laat ons je adviseren over de mogelijkheden, door bijvoorbeeld het uitbesteden van online advertising om je bezoekersstroom te vergroten, en daarmee ook je leads te verhogen en uiteindelijk je omzet te vergroten!",
+      "buttonText": "Ontdek onze pakketen!"
+    },
+    "quoteSection": {
+      "quote": "\"Websites promoten je 24/7: Geen enkele werknemer zal dat doen.\"",
+      "author": "Paul Cookson"
+    }
+  },
+  "page-email-marketing": {
+    "heroSection": {
+      "titleDescription": "De onderschatte kracht van E-mail marketing",
+      "page-subtitle": "Veel meer leads dankzij geautomatiseerde E-mail marketing",
+      "page-relevant-audience": "Zeer relevante doelgroep",
+      "page-measurable-results": "De resultaten zijn goed meetbaar",
+      "page-personalization": "Je kunt berichten persoonlijk maken",
+      "page-reach-insights": "Je krijgt achteraf inzicht in welke personen je wél en welke personen je niet hebt bereikt",
+      "page-cost-effective": "E-mail marketing is relatief goedkoop",
+      "page-scalable": "Schaalbaar door automatisering",
+      "page-timing-control": "Jij bepaalt zelf het moment waarop een bericht bij een ontvanger aankomt",
+      "buttonText": "No-brainer, let's go!"
+    },
+    "sectionTwo": {
+      "title": "Niemand begrijpt je beter dan wij",
+      "subtitle": "Ontdek de oplossing!",
+      "paragraph1": "Je wilt meer uit je huidige klantenbestand halen, maar het lijkt een uitdaging om te bepalen waar te beginnen. Je hebt een omvangrijk e-mailbestand, maar het ontbreekt je aan inzicht en meetbaarheid in je e-mailmarketingcampagnes. Het vinden van de juiste KPI's is van groot belang om de effectiviteit van je inspanningen te kunnen meten en te optimaliseren.",
+      "paragraph2": "Het is niet alleen belangrijk om te weten wie je hebt bereikt, maar ook wie je mogelijk hebt gemist. Het bereiken van de juiste doelgroep is essentieel om de resultaten van je e-mailmarketing te verbeteren. Je voelt dat je momenteel niet de relevante doelgroep bereikt met je marketinginspanningen, en dat is een gemiste kans!",
+      "paragraph3": "Wij begrijpen dat deze uitdagingen complex kunnen zijn, maar we staan klaar om je te helpen. Met onze expertise en oplossingen kunnen we je helpen om meer waarde te halen uit je bestaande klantenbestand, je e-mailmarketing te optimaliseren en het rendement op je investering te vergroten. Samen zorgen we ervoor dat je geen kansen meer mist en dat je bedrijf kan groeien. Een goede e-mailmarketing zorgt er namelijk niet alleen voor dat een gedeelte van je marketing efforts geautomatiseerd worden, maar dat er ook daadwerkelijk meer leads/sales uit komen!",
+      "buttonText": "Ik wil dat ontdekken!"
+    },
+    "sectionThree": {
+      "title": "Anderen bieden aan waar ze goed in zijn. Wij adviseren wat het beste bij jou past",
+      "paragraph1": "Bij Achieve hebben we een unieke benadering. Wij kijken namelijk niet alleen naar onze expertise, we vinden het belangrijker dat de website ook daadwerkelijk past bij jouw bedrijfsvoering. Een website dient namelijk een echte aanvulling te zijn voor het bedrijf. Daarom verdiepen wij ons van tevoren altijd eerst in het bedrijf en de doelstellingen, zodat we op de juiste manier kunnen adviseren en ondersteunen. Deze aanpak zorgt ervoor dat aan alle verwachtingen wordt voldaan en er een gezonde relatie voor de langere termijn ontstaat.",
+      "paragraph2": "Transparantie is ook iets wat ons kenmerkt. Dat ga je meteen merken, want wij werken niet met verborgen kosten, vervelende contracten, of andere trucjes die niet in jouw voordeel werken. Wij richten ons voornamelijk op het cre├½ren van een samenwerking op de langere termijn.",
+      "paragraph3": "Als de website goed functioneert en je er tevreden over bent, dan kan je bij Achieve meteen doorstromen naar andere opties en mogelijkheden om de bedrijfsvoering op te schalen. Laat ons je adviseren over de mogelijkheden, door bijvoorbeeld het uitbesteden van online advertising om je bezoekersstroom te vergroten, en daarmee ook je leads te verhogen en uiteindelijk je omzet te vergroten!",
+      "buttonText": "Ontdek onze pakketen!"
+    },
+    "sectionFourth": {
+      "title": "Mooi verhaal, lekker kort! Laat ons nu maar een",
+      "titleHighlight": "voorbeeld",
+      "titleEnd": "zien!",
+      "subtitle": "Elimineer het proces van het kwalificeren van een lead tot aan het inplannen van een salesgesprek; deze",
+      "subtitleHighlight": "automatisering",
+      "subtitleEnd": "doet het allemaal voor jou!"
+    },
+
+    "quoteSection": {
+      "quote": "\"Personalisatie gaat niet over voornaam/achternaam. Het gaat om relevante inhoud.\"",
+      "author": "Dan Jak"
+    },
+    "featuresSection": {
+      "title": "Wat maakt ons",
+      "titleHighlight": "anders",
+      "subtitle": "Een hoop redenen waarom je graag met ons wil",
+      "subtitleHighlight": "samenwerken",
+      "subtitleEnd": "",
+      "readMore": "Lees meer",
+      "readLess": "Lees minder",
+      "feature1": {
+        "title": "Marketing doelen scherpstellen",
+        "description": "Ben je op zoek naar een e-mail marketing partner die jou kan helpen om bedrijfsdoelen te bereiken? B...",
+        "fullText": "Ben je op zoek naar een e-mail marketing partner die jou kan helpen om bedrijfsdoelen te bereiken? Bij Achieve gaan we verder dan de inbox. Naast het versturen van effectieve e-mails, streven we ook naar het behalen van jouw marketingdoelstellingen. Achieve is gespecialiseerd in e-mailmarketing met een geïntegreerde marketingstrategie, waarbij we zorgen dat uw boodschap de juiste doelgroep bereikt en resultaten oplevert. Wij begrijpen het belang van een effectieve e-mail marketing campagne!"
+      },
+      "feature2": {
+        "title": "Unieke en persoonlijke aanpak",
+        "description": "Wij hechten veel waarde aan het creëren van waardevolle e-mailer varingen voor onze klanten. Dan doe...",
+        "fullText": "Wij hechten veel waarde aan het creëren van waardevolle e-mailer varingen voor onze klanten. Dan doen we op verschillende manieren. We zorgen ervoor dat de e-mails zijn afgestemd op jouw individuele voorkeur. De e-mails worden op een zo persoonlijk en uniek mogelijke manier geschreven om een vertrouwensband te creëren. Daarbij kunnen er natuurlijk ook speciale kortingen en promoties aan worden toegevoegd. We zorgen ervoor dat deze voordelen duidelijk worden gecommuniceerd in de e-mails."
+      },
+      "feature3": {
+        "title": "Doelgroepen ontleden en definiëren",
+        "description": "Ook benadrukken wat jouw producten of diensten onderscheid van de concurrentie en waarom ze juist bi...",
+        "fullText": "Ook benadrukken wat jouw producten of diensten onderscheid van de concurrentie en waarom ze juist bij jouw bedrijf moeten zijn. We communiceren duidelijk over de voordelen en toegevoegde waarde die jouw bedrijf biedt. Daarbij maken we gebruik van geavanceerde criteria om specifieke doelgroepen te identificeren en relevante berichten naar hen te sturen. Op deze manier kunnen we beter inspelen op de specifieke behoeften van verschillende doelgroepen. Ook voeren we regelmatig A/B-testen uit om te ontdekken welke inhoud en oproepen tot actie het beste presteren. Deze inzichten worden gebruikt om de e-mailcampagnes voortdurend te optimaliseren. E-mail marketing draait om het leveren van waarde en het opbouwen van duurzame relaties."
+      },
+      "feature4": {
+        "title": "Wet en regelgeving in de praktijk",
+        "description": "Ten slotte zijn transparantie en vertrouwen belangrijk in de wereld van e-mailmarketing. Wij begrijp...",
+        "fullText": "Ten slotte zijn transparantie en vertrouwen belangrijk in de wereld van e-mailmarketing. Wij begrijpen het belang van transparantie en zijn volledig op de hoogte van de relevante wet- en regelgeving met betrekking tot e-mailmarketing, zoals de Algemene Verordening Gegevensbescherming (AVG) in Europa. Ons doel is niet alleen om effectieve e-mail marketing campagnes te voeren, maar ook om dit te doen op een wettelijk conforme manier. We zullen jou hier natuurlijk over informeren en het is ook mogelijk dat we een check doen op jouw privacybeleid, om zeker te weten dat er op de juiste manier met persoonsgegevens wordt omgegaan en reputatieschade wordt voorkomen."
+      }
+    },
+    "carouselSection": {
+      "title": "Nog steeds niet",
+      "titleHighlight": "overtuigd",
+      "subtitle": "Misschien dat cijfertjes helpen",
+      "prevSlide": "Vorige slide",
+      "nextSlide": "Volgende slide",
+      "goToSlide": "Ga naar slide"
+    }
+  },
+  "page-video-marketing": {
+    "heroSection": {
+      "title": "Sterke video-ads nodig?",
+      "subtitle": "Vergroot het bereik van jouw bedrijf",
+      "page-creative-ideas": "Frisse & creatieve ideeën",
+      "page-no-stress": "Nooit meer stressen om social media te onderhouden",
+      "page-cost-savings": "Kostenbesparing door toegang tot professionele apparatuur",
+      "page-targeted-strategies": "Creëren van doelgerichte video marketingstrategieën",
+      "page-trend-tracking": "Nooit meer trends in de gaten hoeven houden",
+      "page-professional-content": "Professionele content wordt geproduceerd",
+      "buttonText": "No-brainer, let's go!"
+    },
+    "sectionTwo": {
+      "title": "Want jullie zijn zo",
+      "titleHighlight": "speciaal",
+      "subtitle": "(Eerlijk gezegd wel)",
+      "paragraph1": "Bent u op zoek naar een marketingpartner die u kan helpen uw bedrijfsdoelen te bereiken? Bij Achieve kijken we verder dan onze lens lang is. Naast het schieten van mooie beelden moet namelijk ook het doel van de video bereikt worden. Achieve is gespecialiseerd in het creëren van promotievideo's met een gecombineerde marketing/communicatiestrategie.",
+      "paragraph2": "Naast communicatie- en marketingdoelstellingen kijken we bij Achieve natuurlijk ook naar de attentiewaarde van de video zelf. Het behouden van de attentiewaarde van video's is van cruciaal belang in een tijd waarin de gemiddelde aandachtsspanne van mensen steeds korter wordt. In een wereld waarin we voortdurend worden gebombardeerd met informatie en afleidingen, is het essentieel dat videocontent aantrekkelijk en boeiend blijft om de kijker betrokken te houden. Om de attentiewaarde van video's te behouden, is het belangrijk om verschillende elementen in overweging te nemen, zoals de kwaliteit van de inhoud, de stijl en het tempo van de video, de lengte en het formaat van de video, de gebruikte visuele en auditieve effecten, enzovoort. Het is essentieel om de doelgroep en hun interesses te begrijpen om hierop in te spelen.",
+      "paragraph3": "Een andere USP is dat we als we eenmaal dit beeld materiaal hebben, zouden we dit kunnen inzetten voor onze andere diensten, denk aan social media management, social media advertising!",
+      "paragraph4": "Ontdek hoe wij jou kunnen helpen om emotionele connecties te bouwen, je zichtbaarheid te vergroten en je doelen te bereiken.",
+      "buttonText": "Ik wil dat ontdekken!"
+    },
+    "sectionThree": {
+      "title": "Nog steeds niet",
+      "highlight": "overtuigd ?",
+      "subtitle": "Misschien dat cijfertjes helpen"
+    },
+    "quoteSection": {
+      "quote": "\"Marketing gaat niet langer over de producten die je maakt, maar over de verhalen die je vertelt.\"",
+      "author": "Seth Godin"
+    },
+    "discountSection": {
+      "description": "is de maand van verhalen vertellen: 10% korting op video marketing die jouw visie tot leven laat komen",
+      "days": "dagen",
+      "hours": "uren",
+      "minutes": "min",
+      "seconds": "sec",
+      "buttonText": "Ik ga in op deze korting"
+    }
+  },
+  "page-ugc-marketing": {
+    "heroSection": {
+      "subtitle": "Het is veel meer dan alleen content, laat je klanten je krachtigste ambassadeurs  worden.",
+      "ugc-authenticity": "Authentieke verhalen (Echte ervaringen, echte emoties, echte impact)",
+      "increased-involvement": "Verhoogde betrokkenheid",
+      "trust-credibility": "Meer vertrouwen & geloofwaardigheid",
+      "expenential-visibility": "Exponentiële zichtbaarheid",
+      "content-keep-working": "Content die blijft werken",
+      "buttonText": "No-brainer, let's go!"
+    },
+    "sectionTwo": {
+      "paragraph1": "Je bent actief op social media, plaatst trouw content en stopt geld in advertenties. Toch blijft het stil. De likes en reacties die binnenkomen voelen leeg, zonder echte verbinding met je merk. Ondertussen zie je je concurrenten voorbijvliegen: hun content krijgt wél interactie, ze bouwen wél vertrouwen op, en klanten kiezen sneller voor hen.",
+      "paragraph2": "Het voelt frustrerend. Alsof je alles goed doet, maar de resultaten gewoon uitblijven. Je vraagt je af: wat mis ik, waarom werkt het bij anderen wel en bij mij niet?",
+      "paragraph3": "De waarheid is simpel: mensen geloven mensen. Echte ervaringen en verhalen raken veel meer dan welke gelikte advertentie of campagne dan ook. En precies daar komt UGC marketing in beeld.",
+      "paragraph4": "Met onze UGC pakketten zorgen we dat jij niet hoeft te gokken, maar direct resultaat ziet:",
+      "paragraph4item1": "We vinden en matchen de juiste UGC creators voor jouw merk.",
+      "paragraph4item2": "We regelen de contracten, afspraken en conceptontwikkeling.",
+      "paragraph4item3": "Jij ontvangt elke maand professionele UGC-video’s in de benodigde formaten",
+      "paragraph4item4": "De video’s zijn inzetbaar op zowel jouw kanalen als die van de creator, waardoor je bereik en geloofwaardigheid verdubbelen.",
+      "buttonText": "Ik wil dat ontdekken!"
+    },
+    "quoteSection": {
+      "quote": "\"Een merk is niet langer wat wij de klant vertellen dat het is — het is wat klanten elkaar vertellen dat het is.\"",
+      "author": "Scott Cook"
+    },
+    "discountSection": {
+      "firstdescriptionPart": "Maak van je community je kracht: in",
+      "seconddescriptionPart": " 10% korting op UGC marketing die verkoopt én verbindt.",
+      "days": "dagen",
+      "hours": "uren",
+      "minutes": "min",
+      "seconds": "sec",
+      "buttonText": "Ik ga in op deze korting"
+    }
   }
 }

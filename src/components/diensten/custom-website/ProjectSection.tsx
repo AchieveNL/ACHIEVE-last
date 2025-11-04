@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable @next/next/no-img-element */
 import { getTranslations } from "next-intl/server";
-import type { CaseDocument, Locale } from "@/types/dbdatas"; // Adjust path as needed
+import type { CaseDocument, Locale } from "@/types/dbdatas";
 import { MongoService } from "@/lib/mongoService";
 import { Link } from "@/i18n/navigation";
 import HighlightedText from "@/components/ui/HighlightedText";
@@ -39,10 +39,9 @@ const ProjectsSectionServer = async ({
   locale = "en",
   limit = 3,
 }: ProjectsSectionServerProps) => {
-  const t = await getTranslations("page-brand-strategy.projectsSection");
+  const t = await getTranslations("page-brand-book.projectsSection");
 
   let cases: CaseDocument[] = [];
-
   let error: string | null = null;
 
   try {
@@ -84,7 +83,7 @@ const ProjectsSectionServer = async ({
   }
 
   return (
-    <div className="py-12 md:py-16 lg:py-20 bg-achieve-background px-4 md:px-6 lg:px-0">
+    <div className="py-12 bg-achieve-background md:py-16 lg:py-20 px-4 md:px-6 lg:px-0">
       <section className="flex flex-col gap-y-8 md:gap-y-12 relative">
         {/* Header */}
         <div className="flex justify-center items-center flex-col gap-3 md:gap-4 mb-4 md:mb-8">
