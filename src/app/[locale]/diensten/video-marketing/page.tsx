@@ -29,7 +29,7 @@ export default async function EmailMarketingPage({
       {/* <FeaturesSection /> */}
       <StepSection />
       <StrategyQuoteSection />
-      <ProjectSection />
+      <ProjectSection locale={locale} />
       <SectionFourth />
       {/* <CarouselSection /> */}
       {/* <ProjectSection locale={locale} /> */}

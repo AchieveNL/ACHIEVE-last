@@ -49,7 +49,7 @@ const ProjectsSectionServer = async ({
       enabled: true,
       limit: limit,
       filterFunction(val, i) {
-        return val.expertiseForCasesList.includes("Brand Book");
+        return val.expertiseForCasesList?.includes("Brand Book") === true;
       },
     });
   } catch (err) {
@@ -83,7 +83,7 @@ const ProjectsSectionServer = async ({
   }
 
   return (
-    <div className="py-12 bg-achieve-background md:py-16 lg:py-20 px-4 md:px-6 lg:px-0">
+    <div className="py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-0">
       <section className="flex flex-col gap-y-8 md:gap-y-12 relative">
         {/* Header */}
         <div className="flex justify-center items-center flex-col gap-3 md:gap-4 mb-4 md:mb-8">
