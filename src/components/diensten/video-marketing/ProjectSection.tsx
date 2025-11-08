@@ -39,7 +39,7 @@ const ProjectsSectionServer = async ({
   locale = "en",
   limit = 3,
 }: ProjectsSectionServerProps) => {
-  const t = await getTranslations("page-brand-book.projectsSection");
+  const t = await getTranslations("page-video-marketing.projectsSection");
 
   let cases: CaseDocument[] = [];
   let error: string | null = null;

@@ -547,6 +547,33 @@
       "minutes": "min",
       "seconds": "sec",
       "buttonText": "I'll take this discount"
+    },
+    "stepSection": {
+      "description": "Our approach is a proven effective process. Each step brings us closer to realizing your goals and vision. That's why we've created a 4-phase approach, ensuring clear management and meeting all expectations.",
+      "buttonText": "I want to start right away!",
+      "step1": {
+        "title": "Step 1: Vision & Positioning",
+        "content": "We start with a strategic conversation about your brand, target audience and goals. What do you want to convey with the video? Together we determine the tone of voice, style and message that best represents your brand. This way we lay a strong foundation for a video that really makes an impact."
+      },
+      "step2": {
+        "title": "Step 2: Concept / Storyboard",
+        "content": "Based on the strategy, we develop a concrete concept and storyboard. Think of storyline, shots, locations and atmosphere. We ensure that the idea aligns with your brand identity and is appealing to your target audience — whether it's a brand video, social ad or corporate video."
+      },
+      "step3": {
+        "title": "Step 3: Filming / Editing / Let's get started!",
+        "content": "Time to create! Our team gets to work on production: filming, directing and editing. We ensure professional footage, strong storytelling and a smooth edit that fits the platform and message. You can watch along and provide input where necessary."
+      },
+      "step4": {
+        "title": "Step 4: Content Review & Delivery",
+        "content": "You receive the first version of the video and can share your feedback. After fine-tuning, we deliver the final video in the correct formats — ready for publication on your website, social media or ad campaign. Ready to score with powerful content."
+      }
+    },
+
+    "projectsSection": {
+      "title": "Projects",
+      "description": "Eliminate the barrier of cold ads, video tells the story that turns viewers into customers.",
+      "noProjectsMessage": "No projects available at this moment.",
+      "viewMoreButton": "View more projects"
     }
   },
   "page-ugc-marketing": {

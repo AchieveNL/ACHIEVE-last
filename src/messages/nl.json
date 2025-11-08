@@ -549,6 +549,33 @@
       "minutes": "min",
       "seconds": "sec",
       "buttonText": "Ik ga in op deze korting"
+    },
+
+    "stepSection": {
+      "description": "Onze aanpak is een effectief bewezen proces. Elke stap brengt ons dichter bij het realiseren van jouw doelstellingen en visie. Daarom hebben we een aanpak in 4 fasen gecreëerd, zodat er altijd duidelijk wordt gemanaged of voldaan is aan alle verwachtingen.",
+      "buttonText": "Ik wil direct starten!",
+      "step1": {
+        "title": "Stap 1: Visie & Positionering",
+        "content": "We starten met een strategisch gesprek over jouw merk, doelgroep en doelen. Wat wil je uitstralen met de video? We bepalen samen de tone of voice, stijl en boodschap die jouw merk het beste vertegenwoordigt. Zo leggen we een sterke basis voor een video die écht impact maakt."
+      },
+      "step2": {
+        "title": "Stap 2: Concept / Storyboard",
+        "content": "Op basis van de strategie werken we een concreet concept en storyboard uit. Denk aan verhaallijn, shots, locaties en sfeer. We zorgen dat het idee aansluit bij jouw merkidentiteit én aantrekkelijk is voor je doelgroep — of het nu gaat om een brandvideo, social ad of bedrijfsvideo."
+      },
+      "step3": {
+        "title": "Stap 3: Filmen / Editen / Aan de slag!",
+        "content": "Tijd om te creëren! Ons team gaat aan de slag met de productie: filmen, regisseren en monteren. We zorgen voor professionele beelden, sterke storytelling en een vlotte edit die past bij het platform en de boodschap. Jij kunt tussendoor meekijken en input geven waar nodig."
+      },
+      "step4": {
+        "title": "Stap 4: Content review & Oplevering",
+        "content": "Je ontvangt de eerste versie van de video en kunt jouw feedback delen. Na de fine-tuning leveren we de definitieve video in de juiste formaten aan — klaar voor publicatie op jouw website, social media of advertentiecampagne. Klaar om te scoren met krachtige content."
+      }
+    },
+    "projectsSection": {
+      "title": "Projecten",
+      "description": "Elimineer de drempel van koude advertenties, video vertelt het verhaal dat kijkers verandert in klanten.",
+      "noProjectsMessage": "Geen projecten beschikbaar op dit moment.",
+      "viewMoreButton": "Bekijk meer projecten"
     }
   },
   "page-ugc-marketing": {
