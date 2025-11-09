@@ -32,25 +32,25 @@ export default async function MeetTheTeam({
         >
           {locale === "en" ? (
             <h1 className="text-4xl lg:text-4xl  font-bold leading-tight text-achieve-navy">
-              Meet the{" "}
+              Meet Our{" "}
               <HighlightedText className="text-achieve-purple ">
                 <AnimatedText
                   animationType="gradient"
                   className="text-achieve-purple font-bold"
                 >
-                  team
+                  Achievers
                 </AnimatedText>
               </HighlightedText>
             </h1>
           ) : (
             <h1 className="text-4xl lg:text-4xl font-bold leading-tight text-achieve-navy">
-              Ontmoet het{" "}
+              Ontmoet onze{" "}
               <HighlightedText className="text-achieve-purple ">
                 <AnimatedText
                   animationType="gradient"
                   className="text-achieve-purple font-bold"
                 >
-                  team
+                  Achievers
                 </AnimatedText>
               </HighlightedText>
             </h1>
