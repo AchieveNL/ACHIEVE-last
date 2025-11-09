@@ -42,14 +42,14 @@ const SectionTwo = () => {
                   </>
                 ) : (
                   <>
-                    Niemand je{" "}
+                    Niemand{" "}
                     <AnimatedText
                       animationType="gradient"
                       className="text-achieve-purple font-bold"
                     >
                       begrijpt
                     </AnimatedText>{" "}
-                    beter dan wij
+                    je beter dan wij
                   </>
                 )}
               </h2>

@@ -458,7 +458,7 @@
       "paragraph1": "Bij Achieve hebben we een unieke benadering. Wij kijken namelijk niet alleen naar onze expertise, we vinden het belangrijker dat de website ook daadwerkelijk past bij jouw bedrijfsvoering. Een website dient namelijk een echte aanvulling te zijn voor het bedrijf. Daarom verdiepen wij ons van tevoren altijd eerst in het bedrijf en de doelstellingen, zodat we op de juiste manier kunnen adviseren en ondersteunen. Deze aanpak zorgt ervoor dat aan alle verwachtingen wordt voldaan en er een gezonde relatie voor de langere termijn ontstaat.",
       "paragraph2": "Transparantie is ook iets wat ons kenmerkt. Dat ga je meteen merken, want wij werken niet met verborgen kosten, vervelende contracten, of andere trucjes die niet in jouw voordeel werken. Wij richten ons voornamelijk op het cre├½ren van een samenwerking op de langere termijn.",
       "paragraph3": "Als de website goed functioneert en je er tevreden over bent, dan kan je bij Achieve meteen doorstromen naar andere opties en mogelijkheden om de bedrijfsvoering op te schalen. Laat ons je adviseren over de mogelijkheden, door bijvoorbeeld het uitbesteden van online advertising om je bezoekersstroom te vergroten, en daarmee ook je leads te verhogen en uiteindelijk je omzet te vergroten!",
-      "buttonText": "Ontdek onze pakketen!"
+      "buttonText": "Ik wil dat ontdekken!"
     },
     "sectionFourth": {
       "title": "Mooi verhaal, lekker kort! Laat ons nu maar een",
@@ -509,6 +509,27 @@
       "prevSlide": "Vorige slide",
       "nextSlide": "Volgende slide",
       "goToSlide": "Ga naar slide"
+    },
+
+    "stepSection": {
+      "description": "Onze aanpak is een effectief bewezen proces. Elke stap brengt ons dichter bij het realiseren van jouw doelstellingen en visie. Daarom hebben we een aanpak in 4 fasen gecreëerd, zodat er altijd duidelijk wordt gemanaged of voldaan is aan alle verwachtingen.",
+      "buttonText": "Ik wil direct starten!",
+      "step1": {
+        "title": "Stap 1: Intake / Strategie",
+        "content": "We starten met een strategisch gesprek over jouw merk, doelgroep en doelen. Samen bepalen we de juiste aanpak, tone of voice en segmentatie zodat elke e-mail perfect aansluit bij jouw marketingstrategie én je klanten echt aanspreekt."
+      },
+      "step2": {
+        "title": "Stap 2: Implementatie, Copywriting & Automatisering",
+        "content": "We richten het e-mailplatform in, ontwerpen pakkende templates en schrijven converterende teksten. Daarnaast bouwen we slimme automatiseringen, zodat jouw mails op het juiste moment bij de juiste ontvanger terechtkomen — volledig on brand en efficiënt."
+      },
+      "step3": {
+        "title": "Stap 3: Testen, testen, testen",
+        "content": "Voordat we live gaan, testen we alles grondig: van onderwerpregels en verzendtijd tot de weergave op verschillende apparaten. Zo zorgen we voor foutloze e-mails die presteren én er overal goed uitzien."
+      },
+      "step4": {
+        "title": "Stap 4: Analyse, Rapportage, Optimalisatie",
+        "content": "Na verzending monitoren we de resultaten en analyseren we open rates, klikgedrag en conversies. Op basis daarvan optimaliseren we de content en strategie — voor steeds betere resultaten en langdurig succes."
+      }
     }
   },
   "page-video-marketing": {

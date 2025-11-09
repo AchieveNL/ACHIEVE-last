@@ -39,7 +39,7 @@ const EmailMarketingSection = () => {
                   </>
                 ) : (
                   <>
-                    De onderschatte kracht van{" "}
+                    De onderschatte kracht van <br />
                     <AnimatedText
                       animationType="gradient"
                       className="text-achieve-purple font-bold"

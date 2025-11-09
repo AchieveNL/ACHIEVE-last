@@ -457,7 +457,7 @@
       "paragraph1": "At Achieve we have a unique approach. We don't just look at our expertise, we find it more important that the website actually fits your business operations. A website should be a real addition to the business. That's why we always first delve into the company and its objectives, so that we can advise and support in the right way. This approach ensures that all expectations are met and a healthy relationship for the long term is created.",
       "paragraph2": "Transparency is also something that characterizes us. You'll notice that immediately, because we don't work with hidden costs, annoying contracts, or other tricks that don't work in your favor. We focus primarily on creating a long-term partnership.",
       "paragraph3": "When the website functions well and you're satisfied with it, you can immediately move on to other options and possibilities at Achieve to scale up your business operations. Let us advise you on the possibilities, for example by outsourcing online advertising to increase your visitor flow, and thereby also increase your leads and ultimately increase your revenue!",
-      "buttonText": "Discover our packages!"
+      "buttonText": "I want to discover this!"
     },
     "sectionFourth": {
       "title": "Nice story, nice and short! Let us now show you an",
@@ -507,6 +507,26 @@
       "prevSlide": "Previous slide",
       "nextSlide": "Next slide",
       "goToSlide": "Go to slide"
+    },
+    "stepSection": {
+      "description": "Our approach is a proven effective process. Each step brings us closer to realizing your goals and vision. That's why we've created a 4-phase approach, ensuring clear management and meeting all expectations.",
+      "buttonText": "I want to get started right away!",
+      "step1": {
+        "title": "Step 1: Intake / Strategy",
+        "content": "We start with a strategic conversation about your brand, target audience, and goals. Together we determine the right approach, tone of voice, and segmentation so that every email perfectly aligns with your marketing strategy and truly resonates with your customers."
+      },
+      "step2": {
+        "title": "Step 2: Implementation, Copywriting & Automation",
+        "content": "We set up the email platform, design compelling templates, and write conversion‑focused copy. Additionally, we build smart automations so that your emails reach the right recipient at the right time—fully on‑brand and efficient."
+      },
+      "step3": {
+        "title": "Step 3: Test, test, test",
+        "content": "Before going live, we thoroughly test everything—from subject lines and send times to rendering on various devices. This ensures flawless emails that perform well and look great everywhere."
+      },
+      "step4": {
+        "title": "Step 4: Analysis, Reporting, Optimization",
+        "content": "After sending, we monitor the results and analyze open rates, click behavior, and conversions. Based on this, we optimize the content and strategy—for continuously better results and long‑term success."
+      }
     }
   },
   "page-video-marketing": {
