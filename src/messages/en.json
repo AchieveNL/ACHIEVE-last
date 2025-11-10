@@ -429,6 +429,26 @@
     "quoteSection": {
       "quote": "\"Websites promote you 24/7: No employee will do that.\"",
       "author": "Paul Cookson"
+    },
+    "stepSection": {
+      "description": "Our approach is a proven effective process. Each step brings us closer to realizing your goals and vision. That's why we've created a 4-phase approach, ensuring clear management and meeting all expectations.",
+      "buttonText": "I want to get started right away!",
+      "step1": {
+        "title": "Step 1: Vision & Positioning",
+        "content": "We start with a conversation about your brand, target audience, and core values. Together, we define the brand identity and tone of voice that form the foundation of your brand book. This lays a strong groundwork for a recognizable and consistent brand."
+      },
+      "step2": {
+        "title": "Step 2: Graphic Design",
+        "content": "Based on the strategy, we develop the visual elements: logos, color palette, typography, photography, and style elements. Everything is designed with attention to detail and tailored to your brand personality."
+      },
+      "step3": {
+        "title": "Step 3: Feedback & Fine Tuning",
+        "content": "You receive the first draft of the brand book and can share your feedback. We incorporate your input and ensure that every part perfectly matches your vision and image."
+      },
+      "step4": {
+        "title": "Step 4: Delivery",
+        "content": "The final brand book is delivered in a clear document, ready for use within your team or by external partners. This provides everyone with clear guidance to consistently represent your brand."
+      }
     }
   },
   "page-email-marketing": {

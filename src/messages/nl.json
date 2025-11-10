@@ -430,6 +430,26 @@
     "quoteSection": {
       "quote": "\"Websites promoten je 24/7: Geen enkele werknemer zal dat doen.\"",
       "author": "Paul Cookson"
+    },
+    "stepSection": {
+      "description": "Onze aanpak is een effectief bewezen proces. Elke stap brengt ons dichter bij het realiseren van jouw doelstellingen en visie. Daarom hebben we een aanpak in 4 fasen gecreëerd, zodat er altijd duidelijk wordt gemanaged of voldaan is aan alle verwachtingen.",
+      "buttonText": "Ik wil direct starten!",
+      "step1": {
+        "title": "Stap 1: Visie & Positionering",
+        "content": "We beginnen met een gesprek over jouw merk, doelgroep en kernwaarden. Samen bepalen we de merkidentiteit en tone of voice die de basis vormen voor jouw brand book. Zo leggen we een sterke fundering voor een herkenbaar en consistent merk."
+      },
+      "step2": {
+        "title": "Stap 2: Grafisch ontwerp",
+        "content": "Op basis van de strategie werken we het visuele gedeelte uit: logo’s, kleurenpalet, typografie, fotografie- en stijlelementen. Alles wordt ontworpen met oog voor detail en afgestemd op jouw merkpersoonlijkheid."
+      },
+      "step3": {
+        "title": "Stap 3: Feedback & Fine Tuning",
+        "content": "Je ontvangt het eerste ontwerp van het brand book en kunt je feedback delen. We verwerken jouw input en zorgen dat elk onderdeel perfect aansluit bij jouw visie en uitstraling."
+      },
+      "step4": {
+        "title": "Stap 4: Oplevering",
+        "content": "Het definitieve brand book wordt opgeleverd in een overzichtelijk document, klaar voor gebruik binnen jouw team of externe partners. Zo heeft iedereen een duidelijke leidraad om jouw merk consistent uit te dragen."
+      }
     }
   },
   "page-email-marketing": {
