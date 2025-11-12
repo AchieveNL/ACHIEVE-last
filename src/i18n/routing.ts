@@ -41,8 +41,8 @@ export const routing = defineRouting({
     "/diensten/brand-book": {
       en: "/services/brand-book",
     },
-    "/diensten/custom-website": {
-      en: "/services/custom-website",
+    "/diensten/web-development": {
+      en: "/services/web-development",
     },
     "/diensten/video-marketing": {
       en: "/services/video-marketing",

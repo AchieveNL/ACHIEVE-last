@@ -30,7 +30,7 @@ export function useNavigationData(): NavigationData[] {
           title: t("services.links.brandBook.title"),
           description: t("services.links.brandBook.description"),
         },
-        "custom-website": {
+        "web-development": {
           title: t("services.links.customWebsite.title"),
           description: t("services.links.customWebsite.description"),
         },

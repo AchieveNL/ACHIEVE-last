@@ -1,14 +1,14 @@
-import SectionTwo from "@/components/diensten/custom-website/SectionTwo";
-import StepSection from "@/components/diensten/custom-website/StepSection";
-import StrategyQuoteSection from "@/components/diensten/custom-website/StrategyQuoteSection";
+import SectionTwo from "@/components/diensten/web-development/SectionTwo";
+import StepSection from "@/components/diensten/web-development/StepSection";
+import StrategyQuoteSection from "@/components/diensten/web-development/StrategyQuoteSection";
 import PricingSection from "@/components/home/pricing/PricingSection";
 import StrategySection from "@/components/home/StrategySection";
 import TestimonialsSection from "@/components/home/testimonial/TestimonialsSection";
 import { Locale } from "@/types/dbdatas";
-import ProjectSection from "@/components/diensten/custom-website/ProjectSection";
+import ProjectSection from "@/components/diensten/web-development/ProjectSection";
 import SectionThird from "@/components/diensten/brand-strategy/SectionThird";
-import ServicesDiscount from "@/components/diensten/custom-website/ServicesDiscount";
-import CustomWebsiteSection from "@/components/diensten/custom-website/ImageTextSection";
+import ServicesDiscount from "@/components/diensten/web-development/ServicesDiscount";
+import CustomWebsiteSection from "@/components/diensten/web-development/ImageTextSection";
 
 export default async function brandBookPage({
   params,
