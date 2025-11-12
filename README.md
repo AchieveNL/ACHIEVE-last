@@ -91,3 +91,6 @@ Images should not exceed 300kb for better website speed and to save database cos
 Keep code files small and divide code into components.
 Avoid touching a teammate’s code unless with specific instructions or permission.
 Always test your code before pushing it to Github.
+
+
+Removecommentjustforcommit
