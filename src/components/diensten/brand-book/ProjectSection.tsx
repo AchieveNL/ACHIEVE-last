@@ -49,7 +49,10 @@ const ProjectsSectionServer = async ({
       enabled: true,
       limit: limit,
       filterFunction(val, i) {
-        return val.expertiseForCasesList.includes("Brand Book");
+        return (
+          typeof val.expertiseForCasesList === "string" &&
+          val.expertiseForCasesList.includes("Brand Book")
+        );
       },
     });
   } catch (err) {
