@@ -434,20 +434,20 @@
       "description": "Our approach is a proven effective process. Each step brings us closer to realizing your goals and vision. That's why we've created a 4-phase approach, ensuring clear management and meeting all expectations.",
       "buttonText": "I want to get started right away!",
       "step1": {
-        "title": "Step 1: Vision & Positioning",
-        "content": "We start with a conversation about your brand, target audience, and core values. Together, we define the brand identity and tone of voice that form the foundation of your brand book. This lays a strong groundwork for a recognizable and consistent brand."
+        "title": "Step 1: Intake Meeting",
+        "content": "We begin with a conversation about your brand, wishes and goals. What do you want to convey and achieve with your website? Together we define the structure, style and features that best match your vision and target audience."
       },
       "step2": {
-        "title": "Step 2: Graphic Design",
-        "content": "Based on the strategy, we develop the visual elements: logos, color palette, typography, photography, and style elements. Everything is designed with attention to detail and tailored to your brand personality."
+        "title": "Step 2: Choosing a Website Platform",
+        "content": "Based on your needs we advise the right platform — for example WordPress, Webflow or another system. We look at ease of use, scalability and design freedom so that the technical foundation and strategy are both aligned."
       },
       "step3": {
-        "title": "Step 3: Feedback & Fine Tuning",
-        "content": "You receive the first draft of the brand book and can share your feedback. We incorporate your input and ensure that every part perfectly matches your vision and image."
+        "title": "Step 3: Realisation",
+        "content": "We get to work on the design and construction of your website. Think of a unique design, compelling content and user‑friendly layout. Each page is carefully built to score both visually and functionally."
       },
       "step4": {
         "title": "Step 4: Delivery",
-        "content": "The final brand book is delivered in a clear document, ready for use within your team or by external partners. This provides everyone with clear guidance to consistently represent your brand."
+        "content": "After a thorough testing phase we hand over the fully functional site. You receive a short walkthrough so you can easily make adjustments yourself. Afterwards your site is ready to go live — fast, secure and completely custom."
       }
     }
   },
