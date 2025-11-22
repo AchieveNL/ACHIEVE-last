@@ -65,7 +65,7 @@ const serviceImages = {
 const serviceRoutes: Record<string, string> = {
   "brand-strategy": "/diensten/brand-strategy",
   "brand-book": "/diensten/brand-book",
-  "custom-website": "/diensten/custom-website",
+  "web-development": "/diensten/web-development",
   "email-marketing": "/diensten/email-marketing",
   "video-marketing": "/diensten/video-marketing",
   "ugc-marketing": "/diensten/ugc-marketing",
