@@ -5,13 +5,19 @@ import AnimatedText from "@/components/ui/AnimatedText";
 import { Button } from "@/components/ui/button";
 import { useClientTranslations } from "@/components/hooks/useClientTranslations";
 
-const SectionThird = () => {
+interface SectionThirdProps {
+  bgActive?: boolean;
+}
+
+const SectionThird = ({ bgActive = false }: SectionThirdProps) => {
   const { t, locale } = useClientTranslations(
     "page-email-marketing.sectionThree",
   );
 
   return (
-    <section className="py-12 bg-achieve-background md:py-20 lg:py-24 px-4 md:px-6 lg:px-0">
+    <section
+      className={`${bgActive ? "bg-achieve-background " : ""} py-12 md:py-20 lg:py-24 px-4 md:px-6 lg:px-0`}
+    >
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 lg:gap-12 items-center">
           <div className="text-start flex flex-col gap-6 lg:order-1 order-2">

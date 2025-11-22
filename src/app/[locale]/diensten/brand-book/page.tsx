@@ -23,7 +23,7 @@ export default async function brandBookPage({
       <BrandBookSection />
       <SectionTwo />
       <StrategyQuoteSection />
-      <SectionThird />
+      <SectionThird bgActive />
       <SectionFourth />
       <StepSection />
       <ProjectSection locale={locale} />
