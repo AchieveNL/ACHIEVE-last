@@ -32,7 +32,7 @@ const ChevronIcon: React.FC<ChevronIconProps> = ({ isExpanded }) => (
 );
 
 const StepSection: React.FC = () => {
-  const { t, locale } = useClientTranslations("page-brand-book.stepSection");
+  const { t, locale } = useClientTranslations("page-ugc-marketing.stepSection");
   const [expandedStep, setExpandedStep] = useState<number | null>(null);
 
   const steps: Step[] = [

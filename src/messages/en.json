@@ -649,6 +649,27 @@
       "minutes": "min",
       "seconds": "sec",
       "buttonText": "I'll take this discount"
+    },
+
+    "stepSection": {
+      "description": "Our approach is a proven effective process. Each step brings us closer to realizing your goals and vision. That's why we've created a 4-phase approach, ensuring clear management and meeting all expectations.",
+      "step1": {
+        "title": "Step 1: Vision & Positioning",
+        "content": "We start with a conversation about your brand, target audience and objectives. Then we investigate which UGC creators best align with your goals. This ensures a perfect match and clear agreements with the creator(s)."
+      },
+      "step2": {
+        "title": "Step 2: Concept",
+        "content": "Our team translates your strategy into concrete ideas for UGC videos. We collaborate with the creator on authentic concepts that fit your brand, ensuring the content is suitable for various social‑media formats."
+      },
+      "step3": {
+        "title": "Step 3: Feedback & Fine‑Tuning",
+        "content": "You receive the initial proposals and can give input on the edits. We incorporate your feedback and fine‑tune the content until it perfectly aligns with your vision and campaign."
+      },
+      "step4": {
+        "title": "Step 4: Delivery",
+        "content": "The final UGC videos are delivered and can be posted to your own channels—and, if agreed, on the creators’ channels. You receive ready‑to‑use content that delivers maximum impact."
+      },
+      "buttonText": "I want to start right away!"
     }
   }
 }

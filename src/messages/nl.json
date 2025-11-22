@@ -652,6 +652,27 @@
       "minutes": "min",
       "seconds": "sec",
       "buttonText": "Ik ga in op deze korting"
+    },
+
+    "stepSection": {
+      "description": "Onze aanpak is een effectief bewezen proces. Elke stap brengt ons dichter bij het realiseren van jouw doelstellingen en visie. Daarom hebben we een aanpak in 4 fasen gecreëerd, zodat er altijd duidelijk wordt gemanaged of voldaan is aan alle verwachtingen.",
+      "step1": {
+        "title": "Stap 1: Visie & Positionering",
+        "content": "We starten met een gesprek over jouw merk, doelgroep en doelen. Daarna onderzoeken we welke UGC‑creators het beste aansluiten. Zo zorgen we voor een perfecte match én duidelijke afspraken met de creator(s)."
+      },
+      "step2": {
+        "title": "Stap 2: Concept",
+        "content": "Ons team vertaalt jouw strategie naar concrete ideeën voor UGC‑video’s. We werken samen met de creator aan authentieke concepten die passen bij jouw merk, en zorgen dat de content geschikt is voor verschillende social media formaten."
+      },
+      "step3": {
+        "title": "Stap 3: Feedback & Fine Tuning",
+        "content": "Je ontvangt de eerste voorstellen en kunt jouw input geven over de edit. We verwerken jouw feedback en finetunen de content totdat deze perfect aansluit bij jouw visie en campagne."
+      },
+      "step4": {
+        "title": "Stap 4: Oplevering",
+        "content": "De definitieve UGC‑video’s worden opgeleverd en kunnen worden geplaatst op jouw eigen kanalen én, indien afgesproken, op de kanalen van de creators. Je krijgt content die je direct kunt inzetten voor maximale impact."
+      },
+      "buttonText": "Ik wil direct starten!"
     }
   }
 }
